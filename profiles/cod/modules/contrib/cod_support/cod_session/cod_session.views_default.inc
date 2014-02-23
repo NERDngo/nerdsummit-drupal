@@ -94,7 +94,7 @@ function cod_session_views_default_views() {
   $handler->display->display_options['fields']['view']['view'] = 'cod_session_sessions';
   $handler->display->display_options['fields']['view']['display'] = 'block_3';
   $handler->display->display_options['fields']['view']['arguments'] = '[!nid]/session+schedule_item';
-  /* Sort criterion: Content: Date and time (field_slot_datetime) */
+  /* Sort criterion: Content: Date and time -  start date (field_slot_datetime) */
   $handler->display->display_options['sorts']['field_slot_datetime_value']['id'] = 'field_slot_datetime_value';
   $handler->display->display_options['sorts']['field_slot_datetime_value']['table'] = 'field_data_field_slot_datetime';
   $handler->display->display_options['sorts']['field_slot_datetime_value']['field'] = 'field_slot_datetime_value';
@@ -391,7 +391,6 @@ function cod_session_views_default_views() {
   $handler->display->display_options['header']['area']['id'] = 'area';
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
-  $handler->display->display_options['header']['area']['content'] = '';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* No results behavior: Global: Text area */
   $handler->display->display_options['empty']['area']['id'] = 'area';
@@ -2547,11 +2546,11 @@ function cod_session_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: Content: Date and time (field_slot_datetime) */
+  /* Sort criterion: Content: Date and time -  start date (field_slot_datetime) */
   $handler->display->display_options['sorts']['field_slot_datetime_value']['id'] = 'field_slot_datetime_value';
   $handler->display->display_options['sorts']['field_slot_datetime_value']['table'] = 'field_data_field_slot_datetime';
   $handler->display->display_options['sorts']['field_slot_datetime_value']['field'] = 'field_slot_datetime_value';
-  /* Contextual filter: Content: Date and time (field_slot_datetime) */
+  /* Contextual filter: Content: Date and time -  start date (field_slot_datetime) */
   $handler->display->display_options['arguments']['field_slot_datetime_value']['id'] = 'field_slot_datetime_value';
   $handler->display->display_options['arguments']['field_slot_datetime_value']['table'] = 'field_data_field_slot_datetime';
   $handler->display->display_options['arguments']['field_slot_datetime_value']['field'] = 'field_slot_datetime_value';

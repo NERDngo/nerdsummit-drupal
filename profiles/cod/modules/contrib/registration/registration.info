@@ -15,10 +15,9 @@ files[] = lib/registration_type.entity.inc
 files[] = lib/registration_type.ui_controller.inc
 
 
-
-; Information added by drush on 2013-10-08
-version = "7.x-1.2+1-dev"
+; Information added by Drupal.org packaging script on 2014-02-06
+version = "7.x-1.3"
 core = "7.x"
 project = "registration"
-datestamp = "1381270031"
+datestamp = "1391709507"
 
