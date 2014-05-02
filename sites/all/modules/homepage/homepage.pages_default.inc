@@ -166,6 +166,28 @@ function homepage_default_page_manager_pages() {
     $display->content['new-381ed5e7-185b-4004-a350-60fbcce0ea19'] = $pane;
     $display->panels['three_33_bottom'][2] = 'new-381ed5e7-185b-4004-a350-60fbcce0ea19';
     $pane = new stdClass();
+    $pane->pid = 'new-44719e22-5980-412b-83b9-e894fcf0c871';
+    $pane->panel = 'three_33_bottom';
+    $pane->type = 'block';
+    $pane->subtype = 'block-3';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '<none>',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $pane->uuid = '44719e22-5980-412b-83b9-e894fcf0c871';
+    $display->content['new-44719e22-5980-412b-83b9-e894fcf0c871'] = $pane;
+    $display->panels['three_33_bottom'][3] = 'new-44719e22-5980-412b-83b9-e894fcf0c871';
+    $pane = new stdClass();
     $pane->pid = 'new-3cd47320-b8ab-4a2e-acc6-7817a4f377e7';
     $pane->panel = 'three_33_first';
     $pane->type = 'custom';
@@ -266,28 +288,6 @@ Find out more...',
     $display->content['new-be46543f-face-4967-9b81-c44a709f426d'] = $pane;
     $display->panels['three_33_top'][0] = 'new-be46543f-face-4967-9b81-c44a709f426d';
     $pane = new stdClass();
-    $pane->pid = 'new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
-    $pane->panel = 'three_33_top';
-    $pane->type = 'block';
-    $pane->subtype = 'menu-menu-about';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $pane->uuid = 'cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
-    $display->content['new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2'] = $pane;
-    $display->panels['three_33_top'][1] = 'new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
-    $pane = new stdClass();
     $pane->pid = 'new-8bb3751c-b675-4b9d-9407-4df8a53eafcb';
     $pane->panel = 'three_33_top';
     $pane->type = 'page_site_name';
@@ -301,11 +301,11 @@ Find out more...',
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = '8bb3751c-b675-4b9d-9407-4df8a53eafcb';
     $display->content['new-8bb3751c-b675-4b9d-9407-4df8a53eafcb'] = $pane;
-    $display->panels['three_33_top'][2] = 'new-8bb3751c-b675-4b9d-9407-4df8a53eafcb';
+    $display->panels['three_33_top'][1] = 'new-8bb3751c-b675-4b9d-9407-4df8a53eafcb';
     $pane = new stdClass();
     $pane->pid = 'new-610a7913-c116-4ef5-b40d-3b94e7eb641b';
     $pane->panel = 'three_33_top';
@@ -323,11 +323,33 @@ Find out more...',
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = '610a7913-c116-4ef5-b40d-3b94e7eb641b';
     $display->content['new-610a7913-c116-4ef5-b40d-3b94e7eb641b'] = $pane;
-    $display->panels['three_33_top'][3] = 'new-610a7913-c116-4ef5-b40d-3b94e7eb641b';
+    $display->panels['three_33_top'][2] = 'new-610a7913-c116-4ef5-b40d-3b94e7eb641b';
+    $pane = new stdClass();
+    $pane->pid = 'new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
+    $pane->panel = 'three_33_top';
+    $pane->type = 'block';
+    $pane->subtype = 'menu-menu-about';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 3;
+    $pane->locks = array();
+    $pane->uuid = 'cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
+    $display->content['new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2'] = $pane;
+    $display->panels['three_33_top'][3] = 'new-cffc7f0d-e0ab-4795-bf56-a464214ff5f2';
     $pane = new stdClass();
     $pane->pid = 'new-04cc9ec6-952d-4b05-b5f6-af303fd68440';
     $pane->panel = 'three_33_top';
