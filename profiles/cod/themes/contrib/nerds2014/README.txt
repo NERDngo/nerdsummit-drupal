@@ -1,17 +1,23 @@
 
 -- SUMMARY --
 
-Sky is a minimal, re-colorable, multi-column theme which uses HTML5
-and includes many advanced theme settings to allow you to customize 
-the theme to your requirements.
+FOOTHEMES ARE GO!
+
+Footheme is a stater sub-theme for Corolla 7.x-2.x and can be easily
+modified to use Pixture Reloaded 7.x-2.x or Sky 7.x-2.x, which are all
+sub-themes of Adaptivetheme 7.x-2.x.
 
 
 -- REQUIREMENTS --
 
-Sky 7.x-2.x is a sub-theme of Adaptivetheme, you must download and install
-this theme first. You do not need to enable it.
+Corolla 7.x-2.x is a sub-theme of Adaptivetheme, you must download and install
+Adaptivetheme 7.x-2.x first. If you are planning on sub-theming Sky or Pixture Reloaded
+you need to install those first, including the base theme:
 
-http://drupal.org/project/adaptivetheme (take the latest 7.x-2.x version).
+http://drupal.org/project/adaptivetheme
+http://drupal.org/project/corolla
+http://drupal.org/project/sky
+http://drupal.org/project/pixture_reloaded
 
 
 -- INSTALLATION --
@@ -19,51 +25,41 @@ http://drupal.org/project/adaptivetheme (take the latest 7.x-2.x version).
 Install as usual, see http://drupal.org/node/70151 for further information.
 
 
--- CONFIGURATION --
+-- BUILDING THE SUB-THEME --
 
-* Theme settings and layout: Sky includes lots of theme settings including
-  the ability to change the layout and support for mobile devices. Visit the
-  theme settings page admin/appearance/settings/sky to configure your settings.
-  You can change the layout, font, font size, heading styles and much more.
-  In due course we will write documentation pages about each block of settings.
-  
-  For additional help please view the online documentation:
-  http://adaptivethemes.com/documentation/layout-settings-guide
+Mostly this is all done for you and if you have Corolla 7.x-2.x installed and running you
+can just enable this theme and it will work! Hooray!
 
-* Color options: Enable the theme at admin/appearance, and visit
-  admin/appearance/settings/sky to modify the color scheme if desired.
+If you want to subtheme Pixture Reloaded or Sky, or you really want to change the
+name from Footheme, then read on.
 
-* Menus: The Sky theme does not support the hard coded menu defaults. To setup
-  your main navigation menu, place the block containing the menu you want in the
-  "Menu Bar" region. There is an additional menu region at the top of the page
-  called "Top menu bar".
+1. Copy this entire theme and change the name of the folder. Currently the name of the folder
+   is "footheme", so you might choose "bartheme". In the next step we will use this name for
+   the info file so this is very important because as far as Drupal is concerned the name of the
+   info file is the "machine name" of your theme. Don't use spaces or any punctuation other than
+   underscores. E.g "bar_theme" is OK, but "bar theme" is not OK.
+
+2. footheme.info - first rename this file to match the folder name you chose in step one. Next you
+   can change the "name", "description" and "version" to whatever you want. Then you need to copy and
+   paste in some stuff from your base themes info file - the "regions list" and "theme settings list"
+   from your chosen base theme. The ones there now are from Corolla so just replace them. If you're
+   using Corolla then you can do nothing, or just change the name and description.
+
+3. Color module stuff - using Corolla? No issue, do nothing. If you're using Pixture Reloaded or Sky
+   then you need to delete the color folder from this theme and copy/paste in the color folder from
+   your chosen base theme.
+
+   Pixture Reloaded uses images as part of the color process - they are all in the /images folder
+   in Pixture Reloaded - you should copy and paste that folder in as well.
+
+4. template.php - open up this file and make some changes - search and replace "footheme" for your
+   themes name.
+
+   In footheme_preprocess_html() you will find some stuff about responsive stylesheets and IE conditional
+   stylesheets - follow those instructions carefully - they are easy and involve renaming some CSS files
+   to match your theme name.
+
+   Done? OK, enable your new theme, go to the theme settings form and make sure it all looks normal,
+   then save the theme settings at least once. Done - have some fun.
 
 
--- SUPERFISH DROP MENUS --
-
-Sky supports the Superfish module which is a dynamic menu module and enables 
-drop menus and other styles. First configure the Superfish menu to use the "none" 
-style and then place the menu in the "Menu Bar" region. Only the Vertical type
-menu is supported at this time (classic drop menu type). Superfish installation
-instructions and downloads can be found on the Superfish menu project page:
-
-http://drupal.org/project/superfish
-
-
--- CREATING A SUBTHEME --
-Please see our help page and the starter sub-theme we have built to get you up and running:
-
-http://adaptivethemes.com/documentation/footheme-starter-coloarble-sub-theme-for-corolla-sky-and-pixture-reloaded
-
-
--- CONTACT --
-
-Issues and problems please post to:
-
-http://drupal.org/project/issues/sky
-
-Current maintainer:
-* Jeff Burnz (Jeff Burnz) - http://drupal.org/user/61393
-
-Origignator and previous maintainer:
-* Jacine Luisi (Jacine) - http://drupal.org/user/88931
