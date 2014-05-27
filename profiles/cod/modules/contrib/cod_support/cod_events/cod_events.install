@@ -228,3 +228,29 @@ function cod_events_update_7005() {
   return array();
 }
 
+/**
+ * Add a timezone column to field_dates_timezone
+ */
+function cod_events_update_7006() {
+  $spec = array(
+    'type' => 'varchar',
+    'length' => 50,
+    'not null' => FALSE,
+    'sortable' => TRUE,
+    'views' => FALSE,
+  );
+  db_add_field('field_data_field_dates', 'field_dates_timezone', $spec);
+  db_add_field('field_revision_field_dates', 'field_dates_timezone', $spec);
+  $spec = array(
+    'type' => 'int',
+    'not null' => FALSE,
+    'sortable' => TRUE,
+    'views' => FALSE,
+  );
+  db_add_field('field_data_field_dates', 'field_dates_offset', $spec);
+  db_add_field('field_revision_field_dates', 'field_dates_offset', $spec);
+  db_add_field('field_data_field_dates', 'field_dates_offset2', $spec);
+  db_add_field('field_revision_field_dates', 'field_dates_offset2', $spec);
+
+}
+
