@@ -1,11 +1,84 @@
 @import "variables";
 @import "mixins";
-
+@import "compass/css3";
 html {
   font-family: $montserrat;
+  background: $siteBgColor;
 }
 
+header, body {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.highlight {
+  font-size: 24px;
+  color: $highlightText;
+  font-weight: $bold;
+}
+
+.button {
+  @extend %button;
+}
+
+.purple-button {
+  @extend .button;
+  border: 2px solid #fff;
+  background: $purple;
+}
+
+.front {
+  .page__title {
+    display: none;
+  }
+  .panels-top {
+    display: block;
+    background: image-url('banner_home.jpg') no-repeat center center;
+    @include background-size('cover');
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    h1 {
+      float: left;
+      width: 100%;
+      display: block;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    .button {
+      @extend .purple-button;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#skip-link {
+ margin: 0;
+}
+body {
+  margin: 0;
+}
 .home-box {
   border-top-right-radius: 45px;
 }
 
+#logo {
+  a {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    display: block;
+  }
+}
+
+.header__site-name {
+  margin-top: 0;
+}
+.header__name-and-slogan {
+  a {
+    font-size: 18px;
+    line-height: 1em;
+  }
+}
