@@ -8,54 +8,88 @@ body {
   margin: 0;
 }
 
-/* line 15, ../scss/layout.scss */
+/* line 13, ../scss/layout.scss */
+#header-top, .header__name-and-slogan {
+  margin-left: 80px;
+}
+
+/* line 16, ../scss/layout.scss */
+.header__name-and-slogan {
+  display: none;
+}
+
+/* line 21, ../scss/layout.scss */
 .front .page__title {
   display: none;
 }
-/* line 18, ../scss/layout.scss */
+/* line 24, ../scss/layout.scss */
 .front .panels-top {
   display: block;
   box-sizing: border-box;
   padding: 10px 25px;
 }
-/* line 22, ../scss/layout.scss */
+/* line 28, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
   display: block;
   margin: 0;
 }
-/* line 28, ../scss/layout.scss */
+/* line 34, ../scss/layout.scss */
 .front .panels-top .button {
   display: block;
   margin: 0 10px 10px 0;
 }
 
-/* line 35, ../scss/layout.scss */
+/* line 41, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 39, ../scss/layout.scss */
+/* line 45, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 44, ../scss/layout.scss */
-#navigation ul {
+/* line 49, ../scss/layout.scss */
+#main {
+  clear: both;
+}
+
+/* line 53, ../scss/layout.scss */
+#navigation {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+/* line 57, ../scss/layout.scss */
+#navigation ul.menu {
   padding-left: 0;
   margin-left: 0;
   display: block;
 }
-/* line 49, ../scss/layout.scss */
-#navigation li a {
+/* line 61, ../scss/layout.scss */
+#navigation ul.menu li {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 68, ../scss/layout.scss */
+#navigation ul.menu a {
   display: block;
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
 }
 
-/* line 57, ../scss/layout.scss */
+/* line 78, ../scss/layout.scss */
+.menu-hidden + #navigation li {
+  height: 0;
+}
+
+/* line 83, ../scss/layout.scss */
 #skip-link {
   display: none;
 }

@@ -136,3 +136,58 @@ body {
     }
   }
 }
+
+.hamburger-wrap {
+  // todo: use absolute position for this?
+  width: 70px;
+  height: 70px;
+  margin-top: -70px;
+  background: $purple;
+  display: block;
+  float: left;
+  position: relative;
+  color: #fff;
+  .hamburger-part {
+    display: block;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    @include transition(.3s);
+    &.bun-top {
+      top: 25px;
+      @include rotate(45deg);
+    }
+    &.bun-bottom {
+      top: 25px;
+      @include rotate(-45deg);
+    }
+    &.patty {
+      top: 25px;
+      display: none;
+    }
+  }
+
+  &.menu-hidden {
+    .hamburger-part {
+      @include rotate(0);
+      &.bun-top {
+        top: 15px;
+      }
+      &.patty {
+        display: block;
+      }
+      &.bun-bottom {
+        top: 35px;
+      }
+    }
+  }
+
+  .hamburger-text {
+    position: relative;
+    margin-top: 65%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

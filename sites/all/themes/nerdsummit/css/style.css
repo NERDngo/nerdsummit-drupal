@@ -73,7 +73,7 @@ header, body {
 
 /* line 61, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
+  background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -159,4 +159,79 @@ body {
 /* line 134, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
+}
+
+/* line 140, ../scss/style.scss */
+.hamburger-wrap {
+  width: 70px;
+  height: 70px;
+  margin-top: -70px;
+  background: #4953a3;
+  display: block;
+  float: left;
+  position: relative;
+  color: #fff;
+}
+/* line 150, ../scss/style.scss */
+.hamburger-wrap .hamburger-part {
+  display: block;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 158, ../scss/style.scss */
+.hamburger-wrap .hamburger-part.bun-top {
+  top: 25px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 162, ../scss/style.scss */
+.hamburger-wrap .hamburger-part.bun-bottom {
+  top: 25px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 166, ../scss/style.scss */
+.hamburger-wrap .hamburger-part.patty {
+  top: 25px;
+  display: none;
+}
+/* line 173, ../scss/style.scss */
+.hamburger-wrap.menu-hidden .hamburger-part {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+/* line 175, ../scss/style.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.bun-top {
+  top: 15px;
+}
+/* line 178, ../scss/style.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.patty {
+  display: block;
+}
+/* line 181, ../scss/style.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
+  top: 35px;
+}
+/* line 187, ../scss/style.scss */
+.hamburger-wrap .hamburger-text {
+  position: relative;
+  margin-top: 65%;
+  text-align: center;
+  text-transform: uppercase;
 }
