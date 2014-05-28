@@ -251,6 +251,5 @@ function cod_events_update_7006() {
   db_add_field('field_revision_field_dates', 'field_dates_offset', $spec);
   db_add_field('field_data_field_dates', 'field_dates_offset2', $spec);
   db_add_field('field_revision_field_dates', 'field_dates_offset2', $spec);
-
 }
 
