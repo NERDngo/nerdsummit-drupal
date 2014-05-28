@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NERD Blocks feature.
+ */
+
+include_once 'nerd_blocks.features.inc';
