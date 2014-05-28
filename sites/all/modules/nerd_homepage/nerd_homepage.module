@@ -26,6 +26,7 @@ function nerd_homepage_menu_block_blocks() {
       'expanded' => 0,
       'follow' => 0,
       'level' => 2,
+      'parent' => 0,
       'menu_name' => 'menu-secondary-navigation',
       'sort' => 0,
       'title_link' => 0,
