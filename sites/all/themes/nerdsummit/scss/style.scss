@@ -10,12 +10,14 @@ a {
 }
 
 .home-box {
+  margin-top: -29px;
   &.learn-box {
     background-color: rgb(240,137,51);
     h2.pane-title {
       background-color: rgb(228,127,41);
       color: #ffffff;
       font-weight: lighter;
+      margin: 0;
     }
   }
   &.teach-box {
@@ -24,6 +26,7 @@ a {
       background-color: rgb(76,164,57);
       color: #ffffff;
       font-weight: lighter;
+      margin: 0;
     }
 
   }
@@ -33,8 +36,15 @@ a {
       background-color:$pink;
       color: #ffffff;
       font-weight: lighter;
+      margin: 0;
     }
   }
+    .button {
+      border-color: #ffffff;
+      display: block;
+      margin: 0 auto;
+      width: 75%;
+    }
 }
 header, body {
   background: #fff;
@@ -74,11 +84,12 @@ header, body {
   }
   .panel-middle,
   .panel-bottom {
-    float: left;
     background: $lightBgColor;
+    overflow: hidden;
   }
+
   .panel-middle {
-    margin-bottom: 4px;
+    border-bottom: 4px solid white;
   }
 }
 
