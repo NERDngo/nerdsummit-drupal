@@ -5,11 +5,20 @@
 .home-box {
   width: 100%;
 }
-
+header {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
 }
 
+#header-top, .header__name-and-slogan {
+  margin-left: 80px;
+}
+.header__name-and-slogan {
+  display: none;
+}
 
 .front {
   .page__title {
@@ -40,17 +49,40 @@ body {
   display: none;
 }
 
+#main {
+  clear: both;
+}
+
 #navigation {
-  ul {
-    padding-left: 0;
-    margin-left: 0;
-    display: block;
-  }
-  li a {
-    display: block;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  ul.menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+    li {
+      width: 100%;
+      float: left;
+      max-height: 40px;
+      padding: 0;
+      overflow: hidden;
+    }
+    a {
+      display: block;
+      margin: 0;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+  }
+}
+
+.menu-hidden  + #navigation {
+  ul.menu li {
+    max-height: 0;
   }
 }
 

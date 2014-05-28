@@ -3,59 +3,102 @@
   width: 100%;
 }
 
-/* line 9, ../scss/layout.scss */
+/* line 8, ../scss/layout.scss */
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../scss/layout.scss */
 body {
   margin: 0;
 }
 
-/* line 15, ../scss/layout.scss */
+/* line 16, ../scss/layout.scss */
+#header-top, .header__name-and-slogan {
+  margin-left: 80px;
+}
+
+/* line 19, ../scss/layout.scss */
+.header__name-and-slogan {
+  display: none;
+}
+
+/* line 24, ../scss/layout.scss */
 .front .page__title {
   display: none;
 }
-/* line 18, ../scss/layout.scss */
+/* line 27, ../scss/layout.scss */
 .front .panels-top {
   display: block;
   box-sizing: border-box;
   padding: 10px 25px;
 }
-/* line 22, ../scss/layout.scss */
+/* line 31, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
   display: block;
   margin: 0;
 }
-/* line 28, ../scss/layout.scss */
+/* line 37, ../scss/layout.scss */
 .front .panels-top .button {
   display: block;
   margin: 0 10px 10px 0;
 }
 
-/* line 35, ../scss/layout.scss */
+/* line 44, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 39, ../scss/layout.scss */
+/* line 48, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 44, ../scss/layout.scss */
-#navigation ul {
-  padding-left: 0;
-  margin-left: 0;
-  display: block;
-}
-/* line 49, ../scss/layout.scss */
-#navigation li a {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
+/* line 52, ../scss/layout.scss */
+#main {
+  clear: both;
 }
 
-/* line 57, ../scss/layout.scss */
+/* line 56, ../scss/layout.scss */
+#navigation {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+/* line 60, ../scss/layout.scss */
+#navigation ul.menu {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: inline-block;
+  width: 100%;
+}
+/* line 66, ../scss/layout.scss */
+#navigation ul.menu li {
+  width: 100%;
+  float: left;
+  max-height: 40px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 73, ../scss/layout.scss */
+#navigation ul.menu a {
+  display: block;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* line 84, ../scss/layout.scss */
+.menu-hidden + #navigation ul.menu li {
+  max-height: 0;
+}
+
+/* line 89, ../scss/layout.scss */
 #skip-link {
   display: none;
 }
