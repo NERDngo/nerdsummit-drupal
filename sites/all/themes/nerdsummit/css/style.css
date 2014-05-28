@@ -69,23 +69,22 @@ a {
 /* line 49, ../scss/style.scss */
 header, body {
   background: #fff;
-  padding: 10px 0;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 64, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button {
   border: 2px solid #fff;
   background: #4953a3;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
   -webkit-background-size: cover;
@@ -94,67 +93,89 @@ header, body {
   background-size: cover;
   color: #fff;
 }
-/* line 75, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 78, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 86, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .front .panel-middle,
 .front .panel-bottom {
   float: left;
   background: #ebebf3;
 }
-/* line 90, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .front .panel-middle {
   margin-bottom: 4px;
 }
 
+/* line 94, ../scss/style.scss */
+#navigation {
+  display: block;
+}
 /* line 96, ../scss/style.scss */
+#navigation ul.menu {
+  background: #4953a3;
+}
+/* line 99, ../scss/style.scss */
 #navigation li {
   list-style: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid #fff;
+}
+/* line 103, ../scss/style.scss */
+#navigation li a {
+  color: #fff !important;
 }
 
-/* line 101, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
+.menu-hidden + #navigation li {
+  border-bottom: 0;
+}
+
+/* line 115, ../scss/style.scss */
 #skip-link {
   margin: 0;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 body {
   margin: 0;
 }
 
-/* line 107, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .home-box {
   border-top-right-radius: 45px;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 #logo a {
   width: 100%;
 }
-/* line 115, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #logo img {
   width: 50%;
   display: block;
 }
 
-/* line 121, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 .header__site-name {
   margin-top: 0;
 }
 
-/* line 125, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   line-height: 1em;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -162,20 +183,20 @@ body {
   font-size: 32px;
   text-align: center;
 }
-/* line 138, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
 }
-/* line 141, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
 }
-/* line 144, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
 }
 
-/* line 140, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 .hamburger-wrap {
   width: 70px;
   height: 70px;
@@ -186,7 +207,7 @@ body {
   position: relative;
   color: #fff;
 }
-/* line 150, ../scss/style.scss */
+/* line 174, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
   display: block;
   height: 4px;
@@ -199,7 +220,7 @@ body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 158, ../scss/style.scss */
+/* line 182, ../scss/style.scss */
 .hamburger-wrap .hamburger-part.bun-top {
   top: 25px;
   -webkit-transform: rotate(45deg);
@@ -208,7 +229,7 @@ body {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 162, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 .hamburger-wrap .hamburger-part.bun-bottom {
   top: 25px;
   -webkit-transform: rotate(-45deg);
@@ -217,12 +238,12 @@ body {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 166, ../scss/style.scss */
+/* line 190, ../scss/style.scss */
 .hamburger-wrap .hamburger-part.patty {
   top: 25px;
   display: none;
 }
-/* line 173, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 .hamburger-wrap.menu-hidden .hamburger-part {
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
@@ -230,19 +251,19 @@ body {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
-/* line 175, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-top {
   top: 15px;
 }
-/* line 178, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.patty {
   display: block;
 }
-/* line 181, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
   top: 35px;
 }
-/* line 187, ../scss/style.scss */
+/* line 211, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
   position: relative;
   margin-top: 65%;

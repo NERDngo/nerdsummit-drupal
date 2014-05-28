@@ -48,7 +48,6 @@ a {
 }
 header, body {
   background: #fff;
-  padding: 10px 0;
 }
 
 .highlight {
@@ -93,8 +92,23 @@ header, body {
 }
 
 #navigation {
+  display: block;
+  ul.menu {
+    background: $purple;
+  }
   li {
     list-style: none;
+    @include transition(.3s);
+    border-bottom: 1px solid #fff;
+    a {
+      color: #fff !important;
+    }
+  }
+}
+
+.menu-hidden + #navigation {
+  li {
+    border-bottom: 0;
   }
 }
 

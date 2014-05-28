@@ -5,7 +5,10 @@
 .home-box {
   width: 100%;
 }
-
+header {
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
 }
@@ -55,28 +58,31 @@ body {
   width: 100%;
   margin: 0;
   ul.menu {
-    padding-left: 0;
-    margin-left: 0;
-    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    width: 100%;
     li {
       width: 100%;
       float: left;
-      margin: 0;
+      max-height: 40px;
       padding: 0;
       overflow: hidden;
     }
     a {
       display: block;
+      margin: 0;
       width: 100%;
-      padding: 10px;
       box-sizing: border-box;
+      padding: 10px;
     }
   }
 }
 
 .menu-hidden  + #navigation {
-  li {
-    height: 0;
+  ul.menu li {
+    max-height: 0;
   }
 }
 
