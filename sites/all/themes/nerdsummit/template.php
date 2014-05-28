@@ -56,7 +56,7 @@ function nerdsummit_preprocess_page(&$variables, $hook) {
   $element = array(
     '#tag' => 'link',
     '#attributes' => array(
-      'href' => 'http://fonts.googleapis.com/css?family=Montserrat:400,700',
+      'href' => '//fonts.googleapis.com/css?family=Montserrat:400,700',
       'rel' => 'stylesheet',
       'type' => 'text/css',
     ),
