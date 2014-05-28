@@ -28,7 +28,10 @@ function nerd_news_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['query']['options']['query_comment'] = FALSE;
   $handler->display->display_options['exposed_form']['type'] = 'basic';
-  $handler->display->display_options['pager']['type'] = 'some';
+  $handler->display->display_options['pager']['type'] = 'mini';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
+  $handler->display->display_options['pager']['options']['id'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'node';
   /* Sort criterion: Content: Post date */
@@ -100,25 +103,12 @@ function nerd_news_views_default_views() {
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
-  /* Field: More Link */
-  $handler->display->display_options['fields']['title_1']['id'] = 'title_1';
-  $handler->display->display_options['fields']['title_1']['table'] = 'node';
-  $handler->display->display_options['fields']['title_1']['field'] = 'title';
-  $handler->display->display_options['fields']['title_1']['ui_name'] = 'More Link';
-  $handler->display->display_options['fields']['title_1']['label'] = '';
-  $handler->display->display_options['fields']['title_1']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['title_1']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['title_1']['alter']['text'] = 'more +';
-  $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['text'] = '[title] [title_1]';
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Promoted to front page */
