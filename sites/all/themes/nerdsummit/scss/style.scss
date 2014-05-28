@@ -70,6 +70,7 @@ header, body {
   .panels-top {
     background: image-url('banner_home.jpg') no-repeat center center;
     @include background-size('cover');
+    background-color: $darkPurple;
     color: #fff;
     a {
       color: $pink;
