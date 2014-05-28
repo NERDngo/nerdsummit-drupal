@@ -132,7 +132,7 @@ header, body {
 }
 /* line 105, ../scss/style.scss */
 #navigation li a {
-  color: #fff !important;
+  color: #fff;
 }
 
 /* line 112, ../scss/style.scss */

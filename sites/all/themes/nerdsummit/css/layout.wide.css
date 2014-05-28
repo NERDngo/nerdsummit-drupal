@@ -157,47 +157,60 @@ header {
 /* line 122, ../scss/layout.wide.scss */
 #navigation {
   float: right;
+  display: block !important;
 }
-/* line 125, ../scss/layout.wide.scss */
+/* line 126, ../scss/layout.wide.scss */
 #navigation a {
   color: #3a3a5c;
 }
+/* line 129, ../scss/layout.wide.scss */
+#navigation ul.menu {
+  float: right;
+  width: auto;
+  margin-top: -60px;
+}
+/* line 134, ../scss/layout.wide.scss */
+#navigation ul.menu li {
+  max-height: 100% !important;
+  width: auto;
+  float: right;
+}
 
-/* line 130, ../scss/layout.wide.scss */
+/* line 142, ../scss/layout.wide.scss */
 .pane-sponsors {
   border-bottom: 4px solid white;
   overflow: hidden;
   padding: 0 25px;
 }
-/* line 134, ../scss/layout.wide.scss */
+/* line 146, ../scss/layout.wide.scss */
 .pane-sponsors h2.pane-title {
   position: absolute;
 }
-/* line 137, ../scss/layout.wide.scss */
+/* line 149, ../scss/layout.wide.scss */
 .pane-sponsors .view-content {
   max-width: 1004px;
   margin: 0 auto;
 }
 
-/* line 143, ../scss/layout.wide.scss */
+/* line 155, ../scss/layout.wide.scss */
 .view-sponsors {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
-/* line 147, ../scss/layout.wide.scss */
+/* line 159, ../scss/layout.wide.scss */
 .view-sponsors .view-header {
   margin: 20px 0;
   text-align: right;
 }
-/* line 151, ../scss/layout.wide.scss */
+/* line 163, ../scss/layout.wide.scss */
 .view-sponsors .views-row {
   float: left;
   font-size: 14px;
   padding: 10px;
   text-align: center;
 }
-/* line 156, ../scss/layout.wide.scss */
+/* line 168, ../scss/layout.wide.scss */
 .view-sponsors .views-row img {
   border: 3px solid white;
   height: auto;

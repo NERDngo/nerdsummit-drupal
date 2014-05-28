@@ -28,3 +28,12 @@
     }
   }
 }
+
+#navigation ul.menu {
+  background: transparent;
+  li {
+    a {
+      color: $darkPurple;
+    }
+  }
+}

@@ -28,3 +28,12 @@
   color: #ffffff;
   font-weight: lighter;
 }
+
+/* line 32, ../scss/style.wide.scss */
+#navigation ul.menu {
+  background: transparent;
+}
+/* line 35, ../scss/style.wide.scss */
+#navigation ul.menu li a {
+  color: #2a2c68;
+}

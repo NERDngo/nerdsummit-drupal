@@ -121,9 +121,21 @@ header {
 
 #navigation {
   float: right;
+  display: block !important;
   @extend %inline-list;
   a{
     color: #3a3a5c;
+  }
+  ul.menu {
+    float: right;
+    width: auto;
+    margin-top: -60px; // todo: find a way to do this w/out negative margins?
+
+    li {
+      max-height: 100% !important;
+      width: auto;
+      float: right;
+    }
   }
 }
 

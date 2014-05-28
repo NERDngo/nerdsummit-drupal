@@ -103,7 +103,7 @@ header, body {
     @include transition(.3s);
     border-bottom: 1px solid #fff;
     a {
-      color: #fff !important;
+      color: #fff;
     }
   }
 }
