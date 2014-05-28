@@ -1,3 +1,30 @@
 @import "variables";
 @import "mixins";
 
+.home-box {
+  &.learn-box {
+    background-color: rgb(240,137,51);
+    h2.pane-title {
+      background-color: rgb(228,127,41);
+      color: #ffffff;
+      font-weight: lighter;
+    }
+  }
+  &.teach-box {
+    background-color: rgb(88,178,67);
+    h2.pane-title{
+      background-color: rgb(76,164,57);
+      color: #ffffff;
+      font-weight: lighter;
+    }
+
+  }
+  &.support-box {
+    background-color: $lightPink;
+    h2.pane-title{
+      background-color:$pink;
+      color: #ffffff;
+      font-weight: lighter;
+    }
+  }
+}

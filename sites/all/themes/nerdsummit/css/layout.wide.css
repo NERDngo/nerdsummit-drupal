@@ -1,0 +1,28 @@
+/* line 4, ../scss/layout.wide.scss */
+.home-box {
+  width: 33%;
+}
+/* line 6, ../scss/layout.wide.scss */
+.home-box.learn-box {
+  border-radius: 0px 25px 0px 0px;
+}
+/* line 8, ../scss/layout.wide.scss */
+.home-box.learn-box h2.pane-title {
+  border-radius: 0px 25px 0px 0px;
+}
+/* line 12, ../scss/layout.wide.scss */
+.home-box.teach-box {
+  border-radius: 0px 25px 0px 0px;
+}
+/* line 14, ../scss/layout.wide.scss */
+.home-box.teach-box h2.pane-title {
+  border-radius: 0px 25px 0px 0px;
+}
+/* line 18, ../scss/layout.wide.scss */
+.home-box.support-box {
+  border-radius: 0px 25px 0px 0px;
+}
+/* line 20, ../scss/layout.wide.scss */
+.home-box.support-box h2.pane-title {
+  border-radius: 0px 25px 0px 0px;
+}

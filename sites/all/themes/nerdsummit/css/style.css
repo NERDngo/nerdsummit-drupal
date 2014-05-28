@@ -1,0 +1,30 @@
+/* line 5, ../scss/style.scss */
+.home-box.learn-box {
+  background-color: #f08933;
+}
+/* line 7, ../scss/style.scss */
+.home-box.learn-box h2.pane-title {
+  background-color: #e47f29;
+  color: #ffffff;
+  font-weight: lighter;
+}
+/* line 13, ../scss/style.scss */
+.home-box.teach-box {
+  background-color: #58b243;
+}
+/* line 15, ../scss/style.scss */
+.home-box.teach-box h2.pane-title {
+  background-color: #4ca439;
+  color: #ffffff;
+  font-weight: lighter;
+}
+/* line 22, ../scss/style.scss */
+.home-box.support-box {
+  background-color: #df699a;
+}
+/* line 24, ../scss/style.scss */
+.home-box.support-box h2.pane-title {
+  background-color: #dd5c91;
+  color: #ffffff;
+  font-weight: lighter;
+}
