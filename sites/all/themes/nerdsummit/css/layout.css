@@ -32,17 +32,22 @@ body {
 }
 
 /* line 35, ../scss/layout.scss */
+.pane, .panel {
+  width: 100%;
+}
+
+/* line 39, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 40, ../scss/layout.scss */
+/* line 44, ../scss/layout.scss */
 #navigation ul {
   padding-left: 0;
   margin-left: 0;
   display: block;
 }
-/* line 45, ../scss/layout.scss */
+/* line 49, ../scss/layout.scss */
 #navigation li a {
   display: block;
   width: 100%;
@@ -50,7 +55,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 53, ../scss/layout.scss */
+/* line 57, ../scss/layout.scss */
 #skip-link {
   display: none;
 }

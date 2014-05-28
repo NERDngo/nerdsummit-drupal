@@ -78,13 +78,51 @@ header {
   float: left;
 }
 
+<<<<<<< HEAD
 /* line 57, ../scss/layout.wide.scss */
+=======
+/* line 36, ../scss/layout.wide.scss */
+.front .panels-top {
+  padding-bottom: 85px;
+}
+
+/* line 41, ../scss/layout.wide.scss */
+>>>>>>> 1f5c2371ae3ed38bc505a7d97f78a1663bc517ee
 #social-media-links {
   float: right;
   display: block;
 }
+/* line 45, ../scss/layout.wide.scss */
+#social-media-links ul {
+  margin-top: 0;
+}
+/* line 48, ../scss/layout.wide.scss */
+#social-media-links a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding-top: 5px;
+  box-sizing: border-box;
+  margin-right: 8px;
+}
+
+<<<<<<< HEAD
+/* line 63, ../scss/layout.wide.scss */
+=======
+/* line 59, ../scss/layout.wide.scss */
+.home-about {
+  width: 60%;
+  float: left;
+}
 
 /* line 63, ../scss/layout.wide.scss */
+.home-community {
+  width: 40%;
+  float: right;
+}
+
+/* line 68, ../scss/layout.wide.scss */
+>>>>>>> 1f5c2371ae3ed38bc505a7d97f78a1663bc517ee
 #navigation {
   float: right;
 }

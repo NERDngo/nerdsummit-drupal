@@ -1,9 +1,9 @@
 /*
 Syntax error: Invalid CSS after "}": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 9 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss
+        on line 12 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss
 
 Backtrace:
-/Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss:9
+/Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss:12
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:28:in `parse'
@@ -51,4 +51,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 9 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss"; }
+  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 12 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss"; }

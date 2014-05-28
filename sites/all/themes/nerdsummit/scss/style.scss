@@ -5,6 +5,9 @@ html {
   font-family: $montserrat;
   background: $siteBgColor;
 }
+a {
+  text-decoration: none;
+}
 
 <<<<<<< HEAD
 .home-box {
@@ -58,12 +61,23 @@ header, body {
     background: image-url('banner_home.jpg') no-repeat center center;
     @include background-size('cover');
     color: #fff;
+    a {
+      color: $pink;
+    }
     h1 {
       text-transform: uppercase;
     }
     .button {
       @extend .purple-button;
     }
+  }
+  .panel-middle,
+  .panel-bottom {
+    float: left;
+    background: $lightBgColor;
+  }
+  .panel-middle {
+    margin-bottom: 4px;
   }
 }
 
@@ -98,7 +112,7 @@ body {
 }
 .header__name-and-slogan {
   a {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1em;
   }
 }
@@ -108,13 +122,8 @@ body {
     color: #fff;
     border-radius: 50%;
     background: $purple;
-    width: 50px;
-    height: 50px;
-    display: block;
     font-size: 32px;
     text-align: center;
-    padding-top: 5px;
-    box-sizing: border-box;
     &.icon-twitter {
       background: $twitterIconColor;
     }

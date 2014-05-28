@@ -54,10 +54,37 @@ header {
   float: left;
 }
 
+.front {
+  .panels-top {
+    padding-bottom: 85px;
+  }
+}
+
 #social-media-links {
   float: right;
   display: block;
   @extend %inline-list;
+  ul {
+    margin-top: 0;
+  }
+  a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-right: 8px;
+  }
+}
+
+
+.home-about {
+  width: 60%;
+  float: left;
+}
+.home-community {
+  width: 40%;
+  float: right;
 }
 
 #navigation {
