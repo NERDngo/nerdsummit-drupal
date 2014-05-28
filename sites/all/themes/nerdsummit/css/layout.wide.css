@@ -166,23 +166,38 @@ header {
 /* line 130, ../scss/layout.wide.scss */
 .pane-sponsors {
   border-bottom: 4px solid white;
+  overflow: hidden;
   padding: 0 25px;
 }
+/* line 134, ../scss/layout.wide.scss */
+.pane-sponsors h2.pane-title {
+  position: absolute;
+}
+/* line 137, ../scss/layout.wide.scss */
+.pane-sponsors .view-content {
+  max-width: 1004px;
+  margin: 0 auto;
+}
 
-/* line 135, ../scss/layout.wide.scss */
+/* line 143, ../scss/layout.wide.scss */
 .view-sponsors {
   margin: 0 auto;
   width: 100%;
-  max-width: 1022px;
+  overflow: hidden;
 }
-/* line 139, ../scss/layout.wide.scss */
+/* line 147, ../scss/layout.wide.scss */
+.view-sponsors .view-header {
+  margin: 20px 0;
+  text-align: right;
+}
+/* line 151, ../scss/layout.wide.scss */
 .view-sponsors .views-row {
   float: left;
   font-size: 14px;
   padding: 10px;
   text-align: center;
 }
-/* line 144, ../scss/layout.wide.scss */
+/* line 156, ../scss/layout.wide.scss */
 .view-sponsors .views-row img {
   border: 3px solid white;
   height: auto;
