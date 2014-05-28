@@ -119,13 +119,25 @@ header {
 
 .pane-sponsors {
   border-bottom: 4px solid white;
+  overflow: hidden;
   padding: 0 25px;
+  h2.pane-title {
+    position: absolute;
+  }
+  .view-content {
+    max-width: 1004px;
+    margin: 0 auto;
+  }
 }
 
 .view-sponsors {
   margin: 0 auto;
   width: 100%;
-  max-width: 1022px;
+  overflow: hidden;
+  .view-header {
+    margin: 20px 0;
+    text-align: right;
+  }
   .views-row {
     float: left;
     font-size: 14px;

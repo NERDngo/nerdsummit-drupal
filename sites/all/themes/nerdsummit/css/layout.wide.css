@@ -152,23 +152,38 @@ header {
 /* line 120, ../scss/layout.wide.scss */
 .pane-sponsors {
   border-bottom: 4px solid white;
+  overflow: hidden;
   padding: 0 25px;
 }
+/* line 124, ../scss/layout.wide.scss */
+.pane-sponsors h2.pane-title {
+  position: absolute;
+}
+/* line 127, ../scss/layout.wide.scss */
+.pane-sponsors .view-content {
+  max-width: 1004px;
+  margin: 0 auto;
+}
 
-/* line 125, ../scss/layout.wide.scss */
+/* line 133, ../scss/layout.wide.scss */
 .view-sponsors {
   margin: 0 auto;
   width: 100%;
-  max-width: 1022px;
+  overflow: hidden;
 }
-/* line 129, ../scss/layout.wide.scss */
+/* line 137, ../scss/layout.wide.scss */
+.view-sponsors .view-header {
+  margin: 20px 0;
+  text-align: right;
+}
+/* line 141, ../scss/layout.wide.scss */
 .view-sponsors .views-row {
   float: left;
   font-size: 14px;
   padding: 10px;
   text-align: center;
 }
-/* line 134, ../scss/layout.wide.scss */
+/* line 146, ../scss/layout.wide.scss */
 .view-sponsors .views-row img {
   border: 3px solid white;
   height: auto;
