@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NERD News feature.
+ */
+
+include_once 'nerd_news.features.inc';
