@@ -21,57 +21,71 @@ a {
   text-decoration: none;
 }
 
-/* line 13, ../scss/style.scss */
+/* line 12, ../scss/style.scss */
+.home-box {
+  margin-top: -29px;
+}
+/* line 14, ../scss/style.scss */
 .home-box.learn-box {
   background-color: #f08933;
 }
-/* line 15, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 .home-box.learn-box h2.pane-title {
   background-color: #e47f29;
   color: #ffffff;
   font-weight: lighter;
+  margin: 0;
 }
-/* line 21, ../scss/style.scss */
+/* line 23, ../scss/style.scss */
 .home-box.teach-box {
   background-color: #58b243;
 }
-/* line 23, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 .home-box.teach-box h2.pane-title {
   background-color: #4ca439;
   color: #ffffff;
   font-weight: lighter;
+  margin: 0;
 }
-/* line 30, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 .home-box.support-box {
   background-color: #df699a;
 }
-/* line 32, ../scss/style.scss */
+/* line 35, ../scss/style.scss */
 .home-box.support-box h2.pane-title {
   background-color: #dd5c91;
   color: #ffffff;
   font-weight: lighter;
+  margin: 0;
+}
+/* line 42, ../scss/style.scss */
+.home-box .button, .home-box .purple-button, .home-box .front .panels-top .button, .front .panels-top .home-box .button {
+  border-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
 }
 
-/* line 39, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 header, body {
   background: #fff;
   padding: 10px 0;
 }
 
-/* line 44, ../scss/style.scss */
+/* line 54, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 54, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button {
   border: 2px solid #fff;
   background: #4953a3;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
   -webkit-background-size: cover;
@@ -80,67 +94,67 @@ header, body {
   background-size: cover;
   color: #fff;
 }
-/* line 65, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 68, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 76, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .front .panel-middle,
 .front .panel-bottom {
   float: left;
   background: #ebebf3;
 }
-/* line 80, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .front .panel-middle {
   margin-bottom: 4px;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 #navigation li {
   list-style: none;
 }
 
-/* line 91, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 #skip-link {
   margin: 0;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 body {
   margin: 0;
 }
 
-/* line 97, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .home-box {
   border-top-right-radius: 45px;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 #logo a {
   width: 100%;
 }
-/* line 105, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 #logo img {
   width: 50%;
   display: block;
 }
 
-/* line 111, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .header__site-name {
   margin-top: 0;
 }
 
-/* line 115, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   line-height: 1em;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -148,15 +162,15 @@ body {
   font-size: 32px;
   text-align: center;
 }
-/* line 128, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
 }
-/* line 131, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
 }
-/* line 134, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
 }
