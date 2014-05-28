@@ -76,3 +76,13 @@ function nerd_homepage_update_7001() {
   );
   menu_link_save($summit_sub);
 }
+
+function nerd_homepage_update_7002() {
+  db_update('block')
+    ->condition('module', 'menu_block')
+    ->condition('delta', array('top_level_nav', 'lower_level_nav'))
+    ->fields(array(
+      'title' => '<none>'
+    ))
+    ->execute();
+}
