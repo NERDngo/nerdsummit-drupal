@@ -7,13 +7,13 @@ function nerd_community_views_default_views_alter(&$views) {
     /** @var views_display $display */
     $display = $view->display['block'];
     $fields = $view->get_items('field', 'block');
-//    dsm($fields);
+
     foreach($fields as $field) {
       if($field['id'] != 'picture') {
         $view->set_item('block', 'field', $field['id'], NULL);
       }
       else {
-        $field['image_style'] = 1;
+        $field['image_style'] = 'x-small';
         $view->set_item('block', 'field', $field['id'], $field);
       }
     }
@@ -21,6 +21,9 @@ function nerd_community_views_default_views_alter(&$views) {
     $arg['default_argument_type'] = 'cod_events_default_event';
     $arg['default_action'] = 'default';
     $view->set_item('default', 'argument', 'gid', $arg);
+    $view->display['block']->display_options['title'] = 'Community (@count)';
+    $view->display['block']->display_options['defaults']['title'] = FALSE;//
+
   }
 }
 
