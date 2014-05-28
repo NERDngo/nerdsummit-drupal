@@ -1,2 +1,94 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3";
+
+.home-box {
+  width: 33%;
+  &.learn-box {
+    border-radius: 0px 25px 0px 0px;
+  h2.pane-title {
+    border-radius: 0px 25px 0px 0px;
+    }
+  }
+  &.teach-box {
+    border-radius: 0px 25px 0px 0px;
+    h2.pane-title {
+      border-radius: 0px 25px 0px 0px;
+    }
+  }
+  &.support-box {
+      border-radius: 0px 25px 0px 0px;
+      h2.pane-title {
+        border-radius: 0px 25px 0px 0px;
+      }
+    }
+  }
+
+body {
+  background: $siteBgColor;
+}
+
+#page {
+  background: white;
+  @include box-shadow();
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+header {
+  padding: 20px;
+}
+
+#header-top,
+#header-bottom {
+  display: block;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+#name-and-slogan {
+  float: left;
+}
+
+.front {
+  .panels-top {
+    padding-bottom: 85px;
+  }
+}
+
+#social-media-links {
+  float: right;
+  display: block;
+  @extend %inline-list;
+  ul {
+    margin-top: 0;
+  }
+  a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-right: 8px;
+  }
+}
+
+
+.home-about {
+  width: 60%;
+  float: left;
+}
+.home-community {
+  width: 40%;
+  float: right;
+}
+
+#navigation {
+  float: right;
+  @extend %inline-list;
+}
+

@@ -1,3 +1,138 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3";
+html {
+  font-family: $montserrat;
+  background: $siteBgColor;
+}
+a {
+  text-decoration: none;
+}
 
+.home-box {
+  &.learn-box {
+    background-color: rgb(240,137,51);
+    h2.pane-title {
+      background-color: rgb(228,127,41);
+      color: #ffffff;
+      font-weight: lighter;
+    }
+  }
+  &.teach-box {
+    background-color: rgb(88,178,67);
+    h2.pane-title{
+      background-color: rgb(76,164,57);
+      color: #ffffff;
+      font-weight: lighter;
+    }
+
+  }
+  &.support-box {
+    background-color: $lightPink;
+    h2.pane-title{
+      background-color:$pink;
+      color: #ffffff;
+      font-weight: lighter;
+    }
+  }
+}
+header, body {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.highlight {
+  font-size: 24px;
+  color: $highlightText;
+  font-weight: $bold;
+}
+
+.button {
+  @extend %button;
+}
+
+.purple-button {
+  @extend .button;
+  border: 2px solid #fff;
+  background: $purple;
+}
+
+.front {
+  .panels-top {
+    background: image-url('banner_home.jpg') no-repeat center center;
+    @include background-size('cover');
+    color: #fff;
+    a {
+      color: $pink;
+    }
+    h1 {
+      text-transform: uppercase;
+    }
+    .button {
+      @extend .purple-button;
+    }
+  }
+  .panel-middle,
+  .panel-bottom {
+    float: left;
+    background: $lightBgColor;
+  }
+  .panel-middle {
+    margin-bottom: 4px;
+  }
+}
+
+#navigation {
+  li {
+    list-style: none;
+  }
+}
+
+#skip-link {
+ margin: 0;
+}
+body {
+  margin: 0;
+}
+.home-box {
+  border-top-right-radius: 45px;
+}
+
+#logo {
+  a {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    display: block;
+  }
+}
+
+.header__site-name {
+  margin-top: 0;
+}
+.header__name-and-slogan {
+  a {
+    font-size: 24px;
+    line-height: 1em;
+  }
+}
+
+#social-media-links {
+  a {
+    color: #fff;
+    border-radius: 50%;
+    background: $purple;
+    font-size: 32px;
+    text-align: center;
+    &.icon-twitter {
+      background: $twitterIconColor;
+    }
+    &.icon-facebook{
+      background: $fbIconColor;
+    }
+    &.icon-gplus{
+      background: $gplusIconColor;
+    }
+  }
+}

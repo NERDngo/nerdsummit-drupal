@@ -22,5 +22,13 @@ Drupal.behaviors.my_custom_behavior = {
   }
 };
 
+Drupal.behaviors.toggleUserLogin = {
+  attach: function(context, settings) {
+    $('#toggle-login').find('a').click(function(e) {
+      e.preventDefault();
+      $('.nerd-register').toggleClass('open-registration');
+    });
+  }
+};
 
 })(jQuery, Drupal, this, this.document);

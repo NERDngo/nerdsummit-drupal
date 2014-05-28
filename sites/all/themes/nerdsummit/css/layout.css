@@ -1,0 +1,61 @@
+/* line 5, ../scss/layout.scss */
+.home-box {
+  width: 100%;
+}
+
+/* line 9, ../scss/layout.scss */
+body {
+  margin: 0;
+}
+
+/* line 15, ../scss/layout.scss */
+.front .page__title {
+  display: none;
+}
+/* line 18, ../scss/layout.scss */
+.front .panels-top {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 25px;
+}
+/* line 22, ../scss/layout.scss */
+.front .panels-top h1 {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+/* line 28, ../scss/layout.scss */
+.front .panels-top .button {
+  display: block;
+  margin: 0 10px 10px 0;
+}
+
+/* line 35, ../scss/layout.scss */
+.pane, .panel {
+  width: 100%;
+}
+
+/* line 39, ../scss/layout.scss */
+#social-media-links {
+  display: none;
+}
+
+/* line 44, ../scss/layout.scss */
+#navigation ul {
+  padding-left: 0;
+  margin-left: 0;
+  display: block;
+}
+/* line 49, ../scss/layout.scss */
+#navigation li a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* line 57, ../scss/layout.scss */
+#skip-link {
+  display: none;
+}
