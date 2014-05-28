@@ -74,11 +74,12 @@ header, body {
   }
   .panel-middle,
   .panel-bottom {
-    float: left;
     background: $lightBgColor;
+    overflow: hidden;
   }
+
   .panel-middle {
-    margin-bottom: 4px;
+    border-bottom: 4px solid white;
   }
 }
 

@@ -73,11 +73,11 @@ header, body {
 
 /* line 61, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('../images/banner_home.jpg?1401302566') no-repeat center center;
+  -moz-background-size: "cover";
+  -o-background-size: "cover";
+  -webkit-background-size: "cover";
+  background-size: "cover";
   color: #fff;
 }
 /* line 65, ../scss/style.scss */
@@ -88,59 +88,59 @@ header, body {
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 76, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .front .panel-middle,
 .front .panel-bottom {
-  float: left;
   background: #ebebf3;
+  overflow: hidden;
 }
-/* line 80, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .front .panel-middle {
-  margin-bottom: 4px;
+  border-bottom: 4px solid white;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 #navigation li {
   list-style: none;
 }
 
-/* line 91, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 #skip-link {
   margin: 0;
 }
 
-/* line 94, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 body {
   margin: 0;
 }
 
-/* line 97, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .home-box {
   border-top-right-radius: 45px;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 #logo a {
   width: 100%;
 }
-/* line 105, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 #logo img {
   width: 50%;
   display: block;
 }
 
-/* line 111, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 .header__site-name {
   margin-top: 0;
 }
 
-/* line 115, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   line-height: 1em;
 }
 
-/* line 122, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -148,15 +148,15 @@ body {
   font-size: 32px;
   text-align: center;
 }
-/* line 128, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
 }
-/* line 131, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
 }
-/* line 134, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
 }

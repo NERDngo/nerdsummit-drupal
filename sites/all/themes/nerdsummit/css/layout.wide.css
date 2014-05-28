@@ -48,8 +48,8 @@ body {
 /* line 31, ../scss/layout.wide.scss */
 #page {
   background: white;
-  -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
   margin: 0 auto;
   max-width: 1110px;
@@ -58,10 +58,10 @@ body {
 
 /* line 39, ../scss/layout.wide.scss */
 header {
-  padding: 20px;
+  padding: 25px;
 }
 
-/* line 44, ../scss/layout.wide.scss */
+/* line 43, ../scss/layout.wide.scss */
 #header-top,
 #header-bottom {
   display: block;
@@ -78,25 +78,21 @@ header {
   float: left;
 }
 
-<<<<<<< HEAD
-/* line 57, ../scss/layout.wide.scss */
-=======
-/* line 36, ../scss/layout.wide.scss */
+/* line 58, ../scss/layout.wide.scss */
 .front .panels-top {
   padding-bottom: 85px;
 }
 
-/* line 41, ../scss/layout.wide.scss */
->>>>>>> 1f5c2371ae3ed38bc505a7d97f78a1663bc517ee
+/* line 63, ../scss/layout.wide.scss */
 #social-media-links {
   float: right;
   display: block;
 }
-/* line 45, ../scss/layout.wide.scss */
+/* line 67, ../scss/layout.wide.scss */
 #social-media-links ul {
   margin-top: 0;
 }
-/* line 48, ../scss/layout.wide.scss */
+/* line 70, ../scss/layout.wide.scss */
 #social-media-links a {
   width: 50px;
   height: 50px;
@@ -106,23 +102,69 @@ header {
   margin-right: 8px;
 }
 
-<<<<<<< HEAD
-/* line 63, ../scss/layout.wide.scss */
-=======
-/* line 59, ../scss/layout.wide.scss */
+/* line 81, ../scss/layout.wide.scss */
 .home-about {
   width: 60%;
   float: left;
 }
+/* line 84, ../scss/layout.wide.scss */
+.home-about h2, .home-about p {
+  padding-left: 25px;
+}
 
-/* line 63, ../scss/layout.wide.scss */
+/* line 88, ../scss/layout.wide.scss */
 .home-community {
   width: 40%;
   float: right;
 }
+/* line 91, ../scss/layout.wide.scss */
+.home-community .pane-title {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+/* line 95, ../scss/layout.wide.scss */
+.home-community .view {
+  padding-right: 25px;
+  padding-left: 18px;
+}
+/* line 99, ../scss/layout.wide.scss */
+.home-community .views-row {
+  float: left;
+  padding: 7px;
+}
+/* line 103, ../scss/layout.wide.scss */
+.home-community img {
+  height: auto;
+  width: 65px;
+}
 
-/* line 68, ../scss/layout.wide.scss */
->>>>>>> 1f5c2371ae3ed38bc505a7d97f78a1663bc517ee
+/* line 109, ../scss/layout.wide.scss */
 #navigation {
   float: right;
+}
+
+/* line 114, ../scss/layout.wide.scss */
+.pane-sponsors {
+  border-bottom: 4px solid white;
+  padding: 0 25px;
+}
+
+/* line 119, ../scss/layout.wide.scss */
+.view-sponsors {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1022px;
+}
+/* line 123, ../scss/layout.wide.scss */
+.view-sponsors .views-row {
+  float: left;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 128, ../scss/layout.wide.scss */
+.view-sponsors .views-row img {
+  border: 3px solid white;
+  height: auto;
+  max-width: 117px;
 }
