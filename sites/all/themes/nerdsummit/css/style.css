@@ -103,10 +103,10 @@ header, body {
   text-transform: uppercase;
 }
 /* line 85, ../scss/style.scss */
-.front .panel-middle,
 .front .panel-bottom {
   background: #ebebf3;
-  overflow: hidden;
+  float: left;
+  margin-top: 25px;
 }
 /* line 91, ../scss/style.scss */
 .front .panel-middle {

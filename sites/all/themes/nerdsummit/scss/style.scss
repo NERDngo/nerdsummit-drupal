@@ -82,10 +82,10 @@ header, body {
       @extend .purple-button;
     }
   }
-  .panel-middle,
   .panel-bottom {
     background: $lightBgColor;
-    overflow: hidden;
+    float: left;
+    margin-top: 25px;
   }
 
   .panel-middle {
