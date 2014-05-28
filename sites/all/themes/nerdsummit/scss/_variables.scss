@@ -6,7 +6,8 @@ $pink: #df699a;
 $purple: #4953a3;
 $darkPurple: #2a2c68;
 
-$siteBackgroundColor: #3a3a5c;
+$siteBgColor: #3a3a5c;
+$lightBgColor: #ebebf3;
 
 // Text colors.
 $defaultTextColor: #242429;
@@ -17,3 +18,29 @@ $purpleText: #3f4157;
 $twitterIconColor: #a9afe1;
 $fbIconColor: #8083ad;
 $gplusIconColor: #4a4c74;
+
+
+// Fonts.
+$montserrat: 'Montserrat';
+
+%bold {
+  font-weight: 700;
+}
+
+// Placeholders.
+%button {
+  display: block;
+  border-radius: 18px;
+  border: 2px solid $purple;
+  text-align: center;
+  padding: 10px 30px;
+  background: transparent;
+}
+
+%sponsorImg {
+  outline: 3px solid #fff;
+}
+
+%lightBg {
+  background: $lightBgColor;
+}

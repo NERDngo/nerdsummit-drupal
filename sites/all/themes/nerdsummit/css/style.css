@@ -1,0 +1,9 @@
+/* line 4, ../scss/style.scss */
+html {
+  font-family: "Montserrat";
+}
+
+/* line 8, ../scss/style.scss */
+.home-box {
+  border-top-right-radius: 45px;
+}

@@ -1,3 +1,11 @@
 @import "variables";
 @import "mixins";
 
+html {
+  font-family: $montserrat;
+}
+
+.home-box {
+  border-top-right-radius: 45px;
+}
+
