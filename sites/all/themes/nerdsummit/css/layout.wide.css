@@ -124,3 +124,7 @@ header {
 #navigation {
   float: right;
 }
+/* line 99, ../scss/layout.wide.scss */
+#navigation a {
+  color: #3a3a5c;
+}

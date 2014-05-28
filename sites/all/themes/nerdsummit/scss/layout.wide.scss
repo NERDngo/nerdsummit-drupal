@@ -96,5 +96,8 @@ header {
 #navigation {
   float: right;
   @extend %inline-list;
+  a{
+    color: #3a3a5c;
+  }
 }
 
