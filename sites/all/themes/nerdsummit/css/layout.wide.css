@@ -1,0 +1,53 @@
+/* line 2, ../scss/_mixins.scss */
+#social-media-links ul, #navigation ul {
+  list-style: none;
+}
+/* line 4, ../scss/_mixins.scss */
+#social-media-links ul li, #navigation ul li {
+  display: inline-block;
+}
+/* line 6, ../scss/_mixins.scss */
+#social-media-links ul li a, #navigation ul li a {
+  text-decoration: none;
+}
+
+/* line 5, ../scss/layout.wide.scss */
+#page {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+/* line 11, ../scss/layout.wide.scss */
+#header-top,
+#header-bottom {
+  display: block;
+  overflow: hidden;
+}
+
+/* line 17, ../scss/layout.wide.scss */
+#logo {
+  float: left;
+}
+
+/* line 21, ../scss/layout.wide.scss */
+#name-and-slogan {
+  float: left;
+}
+
+/* line 25, ../scss/layout.wide.scss */
+#social-media-links {
+  float: right;
+}
+/* line 28, ../scss/layout.wide.scss */
+#social-media-links a {
+  font-size: 32px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+}
+
+/* line 34, ../scss/layout.wide.scss */
+#navigation {
+  float: right;
+}
