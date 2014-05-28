@@ -14,11 +14,13 @@
 
 
 // To understand behaviors, see https://drupal.org/node/756722#behaviors
-Drupal.behaviors.my_custom_behavior = {
+Drupal.behaviors.mobile_menu = {
   attach: function(context, settings) {
-
-    // Place your code here.
-
+    var $hamburger = $('#hamburger-wrap');
+    $hamburger.addClass('menu-hidden');
+    $hamburger.on('click', function() {
+      $hamburger.toggleClass('menu-hidden');
+    });
   }
 };
 

@@ -6,6 +6,34 @@
 
 include_once 'nerd_homepage.features.inc';
 
+function nerd_homepage_menu_block_blocks() {
+  return array(
+    'top_level_nav' => array(
+      'admin_title' => 'Top Level Navigation',
+      'depth' => 1,
+      'expanded' => 0,
+      'follow' => 0,
+      'level' => 1,
+      'parent' => 0,
+      'menu_name' => 'menu-secondary-navigation',
+      'sort' => 0,
+      'title_link' => 0,
+      'ids' => array(),
+    ),
+    'lower_level_nav' => array(
+      'admin_title' => 'Second Level Navigation',
+      'depth' => 0,
+      'expanded' => 0,
+      'follow' => 0,
+      'level' => 2,
+      'menu_name' => 'menu-secondary-navigation',
+      'sort' => 0,
+      'title_link' => 0,
+      'ids' => array(),
+    )
+  );
+}
+
 function nerd_homepage_block_info() {
   $blocks = array();
   $blocks['login-registration-block'] = array (
