@@ -24,11 +24,8 @@
 
 #social-media-links {
   float: right;
+  display: block;
   @extend %inline-list;
-  a {
-    font-size: 32px;
-    @include border-radius(16px);
-  }
 }
 
 #navigation {

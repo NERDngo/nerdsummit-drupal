@@ -20,8 +20,8 @@
       <div id="social-media-links">
         <ul>
           <li><?php print l('', 'https://twitter.com/NERDSummit', array('external' => TRUE, 'attributes' => array('class' => array('icon-twitter'), 'target' => '_blank'))); ?></li>
-          <li><?php print l('', 'https://plus.google.com/communities/116894398989164774421', array('external' => TRUE, 'attributes' => array('class' => array('icon-gplus'), 'target' => '_blank'))); ?></li>
           <li><?php print l('', 'https://www.facebook.com/nerdsummit', array('external' => TRUE, 'attributes' => array('class' => array('icon-facebook'), 'target' => '_blank'))); ?></li>
+          <li><?php print l('', 'https://plus.google.com/communities/116894398989164774421', array('external' => TRUE, 'attributes' => array('class' => array('icon-gplus'), 'target' => '_blank'))); ?></li>
         </ul>
       </div>
     </div>

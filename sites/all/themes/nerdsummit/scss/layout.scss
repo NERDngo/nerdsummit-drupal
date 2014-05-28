@@ -2,3 +2,41 @@
 @import "mixins";
 
 
+.front {
+  .page__title {
+    display: none;
+  }
+  .panels-top {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    h1 {
+      float: left;
+      width: 100%;
+      display: block;
+      margin: 0;
+    }
+    .button {
+      display: block;
+      margin: 0 10px 10px 0;
+    }
+  }
+}
+
+#social-media-links {
+  display: none;
+}
+
+#navigation {
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+  }
+  li a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}

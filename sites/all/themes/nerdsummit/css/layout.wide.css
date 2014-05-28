@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-/* line 11, ../scss/layout.wide.scss */
+/* line 12, ../scss/layout.wide.scss */
 #header-top,
 #header-bottom {
   display: block;
@@ -38,16 +38,10 @@
 /* line 25, ../scss/layout.wide.scss */
 #social-media-links {
   float: right;
-}
-/* line 28, ../scss/layout.wide.scss */
-#social-media-links a {
-  font-size: 32px;
-  -moz-border-radius: 16px;
-  -webkit-border-radius: 16px;
-  border-radius: 16px;
+  display: block;
 }
 
-/* line 34, ../scss/layout.wide.scss */
+/* line 31, ../scss/layout.wide.scss */
 #navigation {
   float: right;
 }
