@@ -1,54 +1,162 @@
-/*
-Syntax error: Invalid CSS after "}": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 12 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss
+/* line 31, ../scss/_variables.scss */
+.button, .purple-button, .front .panels-top .button {
+  display: inline-block;
+  border-radius: 18px;
+  border: 2px solid #4953a3;
+  text-align: center;
+  padding: 5px 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+}
 
-Backtrace:
-/Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss:12
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:28:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `call'
-/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/usr/bin/compass:23:in `load'
-/usr/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 12 of /Users/jayme/Sites/nerdsummit/sites/all/themes/nerdsummit/scss/style.scss"; }
+/* line 4, ../scss/style.scss */
+html {
+  font-family: "Montserrat";
+  background: #3a3a5c;
+}
+
+/* line 8, ../scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 13, ../scss/style.scss */
+.home-box.learn-box {
+  background-color: #f08933;
+}
+/* line 15, ../scss/style.scss */
+.home-box.learn-box h2.pane-title {
+  background-color: #e47f29;
+  color: #ffffff;
+  font-weight: lighter;
+}
+/* line 21, ../scss/style.scss */
+.home-box.teach-box {
+  background-color: #58b243;
+}
+/* line 23, ../scss/style.scss */
+.home-box.teach-box h2.pane-title {
+  background-color: #4ca439;
+  color: #ffffff;
+  font-weight: lighter;
+}
+/* line 30, ../scss/style.scss */
+.home-box.support-box {
+  background-color: #df699a;
+}
+/* line 32, ../scss/style.scss */
+.home-box.support-box h2.pane-title {
+  background-color: #dd5c91;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+/* line 39, ../scss/style.scss */
+header, body {
+  background: #fff;
+  padding: 10px 0;
+}
+
+/* line 44, ../scss/style.scss */
+.highlight {
+  font-size: 24px;
+  color: #7cd4fd;
+  font-weight: 700;
+}
+
+/* line 54, ../scss/style.scss */
+.purple-button, .front .panels-top .button, .front .panels-top .purple-button {
+  border: 2px solid #fff;
+  background: #4953a3;
+}
+
+/* line 61, ../scss/style.scss */
+.front .panels-top {
+  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+/* line 65, ../scss/style.scss */
+.front .panels-top a {
+  color: #dd5c91;
+}
+/* line 68, ../scss/style.scss */
+.front .panels-top h1 {
+  text-transform: uppercase;
+}
+/* line 76, ../scss/style.scss */
+.front .panel-middle,
+.front .panel-bottom {
+  float: left;
+  background: #ebebf3;
+}
+/* line 80, ../scss/style.scss */
+.front .panel-middle {
+  margin-bottom: 4px;
+}
+
+/* line 86, ../scss/style.scss */
+#navigation li {
+  list-style: none;
+}
+
+/* line 91, ../scss/style.scss */
+#skip-link {
+  margin: 0;
+}
+
+/* line 94, ../scss/style.scss */
+body {
+  margin: 0;
+}
+
+/* line 97, ../scss/style.scss */
+.home-box {
+  border-top-right-radius: 45px;
+}
+
+/* line 102, ../scss/style.scss */
+#logo a {
+  width: 100%;
+}
+/* line 105, ../scss/style.scss */
+#logo img {
+  width: 50%;
+  display: block;
+}
+
+/* line 111, ../scss/style.scss */
+.header__site-name {
+  margin-top: 0;
+}
+
+/* line 115, ../scss/style.scss */
+.header__name-and-slogan a {
+  font-size: 24px;
+  line-height: 1em;
+}
+
+/* line 122, ../scss/style.scss */
+#social-media-links a {
+  color: #fff;
+  border-radius: 50%;
+  background: #4953a3;
+  font-size: 32px;
+  text-align: center;
+}
+/* line 128, ../scss/style.scss */
+#social-media-links a.icon-twitter {
+  background: #a9afe1;
+}
+/* line 131, ../scss/style.scss */
+#social-media-links a.icon-facebook {
+  background: #8083ad;
+}
+/* line 134, ../scss/style.scss */
+#social-media-links a.icon-gplus {
+  background: #4a4c74;
+}

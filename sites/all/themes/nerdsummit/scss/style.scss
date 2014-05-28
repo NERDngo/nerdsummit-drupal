@@ -9,7 +9,6 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .home-box {
   &.learn-box {
     background-color: rgb(240,137,51);
@@ -34,7 +33,9 @@ a {
       background-color:$pink;
       color: #ffffff;
       font-weight: lighter;
-=======
+    }
+  }
+}
 header, body {
   background: #fff;
   padding: 10px 0;
@@ -132,7 +133,6 @@ body {
     }
     &.icon-gplus{
       background: $gplusIconColor;
->>>>>>> 6aaf3e93f99fc38c1adf10e9937783d5fe021096
     }
   }
 }
