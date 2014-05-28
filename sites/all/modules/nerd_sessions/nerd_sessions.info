@@ -1,0 +1,3 @@
+name = NERD Sessions
+description = Displays sessions in a custom way for NERD Camp
+core = 7.x

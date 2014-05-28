@@ -1,6 +1,6 @@
 <?php
 
-function nerd_schedule_views_default_views_alter($views) {
+function nerd_sessions_views_default_views_alter($views) {
   /** @var view $view */
   $view =& $views['cod_session_sessions'];
 
