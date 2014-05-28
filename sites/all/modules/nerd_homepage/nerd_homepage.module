@@ -5,3 +5,53 @@
  */
 
 include_once 'nerd_homepage.features.inc';
+
+function nerd_homepage_block_info() {
+  $blocks = array();
+  $blocks['login-registration-block'] = array (
+    'info' => t('Login and Registration Form'),
+  );
+
+  return $blocks;
+
+}
+
+function nerd_homepage_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'login-registration-block':
+      if (user_is_anonymous() == TRUE) {
+        $block['content'] = login_register_view();
+      }
+      break;
+  }
+
+  return $block;
+
+}
+
+function login_register_view() {
+  $block = array();
+  $login = drupal_render(drupal_get_form('user_login'));
+  $register = drupal_render(drupal_get_form('user_register_form'));
+  $block = array(
+    'login-form' => array(
+      '#prefix' => '<div class="nerd-login">',
+      '#markup' => $login,
+      '#suffix' => '</div>',
+    ),
+    'toggle-button' => array(
+      '#prefix' => '<div id="toggle-login">',
+      '#markup' => '<span class="go-to-register"><a href="/user/register">Register</a></span>',
+      '#suffix' => '</div>',
+    ),
+    'register-form' => array(
+      '#prefix' => '<div class="nerd-register">',
+      '#markup' => $register,
+      '#suffix' => '</div>',
+    ),
+  );
+
+  return $block;
+
+}

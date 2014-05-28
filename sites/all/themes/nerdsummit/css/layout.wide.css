@@ -12,36 +12,50 @@
 }
 
 /* line 5, ../scss/layout.wide.scss */
+body {
+  background: #3a3a5c;
+}
+
+/* line 9, ../scss/layout.wide.scss */
 #page {
+  background: white;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
   margin: 0 auto;
   max-width: 1110px;
   width: 100%;
 }
 
-/* line 12, ../scss/layout.wide.scss */
+/* line 17, ../scss/layout.wide.scss */
+header {
+  padding: 20px;
+}
+
+/* line 22, ../scss/layout.wide.scss */
 #header-top,
 #header-bottom {
   display: block;
   overflow: hidden;
 }
 
-/* line 17, ../scss/layout.wide.scss */
+/* line 27, ../scss/layout.wide.scss */
 #logo {
   float: left;
 }
 
-/* line 21, ../scss/layout.wide.scss */
+/* line 31, ../scss/layout.wide.scss */
 #name-and-slogan {
   float: left;
 }
 
-/* line 25, ../scss/layout.wide.scss */
+/* line 35, ../scss/layout.wide.scss */
 #social-media-links {
   float: right;
   display: block;
 }
 
-/* line 31, ../scss/layout.wide.scss */
+/* line 41, ../scss/layout.wide.scss */
 #navigation {
   float: right;
 }

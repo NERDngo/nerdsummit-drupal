@@ -1,6 +1,10 @@
 @import "variables";
 @import "mixins";
 
+body {
+  margin: 0;
+}
+
 
 .front {
   .page__title {
@@ -39,4 +43,8 @@
     padding: 10px;
     box-sizing: border-box;
   }
+}
+
+#skip-link {
+  display: none;
 }
