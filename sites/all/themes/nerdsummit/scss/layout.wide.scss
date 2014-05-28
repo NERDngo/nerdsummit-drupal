@@ -43,7 +43,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 25px;
 }
 
 #header-top,
@@ -87,10 +87,29 @@ header {
 .home-about {
   width: 60%;
   float: left;
+  h2, p {
+    padding-left: 25px;
+  }
 }
 .home-community {
   width: 40%;
   float: right;
+  .pane-title {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .view {
+    padding-right: 25px;
+    padding-left: 18px;
+  }
+  .views-row {
+    float: left;
+    padding: 7px;
+  }
+  img {
+    height: auto;
+    width: 65px;
+  }
 }
 
 #navigation {
@@ -101,3 +120,24 @@ header {
   }
 }
 
+.pane-sponsors {
+  border-bottom: 4px solid white;
+  padding: 0 25px;
+}
+
+.view-sponsors {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1022px;
+  .views-row {
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    img {
+      border: 3px solid white;
+      height: auto;
+      max-width: 117px;
+    }
+  }
+}

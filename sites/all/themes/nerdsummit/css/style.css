@@ -87,11 +87,11 @@ header, body {
 
 /* line 71, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('../images/banner_home.jpg?1401302566') no-repeat center center;
+  -moz-background-size: "cover";
+  -o-background-size: "cover";
+  -webkit-background-size: "cover";
+  background-size: "cover";
   color: #fff;
 }
 /* line 75, ../scss/style.scss */
@@ -102,59 +102,59 @@ header, body {
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 86, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .front .panel-middle,
 .front .panel-bottom {
-  float: left;
   background: #ebebf3;
+  overflow: hidden;
 }
-/* line 90, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .front .panel-middle {
-  margin-bottom: 4px;
+  border-bottom: 4px solid white;
 }
 
-/* line 96, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 #navigation li {
   list-style: none;
 }
 
-/* line 101, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 #skip-link {
   margin: 0;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 body {
   margin: 0;
 }
 
-/* line 107, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .home-box {
   border-top-right-radius: 45px;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 #logo a {
   width: 100%;
 }
-/* line 115, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 #logo img {
   width: 50%;
   display: block;
 }
 
-/* line 121, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .header__site-name {
   margin-top: 0;
 }
 
-/* line 125, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   line-height: 1em;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -162,15 +162,15 @@ body {
   font-size: 32px;
   text-align: center;
 }
-/* line 138, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
 }
-/* line 141, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
 }
-/* line 144, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
 }
