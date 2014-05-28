@@ -1,0 +1,37 @@
+<?php
+
+function nerd_community_views_default_views_alter(&$views) {
+  /** @var view $view */
+  $view =& $views['cod_community_attendees'];
+  if($view) {
+    /** @var views_display $display */
+    $display = $view->display['block'];
+    $fields = $view->get_items('field', 'block');
+//    dsm($fields);
+    foreach($fields as $field) {
+      if($field['id'] != 'picture') {
+        $view->set_item('block', 'field', $field['id'], NULL);
+      }
+      else {
+        $field['image_style'] = 1;
+        $view->set_item('block', 'field', $field['id'], $field);
+      }
+    }
+    $arg = $view->get_item('default', 'argument', 'gid');
+    $arg['default_argument_type'] = 'cod_events_default_event';
+    $arg['default_action'] = 'default';
+    $view->set_item('default', 'argument', 'gid', $arg);
+  }
+}
+
+function nerd_community_views_pre_render(view &$view) {
+  if($view->name == 'cod_community_attendees') {
+    $items = $view->query->pager->get_total_items();
+    $title = $view->get_title();
+    $view->set_title(strtr($title, array(
+      '@count' => $items,
+    )));
+
+  }
+
+}
