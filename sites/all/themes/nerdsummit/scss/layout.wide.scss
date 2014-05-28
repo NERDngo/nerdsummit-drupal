@@ -1,2 +1,37 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3";
+
+#page {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+#header-top,
+#header-bottom {
+  display: block;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+}
+
+#name-and-slogan {
+  float: left;
+}
+
+#social-media-links {
+  float: right;
+  @extend %inline-list;
+  a {
+    font-size: 32px;
+    @include border-radius(16px);
+  }
+}
+
+#navigation {
+  float: right;
+  @extend %inline-list;
+}
