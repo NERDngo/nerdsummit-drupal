@@ -47,5 +47,33 @@ function nerd_homepage_context_default_contexts() {
   t('Login/Register Form Display');
   $export['login_register_form_display'] = $context;
 
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'main_navigation';
+  $context->description = '';
+  $context->tag = '';
+  $context->conditions = array(
+    'sitewide' => array(
+      'values' => array(
+        1 => 1,
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'menu_block-top_level_nav' => array(
+          'module' => 'menu_block',
+          'delta' => 'top_level_nav',
+          'region' => 'navigation',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+  $export['main_navigation'] = $context;
+
   return $export;
 }

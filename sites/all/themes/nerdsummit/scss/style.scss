@@ -81,13 +81,14 @@ header, body {
       @extend .purple-button;
     }
   }
-  .panel-middle,
   .panel-bottom {
-    float: left;
     background: $lightBgColor;
+    float: left;
+    margin-top: 25px;
   }
+
   .panel-middle {
-    margin-bottom: 4px;
+    border-bottom: 4px solid white;
   }
 }
 

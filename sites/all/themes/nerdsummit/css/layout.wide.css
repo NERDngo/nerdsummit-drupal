@@ -64,7 +64,7 @@ body {
 
 /* line 45, ../scss/layout.wide.scss */
 header {
-  padding: 20px;
+  padding: 25px;
 }
 
 /* line 50, ../scss/layout.wide.scss */
@@ -113,14 +113,68 @@ header {
   width: 60%;
   float: left;
 }
+/* line 90, ../scss/layout.wide.scss */
+.home-about h2, .home-about p {
+  padding-left: 25px;
+}
 
-/* line 91, ../scss/layout.wide.scss */
+/* line 94, ../scss/layout.wide.scss */
 .home-community {
   width: 40%;
   float: right;
 }
+/* line 97, ../scss/layout.wide.scss */
+.home-community .pane-title {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+/* line 101, ../scss/layout.wide.scss */
+.home-community .view {
+  padding-right: 25px;
+  padding-left: 18px;
+}
+/* line 105, ../scss/layout.wide.scss */
+.home-community .views-row {
+  float: left;
+  padding: 7px;
+}
+/* line 109, ../scss/layout.wide.scss */
+.home-community img {
+  height: auto;
+  width: 65px;
+}
 
-/* line 96, ../scss/layout.wide.scss */
+/* line 115, ../scss/layout.wide.scss */
 #navigation {
   float: right;
+}
+/* line 118, ../scss/layout.wide.scss */
+#navigation a {
+  color: #3a3a5c;
+}
+
+/* line 123, ../scss/layout.wide.scss */
+.pane-sponsors {
+  border-bottom: 4px solid white;
+  padding: 0 25px;
+}
+
+/* line 128, ../scss/layout.wide.scss */
+.view-sponsors {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1022px;
+}
+/* line 132, ../scss/layout.wide.scss */
+.view-sponsors .views-row {
+  float: left;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+}
+/* line 137, ../scss/layout.wide.scss */
+.view-sponsors .views-row img {
+  border: 3px solid white;
+  height: auto;
+  max-width: 117px;
 }
