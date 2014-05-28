@@ -8,14 +8,43 @@ $pink: #DD5C91;
 $purple: #4953a3;
 $darkPurple: #2a2c68;
 
-$siteBackgroundColor: #3a3a5c;
+$siteBgColor: #3a3a5c;
+$lightBgColor: #ebebf3;
 
 // Text colors.
 $defaultTextColor: #242429;
 $defaultHeadingColor: #d74c0d;
 $purpleText: #3f4157;
+$highlightText: #7cd4fd;
 
 // Icon colors.
 $twitterIconColor: #a9afe1;
 $fbIconColor: #8083ad;
 $gplusIconColor: #4a4c74;
+
+
+// Fonts.
+$montserrat: 'Montserrat';
+$bold: 700;
+
+// Placeholders.
+%button {
+  display: inline-block;
+  border-radius: 18px;
+  border: 2px solid $purple;
+  text-align: center;
+  padding: 5px 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: $bold;
+}
+
+
+
+%sponsorImg {
+  outline: 3px solid #fff;
+}
+
+%lightBg {
+  background: $lightBgColor;
+}

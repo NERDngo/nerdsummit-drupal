@@ -52,11 +52,17 @@ function nerdsummit_preprocess_html(&$variables, $hook) {
  * @param $hook
  *   The name of the template being rendered ("page" in this case.)
  */
-/* -- Delete this line if you want to use this function
 function nerdsummit_preprocess_page(&$variables, $hook) {
-  $variables['sample_variable'] = t('Lorem ipsum.');
+  $element = array(
+    '#tag' => 'link',
+    '#attributes' => array(
+      'href' => 'http://fonts.googleapis.com/css?family=Montserrat:400,700',
+      'rel' => 'stylesheet',
+      'type' => 'text/css',
+    ),
+  );
+  drupal_add_html_head($element, 'google_font_ovo');
 }
-// */
 
 /**
  * Override or insert variables into the node templates.

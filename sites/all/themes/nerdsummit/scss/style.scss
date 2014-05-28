@@ -1,6 +1,12 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3";
+html {
+  font-family: $montserrat;
+  background: $siteBgColor;
+}
 
+<<<<<<< HEAD
 .home-box {
   &.learn-box {
     background-color: rgb(240,137,51);
@@ -25,6 +31,99 @@
       background-color:$pink;
       color: #ffffff;
       font-weight: lighter;
+=======
+header, body {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.highlight {
+  font-size: 24px;
+  color: $highlightText;
+  font-weight: $bold;
+}
+
+.button {
+  @extend %button;
+}
+
+.purple-button {
+  @extend .button;
+  border: 2px solid #fff;
+  background: $purple;
+}
+
+.front {
+  .panels-top {
+    background: image-url('banner_home.jpg') no-repeat center center;
+    @include background-size('cover');
+    color: #fff;
+    h1 {
+      text-transform: uppercase;
+    }
+    .button {
+      @extend .purple-button;
+    }
+  }
+}
+
+#navigation {
+  li {
+    list-style: none;
+  }
+}
+
+#skip-link {
+ margin: 0;
+}
+body {
+  margin: 0;
+}
+.home-box {
+  border-top-right-radius: 45px;
+}
+
+#logo {
+  a {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    display: block;
+  }
+}
+
+.header__site-name {
+  margin-top: 0;
+}
+.header__name-and-slogan {
+  a {
+    font-size: 18px;
+    line-height: 1em;
+  }
+}
+
+#social-media-links {
+  a {
+    color: #fff;
+    border-radius: 50%;
+    background: $purple;
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    &.icon-twitter {
+      background: $twitterIconColor;
+    }
+    &.icon-facebook{
+      background: $fbIconColor;
+    }
+    &.icon-gplus{
+      background: $gplusIconColor;
+>>>>>>> 6aaf3e93f99fc38c1adf10e9937783d5fe021096
     }
   }
 }
