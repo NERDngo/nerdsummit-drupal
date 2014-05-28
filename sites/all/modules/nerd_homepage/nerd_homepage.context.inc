@@ -69,6 +69,12 @@ function nerd_homepage_context_default_contexts() {
           'region' => 'navigation',
           'weight' => '-10',
         ),
+        'menu_block-2' => array(
+          'module' => 'menu_block',
+          'delta' => '2',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
