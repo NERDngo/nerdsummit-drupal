@@ -61,6 +61,70 @@ function nerd_requests_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-request-field_give_session'
+  $field_instances['node-request-field_give_session'] = array(
+    'bundle' => 'request',
+    'default_value' => array(
+      0 => array(
+        'url' => 'node/add/session?field_requested_session=[node:nid]',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 1,
+      ),
+      'listing' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_give_session',
+    'label' => 'Give a session for this request.',
+    'required' => 0,
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => '_blank',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'value',
+      'title_maxlength' => 128,
+      'title_value' => 'Give a session for this request.',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 32,
+    ),
+  );
+
   // Exported field_instance: 'node-request-og_group_ref'
   $field_instances['node-request-og_group_ref'] = array(
     'bundle' => 'request',
@@ -192,6 +256,7 @@ function nerd_requests_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Description');
+  t('Give a session for this request.');
   t('Groups audience');
   t('Requested Session');
 
