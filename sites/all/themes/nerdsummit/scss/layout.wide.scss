@@ -46,6 +46,13 @@ header {
   padding: 25px;
 }
 
+#header-top, .header__name-and-slogan {
+  margin-left: 0;
+}
+.header__name-and-slogan {
+  display: block;
+}
+
 #header-top,
 #header-bottom {
   display: block;

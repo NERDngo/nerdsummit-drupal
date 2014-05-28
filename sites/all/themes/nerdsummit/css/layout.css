@@ -14,61 +14,66 @@ body {
   margin: 0;
 }
 
-/* line 16, ../scss/layout.scss */
+/* line 17, ../scss/layout.scss */
+#logo img {
+  max-width: 210px;
+}
+
+/* line 22, ../scss/layout.scss */
 #header-top, .header__name-and-slogan {
   margin-left: 80px;
 }
 
-/* line 19, ../scss/layout.scss */
+/* line 25, ../scss/layout.scss */
 .header__name-and-slogan {
   display: none;
 }
 
-/* line 24, ../scss/layout.scss */
+/* line 30, ../scss/layout.scss */
 .front .page__title {
   display: none;
 }
-/* line 27, ../scss/layout.scss */
+/* line 33, ../scss/layout.scss */
 .front .panels-top {
   display: block;
   box-sizing: border-box;
   padding: 10px 25px;
 }
-/* line 31, ../scss/layout.scss */
+/* line 37, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
   display: block;
   margin: 0;
 }
-/* line 37, ../scss/layout.scss */
+/* line 43, ../scss/layout.scss */
 .front .panels-top .button {
   display: block;
   margin: 0 10px 10px 0;
 }
 
-/* line 44, ../scss/layout.scss */
+/* line 50, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 48, ../scss/layout.scss */
+/* line 54, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 52, ../scss/layout.scss */
+/* line 58, ../scss/layout.scss */
 #main {
   clear: both;
 }
 
-/* line 56, ../scss/layout.scss */
+/* line 62, ../scss/layout.scss */
 #navigation {
   display: inline-block;
   width: 100%;
   margin: 0;
 }
-/* line 60, ../scss/layout.scss */
+/* line 66, ../scss/layout.scss */
 #navigation ul.menu {
   margin: 0;
   padding: 0;
@@ -76,7 +81,7 @@ body {
   display: inline-block;
   width: 100%;
 }
-/* line 66, ../scss/layout.scss */
+/* line 72, ../scss/layout.scss */
 #navigation ul.menu li {
   width: 100%;
   float: left;
@@ -84,7 +89,7 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/* line 73, ../scss/layout.scss */
+/* line 79, ../scss/layout.scss */
 #navigation ul.menu a {
   display: block;
   margin: 0;
@@ -93,17 +98,17 @@ body {
   padding: 10px;
 }
 
-/* line 84, ../scss/layout.scss */
-.menu-hidden + #navigation ul.menu li {
+/* line 90, ../scss/layout.scss */
+.js .menu-hidden + #navigation ul.menu li {
   max-height: 0;
 }
 
-/* line 89, ../scss/layout.scss */
+/* line 95, ../scss/layout.scss */
 #skip-link {
   display: none;
 }
 
-/* line 62, ../scss/layout.scss */
+/* line 100, ../scss/layout.scss */
 .view-sponsors img {
   height: auto;
   width: 100%;

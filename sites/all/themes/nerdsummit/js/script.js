@@ -17,7 +17,6 @@
 Drupal.behaviors.mobile_menu = {
   attach: function(context, settings) {
     var $hamburger = $('#hamburger-wrap');
-    $hamburger.addClass('menu-hidden');
     $hamburger.on('click', function() {
       $hamburger.toggleClass('menu-hidden');
     });

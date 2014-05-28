@@ -40,7 +40,7 @@
           <?php endif; ?>
         </div>
       <?php endif; ?>
-      <div id="hamburger-wrap" class="hamburger-wrap">
+      <div id="hamburger-wrap" class="hamburger-wrap menu-hidden">
         <div class="bun-top hamburger-part"></div>
         <div class="patty hamburger-part"></div>
         <div class="bun-bottom hamburger-part"></div>
