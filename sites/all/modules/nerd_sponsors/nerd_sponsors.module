@@ -5,3 +5,15 @@
  */
 
 include_once 'nerd_sponsors.features.inc';
+
+/**
+ * Implements hook_views_default_views_alter().
+ *
+ * Disable the COD Sponsors view so as not to confuse people.
+ * We'll use our own.
+ */
+function nerd_sponsors_views_default_views_alter($views) {
+  if(isset($views['cod_sponsors'])) {
+    $views['cod_sponsors']->disabled = 1;
+  }
+}
