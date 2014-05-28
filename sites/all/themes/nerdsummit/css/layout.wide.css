@@ -12,34 +12,48 @@
 }
 
 /* line 5, ../scss/layout.wide.scss */
+body {
+  background: #3a3a5c;
+}
+
+/* line 9, ../scss/layout.wide.scss */
 #page {
+  background: white;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
   margin: 0 auto;
   max-width: 1110px;
   width: 100%;
 }
 
-/* line 11, ../scss/layout.wide.scss */
+/* line 17, ../scss/layout.wide.scss */
+header {
+  padding: 20px;
+}
+
+/* line 21, ../scss/layout.wide.scss */
 #header-top,
 #header-bottom {
   display: block;
   overflow: hidden;
 }
 
-/* line 17, ../scss/layout.wide.scss */
+/* line 27, ../scss/layout.wide.scss */
 #logo {
   float: left;
 }
 
-/* line 21, ../scss/layout.wide.scss */
+/* line 31, ../scss/layout.wide.scss */
 #name-and-slogan {
   float: left;
 }
 
-/* line 25, ../scss/layout.wide.scss */
+/* line 35, ../scss/layout.wide.scss */
 #social-media-links {
   float: right;
 }
-/* line 28, ../scss/layout.wide.scss */
+/* line 38, ../scss/layout.wide.scss */
 #social-media-links a {
   font-size: 32px;
   -moz-border-radius: 16px;
@@ -47,7 +61,7 @@
   border-radius: 16px;
 }
 
-/* line 34, ../scss/layout.wide.scss */
+/* line 44, ../scss/layout.wide.scss */
 #navigation {
   float: right;
 }

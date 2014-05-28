@@ -1,0 +1,9 @@
+/* line 4, ../scss/layout.scss */
+body {
+  margin: 0;
+}
+
+/* line 8, ../scss/layout.scss */
+#skip-link {
+  display: none;
+}
