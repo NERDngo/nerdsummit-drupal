@@ -1,39 +1,88 @@
-/* line 5, ../scss/style.wide.scss */
-.home-box.learn-box {
-  background-color: #f08933;
-}
-/* line 7, ../scss/style.wide.scss */
-.home-box.learn-box h2.pane-title {
-  background-color: #e47f29;
-  color: #ffffff;
-  font-weight: lighter;
-}
-/* line 13, ../scss/style.wide.scss */
-.home-box.teach-box {
-  background-color: #58b243;
-}
-/* line 15, ../scss/style.wide.scss */
-.home-box.teach-box h2.pane-title {
-  background-color: #4ca439;
-  color: #ffffff;
-  font-weight: lighter;
-}
-/* line 22, ../scss/style.wide.scss */
-.home-box.support-box {
-  background-color: #df699a;
-}
-/* line 24, ../scss/style.wide.scss */
-.home-box.support-box h2.pane-title {
-  background-color: #dd5c91;
-  color: #ffffff;
-  font-weight: lighter;
+/* line 39, ../scss/_variables.scss */
+.view-sponsors .view-header a.button {
+  display: inline-block;
+  border-radius: 18px;
+  border: 2px solid #4953a3;
+  text-align: center;
+  padding: 5px 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
 }
 
-/* line 32, ../scss/style.wide.scss */
+/* line 5, ../scss/style.wide.scss */
+body {
+  background: #3a3a5c;
+}
+
+/* line 9, ../scss/style.wide.scss */
+#page {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+
+/* line 14, ../scss/style.wide.scss */
+.home-box {
+  border-top-right-radius: 50px;
+}
+/* line 16, ../scss/style.wide.scss */
+.home-box h2.pane-title {
+  border-top-right-radius: 50px;
+}
+
+/* line 21, ../scss/style.wide.scss */
 #navigation ul.menu {
   background: transparent;
 }
-/* line 35, ../scss/style.wide.scss */
+/* line 24, ../scss/style.wide.scss */
 #navigation ul.menu li a {
   color: #2a2c68;
+}
+
+/* line 30, ../scss/style.wide.scss */
+.pane-sponsors {
+  border-bottom: 4px solid white;
+}
+
+/* line 36, ../scss/style.wide.scss */
+.view-sponsors .view-header a.button {
+  color: #3f4157;
+}
+
+/* line 44, ../scss/style.wide.scss */
+#navigation a {
+  color: #3a3a5c;
+}
+/* line 49, ../scss/style.wide.scss */
+#navigation #block-system-main-menu ul li.first {
+  background: #f59c42;
+}
+/* line 54, ../scss/style.wide.scss */
+#navigation #block-system-main-menu ul li:nth-of-type(2) {
+  background: #68bd55;
+}
+/* line 59, ../scss/style.wide.scss */
+#navigation #block-system-main-menu ul li:nth-of-type(3) {
+  background: #e774a4;
+  width: 185px;
+}
+/* line 63, ../scss/style.wide.scss */
+#navigation #block-system-main-menu ul li.last {
+  background: #4953a3;
+}
+/* line 67, ../scss/style.wide.scss */
+#navigation #block-system-main-menu ul li a {
+  color: #fff;
+}
+
+/* line 74, ../scss/style.wide.scss */
+.home-about {
+  border-top: none;
+}
+
+/* line 80, ../scss/style.wide.scss */
+.panel-nerds-two-col .panels-top .panel-pane {
+  border-bottom: none;
 }

@@ -2,48 +2,39 @@
 @import "mixins";
 @import "compass/css3";
 
-.home-box {
+$base_padding: 0;
+$small_padding: 0;
+
+.panel-pane.home-box {
+  z-index: 2;
+  position: relative;
   width: 340px;
   float: left;
   min-height: 245px;
+  margin-top: -50px;
   &.learn-box {
-    border-radius: 0px 25px 0px 0px;
     margin-left: 20px;
     margin-right: 25px;
-  h2.pane-title {
-    border-radius: 0px 25px 0px 0px;
-    }
-  }
-  &.teach-box {
-    border-radius: 0px 25px 0px 0px;
-    h2.pane-title {
-      border-radius: 0px 25px 0px 0px;
-    }
   }
   &.support-box {
-      border-radius: 0px 25px 0px 0px;
-      margin-left: 25px;
-      margin-right: 20px;
-      h2.pane-title {
-        border-radius: 0px 25px 0px 0px;
-      }
-    }
+    margin-left: 25px;
+    margin-right: 20px;
   }
-
-body {
-  background: $siteBgColor;
 }
 
 #page {
-  background: white;
-  @include box-shadow();
   margin: 0 auto;
-  max-width: 1110px;
-  width: 100%;
+  width: 1110px;
+  // todo: make this use width: 100% and max-width: 1110px?
 }
 
 header {
-  padding: 25px;
+  padding: 25px 25px 5px 25px;
+  height: auto;
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #header-top, .header__name-and-slogan {
@@ -61,6 +52,10 @@ header {
 
 #logo {
   float: left;
+  position: static;
+  img {
+    max-width: 210px;
+  }
 }
 
 #name-and-slogan {
@@ -69,7 +64,28 @@ header {
 
 .front {
   .panels-top {
+    display: inline-block;
+    width: 100%;
+    padding: 3%;
     padding-bottom: 85px;
+    h1, p, .view {
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    p .button {
+      display: inline-block;
+    }
+    .panel-col {
+      float: left;
+      display: inline-block;
+    }
+    .panel-col-left {
+      width: 72%;
+    }
+    .panel-col-right {
+      width: 28%;
+    }
   }
 }
 
@@ -121,26 +137,49 @@ header {
 
 #navigation {
   float: right;
-  display: block !important;
+  display: block !important; // todo.
+  padding-top: 0;
   @extend %inline-list;
-  a{
-    color: #3a3a5c;
+  .region-navigation {
+    display: inline-block;
+    width: 100%;
+  }
+  .menu-block-top_level_nav {
+    position: absolute;
+    right: 20px;
+    top: 100px;
   }
   ul.menu {
-    float: right;
     width: auto;
-    margin-top: -60px; // todo: find a way to do this w/out negative margins?
-
     li {
       max-height: 100% !important;
       width: auto;
-      float: right;
+    }
+  }
+  #block-system-main-menu {
+    ul.menu {
+      width: 100%;
+    }
+    ul li {
+      margin: 0 5px;
+      &.first {
+        width: 46%;
+        margin-left: 0;
+      }
+      // todo: add classes to avoid using this selector.
+      &:nth-of-type(2),
+      &:nth-of-type(3) {
+        width: 18%;
+      }
+      &.last {
+        width: 15%;
+        margin-right: 0;
+      }
     }
   }
 }
 
 .pane-sponsors {
-  border-bottom: 4px solid white;
   overflow: hidden;
   padding: 0 25px;
   h2.pane-title {
@@ -152,23 +191,49 @@ header {
   }
 }
 
-.view-sponsors {
+.view-id-sponsors.view-sponsors {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
   .view-header {
-    margin: 20px 0;
+    margin: 0;
+    padding: 25px 0 0 0;
     text-align: right;
+    display: inline-block;
+    float: right;
+    .button {
+      width: auto;
+      margin: 0 0 0 10px !important; // todo.
+    }
+  }
+  .view-content {
+    margin: 20px 0;
   }
   .views-row {
     float: left;
     font-size: 14px;
     padding: 10px;
     text-align: center;
+    width: auto;
+    &.views-row-odd {
+      clear: none;
+    }
     img {
       border: 3px solid white;
       height: auto;
       max-width: 117px;
+    }
+  }
+}
+
+.hamburger-wrap {
+  display: none;
+}
+
+.front {
+  .panels-top {
+    .button {
+      display: inline-block;
     }
   }
 }

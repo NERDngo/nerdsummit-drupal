@@ -1,21 +1,71 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3/transform";
 
+$base_padding: 5%;
+$small_padding: 2.5%;
 
-.home-box {
+#skip-link {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+#logo {
+  a {
+    width: 100%;
+  }
+  img {
+    display: block;
+  }
+}
+
+.header__name-and-slogan {
+  a {
+    line-height: 1em;
+  }
+}
+
+.header__site-name {
+  margin-top: 0;
+}
+
+.panel-pane.home-box {
   width: 100%;
+  display: inline-block;
+  padding-bottom: $small_padding;
+  padding-left: 0;
+  padding-right: 0;
+  h2.pane-title {
+    margin: 0;
+    padding: $small_padding $base_padding;
+  }
+  p {
+    padding-left: $base_padding;
+    padding-right: $base_padding;
+    padding-top: inherit;
+    padding-bottom: inherit;
+  }
+  .button {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
 }
 header {
   margin: 0;
   padding: 0;
+  height: 54px;
 }
 body {
   margin: 0;
 }
 
 #logo {
+  position: absolute;
+  top: 10px;
   img {
-    max-width: 210px;
+    max-width: 150px;
   }
 }
 
@@ -33,17 +83,27 @@ body {
   .panels-top {
     display: block;
     box-sizing: border-box;
-    padding: 10px 25px;
+    .view {
+      padding: 0 $base_padding 0 0;
+    }
+    .panel-pane {
+      padding-bottom: $base_padding;
+    }
     h1 {
       float: left;
       width: 100%;
       display: block;
       margin: 0;
+      padding: $base_padding;
+      box-sizing: border-box;
     }
-    .button {
+    p .button {
       display: block;
-      margin: 0 10px 10px 0;
+      margin: 0 10px 20px 10px;
     }
+  }
+  .panel-bottom {
+    float: left;
   }
 }
 
@@ -60,9 +120,10 @@ body {
 }
 
 #navigation {
-  display: inline-block;
+  display: block;
   width: 100%;
   margin: 0;
+  padding-top: 70px;
   ul.menu {
     margin: 0;
     padding: 0;
@@ -97,8 +158,96 @@ body {
 }
 
 .view-sponsors {
+  display: block;
+  clear: both;
+  .view-content {
+    display: inline-block;
+    width: 100%;
+  }
+  .view-header {
+    padding: $base_padding;
+    .button {
+      width: 45%;
+      margin: 0 $small_padding;
+      padding: 5px 0;
+      box-sizing: border-box;
+      float: left;
+    }
+  }
+  .views-row {
+    width: 50%;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    padding: $base_padding;
+    &.views-row-odd {
+      clear: both;
+    }
+  }
   img {
     height: auto;
     width: 100%;
+  }
+}
+
+.panel-nerds-two-col {
+  .panels-top {
+    .panel-pane {
+      box-sizing: border-box;
+    }
+  }
+  .panel-bottom {
+    margin-top: 0;
+  }
+}
+.panel-pane {
+  padding-left: $base_padding;
+  padding-right: $base_padding;
+  box-sizing: border-box;
+}
+
+.hamburger-wrap {
+  width: 70px;
+  height: 70px;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  .hamburger-part {
+    display: block;
+    height: 4px;
+    left: 20%;
+    right: 20%;
+    &.bun-top {
+      top: 25px;
+      @include rotate(45deg);
+    }
+    &.bun-bottom {
+      top: 25px;
+      @include rotate(-45deg);
+    }
+    &.patty {
+      top: 25px;
+      display: none;
+    }
+  }
+  &.menu-hidden {
+    .hamburger-part {
+      @include rotate(0);
+      &.bun-top {
+        top: 15px;
+      }
+      &.patty {
+        display: block;
+      }
+      &.bun-bottom {
+        top: 35px;
+      }
+    }
+  }
+  .hamburger-text {
+    position: relative;
+    margin-top: 65%;
   }
 }

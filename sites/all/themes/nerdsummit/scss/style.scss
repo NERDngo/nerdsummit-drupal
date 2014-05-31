@@ -1,6 +1,7 @@
 @import "variables";
 @import "mixins";
 @import "compass/css3";
+
 html {
   font-family: $montserrat;
   background: $siteBgColor;
@@ -8,42 +9,33 @@ html {
 a {
   text-decoration: none;
 }
-
+.home-about {
+  border-top: 1px dotted $purple;
+}
 .home-box {
-  margin-top: -29px;
+  color: #fff;
+
   &.learn-box {
-    background-color: rgb(240,137,51);
-    h2.pane-title {
-      background-color: rgb(228,127,41);
-      color: #ffffff;
-      font-weight: lighter;
-      margin: 0;
+    background-color: $blockBgLightOrange;
+    .pane-title, .button {
+      background-color: $blockBgDarkOrange;
     }
   }
   &.teach-box {
-    background-color: rgb(88,178,67);
-    h2.pane-title{
-      background-color: rgb(76,164,57);
-      color: #ffffff;
-      font-weight: lighter;
-      margin: 0;
+    background-color: #68bd55;
+    .pane-title, .button {
+      background-color: #5bb048;
+      color: #fff;
     }
-
   }
   &.support-box {
     background-color: $lightPink;
-    h2.pane-title{
+    .pane-title, .button {
       background-color:$pink;
-      color: #ffffff;
-      font-weight: lighter;
-      margin: 0;
     }
   }
     .button {
       border-color: #ffffff;
-      display: block;
-      margin: 0 auto;
-      width: 75%;
     }
 }
 header, body {
@@ -75,26 +67,28 @@ header, body {
     a {
       color: $pink;
     }
+    li {
+      list-style: circle;
+      a {
+        color: #fff;
+      }
+    }
     h1 {
       text-transform: uppercase;
     }
     .button {
       @extend .purple-button;
     }
+    .pane {
+      border-bottom: 1px solid red;
+    }
   }
   .panel-bottom {
     background: $lightBgColor;
-    float: left;
-    margin-top: 25px;
-  }
-
-  .panel-middle {
-    border-bottom: 4px solid white;
   }
 }
 
 #navigation {
-  display: block;
   ul.menu {
     background: $purple;
   }
@@ -114,32 +108,11 @@ header, body {
   }
 }
 
-#skip-link {
- margin: 0;
-}
-body {
-  margin: 0;
-}
-.home-box {
-  border-top-right-radius: 45px;
-}
 
-#logo {
-  a {
-    width: 100%;
-  }
-  img {
-    display: block;
-  }
-}
-
-.header__site-name {
-  margin-top: 0;
-}
 .header__name-and-slogan {
   a {
     font-size: 24px;
-    line-height: 1em;
+    color: $siteBgColor;
   }
 }
 
@@ -163,56 +136,38 @@ body {
 }
 
 .hamburger-wrap {
-  // todo: use absolute position for this?
-  width: 70px;
-  height: 70px;
-  margin-top: -70px;
   background: $purple;
-  display: block;
-  float: left;
-  position: relative;
   color: #fff;
+  cursor: pointer;
   .hamburger-part {
-    display: block;
-    height: 4px;
     background: #fff;
     position: absolute;
-    left: 15%;
-    right: 15%;
     @include transition(.3s);
-    &.bun-top {
-      top: 25px;
-      @include rotate(45deg);
-    }
-    &.bun-bottom {
-      top: 25px;
-      @include rotate(-45deg);
-    }
-    &.patty {
-      top: 25px;
-      display: none;
-    }
-  }
-
-  &.menu-hidden {
-    .hamburger-part {
-      @include rotate(0);
-      &.bun-top {
-        top: 15px;
-      }
-      &.patty {
-        display: block;
-      }
-      &.bun-bottom {
-        top: 35px;
-      }
-    }
   }
 
   .hamburger-text {
-    position: relative;
-    margin-top: 65%;
     text-align: center;
     text-transform: uppercase;
+  }
+}
+
+.view-sponsors {
+  a {
+    color: $purpleText;
+    font-weight: normal;
+    &.button {
+      border-color: #666785;
+    }
+  }
+}
+
+.panel-nerds-two-col {
+  .panels-top {
+    .panel-pane {
+      border-bottom: 1px dotted $purple;
+      &.pane-nerd-events {
+        border-bottom: none;
+      }
+    }
   }
 }

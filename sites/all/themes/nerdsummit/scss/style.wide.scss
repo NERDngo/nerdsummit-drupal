@@ -1,31 +1,20 @@
 @import "variables";
 @import "mixins";
+@import "compass/css3";
+
+body {
+  background: $siteBgColor;
+}
+
+#page {
+  background: #fff;
+  @include box-shadow();
+}
 
 .home-box {
-  &.learn-box {
-    background-color: rgb(240,137,51);
-    h2.pane-title {
-      background-color: rgb(228,127,41);
-      color: #ffffff;
-      font-weight: lighter;
-    }
-  }
-  &.teach-box {
-    background-color: rgb(88,178,67);
-    h2.pane-title{
-      background-color: rgb(76,164,57);
-      color: #ffffff;
-      font-weight: lighter;
-    }
-
-  }
-  &.support-box {
-    background-color: $lightPink;
-    h2.pane-title{
-      background-color:$pink;
-      color: #ffffff;
-      font-weight: lighter;
-    }
+  border-top-right-radius: 50px;
+  h2.pane-title {
+    border-top-right-radius: 50px;
   }
 }
 
@@ -34,6 +23,62 @@
   li {
     a {
       color: $darkPurple;
+    }
+  }
+}
+
+.pane-sponsors {
+  border-bottom: 4px solid white;
+}
+
+.view-sponsors {
+  .view-header {
+    a.button {
+      @extend %button;
+      color: $purpleText;
+    }
+  }
+}
+
+#navigation {
+  a{
+    color: #3a3a5c;
+  }
+  #block-system-main-menu {
+    ul li {
+      &.first {
+        background: $blockBgLightOrange;
+      }
+
+      // todo: add classes to avoid using this selector.
+      &:nth-of-type(2) {
+        background: $blockBgLightGreen;
+      }
+
+      // todo: add classes to avoid using this selector.
+      &:nth-of-type(3) {
+        background: $blockBgLightPink;
+        width: 185px;
+      }
+      &.last {
+        background: $blockBgLightPurple;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.home-about {
+  border-top: none;
+}
+
+.panel-nerds-two-col {
+  .panels-top {
+    .panel-pane {
+      border-bottom: none;
     }
   }
 }

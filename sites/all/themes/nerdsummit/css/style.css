@@ -1,4 +1,4 @@
-/* line 31, ../scss/_variables.scss */
+/* line 39, ../scss/_variables.scss */
 .button, .purple-button, .front .panels-top .button {
   display: inline-block;
   border-radius: 18px;
@@ -10,81 +10,75 @@
   font-weight: 700;
 }
 
-/* line 4, ../scss/style.scss */
+/* line 5, ../scss/style.scss */
 html {
   font-family: "Montserrat";
   background: #3a3a5c;
 }
 
-/* line 8, ../scss/style.scss */
+/* line 9, ../scss/style.scss */
 a {
   text-decoration: none;
 }
 
 /* line 12, ../scss/style.scss */
+.home-about {
+  border-top: 1px dotted #4953a3;
+}
+
+/* line 15, ../scss/style.scss */
 .home-box {
-  margin-top: -29px;
+  color: #fff;
 }
-/* line 14, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 .home-box.learn-box {
-  background-color: #f08933;
+  background-color: #f59c42;
 }
-/* line 16, ../scss/style.scss */
-.home-box.learn-box h2.pane-title {
-  background-color: #e47f29;
-  color: #ffffff;
-  font-weight: lighter;
-  margin: 0;
+/* line 20, ../scss/style.scss */
+.home-box.learn-box .pane-title, .home-box.learn-box .button, .home-box.learn-box .purple-button {
+  background-color: #e88f36;
 }
-/* line 23, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .home-box.teach-box {
-  background-color: #58b243;
+  background-color: #68bd55;
 }
-/* line 25, ../scss/style.scss */
-.home-box.teach-box h2.pane-title {
-  background-color: #4ca439;
-  color: #ffffff;
-  font-weight: lighter;
-  margin: 0;
+/* line 26, ../scss/style.scss */
+.home-box.teach-box .pane-title, .home-box.teach-box .button, .home-box.teach-box .purple-button {
+  background-color: #5bb048;
+  color: #fff;
 }
-/* line 33, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 .home-box.support-box {
   background-color: #df699a;
 }
-/* line 35, ../scss/style.scss */
-.home-box.support-box h2.pane-title {
+/* line 33, ../scss/style.scss */
+.home-box.support-box .pane-title, .home-box.support-box .button, .home-box.support-box .purple-button {
   background-color: #dd5c91;
-  color: #ffffff;
-  font-weight: lighter;
-  margin: 0;
 }
-/* line 42, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 .home-box .button, .home-box .purple-button, .home-box .front .panels-top .button, .front .panels-top .home-box .button {
   border-color: #ffffff;
-  display: block;
-  margin: 0 auto;
-  width: 75%;
 }
 
-/* line 49, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 header, body {
   background: #fff;
 }
 
-/* line 53, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 63, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button {
   border: 2px solid #fff;
   background: #4953a3;
 }
 
-/* line 70, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
   -webkit-background-size: cover;
@@ -94,34 +88,36 @@ header, body {
   background-color: #2a2c68;
   color: #fff;
 }
-/* line 75, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 78, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
+.front .panels-top li {
+  list-style: circle;
+}
+/* line 72, ../scss/style.scss */
+.front .panels-top li a {
+  color: #fff;
+}
+/* line 76, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 85, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
+.front .panels-top .pane {
+  border-bottom: 1px solid red;
+}
+/* line 86, ../scss/style.scss */
 .front .panel-bottom {
   background: #ebebf3;
-  float: left;
-  margin-top: 25px;
-}
-/* line 91, ../scss/style.scss */
-.front .panel-middle {
-  border-bottom: 4px solid white;
 }
 
-/* line 96, ../scss/style.scss */
-#navigation {
-  display: block;
-}
-/* line 98, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 #navigation ul.menu {
   background: #4953a3;
 }
-/* line 101, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 #navigation li {
   list-style: none;
   -webkit-transition: 0.3s;
@@ -130,52 +126,23 @@ header, body {
   transition: 0.3s;
   border-bottom: 1px solid #fff;
 }
-/* line 105, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 #navigation li a {
   color: #fff;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 .menu-hidden + #navigation li {
   border-bottom: 0;
 }
 
-/* line 117, ../scss/style.scss */
-#skip-link {
-  margin: 0;
+/* line 113, ../scss/style.scss */
+.header__name-and-slogan a {
+  font-size: 24px;
+  color: #3a3a5c;
 }
 
 /* line 120, ../scss/style.scss */
-body {
-  margin: 0;
-}
-
-/* line 123, ../scss/style.scss */
-.home-box {
-  border-top-right-radius: 45px;
-}
-
-/* line 128, ../scss/style.scss */
-#logo a {
-  width: 100%;
-}
-/* line 131, ../scss/style.scss */
-#logo img {
-  display: block;
-}
-
-/* line 136, ../scss/style.scss */
-.header__site-name {
-  margin-top: 0;
-}
-
-/* line 140, ../scss/style.scss */
-.header__name-and-slogan a {
-  font-size: 24px;
-  line-height: 1em;
-}
-
-/* line 147, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -183,90 +150,55 @@ body {
   font-size: 32px;
   text-align: center;
 }
-/* line 153, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
 }
-/* line 156, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
 }
-/* line 159, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
 }
 
-/* line 165, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .hamburger-wrap {
-  width: 70px;
-  height: 70px;
-  margin-top: -70px;
   background: #4953a3;
-  display: block;
-  float: left;
-  position: relative;
   color: #fff;
+  cursor: pointer;
 }
-/* line 175, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
-  display: block;
-  height: 4px;
   background: #fff;
   position: absolute;
-  left: 15%;
-  right: 15%;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 183, ../scss/style.scss */
-.hamburger-wrap .hamburger-part.bun-top {
-  top: 25px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-/* line 187, ../scss/style.scss */
-.hamburger-wrap .hamburger-part.bun-bottom {
-  top: 25px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-/* line 191, ../scss/style.scss */
-.hamburger-wrap .hamburger-part.patty {
-  top: 25px;
-  display: none;
-}
-/* line 198, ../scss/style.scss */
-.hamburger-wrap.menu-hidden .hamburger-part {
-  -webkit-transform: rotate(0);
-  -moz-transform: rotate(0);
-  -ms-transform: rotate(0);
-  -o-transform: rotate(0);
-  transform: rotate(0);
-}
-/* line 200, ../scss/style.scss */
-.hamburger-wrap.menu-hidden .hamburger-part.bun-top {
-  top: 15px;
-}
-/* line 203, ../scss/style.scss */
-.hamburger-wrap.menu-hidden .hamburger-part.patty {
-  display: block;
-}
-/* line 206, ../scss/style.scss */
-.hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
-  top: 35px;
-}
-/* line 212, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
-  position: relative;
-  margin-top: 65%;
   text-align: center;
   text-transform: uppercase;
+}
+
+/* line 155, ../scss/style.scss */
+.view-sponsors a {
+  color: #3f4157;
+  font-weight: normal;
+}
+/* line 158, ../scss/style.scss */
+.view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button {
+  border-color: #666785;
+}
+
+/* line 166, ../scss/style.scss */
+.panel-nerds-two-col .panels-top .panel-pane {
+  border-bottom: 1px dotted #4953a3;
+}
+/* line 168, ../scss/style.scss */
+.panel-nerds-two-col .panels-top .panel-pane.pane-nerd-events {
+  border-bottom: none;
 }

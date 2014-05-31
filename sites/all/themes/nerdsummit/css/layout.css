@@ -1,79 +1,150 @@
-/* line 5, ../scss/layout.scss */
-.home-box {
-  width: 100%;
-}
-
 /* line 8, ../scss/layout.scss */
-header {
+#skip-link {
   margin: 0;
-  padding: 0;
 }
 
-/* line 12, ../scss/layout.scss */
+/* line 11, ../scss/layout.scss */
 body {
   margin: 0;
 }
 
-/* line 17, ../scss/layout.scss */
+/* line 15, ../scss/layout.scss */
+#logo a {
+  width: 100%;
+}
+/* line 18, ../scss/layout.scss */
 #logo img {
-  max-width: 210px;
+  display: block;
 }
 
-/* line 22, ../scss/layout.scss */
+/* line 24, ../scss/layout.scss */
+.header__name-and-slogan a {
+  line-height: 1em;
+}
+
+/* line 29, ../scss/layout.scss */
+.header__site-name {
+  margin-top: 0;
+}
+
+/* line 33, ../scss/layout.scss */
+.panel-pane.home-box {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 2.5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 39, ../scss/layout.scss */
+.panel-pane.home-box h2.pane-title {
+  margin: 0;
+  padding: 2.5% 5%;
+}
+/* line 43, ../scss/layout.scss */
+.panel-pane.home-box p {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+/* line 49, ../scss/layout.scss */
+.panel-pane.home-box .button {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
+/* line 55, ../scss/layout.scss */
+header {
+  margin: 0;
+  padding: 0;
+  height: 54px;
+}
+
+/* line 60, ../scss/layout.scss */
+body {
+  margin: 0;
+}
+
+/* line 64, ../scss/layout.scss */
+#logo {
+  position: absolute;
+  top: 10px;
+}
+/* line 67, ../scss/layout.scss */
+#logo img {
+  max-width: 150px;
+}
+
+/* line 72, ../scss/layout.scss */
 #header-top, .header__name-and-slogan {
   margin-left: 80px;
 }
 
-/* line 25, ../scss/layout.scss */
+/* line 75, ../scss/layout.scss */
 .header__name-and-slogan {
   display: none;
 }
 
-/* line 30, ../scss/layout.scss */
+/* line 80, ../scss/layout.scss */
 .front .page__title {
   display: none;
 }
-/* line 33, ../scss/layout.scss */
+/* line 83, ../scss/layout.scss */
 .front .panels-top {
   display: block;
   box-sizing: border-box;
-  padding: 10px 25px;
 }
-/* line 37, ../scss/layout.scss */
+/* line 86, ../scss/layout.scss */
+.front .panels-top .view {
+  padding: 0 5% 0 0;
+}
+/* line 89, ../scss/layout.scss */
+.front .panels-top .panel-pane {
+  padding-bottom: 5%;
+}
+/* line 92, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
   display: block;
   margin: 0;
+  padding: 5%;
+  box-sizing: border-box;
 }
-/* line 43, ../scss/layout.scss */
-.front .panels-top .button {
+/* line 100, ../scss/layout.scss */
+.front .panels-top p .button {
   display: block;
-  margin: 0 10px 10px 0;
+  margin: 0 10px 20px 10px;
+}
+/* line 105, ../scss/layout.scss */
+.front .panel-bottom {
+  float: left;
 }
 
-/* line 50, ../scss/layout.scss */
+/* line 110, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 54, ../scss/layout.scss */
+/* line 114, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 58, ../scss/layout.scss */
+/* line 118, ../scss/layout.scss */
 #main {
   clear: both;
 }
 
-/* line 62, ../scss/layout.scss */
+/* line 122, ../scss/layout.scss */
 #navigation {
-  display: inline-block;
+  display: block;
   width: 100%;
   margin: 0;
+  padding-top: 70px;
 }
-/* line 66, ../scss/layout.scss */
+/* line 127, ../scss/layout.scss */
 #navigation ul.menu {
   margin: 0;
   padding: 0;
@@ -81,7 +152,7 @@ body {
   display: inline-block;
   width: 100%;
 }
-/* line 72, ../scss/layout.scss */
+/* line 133, ../scss/layout.scss */
 #navigation ul.menu li {
   width: 100%;
   float: left;
@@ -89,7 +160,7 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/* line 79, ../scss/layout.scss */
+/* line 140, ../scss/layout.scss */
 #navigation ul.menu a {
   display: block;
   margin: 0;
@@ -98,18 +169,134 @@ body {
   padding: 10px;
 }
 
-/* line 90, ../scss/layout.scss */
+/* line 151, ../scss/layout.scss */
 .js .menu-hidden + #navigation ul.menu li {
   max-height: 0;
 }
 
-/* line 95, ../scss/layout.scss */
+/* line 156, ../scss/layout.scss */
 #skip-link {
   display: none;
 }
 
-/* line 100, ../scss/layout.scss */
+/* line 160, ../scss/layout.scss */
+.view-sponsors {
+  display: block;
+  clear: both;
+}
+/* line 163, ../scss/layout.scss */
+.view-sponsors .view-content {
+  display: inline-block;
+  width: 100%;
+}
+/* line 167, ../scss/layout.scss */
+.view-sponsors .view-header {
+  padding: 5%;
+}
+/* line 169, ../scss/layout.scss */
+.view-sponsors .view-header .button {
+  width: 45%;
+  margin: 0 2.5%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  float: left;
+}
+/* line 177, ../scss/layout.scss */
+.view-sponsors .views-row {
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 5%;
+}
+/* line 183, ../scss/layout.scss */
+.view-sponsors .views-row.views-row-odd {
+  clear: both;
+}
+/* line 187, ../scss/layout.scss */
 .view-sponsors img {
   height: auto;
   width: 100%;
+}
+
+/* line 195, ../scss/layout.scss */
+.panel-nerds-two-col .panels-top .panel-pane {
+  box-sizing: border-box;
+}
+/* line 199, ../scss/layout.scss */
+.panel-nerds-two-col .panel-bottom {
+  margin-top: 0;
+}
+
+/* line 203, ../scss/layout.scss */
+.panel-pane {
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+/* line 209, ../scss/layout.scss */
+.hamburger-wrap {
+  width: 70px;
+  height: 70px;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 217, ../scss/layout.scss */
+.hamburger-wrap .hamburger-part {
+  display: block;
+  height: 4px;
+  left: 20%;
+  right: 20%;
+}
+/* line 222, ../scss/layout.scss */
+.hamburger-wrap .hamburger-part.bun-top {
+  top: 25px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 226, ../scss/layout.scss */
+.hamburger-wrap .hamburger-part.bun-bottom {
+  top: 25px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 230, ../scss/layout.scss */
+.hamburger-wrap .hamburger-part.patty {
+  top: 25px;
+  display: none;
+}
+/* line 236, ../scss/layout.scss */
+.hamburger-wrap.menu-hidden .hamburger-part {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+/* line 238, ../scss/layout.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.bun-top {
+  top: 15px;
+}
+/* line 241, ../scss/layout.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.patty {
+  display: block;
+}
+/* line 244, ../scss/layout.scss */
+.hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
+  top: 35px;
+}
+/* line 249, ../scss/layout.scss */
+.hamburger-wrap .hamburger-text {
+  position: relative;
+  margin-top: 65%;
 }
