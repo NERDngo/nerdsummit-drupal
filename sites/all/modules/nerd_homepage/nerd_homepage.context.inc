@@ -37,6 +37,12 @@ function nerd_homepage_context_default_contexts() {
           'region' => 'highlighted',
           'weight' => '-10',
         ),
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'navigation',
+          'weight' => -9,
+        ),
       ),
     ),
   );
