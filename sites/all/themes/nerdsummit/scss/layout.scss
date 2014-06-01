@@ -52,7 +52,7 @@ body {
     width: 75%;
   }
 }
-header {
+header.header {
   margin: 0;
   padding: 0;
   height: 54px;
@@ -94,7 +94,7 @@ body {
       width: 100%;
       display: block;
       margin: 0;
-      padding: $base_padding;
+      padding: $base_padding 0;
       box-sizing: border-box;
     }
     p .button {
@@ -249,5 +249,45 @@ body {
   .hamburger-text {
     position: relative;
     margin-top: 65%;
+  }
+}
+
+.node-event {
+  &.node-teaser {
+    padding: $base_padding;
+  }
+}
+
+
+#block-nerd-blocks-nerd-save-date {
+  border-bottom: 20px solid $purple;
+  border-radius: 15px;
+  box-shadow: 0 0 4px grey;
+  color: $defaultTextColor;
+  h4 {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    color: $defaultTextColor;
+  }
+  .block-title {
+    background: $purple;
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .nerd-sign-up-content {
+    background: $lightBgColor;
+    box-sizing: border-box;
+    padding: 10px;
+    .purple-button {
+      display: block;
+      margin-bottom: 2px;
+    }
   }
 }

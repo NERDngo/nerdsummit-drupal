@@ -30,29 +30,17 @@ $blockBgDarkGreen: #5bb048;
 $blockBgLightPink: #e774a4;
 $blockBgDarkPink: #da6897;
 $blockBgLightPurple: #4953a3;
+$blockBgDarkPurple: #3549a3;
 
+
+// Hover state colors.
+$hoverOrange: #e88222;
+$hoverGreen: #2eb01f;
+$hoverPink: #da5186;
+$hoverPurple: #394ba3;
 // Fonts.
 $montserrat: 'Montserrat';
 $bold: 700;
-
+$defaultFontSize: 13px;
+$defaultLinkColor: #d94903;
 // Placeholders.
-%button {
-  display: inline-block;
-  border-radius: 18px;
-  border: 2px solid $purple;
-  text-align: center;
-  padding: 5px 30px;
-  background: transparent;
-  color: #fff;
-  font-weight: $bold;
-}
-
-
-
-%sponsorImg {
-  outline: 3px solid #fff;
-}
-
-%lightBg {
-  background: $lightBgColor;
-}

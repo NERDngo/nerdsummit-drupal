@@ -1,5 +1,5 @@
-@import "variables";
 @import "mixins";
+@import "variables";
 @import "compass/css3";
 
 body {
@@ -48,20 +48,24 @@ body {
     ul li {
       &.first {
         background: $blockBgLightOrange;
+        @include hoverBg($blockBgDarkOrange);
       }
 
       // todo: add classes to avoid using this selector.
       &:nth-of-type(2) {
         background: $blockBgLightGreen;
+        @include hoverBg($blockBgDarkGreen);
       }
 
       // todo: add classes to avoid using this selector.
       &:nth-of-type(3) {
         background: $blockBgLightPink;
+        @include hoverBg($blockBgDarkPink);
         width: 185px;
       }
       &.last {
         background: $blockBgLightPurple;
+        @include hoverBg($blockBgDarkPurple);
       }
 
       a {
@@ -82,3 +86,5 @@ body {
     }
   }
 }
+
+

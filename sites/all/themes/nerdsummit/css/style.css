@@ -1,4 +1,4 @@
-/* line 39, ../scss/_variables.scss */
+/* line 23, ../scss/_mixins.scss */
 .button, .purple-button, .front .panels-top .button {
   display: inline-block;
   border-radius: 18px;
@@ -8,77 +8,142 @@
   background: transparent;
   color: #fff;
   font-weight: 700;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+.button:hover, .purple-button:hover, .front .panels-top .button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* line 5, ../scss/style.scss */
 html {
   font-family: "Montserrat";
   background: #3a3a5c;
+  color: #242429;
 }
 
-/* line 9, ../scss/style.scss */
+/* line 10, ../scss/style.scss */
 a {
   text-decoration: none;
+  color: #d94903;
 }
 
-/* line 12, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
+p {
+  font-size: 13px;
+}
+
+/* line 17, ../scss/style.scss */
 .home-about {
   border-top: 1px dotted #4953a3;
 }
 
-/* line 15, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 .home-box {
   color: #fff;
 }
-/* line 18, ../scss/style.scss */
+/* line 22, ../scss/style.scss */
+.home-box p {
+  font-size: 17px;
+  color: #000;
+}
+/* line 27, ../scss/style.scss */
 .home-box.learn-box {
   background-color: #f59c42;
 }
-/* line 20, ../scss/style.scss */
+/* line 29, ../scss/style.scss */
 .home-box.learn-box .pane-title, .home-box.learn-box .button, .home-box.learn-box .purple-button {
   background-color: #e88f36;
 }
-/* line 24, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
+.home-box.learn-box .button, .home-box.learn-box .purple-button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+.home-box.learn-box .button:hover, .home-box.learn-box .purple-button:hover {
+  background-color: #e88222;
+}
+/* line 36, ../scss/style.scss */
 .home-box.teach-box {
   background-color: #68bd55;
 }
-/* line 26, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 .home-box.teach-box .pane-title, .home-box.teach-box .button, .home-box.teach-box .purple-button {
   background-color: #5bb048;
   color: #fff;
 }
-/* line 31, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
+.home-box.teach-box .button, .home-box.teach-box .purple-button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+.home-box.teach-box .button:hover, .home-box.teach-box .purple-button:hover {
+  background-color: #2eb01f;
+}
+/* line 46, ../scss/style.scss */
 .home-box.support-box {
   background-color: #df699a;
 }
-/* line 33, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 .home-box.support-box .pane-title, .home-box.support-box .button, .home-box.support-box .purple-button {
   background-color: #dd5c91;
 }
-/* line 37, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
+.home-box.support-box .button, .home-box.support-box .purple-button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+.home-box.support-box .button:hover, .home-box.support-box .purple-button:hover {
+  background-color: #da5186;
+}
+/* line 55, ../scss/style.scss */
 .home-box .button, .home-box .purple-button, .home-box .front .panels-top .button, .front .panels-top .home-box .button {
   border-color: #ffffff;
 }
 
-/* line 41, ../scss/style.scss */
-header, body {
+/* line 59, ../scss/style.scss */
+header.header, body {
   background: #fff;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button {
   border: 2px solid #fff;
   background: #4953a3;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+.purple-button:hover, .front .panels-top .button:hover, .front .panels-top .purple-button:hover {
+  background-color: #394ba3;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
+.front #content h1 {
+  color: #fff;
+}
+/* line 84, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
   -webkit-background-size: cover;
@@ -88,36 +153,40 @@ header, body {
   background-color: #2a2c68;
   color: #fff;
 }
-/* line 67, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
+.front .panels-top p {
+  font-size: 21px;
+}
+/* line 92, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 70, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .front .panels-top li {
   list-style: circle;
 }
-/* line 72, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .front .panels-top li a {
   color: #fff;
 }
-/* line 76, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 82, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .front .panels-top .pane {
   border-bottom: 1px solid red;
 }
-/* line 86, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .front .panel-bottom {
   background: #ebebf3;
 }
 
-/* line 92, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 #navigation ul.menu {
   background: #4953a3;
 }
-/* line 95, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 #navigation li {
   list-style: none;
   -webkit-transition: 0.3s;
@@ -126,23 +195,23 @@ header, body {
   transition: 0.3s;
   border-bottom: 1px solid #fff;
 }
-/* line 99, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 #navigation li a {
   color: #fff;
 }
 
-/* line 106, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 .menu-hidden + #navigation li {
   border-bottom: 0;
 }
 
-/* line 113, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   color: #3a3a5c;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -150,26 +219,50 @@ header, body {
   font-size: 32px;
   text-align: center;
 }
-/* line 126, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-/* line 129, ../scss/style.scss */
+/* line 6, ../scss/_mixins.scss */
+#social-media-links a.icon-twitter:hover {
+  background-color: #8083ad;
+}
+/* line 155, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-/* line 132, ../scss/style.scss */
+/* line 6, ../scss/_mixins.scss */
+#social-media-links a.icon-facebook:hover {
+  background-color: #4a4c74;
+}
+/* line 159, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 6, ../scss/_mixins.scss */
+#social-media-links a.icon-gplus:hover {
+  background-color: #313358;
 }
 
-/* line 138, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 .hamburger-wrap {
   background: #4953a3;
   color: #fff;
   cursor: pointer;
 }
-/* line 142, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
   background: #fff;
   position: absolute;
@@ -178,27 +271,59 @@ header, body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 148, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 155, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 .view-sponsors a {
   color: #3f4157;
   font-weight: normal;
 }
-/* line 158, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 .view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button {
   border-color: #666785;
 }
 
-/* line 166, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   border-bottom: 1px dotted #4953a3;
 }
-/* line 168, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane.pane-nerd-events {
   border-bottom: none;
+}
+
+/* line 207, ../scss/style.scss */
+.region-sidebar-first .block-title, .region-sidebar-first h1,
+.region-sidebar-second .block-title,
+.region-sidebar-second h1,
+#content .block-title,
+#content h1 {
+  color: #d94903;
+}
+
+/* line 214, ../scss/style.scss */
+.node-event.node-teaser header {
+  margin: 0;
+  padding: 0;
+}
+/* line 218, ../scss/style.scss */
+.node-event.node-teaser .node-title {
+  font-size: 14px;
+}
+/* line 220, ../scss/style.scss */
+.node-event.node-teaser .node-title a {
+  color: #242429;
+}
+
+/* line 229, ../scss/style.scss */
+.view-nerd-events .view-display-id-page .view-content {
+  border-top: 2px dotted #242429;
+}
+/* line 232, ../scss/style.scss */
+.view-nerd-events .view-display-id-page .views-row {
+  border-bottom: 2px dotted #242429;
 }

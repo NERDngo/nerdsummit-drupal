@@ -12,6 +12,11 @@ $small_padding: 0;
   float: left;
   min-height: 245px;
   margin-top: -50px;
+  .button {
+    width: 70%;
+    position: absolute;
+    bottom: 25px;
+  }
   &.learn-box {
     margin-left: 20px;
     margin-right: 25px;
@@ -28,7 +33,7 @@ $small_padding: 0;
   // todo: make this use width: 100% and max-width: 1110px?
 }
 
-header {
+header.header {
   padding: 25px 25px 5px 25px;
   height: auto;
   position: relative;
@@ -86,6 +91,10 @@ header {
     .panel-col-right {
       width: 28%;
     }
+  }
+  .panel-middle {
+    display: inline-block;
+    padding-bottom: 25px;
   }
 }
 
@@ -236,4 +245,38 @@ header {
       display: inline-block;
     }
   }
+}
+
+#main {
+  position: relative;
+}
+
+.region-sidebar-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+.region-sidebar-second {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+
+.no-sidebars {
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+}
+#content {
+  width: 570px;
+  margin: 0 270px;
 }

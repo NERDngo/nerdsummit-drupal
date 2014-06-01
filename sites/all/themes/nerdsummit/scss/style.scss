@@ -5,20 +5,32 @@
 html {
   font-family: $montserrat;
   background: $siteBgColor;
+  color: $defaultTextColor;
 }
 a {
   text-decoration: none;
+  color: $defaultLinkColor;
+}
+p {
+  font-size: $defaultFontSize;
 }
 .home-about {
   border-top: 1px dotted $purple;
 }
 .home-box {
   color: #fff;
+  p {
+    font-size: 17px;
+    color: #000;
+  }
 
   &.learn-box {
     background-color: $blockBgLightOrange;
     .pane-title, .button {
       background-color: $blockBgDarkOrange;
+    }
+    .button {
+      @include hoverBg($hoverOrange);
     }
   }
   &.teach-box {
@@ -27,18 +39,24 @@ a {
       background-color: #5bb048;
       color: #fff;
     }
+    .button {
+      @include hoverBg($hoverGreen);
+    }
   }
   &.support-box {
     background-color: $lightPink;
     .pane-title, .button {
       background-color:$pink;
     }
+    .button {
+      @include hoverBg($hoverPink);
+    }
   }
     .button {
       border-color: #ffffff;
     }
 }
-header, body {
+header.header , body {
   background: #fff;
 }
 
@@ -56,14 +74,21 @@ header, body {
   @extend .button;
   border: 2px solid #fff;
   background: $purple;
+  @include hoverBg($hoverPurple);
 }
 
 .front {
+  #content h1 {
+    color: #fff;
+  }
   .panels-top {
     background: image-url('banner_home.jpg') no-repeat center center;
     @include background-size('cover');
     background-color: $darkPurple;
     color: #fff;
+    p {
+      font-size: 21px;
+    }
     a {
       color: $pink;
     }
@@ -125,12 +150,15 @@ header, body {
     text-align: center;
     &.icon-twitter {
       background: $twitterIconColor;
+      @include hoverBg($fbIconColor);
     }
     &.icon-facebook{
       background: $fbIconColor;
+      @include hoverBg($gplusIconColor);
     }
     &.icon-gplus{
       background: $gplusIconColor;
+      @include hoverBg(#313358);
     }
   }
 }
@@ -168,6 +196,41 @@ header, body {
       &.pane-nerd-events {
         border-bottom: none;
       }
+    }
+  }
+}
+
+
+.region-sidebar-first,
+.region-sidebar-second,
+#content {
+  .block-title, h1 {
+    color: $defaultLinkColor;
+  }
+}
+
+.node-event {
+  &.node-teaser {
+    header {
+      margin: 0;
+      padding: 0;
+    }
+    .node-title {
+      font-size: 14px;
+      a {
+        color: $defaultTextColor;
+      }
+    }
+  }
+}
+
+.view-nerd-events {
+  .view-display-id-page {
+    .view-content {
+      border-top: 2px dotted $defaultTextColor;
+    }
+    .views-row {
+      border-bottom: 2px dotted $defaultTextColor;
     }
   }
 }
