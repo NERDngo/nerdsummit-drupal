@@ -306,39 +306,16 @@ body {
   padding: 5%;
 }
 
-/* line 262, ../scss/layout.scss */
-#block-nerd-blocks-nerd-save-date {
-  border-bottom: 20px solid #4953a3;
-  border-radius: 15px;
-  box-shadow: 0 0 4px grey;
-  color: #242429;
+/* line 263, ../scss/layout.scss */
+#block-nerd-blocks-nerd-save-date .block-title {
+  margin: 0;
+  padding: 10px 0;
 }
 /* line 267, ../scss/layout.scss */
-#block-nerd-blocks-nerd-save-date h4 {
-  text-align: center;
-  margin: 5px 0;
-  font-size: 20px;
-  border-bottom-left-radius: 15px;
-  color: #242429;
-}
-/* line 274, ../scss/layout.scss */
-#block-nerd-blocks-nerd-save-date .block-title {
-  background: #4953a3;
-  color: #fff;
-  margin: 0;
-  font-size: 18px;
-  text-align: center;
-  padding: 10px 0;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-/* line 284, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
-  background: #ebebf3;
-  box-sizing: border-box;
   padding: 10px;
 }
-/* line 288, ../scss/layout.scss */
+/* line 269, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content .purple-button {
   display: block;
   margin-bottom: 2px;

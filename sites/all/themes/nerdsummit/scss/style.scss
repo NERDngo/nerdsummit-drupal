@@ -234,3 +234,29 @@ header.header , body {
     }
   }
 }
+
+#block-nerd-blocks-nerd-save-date {
+  border-bottom: 20px solid $purple;
+  border-radius: 15px;
+  box-shadow: 0 0 4px grey;
+  color: $defaultTextColor;
+  h4 {
+    text-align: center;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    color: $defaultTextColor;
+  }
+  .block-title {
+    background: $purple;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .nerd-sign-up-content {
+    background: $lightBgColor;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+}
