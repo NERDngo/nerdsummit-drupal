@@ -5,3 +5,61 @@
  */
 
 include_once 'nerd_blocks.features.inc';
+
+/**
+ * Implementation of hook_block_info().
+ */
+function nerd_blocks_block_info() {
+  $blocks['nerd_save_date'] = array(
+    'info' => t('Nerd Summit - Save the Date'),
+    'cache' => DRUPAL_CACHE_GLOBAL,
+    'region' => 'sidebar_second',
+  );
+  return $blocks;
+}
+
+/**
+ * Implementation of hook_block_view().
+ */
+function nerd_blocks_block_view($delta) {
+  $block = '';
+
+  switch($delta) {
+    case 'nerd_save_date':
+      $block = array(
+        'subject' => t('Save the Date'),
+        'content' => render(theme('nerd_save_date')),
+      );
+      break;
+  }
+  return $block;
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function nerd_blocks_theme() {
+  $path = drupal_get_path('module', 'nerd_blocks') . '/templates';
+  $theme['nerd_save_date'] = array(
+    'path' => $path,
+    'template' => 'nerd_save_date',
+  );
+
+  return $theme;
+}
+
+/**
+ * Preprocess function for nerd_save_date.
+ *
+ * @param $variables
+ */
+function nerd_blocks_preprocess_nerd_save_date(&$variables) {
+  $nerd_img = array(
+    'path' => drupal_get_path('module', 'nerd_blocks') . '/img/nerd_img.png',
+    'alt' => t('Nerd Summit - UMASS Amherst'),
+  );
+  $variables['nerd_img'] = theme('image', $nerd_img);
+  $variables['register_text'] = t('Register Now');
+  $variables['find_out_more_text'] = t('Find out more');
+  $variables['register_path'] = url('user');
+}
