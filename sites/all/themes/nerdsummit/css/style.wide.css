@@ -64,7 +64,7 @@ body {
   color: #3a3a5c;
 }
 /* line 49, ../scss/style.wide.scss */
-#navigation #block-system-main-menu ul li.first {
+#navigation #block-menu-block-top-level-nav ul li.first {
   background: #f59c42;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -72,11 +72,11 @@ body {
   transition: 0.3s;
 }
 /* line 6, ../scss/_mixins.scss */
-#navigation #block-system-main-menu ul li.first:hover {
+#navigation #block-menu-block-top-level-nav ul li.first:hover {
   background-color: #e88f36;
 }
 /* line 55, ../scss/style.wide.scss */
-#navigation #block-system-main-menu ul li:nth-of-type(2) {
+#navigation #block-menu-block-top-level-nav ul li:nth-of-type(2) {
   background: #68bd55;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -84,11 +84,11 @@ body {
   transition: 0.3s;
 }
 /* line 6, ../scss/_mixins.scss */
-#navigation #block-system-main-menu ul li:nth-of-type(2):hover {
+#navigation #block-menu-block-top-level-nav ul li:nth-of-type(2):hover {
   background-color: #5bb048;
 }
 /* line 61, ../scss/style.wide.scss */
-#navigation #block-system-main-menu ul li:nth-of-type(3) {
+#navigation #block-menu-block-top-level-nav ul li:nth-of-type(3) {
   background: #e774a4;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -97,11 +97,11 @@ body {
   width: 185px;
 }
 /* line 6, ../scss/_mixins.scss */
-#navigation #block-system-main-menu ul li:nth-of-type(3):hover {
+#navigation #block-menu-block-top-level-nav ul li:nth-of-type(3):hover {
   background-color: #da6897;
 }
 /* line 66, ../scss/style.wide.scss */
-#navigation #block-system-main-menu ul li.last {
+#navigation #block-menu-block-top-level-nav ul li.last {
   background: #4953a3;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -109,11 +109,11 @@ body {
   transition: 0.3s;
 }
 /* line 6, ../scss/_mixins.scss */
-#navigation #block-system-main-menu ul li.last:hover {
+#navigation #block-menu-block-top-level-nav ul li.last:hover {
   background-color: #3549a3;
 }
 /* line 71, ../scss/style.wide.scss */
-#navigation #block-system-main-menu ul li a {
+#navigation #block-menu-block-top-level-nav ul li a {
   color: #fff;
 }
 

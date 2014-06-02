@@ -153,7 +153,7 @@ header.header {
     display: inline-block;
     width: 100%;
   }
-  .menu-block-top_level_nav {
+  #block-system-main-menu {
     position: absolute;
     right: 20px;
     top: 100px;
@@ -165,25 +165,28 @@ header.header {
       width: auto;
     }
   }
-  #block-system-main-menu {
+  #block-menu-block-top-level-nav {
     ul.menu {
       width: 100%;
-    }
-    ul li {
-      margin: 0 5px;
-      &.first {
-        width: 46%;
-        margin-left: 0;
+
+      li {
+        margin: 0 5px;
+
+        &.first {
+          width: 46%;
+          margin-left: 0;
+        }
+        // todo: add classes to avoid using this selector.
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+          width: 18%;
+        }
+        &.last {
+          width: 15%;
+          margin-right: 0;
+        }
       }
-      // todo: add classes to avoid using this selector.
-      &:nth-of-type(2),
-      &:nth-of-type(3) {
-        width: 18%;
-      }
-      &.last {
-        width: 15%;
-        margin-right: 0;
-      }
+
     }
   }
 }
