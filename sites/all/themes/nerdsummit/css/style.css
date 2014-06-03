@@ -362,8 +362,11 @@ header.header, body {
 #banner_area {
   width: 100%;
   float: left;
+  width: 100%;
+  float: left;
+  position: relative;
 }
-/* line 267, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 #banner_area div#block-block-6 {
   width: 823px;
   height: 239px;
@@ -374,69 +377,75 @@ header.header, body {
   background-size: cover;
   color: white;
 }
-/* line 274, ../scss/style.scss */
+/* line 277, ../scss/style.scss */
 #banner_area h1 {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 279, ../scss/style.scss */
+/* line 282, ../scss/style.scss */
 #banner_area p {
   margin: 12px 6px 0 36px;
   color: #8083ad;
   font-size: 14px;
 }
-/* line 283, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 #banner_area p a {
   border-color: #ffffff;
 }
-/* line 285, ../scss/style.scss */
+/* line 288, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #e88222;
 }
-/* line 290, ../scss/style.scss */
+/* line 293, ../scss/style.scss */
 #banner_area ul {
   font-size: smaller;
   padding-left: 64px;
   padding-bottom: 8px;
   margin-top: 4px;
 }
-/* line 296, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block {
   width: 290px;
   float: right;
   background-color: #e88f36;
 }
-/* line 300, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 306, ../scss/style.scss */
+/* line 309, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 310, ../scss/style.scss */
+/* line 313, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label {
   margin-left: 25px;
 }
-/* line 313, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit {
   float: right;
   margin-right: 25px;
   margin-bottom: 15px;
 }
-/* line 318, ../scss/style.scss */
+/* line 321, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register {
   margin-left: 25px;
 }
-/* line 321, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register {
   display: none;
 }
-/* line 324, ../scss/style.scss */
+/* line 327, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration {
   display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f59c42;
+  z-index: 1;
+  padding-bottom: 170px;
 }
