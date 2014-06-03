@@ -50,6 +50,7 @@
         <?php print render($page['navigation']); ?>
       </div>
 
+
       <?php if ($secondary_menu): ?>
         <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
           <?php print theme('links__system_secondary_menu', array(
@@ -72,10 +73,13 @@
 
 
   </header>
-
+    <div id="banner_area">
+        <?php print render($page['banner']); ?>
+    </div>
   <div id="main">
 
     <div id="content" class="column" role="main">
+
       <?php print render($page['highlighted']); ?>
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>

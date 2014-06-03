@@ -145,7 +145,7 @@ header.header, body {
 }
 /* line 84, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401295459') no-repeat center center;
+  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -356,4 +356,10 @@ header.header, body {
   background: #ebebf3;
   box-sizing: border-box;
   padding: 10px;
+}
+
+/* line 265, ../scss/style.scss */
+#banner_area {
+  display: block;
+  background: url('../images/banner_learn.jpg?1401306359') no-repeat center center;
 }
