@@ -358,8 +358,46 @@ header.header, body {
   padding: 10px;
 }
 
-/* line 265, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 #banner_area {
-  display: block;
-  background: url('../images/banner_learn.jpg?1401306359') no-repeat center center;
+  width: 100%;
+  float: left;
+}
+/* line 267, ../scss/style.scss */
+#banner_area div#block-block-6 {
+  width: 823px;
+  height: 227px;
+  background: url("../images/banner_learn.jpg?1401306359") no-repeat;
+  color: white;
+}
+/* line 273, ../scss/style.scss */
+#banner_area h1 {
+  margin: 12px 0 4px 24px;
+  font-weight: lighter;
+}
+/* line 277, ../scss/style.scss */
+#banner_area p {
+  margin: 12px 6px 0 36px;
+  color: #8083ad;
+  font-size: 14px;
+}
+/* line 281, ../scss/style.scss */
+#banner_area p a {
+  border-color: #ffffff;
+}
+/* line 283, ../scss/style.scss */
+#banner_area p a:hover {
+  background-color: #e88222;
+}
+/* line 288, ../scss/style.scss */
+#banner_area ul {
+  font-size: smaller;
+  padding-left: 64px;
+  padding-bottom: 8px;
+  margin-top: 4px;
+}
+/* line 294, ../scss/style.scss */
+#banner_area div#block-nerd-homepage-login-registration-block {
+  width: 290px;
+  float: right;
 }

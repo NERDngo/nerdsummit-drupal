@@ -261,9 +261,39 @@ header.header , body {
   }
 }
 
-
   #banner_area {
-    display: block;
-    background: image-url('banner_learn.jpg') no-repeat center center;
+    width: 100%;
+    float: left;
+    div#block-block-6 {
+      width: 823px;
+      height: 227px;
+      background: url('../images/banner_learn.jpg?1401306359') no-repeat;
+      color: white;
+    }
+    h1 {
+      margin: 12px 0 4px 24px;
+      font-weight: lighter;
+    }
+    p {
+      margin: 12px 6px 0 36px;
+      color: $lightPurpleHeadline;
+      font-size: 14px;
+      a{
+        border-color: #ffffff;
+        &:hover{
+          background-color: $hoverOrange;
+        }
+      }
+    }
+    ul {
+      font-size: smaller;
+      padding-left: 64px;
+      padding-bottom: 8px;
+      margin-top: 4px;
+    }
+    div#block-nerd-homepage-login-registration-block {
+      width: 290px;
+      float: right;
+    }
   }
 
