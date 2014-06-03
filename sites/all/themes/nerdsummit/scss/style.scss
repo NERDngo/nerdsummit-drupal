@@ -266,13 +266,15 @@ header.header , body {
     float: left;
     div#block-block-6 {
       width: 823px;
-      height: 227px;
+      height: 239px;
       background: url('../images/banner_learn.jpg?1401306359') no-repeat;
+      @include background-size(cover);
       color: white;
     }
     h1 {
       margin: 12px 0 4px 24px;
       font-weight: lighter;
+      display: block;
     }
     p {
       margin: 12px 6px 0 36px;
@@ -294,6 +296,34 @@ header.header , body {
     div#block-nerd-homepage-login-registration-block {
       width: 290px;
       float: right;
+      background-color: $blockBgDarkOrange;
+      .form-text.required {
+        width: 234px;
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+
+      div.description {
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+      label {
+        margin-left: 25px;
+      }
+      .form-submit {
+        float: right;
+        margin-right: 25px;
+        margin-bottom: 15px;
+      }
+      .go-to-register {
+        margin-left: 25px;
+      }
+      .nerd-register {
+        display: none;
+      }
+      div.nerd-register.open-registration {
+        display: block;
+      }
     }
   }
 
