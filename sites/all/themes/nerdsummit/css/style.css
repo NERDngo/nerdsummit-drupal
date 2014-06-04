@@ -113,19 +113,19 @@ p {
   border-color: #ffffff;
 }
 
-/* line 59, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 header.header, body {
   background: #fff;
 }
 
-/* line 63, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button, .front .panels-top input[type=submit], input[type=submit] {
   border: 2px solid #fff;
   background: #4953a3;
@@ -140,11 +140,11 @@ header.header, body {
   background-color: #394ba3;
 }
 
-/* line 82, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 .front #content h1 {
   color: #fff;
 }
-/* line 85, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
   -webkit-background-size: cover;
@@ -154,40 +154,40 @@ header.header, body {
   background-color: #2a2c68;
   color: #fff;
 }
-/* line 91, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .front .panels-top p {
   font-size: 21px;
 }
-/* line 94, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 97, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .front .panels-top li {
   list-style: circle;
 }
-/* line 99, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .front .panels-top li a {
   color: #fff;
 }
-/* line 103, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 109, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .front .panels-top .pane {
   border-bottom: 1px solid red;
 }
-/* line 113, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 .front .panel-bottom {
   background: #ebebf3;
 }
 
-/* line 119, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 #navigation ul.menu {
   background: #4953a3;
 }
-/* line 122, ../scss/style.scss */
+/* line 123, ../scss/style.scss */
 #navigation li {
   list-style: none;
   -webkit-transition: 0.3s;
@@ -196,23 +196,23 @@ header.header, body {
   transition: 0.3s;
   border-bottom: 1px solid #fff;
 }
-/* line 126, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 #navigation li a {
   color: #fff;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 .menu-hidden + #navigation li {
   border-bottom: 0;
 }
 
-/* line 140, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   color: #3a3a5c;
 }
 
-/* line 147, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -220,7 +220,7 @@ header.header, body {
   font-size: 32px;
   text-align: center;
 }
-/* line 153, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
   -webkit-transition: 0.3s;
@@ -232,7 +232,7 @@ header.header, body {
 #social-media-links a.icon-twitter:hover {
   background-color: #8083ad;
 }
-/* line 157, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
   -webkit-transition: 0.3s;
@@ -244,7 +244,7 @@ header.header, body {
 #social-media-links a.icon-facebook:hover {
   background-color: #4a4c74;
 }
-/* line 161, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
   -webkit-transition: 0.3s;
@@ -257,13 +257,13 @@ header.header, body {
   background-color: #313358;
 }
 
-/* line 168, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 .hamburger-wrap {
   background: #4953a3;
   color: #fff;
   cursor: pointer;
 }
-/* line 172, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
   background: #fff;
   position: absolute;
@@ -272,32 +272,32 @@ header.header, body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 178, ../scss/style.scss */
+/* line 179, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 185, ../scss/style.scss */
+/* line 186, ../scss/style.scss */
 .view-sponsors a {
   color: #3f4157;
   font-weight: normal;
 }
-/* line 188, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 .view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button {
   border-color: #666785;
 }
 
-/* line 196, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   border-bottom: 1px dotted #4953a3;
 }
-/* line 198, ../scss/style.scss */
+/* line 199, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane.pane-nerd-events {
   border-bottom: none;
 }
 
-/* line 209, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 .region-sidebar-first .block-title, .region-sidebar-first h1,
 .region-sidebar-second .block-title,
 .region-sidebar-second h1,
@@ -306,162 +306,176 @@ header.header, body {
   color: #d94903;
 }
 
-/* line 216, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .node-event.node-teaser header {
   margin: 0;
   padding: 0;
 }
-/* line 220, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .node-event.node-teaser .node-title {
   font-size: 14px;
 }
-/* line 222, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .node-event.node-teaser .node-title a {
   color: #242429;
 }
 
-/* line 231, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .view-content {
   border-top: 2px dotted #242429;
 }
-/* line 234, ../scss/style.scss */
+/* line 235, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .views-row {
   border-bottom: 2px dotted #242429;
 }
 
-/* line 240, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date {
   margin-top: 25px;
   border-bottom: 20px solid #4953a3;
-  border-radius: 15px;
+  border-radius: 0;
   box-shadow: 0 0 4px grey;
   color: #242429;
 }
-/* line 246, ../scss/style.scss */
+/* line 247, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date h4 {
   text-align: center;
   font-size: 20px;
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 0;
   color: #242429;
+  margin: 0;
 }
-/* line 252, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
+#block-nerd-blocks-nerd-save-date img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 259, ../scss/style.scss */
+#block-nerd-blocks-nerd-save-date p {
+  text-align: center;
+}
+/* line 262, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   background: #4953a3;
   color: #fff;
   font-size: 18px;
   text-align: center;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-/* line 260, ../scss/style.scss */
+/* line 270, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   background: #ebebf3;
   box-sizing: border-box;
   padding: 10px;
 }
 
-/* line 268, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 #banner_area {
   width: 100%;
-  float: left;
+  float: none;
   width: 100%;
-  float: left;
   position: relative;
 }
-/* line 274, ../scss/style.scss */
+/* line 283, ../scss/style.scss */
 #banner_area div#block-block-6 {
-  width: 823px;
-  height: 239px;
+  width: 100%;
   background: url("../images/banner_learn.jpg?1401306359") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
+  clear: both;
+  float: none;
 }
-/* line 281, ../scss/style.scss */
+/* line 291, ../scss/style.scss */
 #banner_area h1 {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 286, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 #banner_area p {
   margin: 12px 6px 0 36px;
   color: #8083ad;
   font-size: 14px;
 }
-/* line 290, ../scss/style.scss */
+/* line 300, ../scss/style.scss */
 #banner_area p a {
   border-color: #ffffff;
+  margin-bottom: 10px;
 }
-/* line 292, ../scss/style.scss */
+/* line 303, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #e88222;
 }
-/* line 297, ../scss/style.scss */
+/* line 308, ../scss/style.scss */
 #banner_area ul {
   font-size: smaller;
   padding-left: 64px;
   padding-bottom: 8px;
   margin-top: 4px;
 }
-/* line 303, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block {
-  width: 290px;
-  float: right;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  clear: both;
   background-color: #e88f36;
 }
-/* line 307, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 313, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 317, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label {
   margin-left: 25px;
 }
-/* line 320, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit {
   float: right;
   margin-right: 25px;
   margin-bottom: 6px;
 }
-/* line 325, ../scss/style.scss */
+/* line 338, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register {
   margin-left: 25px;
 }
-/* line 328, ../scss/style.scss */
+/* line 341, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register {
   display: none;
 }
-/* line 331, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration {
   display: block;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   background-color: #e88f36;
   z-index: 1;
   padding-bottom: 150px;
 }
-/* line 339, ../scss/style.scss */
+/* line 353, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 343, ../scss/style.scss */
+/* line 357, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 347, ../scss/style.scss */
+/* line 361, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
