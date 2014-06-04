@@ -92,18 +92,19 @@ body {
 }
 /* line 83, ../scss/layout.scss */
 .front .panels-top {
-  display: block;
+  display: inline-block;
   box-sizing: border-box;
+  margin-top: 15px;
 }
-/* line 86, ../scss/layout.scss */
+/* line 87, ../scss/layout.scss */
 .front .panels-top .view {
   padding: 0 5% 0 0;
 }
-/* line 89, ../scss/layout.scss */
+/* line 90, ../scss/layout.scss */
 .front .panels-top .panel-pane {
   padding-bottom: 5%;
 }
-/* line 92, ../scss/layout.scss */
+/* line 93, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
@@ -112,39 +113,39 @@ body {
   padding: 5% 0;
   box-sizing: border-box;
 }
-/* line 100, ../scss/layout.scss */
+/* line 101, ../scss/layout.scss */
 .front .panels-top p .button {
   display: block;
   margin: 0 10px 20px 10px;
 }
-/* line 105, ../scss/layout.scss */
+/* line 106, ../scss/layout.scss */
 .front .panel-bottom {
   float: left;
 }
 
-/* line 110, ../scss/layout.scss */
+/* line 111, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 114, ../scss/layout.scss */
+/* line 115, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 118, ../scss/layout.scss */
+/* line 119, ../scss/layout.scss */
 #main {
   clear: both;
 }
 
-/* line 122, ../scss/layout.scss */
+/* line 123, ../scss/layout.scss */
 #navigation {
   display: block;
   width: 100%;
   margin: 0;
   padding-top: 70px;
 }
-/* line 127, ../scss/layout.scss */
+/* line 128, ../scss/layout.scss */
 #navigation ul.menu {
   margin: 0;
   padding: 0;
@@ -152,7 +153,7 @@ body {
   display: inline-block;
   width: 100%;
 }
-/* line 133, ../scss/layout.scss */
+/* line 134, ../scss/layout.scss */
 #navigation ul.menu li {
   width: 100%;
   float: left;
@@ -160,7 +161,7 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/* line 140, ../scss/layout.scss */
+/* line 141, ../scss/layout.scss */
 #navigation ul.menu a {
   display: block;
   margin: 0;
@@ -169,31 +170,31 @@ body {
   padding: 10px;
 }
 
-/* line 151, ../scss/layout.scss */
+/* line 152, ../scss/layout.scss */
 .js .menu-hidden + #navigation ul.menu li {
   max-height: 0;
 }
 
-/* line 156, ../scss/layout.scss */
+/* line 157, ../scss/layout.scss */
 #skip-link {
   display: none;
 }
 
-/* line 160, ../scss/layout.scss */
+/* line 161, ../scss/layout.scss */
 .view-sponsors {
   display: block;
   clear: both;
 }
-/* line 163, ../scss/layout.scss */
+/* line 164, ../scss/layout.scss */
 .view-sponsors .view-content {
   display: inline-block;
   width: 100%;
 }
-/* line 167, ../scss/layout.scss */
+/* line 168, ../scss/layout.scss */
 .view-sponsors .view-header {
   padding: 5%;
 }
-/* line 169, ../scss/layout.scss */
+/* line 170, ../scss/layout.scss */
 .view-sponsors .view-header .button {
   width: 45%;
   margin: 0 2.5%;
@@ -201,7 +202,7 @@ body {
   box-sizing: border-box;
   float: left;
 }
-/* line 177, ../scss/layout.scss */
+/* line 178, ../scss/layout.scss */
 .view-sponsors .views-row {
   width: 50%;
   box-sizing: border-box;
@@ -209,33 +210,33 @@ body {
   float: left;
   padding: 5%;
 }
-/* line 183, ../scss/layout.scss */
+/* line 184, ../scss/layout.scss */
 .view-sponsors .views-row.views-row-odd {
   clear: both;
 }
-/* line 187, ../scss/layout.scss */
+/* line 188, ../scss/layout.scss */
 .view-sponsors img {
   height: auto;
   width: 100%;
 }
 
-/* line 195, ../scss/layout.scss */
+/* line 196, ../scss/layout.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   box-sizing: border-box;
 }
-/* line 199, ../scss/layout.scss */
+/* line 200, ../scss/layout.scss */
 .panel-nerds-two-col .panel-bottom {
   margin-top: 0;
 }
 
-/* line 203, ../scss/layout.scss */
+/* line 204, ../scss/layout.scss */
 .panel-pane {
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
 }
 
-/* line 209, ../scss/layout.scss */
+/* line 210, ../scss/layout.scss */
 .hamburger-wrap {
   width: 70px;
   height: 70px;
@@ -245,14 +246,14 @@ body {
   top: 0;
   left: 0;
 }
-/* line 217, ../scss/layout.scss */
+/* line 218, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part {
   display: block;
   height: 4px;
   left: 20%;
   right: 20%;
 }
-/* line 222, ../scss/layout.scss */
+/* line 223, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.bun-top {
   top: 25px;
   -webkit-transform: rotate(45deg);
@@ -261,7 +262,7 @@ body {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 226, ../scss/layout.scss */
+/* line 227, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.bun-bottom {
   top: 25px;
   -webkit-transform: rotate(-45deg);
@@ -270,12 +271,12 @@ body {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 230, ../scss/layout.scss */
+/* line 231, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.patty {
   top: 25px;
   display: none;
 }
-/* line 236, ../scss/layout.scss */
+/* line 237, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part {
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
@@ -283,39 +284,39 @@ body {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
-/* line 238, ../scss/layout.scss */
+/* line 239, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-top {
   top: 15px;
 }
-/* line 241, ../scss/layout.scss */
+/* line 242, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.patty {
   display: block;
 }
-/* line 244, ../scss/layout.scss */
+/* line 245, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
   top: 35px;
 }
-/* line 249, ../scss/layout.scss */
+/* line 250, ../scss/layout.scss */
 .hamburger-wrap .hamburger-text {
   position: relative;
   margin-top: 65%;
 }
 
-/* line 256, ../scss/layout.scss */
+/* line 257, ../scss/layout.scss */
 .node-event.node-teaser {
   padding: 5%;
 }
 
-/* line 263, ../scss/layout.scss */
+/* line 264, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   margin: 0;
   padding: 10px 0;
 }
-/* line 267, ../scss/layout.scss */
+/* line 268, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   padding: 10px;
 }
-/* line 269, ../scss/layout.scss */
+/* line 270, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content .purple-button {
   display: block;
   margin-bottom: 2px;

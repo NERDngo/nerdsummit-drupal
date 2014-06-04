@@ -70,11 +70,12 @@ header.header , body {
   @extend %button;
 }
 
-.purple-button {
+.purple-button, input[type=submit] {
   @extend .button;
   border: 2px solid #fff;
   background: $purple;
   @include hoverBg($hoverPurple);
+  cursor: pointer;
 }
 
 .front {
@@ -86,6 +87,7 @@ header.header , body {
     @include background-size('cover');
     background-color: $darkPurple;
     color: #fff;
+
     p {
       font-size: 21px;
     }
@@ -236,6 +238,7 @@ header.header , body {
 }
 
 #block-nerd-blocks-nerd-save-date {
+  margin-top: 25px;
   border-bottom: 20px solid $purple;
   border-radius: 15px;
   box-shadow: 0 0 4px grey;
@@ -260,6 +263,7 @@ header.header , body {
     padding: 10px;
   }
 }
+
 
   #banner_area {
     width: 100%;
@@ -316,7 +320,7 @@ header.header , body {
       .form-submit {
         float: right;
         margin-right: 25px;
-        margin-bottom: 15px;
+        margin-bottom: 6px;
       }
       .go-to-register {
         margin-left: 25px;
@@ -329,9 +333,24 @@ header.header , body {
         position: absolute;
         left: 0;
         top: 0;
-        background-color: $blockBgLightOrange;
+        background-color: $blockBgDarkOrange;
         z-index: 1;
-        padding-bottom: 170px;
+        padding-bottom: 150px;
+        fieldset#edit-mailchimp-lists {
+          margin-left: 25px;
+          margin-right: 25px;
+        }
+       .resizable.textarea-processed.resizable-textarea {
+         margin-left: 25px;
+         width: 50%;
+       }
+       .form-submit {
+         margin-right: auto;
+         margin-left: auto;
+         display: block;
+         margin-top: 36px;
+         float: none;
+       }
       }
     }
   }

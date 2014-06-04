@@ -81,8 +81,9 @@ body {
     display: none;
   }
   .panels-top {
-    display: block;
+    display: inline-block;
     box-sizing: border-box;
+    margin-top: 15px;
     .view {
       padding: 0 $base_padding 0 0;
     }
