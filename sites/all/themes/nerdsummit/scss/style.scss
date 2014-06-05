@@ -369,3 +369,18 @@ header.header , body {
     }
   }
 
+  //support sponsors page
+
+.view-id-sponsors {
+  h1#page-title {
+    color: #4953a3;
+    background-color: $lightBgColor;
+  }
+  &.view-display-id-page {
+    background-color: $lightBgColor;
+    color: $purpleText;
+  }
+  h3 {
+    color: $purpleText;
+  }
+}

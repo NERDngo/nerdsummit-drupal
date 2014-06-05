@@ -321,3 +321,9 @@ body {
   display: block;
   margin-bottom: 2px;
 }
+
+/* line 283, ../scss/layout.scss */
+.view-id-sponsors h3 {
+  clear: both;
+  margin-left: 35px;
+}
