@@ -267,3 +267,17 @@ body {
   margin-top: 36px;
   float: none;
 }
+
+/* line 209, ../scss/style.wide.scss */
+h1#page-title {
+  background-color: #ffffff;
+}
+
+/* line 213, ../scss/style.wide.scss */
+.view-id-sponsors.view-display-id-page {
+  background-color: #ffffff;
+}
+/* line 216, ../scss/style.wide.scss */
+.view-id-sponsors h3 {
+  font-size: 1.5 em;
+}

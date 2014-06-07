@@ -206,3 +206,14 @@ body {
 }
 
 //support sponsors page
+h1#page-title {
+  background-color: #ffffff;
+}
+.view-id-sponsors {
+  &.view-display-id-page {
+    background-color: #ffffff;
+  }
+  h3 {
+    font-size: 1.5 em;
+  }
+}

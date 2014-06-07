@@ -370,17 +370,22 @@ header.header , body {
   }
 
   //support sponsors page
-
+h1#page-title {
+  color: #4953a3;
+  background-color: $lightBgColor;
+  margin-bottom: 0;
+  padding-bottom: 22px;
+  padding-left: 15px;
+}
 .view-id-sponsors {
-  h1#page-title {
-    color: #4953a3;
-    background-color: $lightBgColor;
-  }
   &.view-display-id-page {
     background-color: $lightBgColor;
     color: $purpleText;
   }
   h3 {
     color: $purpleText;
+  }
+  img {
+    border: 3px solid #ffffff;
   }
 }
