@@ -27,7 +27,7 @@ Drupal.behaviors.toggleUserLogin = {
   attach: function(context, settings) {
     $('#toggle-login').find('a').click(function(e) {
       e.preventDefault();
-      $('.nerd-register').toggleClass('open-registration');
+      $('#block-nerd-homepage-login-registration-block').toggleClass('open-registration');
     });
   }
 };

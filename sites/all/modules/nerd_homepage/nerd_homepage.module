@@ -61,19 +61,30 @@ function nerd_homepage_block_view($delta='') {
 
 function login_register_view() {
   $block = array();
-  $login = drupal_render(drupal_get_form('user_login'));
+    $toggle = array(
+        'toggle-button' => array(
+            '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
+            '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
+            '#suffix' => '</span></div>',
+            '#weight' => 100,
+        ),
+    );
+    $login_form = drupal_get_form('user_login');
+    $login_render_array = $login_form + $toggle;
+  $login = drupal_render($login_render_array);
   $register = drupal_render(drupal_get_form('user_register_form'));
+
   $block = array(
     'login-form' => array(
       '#prefix' => '<div class="nerd-login">',
       '#markup' => $login,
       '#suffix' => '</div>',
     ),
-    'toggle-button' => array(
-      '#prefix' => '<div id="toggle-login">',
-      '#markup' => '<span class="go-to-register"><a href="/user/register">Register</a></span>',
-      '#suffix' => '</div>',
-    ),
+//    'toggle-button' => array(
+//      '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
+//      '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
+//      '#suffix' => '</span></div>',
+//    ),
     'register-form' => array(
       '#prefix' => '<div class="nerd-register">',
       '#markup' => $register,

@@ -168,8 +168,8 @@ body {
     }
     .form-submit {
       float: right;
-      margin-right: 25px;
-      margin-bottom: 6px;
+      //margin-right: 25px;
+      //margin-bottom: 6px;
     }
     .go-to-register {
       margin-left: 25px;
@@ -185,7 +185,7 @@ body {
       top: 0;
       background-color: $blockBgDarkOrange;
       z-index: 1;
-      padding-bottom: 150px;
+      padding-bottom: 125px;
       fieldset#edit-mailchimp-lists {
         margin-left: 25px;
         margin-right: 25px;

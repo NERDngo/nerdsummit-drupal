@@ -34,7 +34,7 @@ function nerd_homepage_context_default_contexts() {
         'nerd_homepage-login-registration-block' => array(
           'module' => 'nerd_homepage',
           'delta' => 'login-registration-block',
-          'region' => 'highlighted',
+          'region' => 'banner',
           'weight' => '-10',
         ),
       ),

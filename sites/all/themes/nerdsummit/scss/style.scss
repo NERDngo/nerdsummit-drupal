@@ -17,6 +17,9 @@ p {
 .home-about {
   border-top: 1px dotted $purple;
 }
+.page-learn h1#page-title {
+  display: none;
+}
 .home-box {
   color: #fff;
   p {
@@ -106,9 +109,6 @@ header.header , body {
     }
     .button {
       @extend .purple-button;
-    }
-    .pane {
-      border-bottom: 1px solid red;
     }
   }
   .panel-bottom {
@@ -317,6 +317,14 @@ header.header , body {
       float: left;
       clear: both;
       background-color: $blockBgDarkOrange;
+      #toggle-login {
+        display: inline-block;
+        margin: 0;
+      }
+      #edit-actions {
+        display: inline-block;
+        margin: 0;
+      }
       .form-text.required {
         width: 234px;
         margin-left: 25px;
@@ -332,24 +340,44 @@ header.header , body {
       }
       .form-submit {
         float: right;
-        margin-right: 25px;
-        margin-bottom: 6px;
+        margin-right: 12px;
+        margin-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
       }
       .go-to-register {
         margin-left: 25px;
+        a.purple-button {
+          font-size: 13px;
+          font-weight: lighter;
+          margin-right: 12px;
+          margin-bottom: 5px;
+          padding-left: 12px;
+          padding-right: 12px;
+          border: 2px solid #ffffff;
+        }
       }
       .nerd-register {
         display: none;
       }
       //OPEN REGISTRATION BLOCK
-      div.nerd-register.open-registration {
+      &.open-registration {
         display: block;
-        position: relative;
+        position: absolute;
         left: 0;
         top: 0;
+        width: 100%;
         background-color: $blockBgDarkOrange;
         z-index: 1;
         padding-bottom: 150px;
+        .nerd-register {
+          display: block;
+        }
+        .nerd-login {
+          border: 2px solid #ffffff;
+          float: right;
+
+        }
         fieldset#edit-mailchimp-lists {
           margin-left: 25px;
           margin-right: 25px;

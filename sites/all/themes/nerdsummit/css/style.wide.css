@@ -228,8 +228,6 @@ body {
 /* line 169, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit {
   float: right;
-  margin-right: 25px;
-  margin-bottom: 6px;
 }
 /* line 174, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register {
@@ -247,7 +245,7 @@ body {
   top: 0;
   background-color: #e88f36;
   z-index: 1;
-  padding-bottom: 150px;
+  padding-bottom: 125px;
 }
 /* line 189, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration fieldset#edit-mailchimp-lists {
