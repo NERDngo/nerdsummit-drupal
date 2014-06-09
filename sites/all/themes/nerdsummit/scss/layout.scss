@@ -176,13 +176,13 @@ body {
     }
   }
   .views-row {
-    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 49%;
     box-sizing: border-box;
-    display: block;
-    float: left;
-    padding: $base_padding;
+    //padding: $base_padding;
     &.views-row-odd {
-      clear: both;
+     // clear: both;
     }
   }
   img {

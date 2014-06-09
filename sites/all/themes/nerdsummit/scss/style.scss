@@ -387,7 +387,12 @@ h1#page-title {
   h3 {
     color: $purpleText;
   }
-  img {
-    border: 3px solid white;
+  .views-field-field-sponsor-logo {
+    a {display: block;
+      border: 3px solid #ffffff;
+    }
+    img {
+      display: block;
+    }
   }
 }

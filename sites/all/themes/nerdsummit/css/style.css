@@ -504,7 +504,12 @@ h1#page-title {
 .view-id-sponsors h3 {
   color: #3f4157;
 }
-/* line 390, ../scss/style.scss */
-.view-id-sponsors img {
-  border: 3px solid white;
+/* line 391, ../scss/style.scss */
+.view-id-sponsors .views-field-field-sponsor-logo a {
+  display: block;
+  border: 3px solid #ffffff;
+}
+/* line 394, ../scss/style.scss */
+.view-id-sponsors .views-field-field-sponsor-logo img {
+  display: block;
 }

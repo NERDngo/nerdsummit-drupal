@@ -204,15 +204,10 @@ body {
 }
 /* line 178, ../scss/layout.scss */
 .view-sponsors .views-row {
-  width: 50%;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 49%;
   box-sizing: border-box;
-  display: block;
-  float: left;
-  padding: 5%;
-}
-/* line 184, ../scss/layout.scss */
-.view-sponsors .views-row.views-row-odd {
-  clear: both;
 }
 /* line 188, ../scss/layout.scss */
 .view-sponsors img {

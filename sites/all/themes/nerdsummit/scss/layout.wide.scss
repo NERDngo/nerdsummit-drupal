@@ -222,19 +222,11 @@ header.header {
     margin: 20px 0;
   }
   .views-row {
-    float: left;
     font-size: 14px;
     padding: 10px;
     text-align: center;
     width: auto;
-    &.views-row-odd {
-      clear: none;
-    }
-    img {
-      border: 3px solid #ffffff;
-      height: auto;
-      max-width: 117px;
-    }
+    max-width: 117px;
   }
 }
 

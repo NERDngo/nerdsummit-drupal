@@ -265,39 +265,29 @@ header.header {
 }
 /* line 224, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .views-row {
-  float: left;
   font-size: 14px;
   padding: 10px;
   text-align: center;
   width: auto;
-}
-/* line 230, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .views-row.views-row-odd {
-  clear: none;
-}
-/* line 233, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .views-row img {
-  border: 3px solid #ffffff;
-  height: auto;
   max-width: 117px;
 }
 
-/* line 241, ../scss/layout.wide.scss */
+/* line 233, ../scss/layout.wide.scss */
 .hamburger-wrap {
   display: none;
 }
 
-/* line 247, ../scss/layout.wide.scss */
+/* line 239, ../scss/layout.wide.scss */
 .front .panels-top .button {
   display: inline-block;
 }
 
-/* line 253, ../scss/layout.wide.scss */
+/* line 245, ../scss/layout.wide.scss */
 #main {
   position: relative;
 }
 
-/* line 257, ../scss/layout.wide.scss */
+/* line 249, ../scss/layout.wide.scss */
 .region-sidebar-first {
   position: absolute;
   top: 0;
@@ -307,7 +297,7 @@ header.header {
   padding: 0 25px;
 }
 
-/* line 266, ../scss/layout.wide.scss */
+/* line 258, ../scss/layout.wide.scss */
 .region-sidebar-second {
   position: absolute;
   top: 0;
@@ -317,13 +307,13 @@ header.header {
   padding: 0 25px;
 }
 
-/* line 277, ../scss/layout.wide.scss */
+/* line 269, ../scss/layout.wide.scss */
 .no-sidebars #content {
   width: 100%;
   margin: 0;
 }
 
-/* line 282, ../scss/layout.wide.scss */
+/* line 274, ../scss/layout.wide.scss */
 #content {
   width: 570px;
   margin: 0 270px;
