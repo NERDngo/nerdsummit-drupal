@@ -497,12 +497,14 @@ h1#page-title {
 .view-id-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
+  display: inline-block;
+  vertical-align: bottom;
 }
-/* line 385, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .view-id-sponsors h3 {
   color: #3f4157;
 }
-/* line 388, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .view-id-sponsors img {
-  border: 3px solid red;
+  border: 3px solid white;
 }

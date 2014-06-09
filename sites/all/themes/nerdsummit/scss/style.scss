@@ -381,11 +381,13 @@ h1#page-title {
   &.view-display-id-page {
     background-color: $lightBgColor;
     color: $purpleText;
+    display: inline-block;
+    vertical-align: bottom;
   }
   h3 {
     color: $purpleText;
   }
   img {
-    border: 3px solid red;
+    border: 3px solid white;
   }
 }
