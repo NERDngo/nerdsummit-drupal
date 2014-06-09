@@ -504,5 +504,5 @@ h1#page-title {
 }
 /* line 388, ../scss/style.scss */
 .view-id-sponsors img {
-  border: 3px solid #ffffff;
+  border: 3px solid red;
 }
