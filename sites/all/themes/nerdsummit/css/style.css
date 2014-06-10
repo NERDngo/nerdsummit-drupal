@@ -65,7 +65,7 @@ p {
 }
 /* line 35, ../scss/style.scss */
 .home-box.learn-box .pane-title, .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
-  background-color: #ea662a;
+  background-color: #e88f36;
 }
 /* line 38, ../scss/style.scss */
 .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
@@ -509,7 +509,7 @@ header.header, body {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #ea662a;
+  background-color: #e88f36;
   z-index: 1;
   padding-bottom: 24px;
 }

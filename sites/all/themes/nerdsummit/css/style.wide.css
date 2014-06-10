@@ -73,7 +73,7 @@ body {
 }
 /* line 6, ../scss/_mixins.scss */
 #navigation #block-menu-block-top-level-nav ul li.first:hover {
-  background-color: #ea662a;
+  background-color: #e88f36;
 }
 /* line 55, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li:nth-of-type(2) {
@@ -207,7 +207,7 @@ body {
 #banner_area div#block-nerd-homepage-login-registration-block {
   width: 290px;
   float: right;
-  background-color: #ea662a;
+  background-color: #e88f36;
 }
 /* line 155, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required {
@@ -242,7 +242,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #ea662a;
+  background-color: #e88f36;
   z-index: 1;
   padding-bottom: 125px;
 }
