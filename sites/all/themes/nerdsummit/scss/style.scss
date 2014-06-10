@@ -10,6 +10,9 @@ html {
 a {
   text-decoration: none;
   color: $defaultLinkColor;
+  &.mollom-target {
+    color: $purpleText;
+  }
 }
 p {
   font-size: $defaultFontSize;
@@ -294,7 +297,7 @@ header.header , body {
       display: block;
     }
     p {
-      margin: 12px 6px 0 36px;
+      margin: 24px 6px 0 36px;
       color: $lightPurpleHeadline;
       font-size: 14px;
       a{
@@ -316,19 +319,29 @@ header.header , body {
       display: inline-block;
       float: left;
       clear: both;
-      background-color: $blockBgDarkOrange;
+      color: #ffffff;
+      // needs latest Compass, add '@import "compass"' to your scss
+      background-color: #ea662a; // Old browsers
+      @include filter-gradient(#ea662a, #ed7b32, vertical); // IE6-9
+      @include background-image(linear-gradient(top,  #ea662a 0%,#ed7b32 100%));
+
       #toggle-login {
         display: inline-block;
         margin: 0;
+        float: left;
       }
       #edit-actions {
         display: inline-block;
         margin: 0;
+        float: left;
       }
       .form-text.required {
         width: 234px;
         margin-left: 25px;
         margin-right: 25px;
+      }
+      span.form-required {
+        color: $purpleText;
       }
 
       div.description {
@@ -369,18 +382,21 @@ header.header , body {
         width: 100%;
         background-color: $blockBgDarkOrange;
         z-index: 1;
-        padding-bottom: 150px;
+        padding-bottom: 24px;
         .nerd-register {
           display: block;
         }
         .nerd-login {
           border: 2px solid #ffffff;
+          border-top: none;
           float: right;
+          width: 290px;
 
         }
         fieldset#edit-mailchimp-lists {
           margin-left: 25px;
           margin-right: 25px;
+          border: none;
         }
        .resizable.textarea-processed.resizable-textarea {
          margin-left: 25px;
@@ -390,7 +406,6 @@ header.header , body {
          margin-right: auto;
          margin-left: auto;
          display: block;
-         margin-top: 36px;
          float: none;
        }
       }
