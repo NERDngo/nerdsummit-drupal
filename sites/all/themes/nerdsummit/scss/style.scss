@@ -324,7 +324,10 @@ header.header , body {
       background-color: #ea662a; // Old browsers
       @include filter-gradient(#ea662a, #ed7b32, vertical); // IE6-9
       @include background-image(linear-gradient(top,  #ea662a 0%,#ed7b32 100%));
-
+      div.form-item {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
       #toggle-login {
         display: inline-block;
         margin: 0;
@@ -334,6 +337,7 @@ header.header , body {
         display: inline-block;
         margin: 0;
         float: left;
+        padding-bottom: 12px;
       }
       .form-text.required {
         width: 234px;
@@ -389,9 +393,9 @@ header.header , body {
         .nerd-login {
           border: 2px solid #ffffff;
           border-top: none;
+          border-right: none;
           float: right;
           width: 290px;
-
         }
         fieldset#edit-mailchimp-lists {
           margin-left: 25px;
@@ -406,7 +410,7 @@ header.header , body {
          margin-right: auto;
          margin-left: auto;
          display: block;
-         float: none;
+         float: right;
        }
       }
     }
