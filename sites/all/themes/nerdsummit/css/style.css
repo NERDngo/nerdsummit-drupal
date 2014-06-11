@@ -519,24 +519,25 @@ header.header, body {
 }
 /* line 393, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login {
-  border: 2px solid #ffffff;
   border-top: none;
   border-right: none;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
   float: right;
   width: 290px;
 }
-/* line 400, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
   border: none;
 }
-/* line 405, ../scss/style.scss */
+/* line 406, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 409, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
@@ -544,7 +545,7 @@ header.header, body {
   float: right;
 }
 
-/* line 420, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -553,23 +554,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 428, ../scss/style.scss */
+/* line 429, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 434, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .view-id-sponsors h3 {
   color: #3f4157;
 }
-/* line 438, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 441, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }

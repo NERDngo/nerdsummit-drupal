@@ -391,9 +391,10 @@ header.header , body {
           display: block;
         }
         .nerd-login {
-          border: 2px solid #ffffff;
           border-top: none;
           border-right: none;
+          border-bottom: 2px solid #ffffff;
+          border-left:2px solid #ffffff; ;
           float: right;
           width: 290px;
         }
