@@ -185,59 +185,60 @@ body {
 }
 /* line 135, ../scss/style.wide.scss */
 #banner_area p {
+  margin: 12px 6px 0 36px;
   color: #8083ad;
   font-size: 14px;
 }
-/* line 138, ../scss/style.wide.scss */
+/* line 139, ../scss/style.wide.scss */
 #banner_area p a {
   border-color: #ffffff;
 }
-/* line 140, ../scss/style.wide.scss */
+/* line 141, ../scss/style.wide.scss */
 #banner_area p a:hover {
   background-color: #e88222;
 }
-/* line 145, ../scss/style.wide.scss */
+/* line 146, ../scss/style.wide.scss */
 #banner_area ul {
   font-size: smaller;
   padding-left: 64px;
   padding-bottom: 8px;
   margin-top: 4px;
 }
-/* line 151, ../scss/style.wide.scss */
+/* line 152, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block {
   width: 290px;
   float: right;
   background-color: #e88f36;
 }
-/* line 155, ../scss/style.wide.scss */
+/* line 156, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 161, ../scss/style.wide.scss */
+/* line 162, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 165, ../scss/style.wide.scss */
+/* line 166, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label {
   margin-left: 25px;
 }
-/* line 168, ../scss/style.wide.scss */
+/* line 169, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit {
   float: right;
 }
-/* line 173, ../scss/style.wide.scss */
+/* line 174, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register {
   margin-left: 25px;
 }
-/* line 176, ../scss/style.wide.scss */
+/* line 177, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register {
   display: none;
 }
-/* line 180, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration {
+/* line 181, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration {
   display: block;
   position: absolute;
   left: 0;
@@ -246,18 +247,26 @@ body {
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 188, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration fieldset#edit-mailchimp-lists {
+/* line 189, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login {
+  border: 2px solid #ffffff;
+  border-top: none;
+  border-right: none;
+  float: right;
+  width: 30%;
+}
+/* line 197, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 192, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration .resizable.textarea-processed.resizable-textarea {
+/* line 201, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 196, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.nerd-register.open-registration .form-submit {
+/* line 205, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -265,12 +274,12 @@ body {
   float: none;
 }
 
-/* line 208, ../scss/style.wide.scss */
+/* line 217, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 215, ../scss/style.wide.scss */
+/* line 224, ../scss/style.wide.scss */
 .view-id-sponsors h3 {
   font-size: 1.5 em;
 }

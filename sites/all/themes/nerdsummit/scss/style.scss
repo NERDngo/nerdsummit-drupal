@@ -324,8 +324,6 @@ header.header , body {
       background-color: #ed7b32; // Old browsers
       @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
       @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
-
-
       div.form-item {
         margin-top: 12px;
         margin-bottom: 12px;
@@ -382,7 +380,7 @@ header.header , body {
       //OPEN REGISTRATION BLOCK
       &.open-registration {
         display: block;
-        position: absolute;
+        //position: absolute;
         left: 0;
         top: 0;
         width: 100%;
@@ -393,12 +391,11 @@ header.header , body {
           display: block;
         }
         .nerd-login {
+          border: 2px solid #ffffff;
           border-top: none;
           border-right: none;
-          border-bottom: 2px solid #ffffff;
-          border-left:2px solid #ffffff; ;
           float: right;
-          width: 290px;
+          width: 100%;
         }
         fieldset#edit-mailchimp-lists {
           margin-left: 25px;
@@ -413,7 +410,7 @@ header.header , body {
          margin-right: auto;
          margin-left: auto;
          display: block;
-         float: right;
+         float: none;
        }
       }
     }

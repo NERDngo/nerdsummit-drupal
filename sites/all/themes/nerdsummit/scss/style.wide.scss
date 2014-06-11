@@ -133,6 +133,7 @@ body {
     display: block;
   }
   p {
+    margin: 12px 6px 0 36px;
     color: $lightPurpleHeadline;
     font-size: 14px;
     a{
@@ -177,7 +178,7 @@ body {
       display: none;
     }
     //OPEN REGISTRATION BLOCK
-    div.nerd-register.open-registration {
+    &.open-registration {
       display: block;
       position: absolute;
       left: 0;
@@ -185,6 +186,14 @@ body {
       background-color: $blockBgDarkOrange;
       z-index: 1;
       padding-bottom: 125px;
+      .nerd-login {
+        border: 2px solid #ffffff;
+        border-top: none;
+        border-right: none;
+        float: right;
+        width: 30%;
+      }
+
       fieldset#edit-mailchimp-lists {
         margin-left: 25px;
         margin-right: 25px;
