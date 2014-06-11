@@ -79,6 +79,8 @@ header.header , body {
 
 .purple-button, input[type=submit] {
   @extend .button;
+  display: block;
+  margin: auto;
   border: 2px solid #fff;
   background: $purple;
   @include hoverBg($hoverPurple);
@@ -329,14 +331,12 @@ header.header , body {
         margin-bottom: 12px;
       }
       #toggle-login {
-        display: inline-block;
-        margin: 0;
-        float: left;
+        display: block;
+        margin: 24px 48px 0 48px;
       }
       #edit-actions {
-        display: inline-block;
-        margin: 0;
-        float: left;
+        display: block;
+        margin: 0 24px;
         padding-bottom: 12px;
       }
       .form-text.required {
@@ -356,14 +356,14 @@ header.header , body {
         margin-left: 25px;
       }
       .form-submit {
-        float: right;
-        margin-right: 12px;
-        margin-bottom: 5px;
-        padding-left: 12px;
-        padding-right: 12px;
+        //float: right;
+        //margin-right: 12px;
+        //margin-bottom: 5px;
+        //padding-left: 12px;
+        //padding-right: 12px;
+
       }
       .go-to-register {
-        margin-left: 25px;
         a.purple-button {
           font-size: 13px;
           font-weight: lighter;

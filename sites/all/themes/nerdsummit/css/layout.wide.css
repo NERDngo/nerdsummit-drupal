@@ -318,3 +318,10 @@ header.header {
   width: 570px;
   margin: 0 270px;
 }
+
+/* line 280, ../scss/layout.wide.scss */
+div#block-nerd-homepage-login-registration-block #edit-actions {
+  display: block;
+  margin: 0;
+  padding-bottom: 12px;
+}

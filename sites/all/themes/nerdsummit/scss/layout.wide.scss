@@ -277,6 +277,11 @@ header.header {
 }
 
 div#block-nerd-homepage-login-registration-block {
+  #edit-actions {
+    display: block;
+    margin: 0;
+    padding-bottom: 12px;
+  }
   &.open-registration {
 
   }
