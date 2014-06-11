@@ -321,9 +321,11 @@ header.header , body {
       clear: both;
       color: #ffffff;
       // needs latest Compass, add '@import "compass"' to your scss
-      background-color: #ea662a; // Old browsers
-      @include filter-gradient(#ea662a, #ed7b32, vertical); // IE6-9
-      @include background-image(linear-gradient(top,  #ea662a 0%,#ed7b32 100%));
+      background-color: #ed7b32; // Old browsers
+      @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
+      @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
+
+
       div.form-item {
         margin-top: 12px;
         margin-bottom: 12px;
