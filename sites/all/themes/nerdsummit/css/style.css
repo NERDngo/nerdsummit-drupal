@@ -525,9 +525,10 @@ header.header, body {
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit {
   display: block;
   width: 100%;
+  background-color: red;
 }
 
-/* line 426, ../scss/style.scss */
+/* line 423, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -536,23 +537,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 434, ../scss/style.scss */
+/* line 431, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 440, ../scss/style.scss */
+/* line 437, ../scss/style.scss */
 .view-id-sponsors h3 {
   color: #3f4157;
 }
-/* line 444, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 447, ../scss/style.scss */
+/* line 444, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }
