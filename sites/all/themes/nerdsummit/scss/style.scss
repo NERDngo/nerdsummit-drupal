@@ -80,11 +80,12 @@ header.header , body {
 .purple-button, input[type=submit] {
   @extend .button;
   display: block;
-  margin: auto;
+  box-sizing: border-box;
   border: 2px solid #fff;
   background: $purple;
   @include hoverBg($hoverPurple);
   cursor: pointer;
+  width: 100%;
 }
 
 .front {
@@ -332,7 +333,7 @@ header.header , body {
       }
       #toggle-login {
         display: block;
-        margin: 24px 48px 0 48px;
+        //margin: 24px 48px 0 48px;
       }
       #edit-actions {
         display: block;
@@ -367,8 +368,8 @@ header.header , body {
         a.purple-button {
           font-size: 13px;
           font-weight: lighter;
-          margin-right: 12px;
-          margin-bottom: 5px;
+         // margin-right: 12px;
+          //margin-bottom: 5px;
           padding-left: 12px;
           padding-right: 12px;
           border: 2px solid #ffffff;
@@ -377,6 +378,7 @@ header.header , body {
       .nerd-register {
         display: none;
       }
+      
       //OPEN REGISTRATION BLOCK
       &.open-registration {
         display: block;
@@ -407,10 +409,13 @@ header.header , body {
          width: 50%;
        }
        .form-submit {
-         margin-right: auto;
-         margin-left: auto;
+         //margin-right: auto;
+         //margin-left: auto;
          display: block;
-         float: none;
+         //float: none;
+         width: 100%;
+         }
+
        }
       }
     }
