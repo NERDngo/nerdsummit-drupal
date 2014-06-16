@@ -406,7 +406,7 @@ header.header, body {
 }
 /* line 302, ../scss/style.scss */
 #banner_area p {
-  margin: 24px 6px 0 36px;
+  margin: 24px 6px 0 24px;
   color: #8083ad;
   font-size: 14px;
 }
@@ -425,11 +425,10 @@ header.header, body {
 /* line 317, ../scss/style.scss */
 #banner_area ul {
   font-size: smaller;
-  padding-left: 64px;
-  padding-bottom: 8px;
-  margin-top: 4px;
+  margin-left: 32px;
+  margin-right: 24px;
 }
-/* line 323, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block {
   width: 100%;
   display: inline-block;
@@ -445,47 +444,48 @@ header.header, body {
   background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
   background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
 }
-/* line 333, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.form-item {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-/* line 338, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #toggle-login {
   display: block;
 }
-/* line 341, ../scss/style.scss */
+/* line 340, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #edit-actions {
   display: block;
   margin: 0 24px;
   padding-bottom: 12px;
 }
-/* line 346, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 351, ../scss/style.scss */
+/* line 350, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block span.form-required {
   color: #3f4157;
 }
-/* line 355, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 359, ../scss/style.scss */
+/* line 358, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label {
   margin-left: 25px;
 }
-/* line 363, ../scss/style.scss */
+/* line 362, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.purple-button, #banner_area div#block-nerd-homepage-login-registration-block .go-to-register .front .panels-top a.button, .front .panels-top #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.button {
   font-size: 13px;
   font-weight: lighter;
   padding-left: 12px;
   padding-right: 12px;
   border: 2px solid #ffffff;
+  margin-top: 5px;
 }
 /* line 371, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register {
