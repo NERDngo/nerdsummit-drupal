@@ -304,8 +304,11 @@ header.header , body {
       color: $lightPurpleHeadline;
       font-size: 14px;
       a{
+        box-sizing: border-box;
         border-color: #ffffff;
         margin-bottom: 10px;
+        padding: 0;
+        width: 95%;
         &:hover{
           background-color: $hoverOrange;
         }
@@ -331,9 +334,9 @@ header.header , body {
         margin-top: 12px;
         margin-bottom: 12px;
       }
+
       #toggle-login {
         display: block;
-        //margin: 24px 48px 0 48px;
       }
       #edit-actions {
         display: block;
@@ -356,20 +359,10 @@ header.header , body {
       label {
         margin-left: 25px;
       }
-      .form-submit {
-        //float: right;
-        //margin-right: 12px;
-        //margin-bottom: 5px;
-        //padding-left: 12px;
-        //padding-right: 12px;
-
-      }
       .go-to-register {
         a.purple-button {
           font-size: 13px;
           font-weight: lighter;
-         // margin-right: 12px;
-          //margin-bottom: 5px;
           padding-left: 12px;
           padding-right: 12px;
           border: 2px solid #ffffff;
@@ -382,22 +375,22 @@ header.header , body {
       //OPEN REGISTRATION BLOCK
       &.open-registration {
         display: block;
-        //position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         background-color: $blockBgDarkOrange;
         z-index: 1;
         padding-bottom: 24px;
+        #edit-actions--2 {
+          margin-left: 24px;
+          margin-right: 24px;
+        }
+       
         .nerd-register {
           display: block;
         }
         .nerd-login {
-          border: 2px solid #ffffff;
-          border-top: none;
-          border-right: none;
-          float: right;
-          width: 100%;
+          display: none;
         }
         fieldset#edit-mailchimp-lists {
           margin-left: 25px;
@@ -411,9 +404,7 @@ header.header , body {
        .form-submit {
          display: block;
          width: 100%;
-         background-color: red;
          }
-
        }
       }
     }
