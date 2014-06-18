@@ -1,10 +1,13 @@
 <?php
 /**
-* my first time! Implements hook_update_N().
-* places user menu block in fixed position in 2nd sidebar.
+* update the block table where the region is empty
+* so that each of these table rows is assigned a value of -1
 */
 function nerd_blocks_update_7000() {
-    module_enable(array('something', 'something else'));
+  $num_updated = db_update('block')
+    ->fields(array(
+      'region' => -1,
+    ))
+    ->condition('region','' , '=')
+    ->execute();
 }
-
-
