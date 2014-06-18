@@ -1,0 +1,10 @@
+<?php
+/**
+* my first time! Implements hook_update_N().
+* places user menu block in fixed position in 2nd sidebar.
+*/
+function nerd_blocks_update_7000() {
+    module_enable(array('something', 'something else'));
+}
+
+
