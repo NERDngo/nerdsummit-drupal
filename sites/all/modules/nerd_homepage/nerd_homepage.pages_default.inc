@@ -172,8 +172,10 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Learn Box',
       'title' => 'Learn',
-      'body' => '<p>Relevant skills in coding, graphics, and tech for users of all levels. Wordpress, Drupal, Javascript.</p>
+      'body' => '<p>&nbsp;CMSs, Coding Languages, and Core Development Concepts for all skill levels</p>
+
 <p><b>What do you want to learn?</b></p>
+
 <p><a class="button" href="/learn">Find out more +</a></p>
 ',
       'format' => 'full_html',
@@ -236,8 +238,8 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Support Box',
       'title' => 'Support',
-      'body' => '<p>Help make this happen.</p>
-<p><b>You can help make this happen.</b></p>
+      'body' => '<p>This Summit is only possible with help from contributors like you!</p>
+<p><strong>What can you do to help?</strong></p>
 <p><a class="button" href="/support">Find out more +</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
@@ -267,8 +269,11 @@ function nerd_homepage_default_page_manager_pages() {
       'admin_title' => 'Hero Unit',
       'title' => '',
       'body' => '<h1>NERD Summit 2014</h1>
+
 <p>Learn with the local tech community at a free three day conference of talks, workshops, coding challenges, food, and fun!</p>
-<p class="highlight">September 17-19, UMASS, Amherst</p>
+
+<p class="highlight">September 12-14, UMASS, Amherst</p>
+
 <p class="cta"><a class="button" href="/user/register">Register</a><b>Free, because this industry wants you!</b></p>
 ',
       'format' => 'full_html',

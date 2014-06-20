@@ -1,0 +1,17 @@
+name = nerds_cta_boxes
+description = places salient calls to action on respective landing pages. 
+core = 7.x
+package = NERD
+dependencies[] = boxes
+dependencies[] = context
+dependencies[] = ctools
+features[box][] = learn_cta_box
+features[box][] = support_cta
+features[box][] = teach_cta
+features[context][] = learn_call_to_action
+features[context][] = sponsor_call_to_action
+features[context][] = teach_call_to_action
+features[ctools][] = boxes:box:1
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = sites/all/modules

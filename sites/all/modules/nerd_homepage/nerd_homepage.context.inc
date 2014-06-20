@@ -20,6 +20,8 @@ function nerd_homepage_context_default_contexts() {
     'path' => array(
       'values' => array(
         '~<front>' => '~<front>',
+        '~user' => '~user',
+        '~user/*' => '~user/*',
       ),
     ),
     'user' => array(
@@ -86,6 +88,45 @@ function nerd_homepage_context_default_contexts() {
   );
   $context->condition_mode = 0;
   $export['main_navigation'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'user_menu';
+  $context->description = 'user menu that displays after user logs in';
+  $context->tag = '';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        '~<front>' => '~<front>',
+        '~user' => '~user',
+        '~user/*' => '~user/*',
+      ),
+    ),
+    'user' => array(
+      'values' => array(
+        'authenticated user' => 'authenticated user',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'system-user-menu' => array(
+          'module' => 'system',
+          'delta' => 'user-menu',
+          'region' => 'banner',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 1;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('user menu that displays after user logs in');
+  $export['user_menu'] = $context;
 
   return $export;
 }
