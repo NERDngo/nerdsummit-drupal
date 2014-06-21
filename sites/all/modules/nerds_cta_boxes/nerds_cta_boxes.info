@@ -1,4 +1,4 @@
-name = nerds_cta_boxes
+name = NERDs CTA Boxes
 description = places salient calls to action on respective landing pages. 
 core = 7.x
 package = NERD
