@@ -53,8 +53,6 @@ class TicketRegistration extends Entity {
   public function attendee() {
     return entity_load_single('user', $this->user_uid);
   }
-
-
 }
 
 class TicketRegistrationUIController extends EntityContentUIController {
@@ -81,4 +79,20 @@ class TicketRegistrationUIController extends EntityContentUIController {
     return $items;
   }
 
+}
+
+/**
+ * @file
+ *
+ * Contains the controller for ticket_registration entities.
+ */
+class TicketRegistrationController extends EntityAPIController {
+
+  /**
+   * Saves a ticket registration entity.
+   */
+  public function save($registration, DatabaseTransaction $transaction = NULL) {
+    $registration->changed = REQUEST_TIME;
+    parent::save($registration, $transaction);
+  }
 }

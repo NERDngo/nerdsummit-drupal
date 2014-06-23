@@ -13,10 +13,9 @@ files[] = includes/ticket_state.ui_controller.inc
 
 files[] = includes/ticket_state.admin.inc
 
-
-; Information added by drush on 2014-05-12
-version = "7.x-1.0-alpha5+4-dev"
+; Information added by Drupal.org packaging script on 2014-06-03
+version = "7.x-1.0-beta1"
 core = "7.x"
 project = "ticket"
-datestamp = "1399880348"
+datestamp = "1401805728"
 

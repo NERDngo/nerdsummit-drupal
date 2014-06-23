@@ -97,14 +97,13 @@ class TicketTypeUIController extends EntityDefaultUIController {
         'page callback' => 'drupal_get_form',
         'page arguments' => array($this->entityType . '_overview_form', $this->entityType, $argument, $entity_type),
         'description' => 'Manage ' . $plural_label . '.',
-        'access callback' => 'entity_access',
-        'access arguments' => array('update', $entity_type),
+        'access callback' => 'ticket_type_overview_access',
+        'access arguments' => array($entity_type, $argument, 'update'),
         'file path' => drupal_get_path('module', 'entity') . '/includes',
         'file' => 'entity.ui.inc',
         'type' => MENU_LOCAL_TASK,
       );
     }
-
     return $items;
   }
 
