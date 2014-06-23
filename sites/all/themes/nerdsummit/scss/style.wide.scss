@@ -138,6 +138,7 @@ body {
     font-size: 14px;
     a{
       border-color: #ffffff;
+      width: 50%;
       &:hover{
         background-color: $hoverOrange;
       }
@@ -145,11 +146,13 @@ body {
   }
   ul {
     font-size: smaller;
-    padding-left: 64px;
+    padding-left: 32px;
     padding-bottom: 8px;
     margin-top: 4px;
+    color: #fff;
+  ;
   }
-  div#block-nerd-homepage-login-registration-block {
+  div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
     width: 290px;
     float: right;
     background-color: $blockBgDarkOrange;
@@ -222,6 +225,6 @@ h1#page-title {
     //background-color: #ffffff;
   }
   h3 {
-    font-size: 1.5 em;
+    font-size: 1.5em;
   }
 }

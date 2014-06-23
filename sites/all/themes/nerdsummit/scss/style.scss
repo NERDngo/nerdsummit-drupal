@@ -278,8 +278,6 @@ header.header , body {
     box-sizing: border-box;
     padding: 10px;
   }
-  #block-boxes-learn-cta-box {
-  }
 }
 
 #block-boxes-learn-cta-box {
@@ -307,7 +305,7 @@ header.header , body {
     float: none;
       width: 100%;
       position: relative;
-    h1 {
+    h1, h2 {
       margin: 12px 0 4px 24px;
       font-weight: lighter;
       display: block;
@@ -332,12 +330,16 @@ header.header , body {
       margin-left: 24px;
       margin-right: 24px;
     }
-    div#block-nerd-homepage-login-registration-block {
+    div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
       width: 100%;
       display: inline-block;
       float: left;
       clear: both;
       color: #ffffff;
+      z-index: 100;
+      a {
+        color: #ffffff;
+      }
       // needs latest Compass, add '@import "compass"' to your scss
       background-color: #ed7b32; // Old browsers
       @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
