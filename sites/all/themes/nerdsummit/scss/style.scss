@@ -284,145 +284,144 @@ header.header , body {
   background: url('../images/banner_learn-2.jpg') no-repeat;
   @include background-size(cover);
   color: white;
-  clear: none;
+  clear: left;
 }
 #boxes-box-support_cta {
   background: url('../images/banner_support-orange.jpg') no-repeat;
   @include background-size(cover);
   color: white;
-  clear: none;
+  clear: left;
 }
 #boxes-box-teach_cta {
   background: url('../images/banner_teach-orange.jpg') no-repeat;
   @include background-size(cover);
   color: white;
-  clear: none;
+  clear: left;
 }
 
 
-  #banner_area {
+#banner_area {
+  width: 100%;
+  float: none;
+  position: relative;
+  h1, h2 {
+    margin: 12px 0 4px 24px;
+    font-weight: lighter;
+    display: block;
+  }
+  p {
+    margin: 24px 6px 0 24px;
+    color: $lightPurpleHeadline;
+    font-size: 14px;
+    a{
+      box-sizing: border-box;
+      border-color: #ffffff;
+      margin-bottom: 10px;
+      padding: 0;
+      width: 95%;
+      &:hover{
+        background-color: $hoverOrange;
+      }
+    }
+  }
+  ul {
+    font-size: smaller;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
     width: 100%;
-    float: none;
-      width: 100%;
-      position: relative;
-    h1, h2 {
-      margin: 12px 0 4px 24px;
-      font-weight: lighter;
+    display: inline-block;
+    float: left;
+    clear: both;
+    color: #ffffff;
+    z-index: 100;
+    a {
+      color: #ffffff;
+    }
+    // needs latest Compass, add '@import "compass"' to your scss
+    background-color: #ed7b32; // Old browsers
+    @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
+    div.form-item {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    #toggle-login {
       display: block;
     }
-    p {
-      margin: 24px 6px 0 24px;
-      color: $lightPurpleHeadline;
-      font-size: 14px;
-      a{
-        box-sizing: border-box;
-        border-color: #ffffff;
-        margin-bottom: 10px;
-        padding: 0;
-        width: 95%;
-        &:hover{
-          background-color: $hoverOrange;
-        }
+    #edit-actions {
+      display: block;
+      margin: 0 24px;
+      padding-bottom: 12px;
+    }
+    .form-text.required {
+      width: 234px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    span.form-required {
+      color: $purpleText;
+    }
+
+    div.description {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    label {
+      margin-left: 25px;
+    }
+    .go-to-register {
+      a.purple-button {
+        font-size: 13px;
+        font-weight: lighter;
+        padding-left: 12px;
+        padding-right: 12px;
+        border: 2px solid #ffffff;
+        margin-top: 5px;
       }
     }
-    ul {
-      font-size: smaller;
-      margin-left: 24px;
-      margin-right: 24px;
+    .nerd-register {
+      display: none;
     }
-    div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+
+    //OPEN REGISTRATION BLOCK
+    &.open-registration {
+      display: block;
+      left: 0;
+      top: 0;
       width: 100%;
-      display: inline-block;
-      float: left;
-      clear: both;
-      color: #ffffff;
-      z-index: 100;
-      a {
-        color: #ffffff;
-      }
-      // needs latest Compass, add '@import "compass"' to your scss
-      background-color: #ed7b32; // Old browsers
-      @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
-      @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
-      div.form-item {
-        margin-top: 12px;
-        margin-bottom: 12px;
+      background-color: $blockBgDarkOrange;
+      z-index: 1;
+      padding-bottom: 24px;
+      #edit-actions--2 {
+        margin-left: 24px;
+        margin-right: 24px;
       }
 
-      #toggle-login {
-        display: block;
-      }
-      #edit-actions {
-        display: block;
-        margin: 0 24px;
-        padding-bottom: 12px;
-      }
-      .form-text.required {
-        width: 234px;
-        margin-left: 25px;
-        margin-right: 25px;
-      }
-      span.form-required {
-        color: $purpleText;
-      }
-
-      div.description {
-        margin-left: 25px;
-        margin-right: 25px;
-      }
-      label {
-        margin-left: 25px;
-      }
-      .go-to-register {
-        a.purple-button {
-          font-size: 13px;
-          font-weight: lighter;
-          padding-left: 12px;
-          padding-right: 12px;
-          border: 2px solid #ffffff;
-          margin-top: 5px;
-        }
-      }
       .nerd-register {
+        display: block;
+      }
+      .nerd-login {
         display: none;
       }
-
-      //OPEN REGISTRATION BLOCK
-      &.open-registration {
+      fieldset#edit-mailchimp-lists {
+        margin-left: 25px;
+        margin-right: 25px;
+        border: none;
+      }
+      .resizable.textarea-processed.resizable-textarea {
+        margin-left: 25px;
+        width: 50%;
+      }
+      .form-submit {
         display: block;
-        left: 0;
-        top: 0;
         width: 100%;
-        background-color: $blockBgDarkOrange;
-        z-index: 1;
-        padding-bottom: 24px;
-        #edit-actions--2 {
-          margin-left: 24px;
-          margin-right: 24px;
-        }
-       
-        .nerd-register {
-          display: block;
-        }
-        .nerd-login {
-          display: none;
-        }
-        fieldset#edit-mailchimp-lists {
-          margin-left: 25px;
-          margin-right: 25px;
-          border: none;
-        }
-       .resizable.textarea-processed.resizable-textarea {
-         margin-left: 25px;
-         width: 50%;
-       }
-       .form-submit {
-         display: block;
-         width: 100%;
-         }
-       }
       }
     }
+  }
+}
 
 
   //support sponsors page
