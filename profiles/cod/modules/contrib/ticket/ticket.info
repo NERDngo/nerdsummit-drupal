@@ -27,9 +27,10 @@ files[] = views/ticket_views_handler_field_registration_link.inc
 files[] = views/ticket_views_handler_field_registration_link_cancel.inc
 files[] = views/ticket_views_handler_field_registration_link_edit.inc
 
-; Information added by Drupal.org packaging script on 2014-06-03
-version = "7.x-1.0-beta1"
+
+; Information added by drush on 2014-06-05
+version = "7.x-1.0-beta1+0-dev"
 core = "7.x"
 project = "ticket"
-datestamp = "1401805728"
+datestamp = "1402005235"
 
