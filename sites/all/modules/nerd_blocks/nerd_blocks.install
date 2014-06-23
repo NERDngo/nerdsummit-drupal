@@ -12,3 +12,11 @@ function nerd_blocks_update_7000() {
     ->execute();
 }
 
+function nerd_blocks_install() {
+  $num_updated = db_update('block')
+    ->fields(array(
+      'region' => -1,
+    ))
+    ->condition('region','' , '=')
+    ->execute();
+}
