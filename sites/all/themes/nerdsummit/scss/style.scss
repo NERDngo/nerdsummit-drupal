@@ -282,6 +282,12 @@ header.header , body {
   }
 }
 
+#block-boxes-learn-cta-box {
+  background: url('../images/banner_learn.jpg?1401306359') no-repeat;
+  @include background-size(cover);
+  color: white;
+  clear: none;
+}
 
 
   #banner_area {
@@ -289,14 +295,6 @@ header.header , body {
     float: none;
       width: 100%;
       position: relative;
-    div#block-block-6 {
-      width: 100%;
-      background: url('../images/banner_learn.jpg?1401306359') no-repeat;
-      @include background-size(cover);
-      color: white;
-      clear: both;
-      float: none;
-    }
     h1 {
       margin: 12px 0 4px 24px;
       font-weight: lighter;
