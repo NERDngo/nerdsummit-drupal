@@ -125,3 +125,19 @@ function cod_session_update_7008() {
 
   return array();
 }
+
+/**
+ * Stop pooping your pants on the flag 3 upgrade.
+ */
+function cod_session_update_dependencies() {
+  // Indicate that the mymodule_update_7000() function provided by this module
+  // must run after the another_module_update_7002() function provided by the
+  // 'another_module' module.
+  $dependencies['cod_events'][7002] = array(
+    'flag' => 7301,
+  );
+  $dependencies['cod_session'][7001] = array(
+    'flag' => 7301,
+  );
+  return $dependencies;
+}

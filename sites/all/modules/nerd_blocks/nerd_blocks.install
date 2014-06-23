@@ -12,18 +12,3 @@ function nerd_blocks_update_7000() {
     ->execute();
 }
 
-/**
- * Stop pooping your pants on the flag 3 upgrade.
- */
-function nerd_blocks_update_dependencies() {
-  // Indicate that the mymodule_update_7000() function provided by this module
-  // must run after the another_module_update_7002() function provided by the
-  // 'another_module' module.
-  $dependencies['cod_events'][7002] = array(
-    'flag' => 7301,
-  );
-  $dependencies['cod_session'][7003] = array(
-    'flag' => 7301,
-  );
-  return $dependencies;
-}
