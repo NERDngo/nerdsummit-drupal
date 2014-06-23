@@ -9,6 +9,9 @@ dependencies[] = multiple_entity_form
 dependencies[] = text
 dependencies[] = views
 
+; Central Entity Controller. This file is missing! Delete?
+;files[] = includes/ticket.controller.inc
+
 ; Entity includes.
 files[] = includes/ticket_type.entity.inc
 files[] = includes/ticket_type.metadata.inc
@@ -24,10 +27,9 @@ files[] = views/ticket_views_handler_field_registration_link.inc
 files[] = views/ticket_views_handler_field_registration_link_cancel.inc
 files[] = views/ticket_views_handler_field_registration_link_edit.inc
 
-
-; Information added by drush on 2014-05-12
-version = "7.x-1.0-alpha5+4-dev"
+; Information added by Drupal.org packaging script on 2014-06-03
+version = "7.x-1.0-beta1"
 core = "7.x"
 project = "ticket"
-datestamp = "1399880348"
+datestamp = "1401805728"
 

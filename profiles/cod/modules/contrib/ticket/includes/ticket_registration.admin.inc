@@ -180,8 +180,9 @@ function ticket_register_form($form, &$form_state) {
   }
 
   if (!empty($entity_data)) {
-    $form += multiple_entity_form($form, $form_state, $entity_data);
+    $entity_form = multiple_entity_form($form, $form_state, $entity_data);
 
+    $form += $entity_form;
     $form['submit'] = array(
       '#type' => 'submit',
       '#value' => isset($_SESSION['ticket']['submit_text']) ? check_plain($_SESSION['ticket']['submit_text']) : 'Next',
@@ -189,6 +190,25 @@ function ticket_register_form($form, &$form_state) {
   }
 
   return $form;
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function ticket_form_alter(&$form, &$form_state, $form_id) {
+  // Disable registration forms from showing the ticket state.
+  if (isset($form['#entity_form_keys'])) {
+    foreach ($form['#entity_form_keys'] as $entity_form) {
+      if (isset($form[$entity_form]['ticket_state']) && !user_access('administer ticket')) {
+        $form[$entity_form]['ticket_state']['#access'] = FALSE;
+      }
+    }
+  }
+
+  // Disable the user registration edit page from showing ticket state.
+  elseif (isset($form['ticket_state']) && !user_access('administer ticket')) {
+    $form['ticket_state']['#access'] = FALSE;
+  }
 }
 
 /**

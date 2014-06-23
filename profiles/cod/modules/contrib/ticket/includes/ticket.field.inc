@@ -165,14 +165,16 @@ function ticket_field_formatter_view($entity_type, $entity, $field, $instance, $
     foreach ($items as $delta => $item) {
       // Ensure the ticket type field matches in case there are multiple
       // ticket type fields.
-      $ticket_type = $ticket_types[$item['value']];
-      if ($ticket_type->field_name == $field['field_name']) {
+      if (isset($ticket_types[$item['value']])) {
+        $ticket_type = $ticket_types[$item['value']];
+        if ($ticket_type->field_name == $field['field_name']) {
 
-        // If we show unavailable or the ticket type is available.
-        if ((isset($settings['show_unavailable']) && $settings['show_unavailable']) || ticket_type_available($ticket_type)) {
-          $form_ticket_types[$ticket_type->ttid] = $ticket_type;
+          // If we show unavailable or the ticket type is available.
+          if ((isset($settings['show_unavailable']) && $settings['show_unavailable']) || ticket_type_available($ticket_type)) {
+            $form_ticket_types[$ticket_type->ttid] = $ticket_type;
+          }
+
         }
-
       }
     }
 
