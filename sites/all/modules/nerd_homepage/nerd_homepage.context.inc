@@ -141,7 +141,7 @@ function nerd_homepage_context_default_contexts() {
         'system-user-menu' => array(
           'module' => 'system',
           'delta' => 'user-menu',
-          'region' => 'banner',
+          'region' => 'sidebar_second',
           'weight' => '-10',
         ),
       ),
