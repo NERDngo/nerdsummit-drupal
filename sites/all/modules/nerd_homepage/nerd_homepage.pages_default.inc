@@ -176,7 +176,7 @@ function nerd_homepage_default_page_manager_pages() {
 
 <p><b>What do you want to learn?</b></p>
 
-<p><a class="button" href="/nerdsummit/learn">Find out more +</a></p>
+<p><a class="button" href="/learn">Find out more +</a></p>
 ',
       'format' => 'full_html',
       'substitute' => TRUE,
@@ -209,7 +209,7 @@ function nerd_homepage_default_page_manager_pages() {
 
 <p><b>What will you teach?</b></p>
 
-<p><a class="button" href="/nerdsummit/involvement-ladder">Find out more +</a></p>
+<p><a class="button" href="/involvement-ladder">Find out more +</a></p>
 ',
       'format' => 'full_html',
       'substitute' => TRUE,
@@ -240,7 +240,7 @@ function nerd_homepage_default_page_manager_pages() {
       'title' => 'Support',
       'body' => '<p>This Summit is only possible with help from contributors like you!</p>
 <p><strong>What can you do to help?</strong></p>
-<p><a class="button" href="/nerdsummit/support">Find out more +</a></p>',
+<p><a class="button" href="/support">Find out more +</a></p>',
       'format' => 'filtered_html',
       'substitute' => TRUE,
     );
