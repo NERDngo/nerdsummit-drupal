@@ -65,17 +65,11 @@ function nerd_homepage_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'menu_block-top_level_nav' => array(
-          'module' => 'menu_block',
-          'delta' => 'top_level_nav',
-          'region' => 'navigation',
-          'weight' => '0',
-        ),
         'system-main-menu' => array(
           'module' => 'system',
           'delta' => 'main-menu',
           'region' => 'navigation',
-          'weight' => -9,
+          'weight' => '-9',
         ),
         'menu_block-lower_level_nav' => array(
           'module' => 'menu_block',
