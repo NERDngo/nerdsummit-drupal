@@ -94,7 +94,6 @@ body {
 .front .panels-top {
   display: inline-block;
   box-sizing: border-box;
-  margin-top: 15px;
 }
 /* line 87, ../scss/layout.scss */
 .front .panels-top .view {
