@@ -5,6 +5,7 @@ dependencies[] = ctools
 dependencies[] = menu_block
 dependencies[] = page_manager
 dependencies[] = strongarm
+features[context][] = landing_page_links
 features[context][] = login_register_form_display
 features[context][] = main_navigation
 features[context][] = user_menu

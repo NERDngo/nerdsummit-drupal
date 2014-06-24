@@ -13,6 +13,38 @@ function nerd_homepage_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'landing_page_links';
+  $context->description = 'the menu of links for the landing pages ';
+  $context->tag = '';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        '~<front>' => '~<front>',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'menu_block-top_level_nav' => array(
+          'module' => 'menu_block',
+          'delta' => 'top_level_nav',
+          'region' => 'navigation',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('the menu of links for the landing pages ');
+  $export['landing_page_links'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'login_register_form_display';
   $context->description = 'Login/Register Form Display';
   $context->tag = '';
