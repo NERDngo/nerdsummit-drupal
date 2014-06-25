@@ -127,6 +127,10 @@ function nerd_homepage_context_default_contexts() {
         '~<front>' => '~<front>',
         '~user' => '~user',
         '~user/*' => '~user/*',
+        '~learn' => '~learn',
+        '~involvement-ladder' => '~involvement-ladder',
+        '~support' => '~support',
+        '~nerdsummit-2014' => '~nerdsummit-2014',
       ),
     ),
     'user' => array(
@@ -153,6 +157,53 @@ function nerd_homepage_context_default_contexts() {
   // Included for use with string extractors like potx.
   t('user menu that displays after user logs in');
   $export['user_menu'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
+  $context->name = 'user_menu_landing_pages';
+  $context->description = 'places user menu in banner region on landing pages';
+  $context->tag = '';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        '~<front>' => '~<front>',
+        '~user' => '~user',
+        '~user/*' => '~user/*',
+        'learn' => 'learn',
+        '~learn/*' => '~learn/*',
+        'involvement-ladder' => 'involvement-ladder',
+        '~involvement-ladder/*' => '~involvement-ladder/*',
+        'support' => 'support',
+        '~support/*' => '~support/*',
+        'nerdsummit-2014' => 'nerdsummit-2014',
+        '~nerdsummit-2014/*' => '~nerdsummit-2014/*',
+      ),
+    ),
+    'user' => array(
+      'values' => array(
+        'authenticated user' => 'authenticated user',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'system-user-menu' => array(
+          'module' => 'system',
+          'delta' => 'user-menu',
+          'region' => 'banner',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 1;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('places user menu in banner region on landing pages');
+  $export['user_menu_landing_pages'] = $context;
 
   return $export;
 }

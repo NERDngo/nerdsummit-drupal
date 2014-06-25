@@ -145,7 +145,6 @@ body {
     }
   }
   ul {
-    font-size: smaller;
     padding-left: 32px;
     padding-bottom: 8px;
     margin-top: 4px;
@@ -153,7 +152,7 @@ body {
   ;
   }
   div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
-    width: 290px;
+    max-width: 270px;
     float: right;
     background-color: $blockBgDarkOrange;
     .form-text.required {

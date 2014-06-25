@@ -199,46 +199,45 @@ body {
 }
 /* line 147, ../scss/style.wide.scss */
 #banner_area ul {
-  font-size: smaller;
   padding-left: 32px;
   padding-bottom: 8px;
   margin-top: 4px;
   color: #fff;
 }
-/* line 155, ../scss/style.wide.scss */
+/* line 154, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
-  width: 290px;
+  max-width: 270px;
   float: right;
   background-color: #e88f36;
 }
-/* line 159, ../scss/style.wide.scss */
+/* line 158, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 165, ../scss/style.wide.scss */
+/* line 164, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 169, ../scss/style.wide.scss */
+/* line 168, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 172, ../scss/style.wide.scss */
+/* line 171, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit, #banner_area #block-system-user-menu .form-submit {
   float: right;
 }
-/* line 175, ../scss/style.wide.scss */
+/* line 174, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #banner_area #block-system-user-menu .go-to-register {
   margin-left: 25px;
 }
-/* line 178, ../scss/style.wide.scss */
+/* line 177, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 182, ../scss/style.wide.scss */
+/* line 181, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
@@ -248,7 +247,7 @@ body {
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 190, ../scss/style.wide.scss */
+/* line 189, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
@@ -256,17 +255,17 @@ body {
   float: right;
   width: 30%;
 }
-/* line 198, ../scss/style.wide.scss */
+/* line 197, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 202, ../scss/style.wide.scss */
+/* line 201, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 206, ../scss/style.wide.scss */
+/* line 205, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
@@ -275,17 +274,17 @@ body {
   float: none;
 }
 
-/* line 218, ../scss/style.wide.scss */
+/* line 217, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 225, ../scss/style.wide.scss */
+/* line 224, ../scss/style.wide.scss */
 .view-id-sponsors h3 {
   font-size: 1.5em;
 }
 
-/* line 232, ../scss/style.wide.scss */
+/* line 231, ../scss/style.wide.scss */
 #block-system-user-menu {
   background-color: #ed7b32;
   *zoom: 1;
@@ -299,7 +298,7 @@ h1#page-title {
   font-weight: normal;
   color: #fff;
 }
-/* line 239, ../scss/style.wide.scss */
+/* line 238, ../scss/style.wide.scss */
 #block-system-user-menu a {
   color: #fff;
 }

@@ -225,7 +225,6 @@ header.header , body {
       padding: 0;
     }
     .node-title {
-      font-size: 14px;
       a {
         color: $defaultTextColor;
       }
@@ -329,7 +328,6 @@ header.header , body {
   }
   div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
     width: 100%;
-    max-width: 270px;
     display: inline-block;
     float: left;
     clear: both;
