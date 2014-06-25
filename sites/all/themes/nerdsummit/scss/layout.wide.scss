@@ -31,6 +31,7 @@ $small_padding: 0;
   margin: 0 auto;
   width: 1110px;
   // todo: make this use width: 100% and max-width: 1110px?
+
 }
 
 header.header {
@@ -276,6 +277,13 @@ header.header {
     margin: 0;
   }
 }
+.one-sidebar.sidebar-second {
+  #content {
+    width: 720px;
+    margin-left: 45px;
+  }
+}
+
 #content {
   width: 570px;
   margin: 0 270px;
