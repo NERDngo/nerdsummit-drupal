@@ -284,3 +284,22 @@ h1#page-title {
 .view-id-sponsors h3 {
   font-size: 1.5em;
 }
+
+/* line 232, ../scss/style.wide.scss */
+#block-system-user-menu {
+  background-color: #ed7b32;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFED7B32', endColorstr='#FFE9682E');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed7b32), color-stop(50%, #e9682e), color-stop(60%, #e9682e), color-stop(100%, #e9682e));
+  background-image: -webkit-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: -moz-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  box-shadow: 0 0 4px grey;
+  font-weight: normal;
+  color: #fff;
+}
+/* line 239, ../scss/style.wide.scss */
+#block-system-user-menu a {
+  color: #fff;
+}

@@ -428,9 +428,8 @@ header.header, body {
 #banner_area p {
   margin: 24px 6px 0 24px;
   color: #8083ad;
-  font-size: 14px;
 }
-/* line 316, ../scss/style.scss */
+/* line 315, ../scss/style.scss */
 #banner_area p a {
   box-sizing: border-box;
   border-color: #ffffff;
@@ -438,24 +437,25 @@ header.header, body {
   padding: 0;
   width: 95%;
 }
-/* line 322, ../scss/style.scss */
+/* line 321, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #e88222;
 }
-/* line 327, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #banner_area ul {
-  font-size: smaller;
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 332, ../scss/style.scss */
+/* line 330, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   width: 100%;
+  max-width: 270px;
   display: inline-block;
   float: left;
   clear: both;
   color: #ffffff;
   z-index: 100;
+  box-shadow: 0 0 4px grey;
   background-color: #ed7b32;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFED7B32', endColorstr='#FFE9682E');
@@ -521,7 +521,7 @@ header.header, body {
   display: block;
   left: 0;
   top: 0;
-  width: 100%;
+  min-width: 100%;
   background-color: #e88f36;
   z-index: 1;
   padding-bottom: 24px;

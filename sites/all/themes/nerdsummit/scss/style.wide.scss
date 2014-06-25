@@ -226,3 +226,18 @@ h1#page-title {
     font-size: 1.5em;
   }
 }
+
+//find a better way to do this. repeats code for user menu from style.scss
+
+  #block-system-user-menu {
+    background-color: #ed7b32; // Old browsers
+    @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
+    box-shadow: 0 0 4px grey;
+    font-weight: normal;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+

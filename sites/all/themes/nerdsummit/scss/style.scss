@@ -312,7 +312,6 @@ header.header , body {
   p {
     margin: 24px 6px 0 24px;
     color: $lightPurpleHeadline;
-    font-size: 14px;
     a{
       box-sizing: border-box;
       border-color: #ffffff;
@@ -325,17 +324,18 @@ header.header , body {
     }
   }
   ul {
-    font-size: smaller;
     margin-left: 24px;
     margin-right: 24px;
   }
   div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
     width: 100%;
+    max-width: 270px;
     display: inline-block;
     float: left;
     clear: both;
     color: #ffffff;
     z-index: 100;
+    box-shadow: 0 0 4px grey;
     a {
       color: #ffffff;
     }
@@ -391,7 +391,7 @@ header.header , body {
       display: block;
       left: 0;
       top: 0;
-      width: 100%;
+      min-width: 100%;
       background-color: $blockBgDarkOrange;
       z-index: 1;
       padding-bottom: 24px;
