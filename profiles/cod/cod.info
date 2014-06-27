@@ -27,6 +27,7 @@ dependencies[] = taxonomy
 dependencies[] = addressfield
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
+dependencies[] = adminimal_admin_menu
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
 dependencies[] = content_access
@@ -67,6 +68,8 @@ dependencies[] = og_context
 dependencies[] = og_ui
 dependencies[] = module_filter
 dependencies[] = pathauto
+dependencies[] = panels
+dependencies[] = page_manager
 dependencies[] = quicktabs
 dependencies[] = quicktabs_tabstyles
 dependencies[] = rules
@@ -92,12 +95,8 @@ dependencies[] = webform
 
 ;cod specific modules
 dependencies[] = cod_base
-dependencies[] = cod_session
 dependencies[] = cod_events
-dependencies[] = cod_community
-dependencies[] = cod_sponsors
-;dependencies[] = cod_front_page
-;dependencies[] = cod_news
+dependencies[] = cod_events_pages
 
 ;These are copied from commons into cod_support we will rename someday
 dependencies[] = cod_profile_base
@@ -107,9 +106,9 @@ files[] = cod.profile
 ; System Requirements.
 php_memory_limit = 128M
 
-; Information added by Drupal.org packaging script on 2014-05-12
-version = "7.x-1.0-alpha6"
+; Information added by Drupal.org packaging script on 2014-06-05
+version = "7.x-1.0-beta1"
 core = "7.x"
 project = "cod"
-datestamp = "1399880337"
+datestamp = "1402005229"
 
