@@ -4783,9 +4783,6 @@ function callback_entity_info_language($entity, $entity_type) {
   return $entity->language;
 }
 
-
-
-
 /**
  * @} End of "addtogroup callbacks".
  */
