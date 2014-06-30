@@ -172,7 +172,7 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Learn Box',
       'title' => 'Learn',
-      'body' => '<p>&nbsp;CMSs, Coding Languages, and Core Development Concepts for all skill levels</p>
+      'body' => '<p>CMSs, Coding Languages, and Core Development Concepts for all skill levels.</p>
 
 <p><b>What do you want to learn?</b></p>
 
