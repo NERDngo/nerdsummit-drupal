@@ -206,7 +206,7 @@ body {
 }
 /* line 154, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
-  max-width: 270px;
+  max-width: 245px;
   float: right;
   background-color: #e88f36;
 }
