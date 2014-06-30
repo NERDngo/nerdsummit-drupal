@@ -123,7 +123,7 @@ function nerd_sponsors_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['content'] = '<a href="/support" class="button">See All</a>
-<a href="/support" class="button">Sponsorship Info</a>';
+<a href="/sponsors-information" class="button">Sponsorship Info</a>';
   $handler->display->display_options['header']['area']['format'] = 'full_html';
   $export['sponsors'] = $view;
 
