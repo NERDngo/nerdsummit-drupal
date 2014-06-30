@@ -70,7 +70,7 @@ function cod_session_block_info() {
 function cod_session_block_view($delta = '') {
   switch ($delta) {
     case 'cod_session_management':
-      ctools_include('cod_session_admin_pane', 'cod_session', 'plugins/content_types');
+      module_load_include('admin.inc', 'cod_session', 'includes/cod_session');
       $block['subject'] = t('');
       $block['content'] = cod_session_admin_sessions($event);
       break;
