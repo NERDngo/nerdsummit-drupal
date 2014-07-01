@@ -158,7 +158,7 @@ header.header, body {
 }
 /* line 95, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401306359') no-repeat center center;
+  background: url('../images/banner_home.jpg?1401306359') fixed no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -377,7 +377,7 @@ header.header, body {
 
 /* line 282, ../scss/style.scss */
 #block-boxes-learn-cta-box {
-  background: url("../images/banner_learn-2.jpg") no-repeat;
+  background: url("../images/banner_learn-2.jpg") fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -388,7 +388,7 @@ header.header, body {
 
 /* line 288, ../scss/style.scss */
 #boxes-box-support_cta {
-  background: url("../images/banner_support-orange.jpg") no-repeat;
+  background: url("../images/banner_support-orange.jpg") fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -399,7 +399,7 @@ header.header, body {
 
 /* line 294, ../scss/style.scss */
 #boxes-box-teach_cta {
-  background: url("../images/banner_teach-orange.jpg") no-repeat;
+  background: url("../images/banner_teach-orange.jpg") fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

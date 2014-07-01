@@ -93,7 +93,7 @@ header.header , body {
     color: #fff;
   }
   .panels-top {
-    background: image-url('banner_home.jpg') no-repeat center center;
+    background: image-url('banner_home.jpg') fixed no-repeat center center;
     @include background-size('cover');
     background-color: $darkPurple;
     color: #fff;
@@ -280,19 +280,19 @@ header.header , body {
 }
 
 #block-boxes-learn-cta-box {
-  background: url('../images/banner_learn-2.jpg') no-repeat;
+  background: url('../images/banner_learn-2.jpg') fixed no-repeat;
   @include background-size(cover);
   color: white;
   clear: left;
 }
 #boxes-box-support_cta {
-  background: url('../images/banner_support-orange.jpg') no-repeat;
+  background: url('../images/banner_support-orange.jpg') fixed no-repeat;
   @include background-size(cover);
   color: white;
   clear: left;
 }
 #boxes-box-teach_cta {
-  background: url('../images/banner_teach-orange.jpg') no-repeat;
+  background: url('../images/banner_teach-orange.jpg') fixed no-repeat;
   @include background-size(cover);
   color: white;
   clear: left;
