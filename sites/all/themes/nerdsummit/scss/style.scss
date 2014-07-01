@@ -298,6 +298,10 @@ header.header , body {
   clear: left;
 }
 
+input, .form-item {
+  max-width: 90%;
+  margin-left: 1em;
+}
 
 #banner_area {
   width: 100%;
