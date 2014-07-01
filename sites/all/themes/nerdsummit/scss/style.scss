@@ -303,6 +303,12 @@ input, .form-item {
   margin-left: 1em;
 }
 
+.pane-nerd-attendees {
+  .more-link {
+    display: none;
+  }
+}
+
 #banner_area {
   width: 100%;
   float: none;
@@ -427,7 +433,6 @@ input, .form-item {
 }
 
 
-  //support sponsors page
 h1#page-title {
   color: #4953a3;
   background-color: $lightBgColor;
