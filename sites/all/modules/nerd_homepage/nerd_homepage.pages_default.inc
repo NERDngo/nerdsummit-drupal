@@ -126,10 +126,10 @@ function nerd_homepage_default_page_manager_pages() {
     $display->content['new-27d71e91-9b4f-4c1b-aea6-3ce6ca5032dc'] = $pane;
     $display->panels['bottom'][1] = 'new-27d71e91-9b4f-4c1b-aea6-3ce6ca5032dc';
     $pane = new stdClass();
-    $pane->pid = 'new-c70641f3-d449-41a9-bf3a-8f6d77937b01';
+    $pane->pid = 'new-3f6b26d3-fec8-49a3-8114-c8820d2c3d73';
     $pane->panel = 'bottom';
     $pane->type = 'views';
-    $pane->subtype = 'cod_community_attendees';
+    $pane->subtype = 'nerd_attendees';
     $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
@@ -152,16 +152,13 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array(
-      'css_id' => '',
-      'css_class' => 'home-community',
-    );
+    $pane->css = array();
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $pane->uuid = 'c70641f3-d449-41a9-bf3a-8f6d77937b01';
-    $display->content['new-c70641f3-d449-41a9-bf3a-8f6d77937b01'] = $pane;
-    $display->panels['bottom'][2] = 'new-c70641f3-d449-41a9-bf3a-8f6d77937b01';
+    $pane->uuid = '3f6b26d3-fec8-49a3-8114-c8820d2c3d73';
+    $display->content['new-3f6b26d3-fec8-49a3-8114-c8820d2c3d73'] = $pane;
+    $display->panels['bottom'][2] = 'new-3f6b26d3-fec8-49a3-8114-c8820d2c3d73';
     $pane = new stdClass();
     $pane->pid = 'new-eb5c746e-9184-4b46-908a-ff5a2b7e9648';
     $pane->panel = 'middle';

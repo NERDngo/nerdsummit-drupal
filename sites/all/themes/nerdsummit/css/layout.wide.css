@@ -152,101 +152,102 @@ header.header {
 }
 
 /* line 128, ../scss/layout.wide.scss */
-.home-community {
+.pane-nerd-attendees {
   width: 40%;
   float: right;
 }
 /* line 131, ../scss/layout.wide.scss */
-.home-community .pane-title {
+.pane-nerd-attendees .pane-title {
   padding-right: 25px;
   padding-left: 25px;
 }
 /* line 135, ../scss/layout.wide.scss */
-.home-community .view {
+.pane-nerd-attendees .view {
   padding-right: 25px;
   padding-left: 18px;
+  width: 100%;
 }
-/* line 139, ../scss/layout.wide.scss */
-.home-community .views-row {
+/* line 140, ../scss/layout.wide.scss */
+.pane-nerd-attendees .views-row {
   float: left;
   padding: 7px;
 }
-/* line 143, ../scss/layout.wide.scss */
-.home-community img {
+/* line 144, ../scss/layout.wide.scss */
+.pane-nerd-attendees img {
   height: auto;
   width: 65px;
 }
 
-/* line 149, ../scss/layout.wide.scss */
+/* line 150, ../scss/layout.wide.scss */
 #navigation {
   float: right;
   display: block !important;
   padding-top: 0;
 }
-/* line 154, ../scss/layout.wide.scss */
+/* line 155, ../scss/layout.wide.scss */
 #navigation .region-navigation {
   display: inline-block;
   width: 100%;
 }
-/* line 158, ../scss/layout.wide.scss */
+/* line 159, ../scss/layout.wide.scss */
 #navigation #block-system-main-menu {
   position: absolute;
   right: 20px;
   top: 100px;
 }
-/* line 163, ../scss/layout.wide.scss */
+/* line 164, ../scss/layout.wide.scss */
 #navigation ul.menu {
   width: auto;
 }
-/* line 165, ../scss/layout.wide.scss */
+/* line 166, ../scss/layout.wide.scss */
 #navigation ul.menu li {
   max-height: 100% !important;
   width: auto;
 }
-/* line 171, ../scss/layout.wide.scss */
+/* line 172, ../scss/layout.wide.scss */
 #navigation #block-menu-block-top-level-nav ul.menu {
   width: 100%;
 }
-/* line 173, ../scss/layout.wide.scss */
+/* line 174, ../scss/layout.wide.scss */
 #navigation #block-menu-block-top-level-nav ul.menu .active {
   width: 46%;
 }
-/* line 177, ../scss/layout.wide.scss */
+/* line 178, ../scss/layout.wide.scss */
 #navigation #block-menu-block-top-level-nav ul.menu li {
   margin: 0 5px;
   width: 16%;
 }
-/* line 181, ../scss/layout.wide.scss */
+/* line 182, ../scss/layout.wide.scss */
 #navigation #block-menu-block-top-level-nav ul.menu li.first {
   margin-left: 0;
 }
-/* line 190, ../scss/layout.wide.scss */
+/* line 191, ../scss/layout.wide.scss */
 #navigation #block-menu-block-top-level-nav ul.menu li.last {
   margin-right: 0;
 }
 
-/* line 200, ../scss/layout.wide.scss */
+/* line 201, ../scss/layout.wide.scss */
 .pane-sponsors {
   overflow: hidden;
   padding: 0 25px;
 }
-/* line 203, ../scss/layout.wide.scss */
+/* line 204, ../scss/layout.wide.scss */
 .pane-sponsors h2.pane-title {
   position: absolute;
 }
-/* line 206, ../scss/layout.wide.scss */
+/* line 207, ../scss/layout.wide.scss */
 .pane-sponsors .view-content {
   max-width: 1004px;
   margin: 0 auto;
 }
 
-/* line 212, ../scss/layout.wide.scss */
+/* line 213, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
-/* line 216, ../scss/layout.wide.scss */
+/* line 217, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .view-header {
   margin: 0;
   padding: 25px 0 0 0;
@@ -254,17 +255,17 @@ header.header {
   display: inline-block;
   float: right;
 }
-/* line 222, ../scss/layout.wide.scss */
+/* line 223, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .view-header .button {
   width: auto;
   margin: 0 0 0 10px !important;
 }
-/* line 227, ../scss/layout.wide.scss */
+/* line 228, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .view-content {
   margin: 20px 0;
   text-align: center;
 }
-/* line 231, ../scss/layout.wide.scss */
+/* line 232, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .views-row {
   font-size: 14px;
   padding: 5px;
@@ -273,22 +274,22 @@ header.header {
   max-width: 100px;
 }
 
-/* line 240, ../scss/layout.wide.scss */
+/* line 241, ../scss/layout.wide.scss */
 .hamburger-wrap {
   display: none;
 }
 
-/* line 246, ../scss/layout.wide.scss */
+/* line 247, ../scss/layout.wide.scss */
 .front .panels-top .button {
   display: inline-block;
 }
 
-/* line 252, ../scss/layout.wide.scss */
+/* line 253, ../scss/layout.wide.scss */
 #main {
   position: relative;
 }
 
-/* line 256, ../scss/layout.wide.scss */
+/* line 257, ../scss/layout.wide.scss */
 .region-sidebar-first {
   position: absolute;
   top: 0;
@@ -298,7 +299,7 @@ header.header {
   padding: 0 25px;
 }
 
-/* line 265, ../scss/layout.wide.scss */
+/* line 266, ../scss/layout.wide.scss */
 .region-sidebar-second {
   position: absolute;
   top: 0;
@@ -308,25 +309,25 @@ header.header {
   padding: 0 25px;
 }
 
-/* line 276, ../scss/layout.wide.scss */
+/* line 277, ../scss/layout.wide.scss */
 .no-sidebars #content {
   width: 100%;
   margin: 0;
 }
 
-/* line 282, ../scss/layout.wide.scss */
+/* line 283, ../scss/layout.wide.scss */
 .one-sidebar.sidebar-second #content {
   width: 720px;
   margin-left: 45px;
 }
 
-/* line 288, ../scss/layout.wide.scss */
+/* line 289, ../scss/layout.wide.scss */
 #content {
   width: 570px;
   margin: 0 270px;
 }
 
-/* line 294, ../scss/layout.wide.scss */
+/* line 295, ../scss/layout.wide.scss */
 div#block-nerd-homepage-login-registration-block #edit-actions {
   display: block;
   margin: 0;
