@@ -23,18 +23,5 @@ function nerd_community_views_default_views_alter(&$views) {
     $view->set_item('default', 'argument', 'gid', $arg);
     $view->display['block']->display_options['title'] = 'Community (@count)';
     $view->display['block']->display_options['defaults']['title'] = FALSE;//
-
   }
-}
-
-function nerd_community_views_pre_render(view &$view) {
-  if($view->name == 'cod_community_attendees') {
-    $items = $view->query->pager->get_total_items();
-    $title = $view->get_title();
-    $view->set_title(strtr($title, array(
-      '@count' => $items,
-    )));
-
-  }
-
 }
