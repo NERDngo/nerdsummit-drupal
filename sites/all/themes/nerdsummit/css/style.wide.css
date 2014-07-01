@@ -52,18 +52,19 @@ body {
 /* line 30, ../scss/style.wide.scss */
 .pane-sponsors {
   border-bottom: 4px solid white;
+  text-align: center;
 }
 
-/* line 36, ../scss/style.wide.scss */
+/* line 37, ../scss/style.wide.scss */
 .view-sponsors .view-header a.button {
   color: #3f4157;
 }
 
-/* line 44, ../scss/style.wide.scss */
+/* line 45, ../scss/style.wide.scss */
 #navigation a {
   color: #3a3a5c;
 }
-/* line 49, ../scss/style.wide.scss */
+/* line 50, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li.first {
   background: #f49c00;
   -webkit-transition: 0.3s;
@@ -75,7 +76,7 @@ body {
 #navigation #block-menu-block-top-level-nav ul li.first:hover {
   background-color: #e88f36;
 }
-/* line 55, ../scss/style.wide.scss */
+/* line 56, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li:nth-of-type(2) {
   background: #68bd55;
   -webkit-transition: 0.3s;
@@ -87,7 +88,7 @@ body {
 #navigation #block-menu-block-top-level-nav ul li:nth-of-type(2):hover {
   background-color: #5bb048;
 }
-/* line 61, ../scss/style.wide.scss */
+/* line 62, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li:nth-of-type(3) {
   background: #e774a4;
   -webkit-transition: 0.3s;
@@ -100,7 +101,7 @@ body {
 #navigation #block-menu-block-top-level-nav ul li:nth-of-type(3):hover {
   background-color: #da6897;
 }
-/* line 66, ../scss/style.wide.scss */
+/* line 67, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li.last {
   background: #4953a3;
   -webkit-transition: 0.3s;
@@ -112,22 +113,22 @@ body {
 #navigation #block-menu-block-top-level-nav ul li.last:hover {
   background-color: #3549a3;
 }
-/* line 71, ../scss/style.wide.scss */
+/* line 72, ../scss/style.wide.scss */
 #navigation #block-menu-block-top-level-nav ul li a {
   color: #fff;
 }
 
-/* line 78, ../scss/style.wide.scss */
+/* line 79, ../scss/style.wide.scss */
 .home-about {
   border-top: none;
 }
 
-/* line 84, ../scss/style.wide.scss */
+/* line 85, ../scss/style.wide.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   border-bottom: none;
 }
 
-/* line 90, ../scss/style.wide.scss */
+/* line 91, ../scss/style.wide.scss */
 #block-nerd-blocks-nerd-save-date {
   margin-top: 25px;
   border-bottom: 20px solid #4953a3;
@@ -135,14 +136,14 @@ body {
   box-shadow: 0 0 4px grey;
   color: #242429;
 }
-/* line 96, ../scss/style.wide.scss */
+/* line 97, ../scss/style.wide.scss */
 #block-nerd-blocks-nerd-save-date h4 {
   text-align: center;
   font-size: 20px;
   border-bottom-left-radius: 15px;
   color: #242429;
 }
-/* line 102, ../scss/style.wide.scss */
+/* line 103, ../scss/style.wide.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   background: #4953a3;
   color: #fff;
@@ -151,21 +152,21 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-/* line 110, ../scss/style.wide.scss */
+/* line 111, ../scss/style.wide.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   background: #ebebf3;
   box-sizing: border-box;
   padding: 10px;
 }
 
-/* line 117, ../scss/style.wide.scss */
+/* line 118, ../scss/style.wide.scss */
 #banner_area {
   width: 100%;
   float: left;
   width: 100%;
   position: relative;
 }
-/* line 122, ../scss/style.wide.scss */
+/* line 123, ../scss/style.wide.scss */
 #banner_area div#block-block-6 {
   width: 823px;
   height: 239px;
@@ -176,68 +177,68 @@ body {
   color: white;
   clear: none;
 }
-/* line 130, ../scss/style.wide.scss */
+/* line 131, ../scss/style.wide.scss */
 #banner_area h1 {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 135, ../scss/style.wide.scss */
+/* line 136, ../scss/style.wide.scss */
 #banner_area p {
   margin: 12px 6px 0 36px;
   color: #8083ad;
   font-size: 14px;
 }
-/* line 139, ../scss/style.wide.scss */
+/* line 140, ../scss/style.wide.scss */
 #banner_area p a {
   border-color: #ffffff;
   width: 50%;
 }
-/* line 142, ../scss/style.wide.scss */
+/* line 143, ../scss/style.wide.scss */
 #banner_area p a:hover {
   background-color: #e88222;
 }
-/* line 147, ../scss/style.wide.scss */
+/* line 148, ../scss/style.wide.scss */
 #banner_area ul {
   padding-left: 32px;
   padding-bottom: 8px;
   margin-top: 4px;
   color: #fff;
 }
-/* line 154, ../scss/style.wide.scss */
+/* line 155, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   max-width: 245px;
   float: right;
   background-color: #e88f36;
 }
-/* line 158, ../scss/style.wide.scss */
+/* line 159, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 164, ../scss/style.wide.scss */
+/* line 165, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 168, ../scss/style.wide.scss */
+/* line 169, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 171, ../scss/style.wide.scss */
+/* line 172, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-submit, #banner_area #block-system-user-menu .form-submit {
   float: right;
 }
-/* line 174, ../scss/style.wide.scss */
+/* line 175, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #banner_area #block-system-user-menu .go-to-register {
   margin-left: 25px;
 }
-/* line 177, ../scss/style.wide.scss */
+/* line 178, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 181, ../scss/style.wide.scss */
+/* line 182, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
@@ -247,7 +248,7 @@ body {
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 189, ../scss/style.wide.scss */
+/* line 190, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
@@ -255,17 +256,17 @@ body {
   float: right;
   width: 30%;
 }
-/* line 197, ../scss/style.wide.scss */
+/* line 198, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 201, ../scss/style.wide.scss */
+/* line 202, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 205, ../scss/style.wide.scss */
+/* line 206, ../scss/style.wide.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
@@ -274,17 +275,17 @@ body {
   float: none;
 }
 
-/* line 217, ../scss/style.wide.scss */
+/* line 218, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 224, ../scss/style.wide.scss */
+/* line 225, ../scss/style.wide.scss */
 .view-id-sponsors h3 {
   font-size: 1.5em;
 }
 
-/* line 231, ../scss/style.wide.scss */
+/* line 232, ../scss/style.wide.scss */
 #block-system-user-menu {
   background-color: #ed7b32;
   *zoom: 1;
@@ -298,7 +299,7 @@ h1#page-title {
   font-weight: normal;
   color: #fff;
 }
-/* line 238, ../scss/style.wide.scss */
+/* line 239, ../scss/style.wide.scss */
 #block-system-user-menu a {
   color: #fff;
 }

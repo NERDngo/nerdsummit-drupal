@@ -266,10 +266,10 @@ header.header {
 /* line 230, ../scss/layout.wide.scss */
 .view-id-sponsors.view-sponsors .views-row {
   font-size: 14px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   width: auto;
-  max-width: 117px;
+  max-width: 100px;
 }
 
 /* line 239, ../scss/layout.wide.scss */
