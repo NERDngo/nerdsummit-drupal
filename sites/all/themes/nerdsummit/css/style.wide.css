@@ -160,34 +160,41 @@ body {
 }
 
 /* line 118, ../scss/style.wide.scss */
+input, .form-item {
+  max-width: 90%;
+}
+
+/* line 122, ../scss/style.wide.scss */
 #banner_area {
   width: 100%;
   float: left;
   width: 100%;
   position: relative;
 }
-/* line 123, ../scss/style.wide.scss */
+/* line 127, ../scss/style.wide.scss */
 #banner_area div#block-block-6 {
   width: 823px;
   height: 239px;
 }
-/* line 127, ../scss/style.wide.scss */
+/* line 131, ../scss/style.wide.scss */
 #banner_area h1 {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
   display: block;
+  padding-top: 24px;
 }
-/* line 132, ../scss/style.wide.scss */
+/* line 137, ../scss/style.wide.scss */
 #banner_area p {
   margin: 12px 6px 0 24px;
+  padding-bottom: 24px;
 }
-/* line 135, ../scss/style.wide.scss */
+/* line 140, ../scss/style.wide.scss */
 #banner_area p a {
   width: 50%;
   margin-left: 48px;
 }
 
-/* line 141, ../scss/style.wide.scss */
+/* line 146, ../scss/style.wide.scss */
 ul {
   padding-left: 32px;
   padding-bottom: 8px;
@@ -195,40 +202,36 @@ ul {
   color: #fff;
 }
 
-/* line 148, ../scss/style.wide.scss */
+/* line 153, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
   max-width: 245px;
   float: right;
   background-color: #e88f36;
 }
-/* line 152, ../scss/style.wide.scss */
+/* line 157, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block .form-text.required, #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 158, ../scss/style.wide.scss */
+/* line 163, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block div.description, #block-system-user-menu div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 162, ../scss/style.wide.scss */
+/* line 167, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block label, #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 165, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block .form-submit, #block-system-user-menu .form-submit {
-  float: right;
-}
-/* line 168, ../scss/style.wide.scss */
+/* line 173, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block .go-to-register, #block-system-user-menu .go-to-register {
   margin-left: 25px;
 }
-/* line 171, ../scss/style.wide.scss */
+/* line 176, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block .nerd-register, #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 175, ../scss/style.wide.scss */
+/* line 180, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block.open-registration, #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
@@ -238,7 +241,7 @@ div#block-nerd-homepage-login-registration-block.open-registration, #block-syste
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 183, ../scss/style.wide.scss */
+/* line 188, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
@@ -246,17 +249,17 @@ div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, 
   float: right;
   width: 30%;
 }
-/* line 191, ../scss/style.wide.scss */
+/* line 196, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 195, ../scss/style.wide.scss */
+/* line 200, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 199, ../scss/style.wide.scss */
+/* line 204, ../scss/style.wide.scss */
 div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
@@ -265,31 +268,31 @@ div#block-nerd-homepage-login-registration-block.open-registration .form-submit,
   float: none;
 }
 
-/* line 211, ../scss/style.wide.scss */
+/* line 216, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 218, ../scss/style.wide.scss */
+/* line 223, ../scss/style.wide.scss */
 .view-id-sponsors h3 {
   font-size: 1.5em;
 }
 
-/* line 225, ../scss/style.wide.scss */
+/* line 230, ../scss/style.wide.scss */
 #block-system-user-menu {
   background-color: #ed7b32;
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFED7B32', endColorstr='#FFE9682E');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ed7b32), color-stop(50%, #e9682e), color-stop(60%, #e9682e), color-stop(100%, #e9682e));
-  background-image: -webkit-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
-  background-image: -moz-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
-  background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
-  background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e88f36), color-stop(50%, #e9682e), color-stop(60%, #e9682e), color-stop(100%, #e9682e));
+  background-image: -webkit-linear-gradient(top, #e88f36 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: -moz-linear-gradient(top, #e88f36 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: -o-linear-gradient(top, #e88f36 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
+  background-image: linear-gradient(top, #e88f36 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
   box-shadow: 0 0 4px grey;
   font-weight: normal;
   color: #fff;
 }
-/* line 232, ../scss/style.wide.scss */
+/* line 237, ../scss/style.wide.scss */
 #block-system-user-menu a {
   color: #fff;
 }

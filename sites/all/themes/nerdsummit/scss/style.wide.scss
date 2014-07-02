@@ -115,6 +115,10 @@ body {
   }
 }
 
+input, .form-item {
+  max-width: 90%;
+  //margin-left: 1em;
+}
 #banner_area {
   width: 100%;
   float: left;
@@ -128,10 +132,11 @@ body {
     margin: 12px 0 4px 24px;
     font-weight: lighter;
     display: block;
+    padding-top: 24px;
   }
   p {
     margin: 12px 6px 0 24px;
-    //padding: 20px 0 70px 0;
+    padding-bottom: 24px;
     a{
       width: 50%;
       margin-left: 48px;
@@ -163,7 +168,7 @@ div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
     margin-left: 25px;
   }
   .form-submit {
-    float: right;
+    //float: right;
   }
   .go-to-register {
     margin-left: 25px;
@@ -225,7 +230,7 @@ h1#page-title {
   #block-system-user-menu {
     background-color: #ed7b32; // Old browsers
     @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
-    @include background-image(linear-gradient(top,  #ed7b32 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
+    @include background-image(linear-gradient(top,  #e88f36 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
     box-shadow: 0 0 4px grey;
     font-weight: normal;
     color: #fff;
