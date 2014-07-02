@@ -202,11 +202,11 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Tech Box',
       'title' => 'Teach',
-      'body' => '<p>Share your knowledge, use your communication skills.</p>
+      'body' => '<p>Contribute to the NERDs community by&nbsp;being&nbsp;an&nbsp;educator and sharing your knowledge.&nbsp;</p>
 
 <p><b>What will you teach?</b></p>
 
-<p><a class="button" href="/involvement-ladder">Find out more +</a></p>
+<p><a class="button" href="/teach">Find out more +</a></p>
 ',
       'format' => 'full_html',
       'substitute' => TRUE,
