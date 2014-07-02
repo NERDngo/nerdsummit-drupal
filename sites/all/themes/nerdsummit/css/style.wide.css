@@ -170,76 +170,66 @@ body {
 #banner_area div#block-block-6 {
   width: 823px;
   height: 239px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-  clear: none;
 }
-/* line 131, ../scss/style.wide.scss */
+/* line 127, ../scss/style.wide.scss */
 #banner_area h1 {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 136, ../scss/style.wide.scss */
+/* line 132, ../scss/style.wide.scss */
 #banner_area p {
-  margin: 12px 6px 0 36px;
-  color: #8083ad;
-  font-size: 14px;
+  margin: 12px 6px 0 24px;
 }
-/* line 140, ../scss/style.wide.scss */
+/* line 135, ../scss/style.wide.scss */
 #banner_area p a {
-  border-color: #ffffff;
   width: 50%;
+  margin-left: 48px;
 }
-/* line 143, ../scss/style.wide.scss */
-#banner_area p a:hover {
-  background-color: #e88222;
-}
-/* line 148, ../scss/style.wide.scss */
-#banner_area ul {
+
+/* line 141, ../scss/style.wide.scss */
+ul {
   padding-left: 32px;
   padding-bottom: 8px;
   margin-top: 4px;
   color: #fff;
 }
-/* line 155, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
+
+/* line 148, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
   max-width: 245px;
   float: right;
   background-color: #e88f36;
 }
-/* line 159, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
+/* line 152, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block .form-text.required, #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 165, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
+/* line 158, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block div.description, #block-system-user-menu div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 169, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
+/* line 162, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block label, #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 172, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .form-submit, #banner_area #block-system-user-menu .form-submit {
+/* line 165, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block .form-submit, #block-system-user-menu .form-submit {
   float: right;
 }
-/* line 175, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #banner_area #block-system-user-menu .go-to-register {
+/* line 168, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block .go-to-register, #block-system-user-menu .go-to-register {
   margin-left: 25px;
 }
-/* line 178, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
+/* line 171, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block .nerd-register, #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 182, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
+/* line 175, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block.open-registration, #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
   left: 0;
@@ -248,26 +238,26 @@ body {
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 190, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
+/* line 183, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
   border-right: none;
   float: right;
   width: 30%;
 }
-/* line 198, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
+/* line 191, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 202, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
+/* line 195, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 206, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
+/* line 199, ../scss/style.wide.scss */
+div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -275,17 +265,17 @@ body {
   float: none;
 }
 
-/* line 218, ../scss/style.wide.scss */
+/* line 211, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 225, ../scss/style.wide.scss */
+/* line 218, ../scss/style.wide.scss */
 .view-id-sponsors h3 {
   font-size: 1.5em;
 }
 
-/* line 232, ../scss/style.wide.scss */
+/* line 225, ../scss/style.wide.scss */
 #block-system-user-menu {
   background-color: #ed7b32;
   *zoom: 1;
@@ -299,7 +289,7 @@ h1#page-title {
   font-weight: normal;
   color: #fff;
 }
-/* line 239, ../scss/style.wide.scss */
+/* line 232, ../scss/style.wide.scss */
 #block-system-user-menu a {
   color: #fff;
 }

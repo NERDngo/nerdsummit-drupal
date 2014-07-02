@@ -19,17 +19,21 @@ function nerds_cta_boxes_default_box() {
   $box->description = 'the learn page call to action box';
   $box->options = array(
     'body' => array(
-      'value' => '<h1>Learn&nbsp;</h1>
+      'value' => '<h1>No Matter What Your Skill Level</h1>
 
-<p>No matter what your skill level&nbsp;the&nbsp;<span>NERDs team of developers are&nbsp;ready, willing and able&nbsp;to help.&nbsp;</span>Join us in&nbsp;discussing:</p>
+<h2><span style="line-height: 1.6em;">the&nbsp;</span><span style="line-height: 1.6em;">NERDs team of developers are&nbsp;ready, willing and able&nbsp;to help.&nbsp;</span></h2>
+
+<h2><strong style="font-size: 13px; line-height: 1.6em;"><span style="line-height: 1.6em;">Join us in&nbsp;discussing:</span></strong></h2>
 
 <ul class="rteindent2">
 	<li class="rteindent3"><span>Content Managment Systems like Drupal and Wordpress!</span></li>
-	<li class="rteindent2"><span>Coding languages like HTML5 CSS3 Javascript, Php&nbsp;and more!</span></li>
-	<li class="rteindent2"><span>Important&nbsp;concepts such as responsive design, ​<span>efficient workflow, SEO, and mobile-first development strategies!&nbsp;</span></span></li>
+	<li class="rteindent2"><span>Coding languages like HTML5 CSS3 Javascript, PHP&nbsp;and more!</span></li>
+	<li class="rteindent2"><span>Important&nbsp;concepts such as responsive design, ​<span>efficient workflow, SEO, and mobile-first development strategies!</span></span></li>
 </ul>
 
-<p><a class="button" href="#">What do you want to learn?</a></p>
+<p class="rteindent2"><span><span><span><span>​If you don\'t see something of interest below, please make a request!</span></span></span></span></p>
+
+<p><a class="button" href="/learn/requests">What do you want to learn about?</a></p>
 ',
       'format' => 'full_html',
     ),

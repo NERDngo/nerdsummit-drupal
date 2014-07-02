@@ -123,10 +123,6 @@ body {
   div#block-block-6 {
     width: 823px;
     height: 239px;
-    //background: url('../images/banner_learn.jpg?1401306359') no-repeat;
-    @include background-size(cover);
-    color: white;
-    clear: none;
   }
   h1 {
     margin: 12px 0 4px 24px;
@@ -134,14 +130,11 @@ body {
     display: block;
   }
   p {
-    margin: 12px 6px 0 36px;
-    color: $lightPurpleHeadline;
-    font-size: 14px;
+    margin: 12px 6px 0 24px;
+    //padding: 20px 0 70px 0;
     a{
-      border-color: #ffffff;
       width: 50%;
-      &:hover{
-        background-color: $hoverOrange;
+      margin-left: 48px;
       }
     }
   }
@@ -152,67 +145,67 @@ body {
     color: #fff;
   ;
   }
-  div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
-    max-width: 245px;
+div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+  max-width: 245px;
+  float: right;
+  background-color: $blockBgDarkOrange;
+  .form-text.required {
+    width: 234px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  div.description {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  label {
+    margin-left: 25px;
+  }
+  .form-submit {
     float: right;
+  }
+  .go-to-register {
+    margin-left: 25px;
+  }
+  .nerd-register {
+    display: none;
+  }
+  //OPEN REGISTRATION BLOCK
+  &.open-registration {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: $blockBgDarkOrange;
-    .form-text.required {
-      width: 234px;
-      margin-left: 25px;
-      margin-right: 25px;
+    z-index: 1;
+    padding-bottom: 125px;
+    .nerd-login {
+      border: 2px solid #ffffff;
+      border-top: none;
+      border-right: none;
+      float: right;
+      width: 30%;
     }
 
-    div.description {
+    fieldset#edit-mailchimp-lists {
       margin-left: 25px;
       margin-right: 25px;
     }
-    label {
+    .resizable.textarea-processed.resizable-textarea {
       margin-left: 25px;
+      width: 50%;
     }
     .form-submit {
-      float: right;
-    }
-    .go-to-register {
-      margin-left: 25px;
-    }
-    .nerd-register {
-      display: none;
-    }
-    //OPEN REGISTRATION BLOCK
-    &.open-registration {
+      margin-right: auto;
+      margin-left: auto;
       display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      background-color: $blockBgDarkOrange;
-      z-index: 1;
-      padding-bottom: 125px;
-      .nerd-login {
-        border: 2px solid #ffffff;
-        border-top: none;
-        border-right: none;
-        float: right;
-        width: 30%;
-      }
-
-      fieldset#edit-mailchimp-lists {
-        margin-left: 25px;
-        margin-right: 25px;
-      }
-      .resizable.textarea-processed.resizable-textarea {
-        margin-left: 25px;
-        width: 50%;
-      }
-      .form-submit {
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        margin-top: 36px;
-        float: none;
-      }
+      margin-top: 36px;
+      float: none;
     }
   }
 }
+
 
 
 h1#page-title {
