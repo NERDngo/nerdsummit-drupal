@@ -20,8 +20,10 @@ p {
 .home-about {
   border-top: 1px dotted $purple;
 }
-.page-learn h1#page-title {
+.page-learn, .page-teach{
+  h1#page-title {
   display: none;
+}
 }
 .home-box {
   color: #fff;
@@ -283,19 +285,21 @@ header.header , body {
   background: url('../images/banner_learn-2.jpg') fixed no-repeat;
   @include background-size(cover);
   min-height: 350px;
-  color: white;
+  color: #fff;
   clear: left;
 }
 #boxes-box-support_cta {
-  background: url('../images/banner_support-orange.jpg') fixed no-repeat;
+  background: url('../images/banner_support-pink.jpg') fixed no-repeat;
   @include background-size(cover);
-  color: white;
+  min-height: 350px;
+  color: #fff;
   clear: left;
 }
 #boxes-box-teach_cta {
-  background: url('../images/banner_teach-orange.jpg') fixed no-repeat;
+  background: url('../images/banner_teach-green.jpg') fixed no-repeat;
   @include background-size(cover);
-  color: white;
+  min-height: 350px;
+  color: #fff;
   clear: left;
 }
 

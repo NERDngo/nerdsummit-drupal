@@ -84,7 +84,11 @@ function nerds_cta_boxes_default_box() {
     'body' => array(
       'value' => '<h1>Become an Educator</h1>
 
-<p>While the Pioneer Valley in particular is home to a variety of educational institutions, including the Five College Consortium, a flagship research university, two Seven Sisters women’s colleges, and a host of community colleges, the lack of practical development experience that undergraduates entering the workforce presents a problem that New England Regional Developers, Inc, believes can be solved with the mentoring program outlined here.</p>
+<p>Propose a session for the upcoming NERDSummit or apply to teach an entirely new or an existing learning event. It can be a new topic or ideaor it may draw from the list of requested topics below.&nbsp;</p>
+
+<p><a class="button" href="/node/add/session">Propose a Session</a></p>
+
+<p><a class="button" href="/teach/apply">Apply to be a NERDs Educator</a></p>
 ',
       'format' => 'full_html',
     ),

@@ -83,7 +83,7 @@ function nerds_cta_boxes_context_default_contexts() {
   $context->conditions = array(
     'path' => array(
       'values' => array(
-        'involvement-ladder' => 'involvement-ladder',
+        'teach' => 'teach',
       ),
     ),
   );
