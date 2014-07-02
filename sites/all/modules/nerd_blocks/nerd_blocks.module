@@ -61,5 +61,10 @@ function nerd_blocks_preprocess_nerd_save_date(&$variables) {
   $variables['nerd_img'] = theme('image', $nerd_img);
   $variables['register_text'] = t('Register Now');
   $variables['find_out_more_text'] = t('Find out more');
-  $variables['register_path'] = url('user');
+  $variables['register_path'] = url('node/1#ticket-field-formatter-view-form');
+  $variables['find_out_more_path'] = url('node/1');
+  $variables['find_out_more'] = l('Find Out More', 'node/1', array('attributes' => array('class' => array('purple-button'))));
+  $variables['register']= l('Register Now', 'node/1#ticket-field-formatter-view-form', array('attributes' => array('class' => array('purple-button'))));
+
 }
+
