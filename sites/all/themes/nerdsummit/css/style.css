@@ -389,7 +389,7 @@ header.header, body {
 
 /* line 291, ../scss/style.scss */
 #boxes-box-support_cta {
-  background: url("../images/banner_support-pink.jpg") fixed no-repeat;
+  background: url("../images/banner_support-orange.jpg") fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -401,7 +401,7 @@ header.header, body {
 
 /* line 298, ../scss/style.scss */
 #boxes-box-teach_cta {
-  background: url("../images/banner_teach-green.jpg") fixed no-repeat;
+  background: url("../images/banner_teach-orange.jpg") fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
