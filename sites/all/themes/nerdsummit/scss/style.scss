@@ -286,21 +286,24 @@ header.header , body {
 
 #block-boxes-learn-cta-box {
   background: url('../images/banner_learn-2.jpg') fixed no-repeat;
-  @include background-size(cover);
+  @include background-size(auto 590px);
+  background-position: top center;
   min-height: 350px;
   color: #fff;
   clear: left;
 }
 #boxes-box-support_cta {
   background: url('../images/banner_support-orange.jpg') fixed no-repeat;
-  @include background-size(cover);
+  @include background-size(auto 590px);
+  background-position: top center;
   min-height: 350px;
   color: #fff;
   clear: left;
 }
 #boxes-box-teach_cta {
   background: url('../images/banner_teach-orange.jpg') fixed no-repeat;
-  @include background-size(cover);
+  @include background-size(auto 590px);
+  background-position: top center;
   min-height: 350px;
   color: #fff;
   clear: left;
