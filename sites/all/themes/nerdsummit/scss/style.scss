@@ -22,8 +22,11 @@ p {
 }
 .page-learn, .page-teach{
   h1#page-title {
-  display: none;
+    display: none;
+  }
 }
+ul.pager {
+  color: $defaultHeadingColor;
 }
 .home-box {
   color: #fff;
