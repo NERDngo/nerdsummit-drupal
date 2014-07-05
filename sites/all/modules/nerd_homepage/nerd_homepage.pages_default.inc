@@ -256,6 +256,25 @@ function nerd_homepage_default_page_manager_pages() {
     $display->content['new-14f66ed4-075a-481c-a69a-7af030696824'] = $pane;
     $display->panels['middle'][2] = 'new-14f66ed4-075a-481c-a69a-7af030696824';
     $pane = new stdClass();
+    $pane->pid = 'new-bae3dcff-511b-4a34-a8f4-42f97b3ff3db';
+    $pane->panel = 'top_left';
+    $pane->type = 'page_messages';
+    $pane->subtype = 'page_messages';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array();
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $pane->uuid = 'bae3dcff-511b-4a34-a8f4-42f97b3ff3db';
+    $display->content['new-bae3dcff-511b-4a34-a8f4-42f97b3ff3db'] = $pane;
+    $display->panels['top_left'][0] = 'new-bae3dcff-511b-4a34-a8f4-42f97b3ff3db';
+    $pane = new stdClass();
     $pane->pid = 'new-2d3b0f25-4708-47bb-89db-18f5e7070240';
     $pane->panel = 'top_left';
     $pane->type = 'custom';
@@ -282,11 +301,11 @@ function nerd_homepage_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 0;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = '2d3b0f25-4708-47bb-89db-18f5e7070240';
     $display->content['new-2d3b0f25-4708-47bb-89db-18f5e7070240'] = $pane;
-    $display->panels['top_left'][0] = 'new-2d3b0f25-4708-47bb-89db-18f5e7070240';
+    $display->panels['top_left'][1] = 'new-2d3b0f25-4708-47bb-89db-18f5e7070240';
     $pane = new stdClass();
     $pane->pid = 'new-2721784a-1979-42b5-b11e-59329427f8eb';
     $pane->panel = 'top_right';
