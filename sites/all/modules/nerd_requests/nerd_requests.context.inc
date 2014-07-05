@@ -20,7 +20,6 @@ function nerd_requests_context_default_contexts() {
     'path' => array(
       'values' => array(
         'teach' => 'teach',
-        '~teach/*' => '~teach/*',
       ),
     ),
     'user' => array(
@@ -41,7 +40,7 @@ function nerd_requests_context_default_contexts() {
       ),
     ),
   );
-  $context->condition_mode = 0;
+  $context->condition_mode = 1;
   $export['nerd_requested_sessions'] = $context;
 
   return $export;
