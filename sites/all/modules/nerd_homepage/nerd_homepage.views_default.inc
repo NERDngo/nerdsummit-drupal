@@ -494,13 +494,6 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
-  $handler->display->display_options['style_options']['grouping'] = array(
-    0 => array(
-      'field' => 'name',
-      'rendered' => 1,
-      'rendered_strip' => 0,
-    ),
-  );
   $handler->display->display_options['row_plugin'] = 'fields';
   /* Relationship: Content: Sponsorship Level (field_sponsor_sponsorship_level) */
   $handler->display->display_options['relationships']['field_sponsor_sponsorship_level_tid']['id'] = 'field_sponsor_sponsorship_level_tid';
@@ -622,6 +615,7 @@ function nerd_homepage_views_default_views() {
 
   /* Display: Rotating Sponsors Block */
   $handler = $view->new_display('block', 'Rotating Sponsors Block', 'block_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
   $handler->display->display_options['display_description'] = 'a view block of the silver, supporting, and community level sponsors';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';

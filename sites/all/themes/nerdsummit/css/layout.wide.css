@@ -241,13 +241,13 @@ header.header {
 }
 
 /* line 212, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors, .view-id-nerd-sponsors.view-nerd-sponsors {
+.view-id-sponsors.view-sponsors, .view-id-nerd_sponsors.view-nerd-sponsors {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
 }
 /* line 216, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .view-header, .view-id-nerd-sponsors.view-nerd-sponsors .view-header {
+.view-id-sponsors.view-sponsors .view-header, .view-id-nerd_sponsors.view-nerd-sponsors .view-header {
   margin: 0;
   padding: 25px 0 0 0;
   text-align: right;
@@ -255,17 +255,17 @@ header.header {
   float: right;
 }
 /* line 222, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .view-header .button, .view-id-nerd-sponsors.view-nerd-sponsors .view-header .button {
+.view-id-sponsors.view-sponsors .view-header .button, .view-id-nerd_sponsors.view-nerd-sponsors .view-header .button {
   width: auto;
   margin: 0 0 0 10px !important;
 }
 /* line 227, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .view-content, .view-id-nerd-sponsors.view-nerd-sponsors .view-content {
+.view-id-sponsors.view-sponsors .view-content, .view-id-nerd_sponsors.view-nerd-sponsors .view-content {
   margin: 20px 0;
   text-align: center;
 }
 /* line 231, ../scss/layout.wide.scss */
-.view-id-sponsors.view-sponsors .views-row, .view-id-nerd-sponsors.view-nerd-sponsors .views-row {
+.view-id-sponsors.view-sponsors .views-row, .view-id-nerd_sponsors.view-nerd-sponsors .views-row {
   font-size: 14px;
   padding: 5px;
   text-align: center;
