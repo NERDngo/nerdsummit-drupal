@@ -292,12 +292,12 @@ header.header, body {
 }
 
 /* line 197, ../scss/style.scss */
-.view-sponsors a {
+.view-sponsors a, .view-nerd-sponsors a {
   color: #3f4157;
   font-weight: normal;
 }
 /* line 200, ../scss/style.scss */
-.view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button {
+.view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button, .view-nerd-sponsors a.button, .view-nerd-sponsors a.purple-button, .view-nerd-sponsors .front .panels-top a.button, .front .panels-top .view-nerd-sponsors a.button {
   border-color: #666785;
 }
 
@@ -583,22 +583,22 @@ h1#page-title {
 }
 
 /* line 457, ../scss/style.scss */
-.view-id-sponsors.view-display-id-page {
+.view-id-sponsors.view-display-id-page, .view-id-nerd-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
 /* line 463, ../scss/style.scss */
-.view-id-sponsors h3 {
+.view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   color: #3f4157;
 }
 /* line 467, ../scss/style.scss */
-.view-id-sponsors .views-field-field-sponsor-logo a {
+.view-id-sponsors .views-field-field-sponsor-logo a, .view-id-nerd-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
 /* line 470, ../scss/style.scss */
-.view-id-sponsors .views-field-field-sponsor-logo img {
+.view-id-sponsors .views-field-field-sponsor-logo img, .view-id-nerd-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }

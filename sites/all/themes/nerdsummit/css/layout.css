@@ -180,21 +180,21 @@ body {
 }
 
 /* line 161, ../scss/layout.scss */
-.view-sponsors {
+.view-sponsors, .view-nerd-sponsors {
   display: block;
   clear: both;
 }
 /* line 164, ../scss/layout.scss */
-.view-sponsors .view-content {
+.view-sponsors .view-content, .view-nerd-sponsors .view-content {
   display: inline-block;
   width: 100%;
 }
 /* line 168, ../scss/layout.scss */
-.view-sponsors .view-header {
+.view-sponsors .view-header, .view-nerd-sponsors .view-header {
   padding: 5%;
 }
 /* line 170, ../scss/layout.scss */
-.view-sponsors .view-header .button {
+.view-sponsors .view-header .button, .view-nerd-sponsors .view-header .button {
   width: 45%;
   margin: 0 2.5%;
   padding: 5px 0;
@@ -202,14 +202,14 @@ body {
   float: left;
 }
 /* line 178, ../scss/layout.scss */
-.view-sponsors .views-row {
+.view-sponsors .views-row, .view-nerd-sponsors .views-row {
   display: inline-block;
   vertical-align: bottom;
   width: 49%;
   box-sizing: border-box;
 }
 /* line 188, ../scss/layout.scss */
-.view-sponsors img {
+.view-sponsors img, .view-nerd-sponsors img {
   height: auto;
   width: 100%;
 }
@@ -317,7 +317,7 @@ body {
 }
 
 /* line 278, ../scss/layout.scss */
-.view-id-sponsors h3 {
+.view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   clear: both;
   margin-left: 15px;
   font-size: 1.5em;

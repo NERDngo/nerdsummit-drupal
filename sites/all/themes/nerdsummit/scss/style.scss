@@ -193,7 +193,7 @@ header.header , body {
   }
 }
 
-.view-sponsors {
+.view-sponsors, .view-nerd-sponsors {
   a {
     color: $purpleText;
     font-weight: normal;
@@ -453,7 +453,7 @@ h1#page-title {
   padding-bottom: 22px;
   padding-left: 15px;
 }
-.view-id-sponsors {
+.view-id-sponsors, .view-id-nerd-sponsors {
   &.view-display-id-page {
     background-color: $lightBgColor;
     color: $purpleText;

@@ -197,7 +197,7 @@ header.header {
   }
 }
 
-.pane-sponsors {
+.pane-sponsors, .pane-nerd-sponsors {
   overflow: hidden;
   padding: 0 25px;
   h2.pane-title {
@@ -209,7 +209,7 @@ header.header {
   }
 }
 
-.view-id-sponsors.view-sponsors {
+.view-id-sponsors.view-sponsors, .view-id-nerd-sponsors.view-nerd-sponsors {
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
