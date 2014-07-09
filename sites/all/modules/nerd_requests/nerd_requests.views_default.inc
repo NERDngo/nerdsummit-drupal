@@ -80,7 +80,14 @@ function nerd_requests_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'nerdsummit-2014/sessions/requested';
+  $handler->display->display_options['defaults']['header'] = FALSE;
+  /* Header: Global: Text area */
+  $handler->display->display_options['header']['area']['id'] = 'area';
+  $handler->display->display_options['header']['area']['table'] = 'views';
+  $handler->display->display_options['header']['area']['field'] = 'area';
+  $handler->display->display_options['header']['area']['content'] = 'Look through the following list and add a comment to requests for things you would like to learn about. <br /><br />Educators look here for ideas for topics to propose sessions or learning events on. If you don\'t see your topic, you <a href="/node/add/request">should request it here</a>. <br /><br />';
+  $handler->display->display_options['header']['area']['format'] = 'full_html';
+  $handler->display->display_options['path'] = 'learn/requests';
   $handler->display->display_options['menu']['type'] = 'normal';
   $handler->display->display_options['menu']['title'] = 'Requested Sessions';
   $handler->display->display_options['menu']['name'] = 'menu-ongoing-events';

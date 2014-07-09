@@ -21,6 +21,7 @@ features[field_base][] = field_give_session
 features[field_base][] = field_requested_session
 features[field_instance][] = node-request-body
 features[field_instance][] = node-request-field_give_session
+features[field_instance][] = node-request-og_group_ref
 features[field_instance][] = node-session-field_requested_session
 features[node][] = request
 features[variable][] = comment_anonymous_request
