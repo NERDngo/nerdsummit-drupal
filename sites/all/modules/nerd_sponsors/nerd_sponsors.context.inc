@@ -40,6 +40,12 @@ function nerd_sponsors_context_default_contexts() {
           'region' => 'footer',
           'weight' => '-9',
         ),
+        'block-3' => array(
+          'module' => 'block',
+          'delta' => '3',
+          'region' => 'footer',
+          'weight' => '-8',
+        ),
       ),
     ),
   );

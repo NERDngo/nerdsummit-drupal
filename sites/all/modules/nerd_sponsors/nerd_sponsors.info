@@ -1,6 +1,7 @@
 name = NERD Sponsors
 core = 7.x
 package = NERD
+dependencies[] = block
 dependencies[] = context
 dependencies[] = ctools
 dependencies[] = views
