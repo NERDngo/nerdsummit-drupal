@@ -59,10 +59,10 @@ function nerds_cta_boxes_default_box() {
 <ol>
 	<li>Review <a href="/sponsors-information">sponsor information and levels</a>.</li>
 	<li><a href="/user/register">Register to sponsor</a>. (If already registered, proceed to step 5.)</li>
-	<li>Recieve confirmation email with more info.</li>
+	<li>Receive confirmation email with more info.</li>
 	<li>Confirm account, login, get access to apply to sponsor</li>
 	<li>Complete this <a href="/node/add/sponsor">Sponsorship form</a>.</li>
-	<li>Recieve confirmation email asking which level you are interested in and to recieve payment.</li>
+	<li>Receive confirmation email asking which level you are interested in and to receive payment.</li>
 </ol>
 
 <p><em>You can also <a href="/contact">contact us</a> for more info.</em></p>
