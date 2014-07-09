@@ -227,7 +227,12 @@ header.header , body {
     }
   }
 }
-
+#banner_area {
+  .boxes-box {
+    @include background-size(cover);
+    background-position: center center;
+  }
+}
 
 .region-sidebar-first,
 .region-sidebar-second,
@@ -300,24 +305,21 @@ header.header , body {
 
 #block-boxes-learn-cta-box {
   background: url('../images/banner_learn-2.jpg') fixed no-repeat;
-  @include background-size(auto 590px);
-  background-position: top center;
   min-height: 350px;
   color: #fff;
   clear: left;
+  @include background-size(cover);
 }
 #boxes-box-support_cta {
   background: url('../images/banner_support-pink.jpg') fixed no-repeat;
-  @include background-size(auto 590px);
-  background-position: top center;
+  @include background-size(cover);
   min-height: 350px;
   color: #fff;
   clear: left;
 }
 #boxes-box-teach_cta {
   background: url('../images/banner_teach-green.jpg') fixed no-repeat;
-  @include background-size(auto 590px);
-  background-position: top center;
+  @include background-size(cover);
   min-height: 350px;
   color: #fff;
   clear: left;

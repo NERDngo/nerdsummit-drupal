@@ -240,3 +240,8 @@ h1#page-title {
     }
   }
 
+#block-boxes-learn-cta-box,
+#boxes-box-support_cta,
+#boxes-box-teach_cta {
+  @include background-size(auto 590px);
+}

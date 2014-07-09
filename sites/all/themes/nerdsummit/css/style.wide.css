@@ -296,3 +296,13 @@ h1#page-title {
 #block-system-user-menu a {
   color: #fff;
 }
+
+/* line 245, ../scss/style.wide.scss */
+#block-boxes-learn-cta-box,
+#boxes-box-support_cta,
+#boxes-box-teach_cta {
+  -webkit-background-size: auto 590px;
+  -moz-background-size: auto 590px;
+  -o-background-size: auto 590px;
+  background-size: auto 590px;
+}
