@@ -336,3 +336,8 @@ body {
   margin-left: 15px;
   font-size: 1.5em;
 }
+
+/* line 303, ../scss/layout.scss */
+#block-system-user-menu ul {
+  margin-left: 0;
+}
