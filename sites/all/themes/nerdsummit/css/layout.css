@@ -17,17 +17,31 @@ body {
   display: block;
 }
 
-/* line 24, ../scss/layout.scss */
+/* line 25, ../scss/layout.scss */
+ul.tabs-primary, ul.tabs-secondary {
+  padding-left: 0;
+  clear: both;
+  display: block;
+}
+/* line 29, ../scss/layout.scss */
+ul.tabs-primary li, ul.tabs-secondary li {
+  float: left;
+  padding: 3px 6px;
+  margin: 0 1px 0 0;
+  display: inline-block;
+}
+
+/* line 41, ../scss/layout.scss */
 .header__name-and-slogan a {
   line-height: 1em;
 }
 
-/* line 29, ../scss/layout.scss */
+/* line 46, ../scss/layout.scss */
 .header__site-name {
   margin-top: 0;
 }
 
-/* line 33, ../scss/layout.scss */
+/* line 50, ../scss/layout.scss */
 .panel-pane.home-box {
   width: 100%;
   display: inline-block;
@@ -35,75 +49,75 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 39, ../scss/layout.scss */
+/* line 56, ../scss/layout.scss */
 .panel-pane.home-box h2.pane-title {
   margin: 0;
   padding: 2.5% 5%;
 }
-/* line 43, ../scss/layout.scss */
+/* line 60, ../scss/layout.scss */
 .panel-pane.home-box p {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: inherit;
   padding-bottom: inherit;
 }
-/* line 49, ../scss/layout.scss */
+/* line 66, ../scss/layout.scss */
 .panel-pane.home-box .button {
   display: block;
   margin: 0 auto;
   width: 75%;
 }
 
-/* line 55, ../scss/layout.scss */
+/* line 72, ../scss/layout.scss */
 header.header {
   margin: 0;
   padding: 0;
   height: 70px;
 }
 
-/* line 60, ../scss/layout.scss */
+/* line 77, ../scss/layout.scss */
 body {
   margin: 0;
 }
 
-/* line 64, ../scss/layout.scss */
+/* line 81, ../scss/layout.scss */
 #logo {
   position: absolute;
   top: 10px;
 }
-/* line 67, ../scss/layout.scss */
+/* line 84, ../scss/layout.scss */
 #logo img {
   max-width: 150px;
 }
 
-/* line 72, ../scss/layout.scss */
+/* line 89, ../scss/layout.scss */
 #header-top, .header__name-and-slogan {
   margin-left: 80px;
 }
 
-/* line 75, ../scss/layout.scss */
+/* line 92, ../scss/layout.scss */
 .header__name-and-slogan {
   display: none;
 }
 
-/* line 80, ../scss/layout.scss */
+/* line 97, ../scss/layout.scss */
 .front .page__title {
   display: none;
 }
-/* line 83, ../scss/layout.scss */
+/* line 100, ../scss/layout.scss */
 .front .panels-top {
   display: inline-block;
   box-sizing: border-box;
 }
-/* line 87, ../scss/layout.scss */
+/* line 104, ../scss/layout.scss */
 .front .panels-top .view {
   padding: 0 5% 0 0;
 }
-/* line 90, ../scss/layout.scss */
+/* line 107, ../scss/layout.scss */
 .front .panels-top .panel-pane {
   padding-bottom: 5%;
 }
-/* line 93, ../scss/layout.scss */
+/* line 110, ../scss/layout.scss */
 .front .panels-top h1 {
   float: left;
   width: 100%;
@@ -112,39 +126,39 @@ body {
   padding: 5% 0;
   box-sizing: border-box;
 }
-/* line 101, ../scss/layout.scss */
+/* line 118, ../scss/layout.scss */
 .front .panels-top p .button {
   display: block;
   margin: 0 10px 20px 10px;
 }
-/* line 106, ../scss/layout.scss */
+/* line 123, ../scss/layout.scss */
 .front .panel-bottom {
   float: left;
 }
 
-/* line 111, ../scss/layout.scss */
+/* line 128, ../scss/layout.scss */
 .pane, .panel {
   width: 100%;
 }
 
-/* line 115, ../scss/layout.scss */
+/* line 132, ../scss/layout.scss */
 #social-media-links {
   display: none;
 }
 
-/* line 119, ../scss/layout.scss */
+/* line 136, ../scss/layout.scss */
 #main {
   clear: both;
 }
 
-/* line 123, ../scss/layout.scss */
+/* line 140, ../scss/layout.scss */
 #navigation {
   display: block;
   width: 100%;
   margin: 0;
   padding-top: 70px;
 }
-/* line 128, ../scss/layout.scss */
+/* line 145, ../scss/layout.scss */
 #navigation ul.menu {
   margin: 0;
   padding: 0;
@@ -152,7 +166,7 @@ body {
   display: inline-block;
   width: 100%;
 }
-/* line 134, ../scss/layout.scss */
+/* line 151, ../scss/layout.scss */
 #navigation ul.menu li {
   width: 100%;
   float: left;
@@ -160,7 +174,7 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/* line 141, ../scss/layout.scss */
+/* line 158, ../scss/layout.scss */
 #navigation ul.menu a {
   display: block;
   margin: 0;
@@ -169,31 +183,31 @@ body {
   padding: 10px;
 }
 
-/* line 152, ../scss/layout.scss */
+/* line 169, ../scss/layout.scss */
 .js .menu-hidden + #navigation ul.menu li {
   max-height: 0;
 }
 
-/* line 157, ../scss/layout.scss */
+/* line 174, ../scss/layout.scss */
 #skip-link {
   display: none;
 }
 
-/* line 161, ../scss/layout.scss */
+/* line 178, ../scss/layout.scss */
 .view-sponsors, .view-nerd-sponsors {
   display: block;
   clear: both;
 }
-/* line 164, ../scss/layout.scss */
+/* line 181, ../scss/layout.scss */
 .view-sponsors .view-content, .view-nerd-sponsors .view-content {
   display: inline-block;
   width: 100%;
 }
-/* line 168, ../scss/layout.scss */
+/* line 185, ../scss/layout.scss */
 .view-sponsors .view-header, .view-nerd-sponsors .view-header {
   padding: 5%;
 }
-/* line 170, ../scss/layout.scss */
+/* line 187, ../scss/layout.scss */
 .view-sponsors .view-header .button, .view-nerd-sponsors .view-header .button {
   width: 45%;
   margin: 0 2.5%;
@@ -201,36 +215,36 @@ body {
   box-sizing: border-box;
   float: left;
 }
-/* line 178, ../scss/layout.scss */
+/* line 195, ../scss/layout.scss */
 .view-sponsors .views-row, .view-nerd-sponsors .views-row {
   display: inline-block;
   vertical-align: bottom;
   width: 49%;
   box-sizing: border-box;
 }
-/* line 188, ../scss/layout.scss */
+/* line 205, ../scss/layout.scss */
 .view-sponsors img, .view-nerd-sponsors img {
   height: auto;
   width: 100%;
 }
 
-/* line 196, ../scss/layout.scss */
+/* line 213, ../scss/layout.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   box-sizing: border-box;
 }
-/* line 200, ../scss/layout.scss */
+/* line 217, ../scss/layout.scss */
 .panel-nerds-two-col .panel-bottom {
   margin-top: 0;
 }
 
-/* line 204, ../scss/layout.scss */
+/* line 221, ../scss/layout.scss */
 .panel-pane {
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
 }
 
-/* line 210, ../scss/layout.scss */
+/* line 227, ../scss/layout.scss */
 .hamburger-wrap {
   width: 70px;
   height: 70px;
@@ -240,14 +254,14 @@ body {
   top: 0;
   left: 0;
 }
-/* line 218, ../scss/layout.scss */
+/* line 235, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part {
   display: block;
   height: 4px;
   left: 20%;
   right: 20%;
 }
-/* line 223, ../scss/layout.scss */
+/* line 240, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.bun-top {
   top: 25px;
   -webkit-transform: rotate(45deg);
@@ -256,7 +270,7 @@ body {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-/* line 227, ../scss/layout.scss */
+/* line 244, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.bun-bottom {
   top: 25px;
   -webkit-transform: rotate(-45deg);
@@ -265,12 +279,12 @@ body {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* line 231, ../scss/layout.scss */
+/* line 248, ../scss/layout.scss */
 .hamburger-wrap .hamburger-part.patty {
   top: 25px;
   display: none;
 }
-/* line 237, ../scss/layout.scss */
+/* line 254, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part {
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
@@ -278,45 +292,45 @@ body {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
-/* line 239, ../scss/layout.scss */
+/* line 256, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-top {
   top: 15px;
 }
-/* line 242, ../scss/layout.scss */
+/* line 259, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.patty {
   display: block;
 }
-/* line 245, ../scss/layout.scss */
+/* line 262, ../scss/layout.scss */
 .hamburger-wrap.menu-hidden .hamburger-part.bun-bottom {
   top: 35px;
 }
-/* line 250, ../scss/layout.scss */
+/* line 267, ../scss/layout.scss */
 .hamburger-wrap .hamburger-text {
   position: relative;
   margin-top: 65%;
 }
 
-/* line 257, ../scss/layout.scss */
+/* line 274, ../scss/layout.scss */
 .node-event.node-teaser {
   padding: 5%;
 }
 
-/* line 264, ../scss/layout.scss */
+/* line 281, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   margin: 0;
   padding: 10px 0;
 }
-/* line 268, ../scss/layout.scss */
+/* line 285, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   padding: 10px;
 }
-/* line 270, ../scss/layout.scss */
+/* line 287, ../scss/layout.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content .purple-button {
   display: block;
   margin-bottom: 2px;
 }
 
-/* line 278, ../scss/layout.scss */
+/* line 295, ../scss/layout.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   clear: both;
   margin-left: 15px;

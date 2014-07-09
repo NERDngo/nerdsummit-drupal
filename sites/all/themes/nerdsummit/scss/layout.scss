@@ -20,6 +20,23 @@ body {
   }
 }
 
+ul {
+  &.tabs-primary,
+  &.tabs-secondary {
+    padding-left: 0;
+    clear: both;
+    display: block;
+    li {
+      float: left;
+      padding: 3px 6px;
+      margin: 0 1px 0 0;
+      display: inline-block;
+    }
+  }
+
+}
+
+
 .header__name-and-slogan {
   a {
     line-height: 1em;

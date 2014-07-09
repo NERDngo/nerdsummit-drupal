@@ -25,9 +25,23 @@ p {
     display: none;
   }
 }
-ul.pager {
-  color: $defaultHeadingColor;
+ul {
+  &.pager {
+    color: $defaultHeadingColor;
+  }
+  &.tabs-primary {
+    li {
+      background: #ddd;
+    }
+  }
+  &.tabs-secondary {
+    padding-top: 3px;
+    li {
+      background: #efefef;
+    }
+  }
 }
+
 .home-box {
   color: #fff;
   p {
@@ -317,6 +331,15 @@ input, .form-item {
 .pane-nerd-attendees {
   .more-link {
     display: none;
+  }
+}
+
+#block-system-user-menu {
+  h2.block-title {
+    margin: 12px 0 4px 24px;
+    font-weight: lighter;
+    display: block;
+    color: #fff;
   }
 }
 
