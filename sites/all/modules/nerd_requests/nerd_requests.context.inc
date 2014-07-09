@@ -22,11 +22,6 @@ function nerd_requests_context_default_contexts() {
         'teach' => 'teach',
       ),
     ),
-    'user' => array(
-      'values' => array(
-        'authenticated user' => 'authenticated user',
-      ),
-    ),
   );
   $context->reactions = array(
     'block' => array(
