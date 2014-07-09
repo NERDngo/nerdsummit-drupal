@@ -21,13 +21,13 @@ function nerds_cta_boxes_default_box() {
     'body' => array(
       'value' => '<h1>No Matter What Your Skill Level</h1>
 
-<h2><span style="line-height: 1.6em;">the&nbsp;</span><span style="line-height: 1.6em;">NERDs team of developers are&nbsp;ready, willing and able&nbsp;to help.&nbsp;</span></h2>
+<h2><span style="line-height: 1.6em;">NERDs educators are&nbsp;ready, willing and able&nbsp;to help.&nbsp;</span></h2>
 
 <h2><strong style="font-size: 13px; line-height: 1.6em;"><span style="line-height: 1.6em;">Join us in&nbsp;discussing:</span></strong></h2>
 
 <ul class="rteindent2">
 	<li class="rteindent3"><span>Content Managment Systems like Drupal and Wordpress!</span></li>
-	<li class="rteindent2"><span>Coding languages like HTML5 CSS3 Javascript, PHP&nbsp;and more!</span></li>
+	<li class="rteindent2"><span>Coding languages like HTML5, CSS3, Javascript, PHP&nbsp;and more!</span></li>
 	<li class="rteindent2"><span>Important&nbsp;concepts such as responsive design, ​<span>efficient workflow, SEO, and mobile-first development strategies!</span></span></li>
 </ul>
 
@@ -57,15 +57,15 @@ function nerds_cta_boxes_default_box() {
 <p>Steps to apply:</p>
 
 <ol>
-	<li>Review attached sponsor levels.</li>
-	<li>Register to sponsor. (If already registered, proceed to step 5.)</li>
+	<li>Review <a href="/sponsors-information">sponsor information and levels</a>.</li>
+	<li><a href="/user/register">Register to sponsor</a>. (If already registered, proceed to step 5.)</li>
 	<li>Recieve confirmation email with more info.</li>
 	<li>Confirm account, login, get access to apply to sponsor</li>
-	<li>Complete Sponsor form.</li>
+	<li>Complete this <a href="/node/add/sponsor">Sponsorship form</a>.</li>
 	<li>Recieve confirmation email asking which level you are interested in and to recieve payment.</li>
 </ol>
 
-<p><em>You can also contact us for more info.</em></p>
+<p><em>You can also <a href="/contact">contact us</a> for more info.</em></p>
 ',
       'format' => 'full_html',
     ),
@@ -84,7 +84,9 @@ function nerds_cta_boxes_default_box() {
     'body' => array(
       'value' => '<h1>Become an Educator</h1>
 
-<p>Propose a session for the upcoming NERDSummit or apply to teach an entirely new or an existing learning event. It can be a new topic or ideaor it may draw from the list of requested topics below.&nbsp;</p>
+<p>NERDs organizes learning events throughout the year leading up to an annual Summit. We invite you to join in as an educator.</p>
+
+<p>Propose a session for the upcoming NERDSummit; or apply to teach an entirely new or an existing learning event. New learning event proposals can be on a new topic or they may draw from the list of requested topics below.</p>
 
 <p><a class="button" href="/node/add/session">Propose a Session</a></p>
 
