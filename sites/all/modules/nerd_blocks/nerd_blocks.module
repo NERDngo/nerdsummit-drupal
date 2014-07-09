@@ -68,3 +68,16 @@ function nerd_blocks_preprocess_nerd_save_date(&$variables) {
 
 }
 
+/**
+ * Implementation of hook_form_FORM_ID_alter
+ */
+function nerd_blocks_form_user_login_alter(&$form, &$form_state, $form_id) {
+  $form['#submit'][] = 'nerd_blocks_login_redirect';
+}
+
+/**
+ * Submit callback that will redirect the user to the page they logged in from.
+ */
+function nerd_blocks_login_redirect(&$form, &$form_state) {
+  $form_state['redirect'] = current_path();
+}
