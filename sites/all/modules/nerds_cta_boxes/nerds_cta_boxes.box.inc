@@ -52,9 +52,7 @@ function nerds_cta_boxes_default_box() {
     'body' => array(
       'value' => '<h1><span style="line-height: 1.2em;">Become a Sponsor</span></h1>
 
-<p>NERDs is only possible with contributions from sponsors like you!</p>
-
-<p>Steps to apply:</p>
+<p>NERDs is only possible with contributions from sponsors like you!&nbsp;<span style="line-height: 1.6em;">Steps to apply:</span></p>
 
 <ol>
 	<li>Review <a href="/sponsors-information">sponsor information and levels</a>.</li>
@@ -65,7 +63,7 @@ function nerds_cta_boxes_default_box() {
 	<li>Receive confirmation email asking which level you are interested in and to receive payment.</li>
 </ol>
 
-<p><em>You can also <a href="/contact">contact us</a> for more info.</em></p>
+<p><a class="button" href="/contact">You can also contact us for more info</a></p>
 ',
       'format' => 'full_html',
     ),
