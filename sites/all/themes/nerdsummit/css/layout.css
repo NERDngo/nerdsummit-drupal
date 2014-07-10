@@ -341,3 +341,28 @@ body {
 #block-system-user-menu ul {
   margin-left: 0;
 }
+
+/* line 308, ../scss/layout.scss */
+.pane-nerd-attendees {
+  width: 100%;
+  float: left;
+}
+/* line 311, ../scss/layout.scss */
+.pane-nerd-attendees .pane-title {
+  padding-right: 25px;
+}
+/* line 315, ../scss/layout.scss */
+.pane-nerd-attendees .view {
+  padding-right: 25px;
+  padding-left: 18px;
+}
+/* line 319, ../scss/layout.scss */
+.pane-nerd-attendees .views-row {
+  float: left;
+  padding: 3px;
+}
+/* line 323, ../scss/layout.scss */
+.pane-nerd-attendees img {
+  height: auto;
+  width: 100px;
+}
