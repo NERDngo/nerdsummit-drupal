@@ -1,0 +1,201 @@
+<?php
+
+/**
+ * Adding menu links to Secondary navigation menu
+ */
+
+function nerd_homepage_update_7000() {
+  $teach = menu_link_get_preferred('node/105', 'menu-secondary-navigation');
+  if(!$teach) {
+    $teach = array(
+      'link_title' => 'Teach',
+      'link_path' => 'node/105',
+      'menu_name' => 'menu-secondary-navigation',
+      'weight' => 0,
+    );
+    menu_link_save($teach);
+  }
+
+
+  $summit = menu_link_get_preferred('node/1', 'menu-secondary-navigation');
+  if(!$summit) {
+    $summit = array(
+      'link_title' => 'Summit',
+      'link_path' => 'node/1',
+      'menu_name' => 'menu-secondary-navigation',
+      'weight' => 3,
+    );
+    menu_link_save($summit);
+  }
+}
+
+/**
+ * Add second level menu items.
+ * @author RB
+ */
+function nerd_homepage_update_7001() {
+  $teach = menu_link_get_preferred('node/105', 'menu-secondary-navigation');
+  $learn = menu_link_get_preferred('learn', 'menu-secondary-navigation');
+  $summit = menu_link_get_preferred('node/1', 'menu-secondary-navigation');
+  $support = menu_link_get_preferred('support', 'menu-secondary-navigation');
+
+  $learn_sub = array(
+    'link_title' => 'Event List',
+    'link_path' => 'learn',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $learn['mlid'],
+  );
+  menu_link_save($learn_sub);
+
+  $teach_sub = array(
+    'link_title' => 'Involvement Ladder',
+    'link_path' => 'node/105',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $teach['mlid'],
+  );
+  menu_link_save($teach_sub);
+
+
+  $support_sub = array(
+    'link_title' => 'Sponsor Info',
+    'link_path' => 'support',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $support['mlid'],
+  );
+  menu_link_save($support_sub);
+
+  $summit_sub = array(
+    'link_title' => '2014 Summit',
+    'link_path' => 'node/1',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $summit['mlid'],
+  );
+  menu_link_save($summit_sub);
+}
+
+function nerd_homepage_update_7002() {
+  db_update('block')
+    ->condition('module', 'menu_block')
+    ->condition('delta', array('top_level_nav', 'lower_level_nav'))
+    ->fields(array(
+      'title' => '<none>'
+    ))
+    ->execute();
+}
+
+function nerd_homepage_update_7003() {
+  db_update('block')
+    ->condition('module', 'system')
+    ->condition('delta', array('main-menu'))
+    ->fields(array(
+      'title' => '<none>'
+    ))
+    ->execute();
+
+}
+
+/**
+ * adding install hook for updates 7000-7003
+ */
+function nerd_homepage_install() {
+  if(!menu_load('menu-secondary-navigation')) {
+    menu_save(array(
+      'menu_name' => 'menu-secondary-navigation',
+      'description' => '',
+      'title' => 'Secondary Navigation',
+    ));
+  }
+  $teach = menu_link_get_preferred('node/105', 'menu-secondary-navigation');
+  if(!$teach) {
+    $teach = array(
+      'link_title' => 'Teach',
+      'link_path' => 'node/105',
+      'menu_name' => 'menu-secondary-navigation',
+      'weight' => 0,
+    );
+    menu_link_save($teach);
+  }
+
+
+  $summit = menu_link_get_preferred('node/1', 'menu-secondary-navigation');
+  if(!$summit) {
+    $summit = array(
+      'link_title' => 'Summit',
+      'link_path' => 'node/1',
+      'menu_name' => 'menu-secondary-navigation',
+      'weight' => 3,
+    );
+    menu_link_save($summit);
+  }
+  /**
+   * end 7000
+   */
+  $teach = menu_link_get_preferred('node/105', 'menu-secondary-navigation');
+  $learn = menu_link_get_preferred('learn', 'menu-secondary-navigation');
+  $summit = menu_link_get_preferred('node/1', 'menu-secondary-navigation');
+  $support = menu_link_get_preferred('support', 'menu-secondary-navigation');
+
+  $learn_sub = array(
+    'link_title' => 'Event List',
+    'link_path' => 'learn',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $learn['mlid'],
+  );
+  menu_link_save($learn_sub);
+
+  $teach_sub = array(
+    'link_title' => 'Involvement Ladder',
+    'link_path' => 'node/105',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $teach['mlid'],
+  );
+  menu_link_save($teach_sub);
+
+
+  $support_sub = array(
+    'link_title' => 'Sponsor Info',
+    'link_path' => 'support',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $support['mlid'],
+  );
+  menu_link_save($support_sub);
+
+  $summit_sub = array(
+    'link_title' => '2014 Summit',
+    'link_path' => 'node/1',
+    'menu_name' => 'menu-secondary-navigation',
+    'weight' => 0,
+    'plid' => $summit['mlid'],
+  );
+  menu_link_save($summit_sub);
+
+
+  /**
+   * end 7001
+   */
+  db_update('block')
+    ->condition('module', 'menu_block')
+    ->condition('delta', array('top_level_nav', 'lower_level_nav'))
+    ->fields(array(
+      'title' => '<none>'
+    ))
+    ->execute();
+
+  /**
+   * end 7002
+   */
+  db_update('block')
+    ->condition('module', 'system')
+    ->condition('delta', array('main-menu'))
+    ->fields(array(
+      'title' => '<none>'
+    ))
+    ->execute();
+}

@@ -1,0 +1,20 @@
+<?php
+
+function nerd_sessions_views_default_views_alter($views) {
+  /** @var view $view */
+  $view =& $views['cod_session_sessions'];
+
+  if($view) {
+    foreach($view->display as $display) {
+      if($display->handler instanceof views_plugin_display_page) {
+        $display->display_options['path'] = str_replace('node/%/program/sessions', 'node/%/sessions', $display->display_options['path']);
+      }
+    }
+    $view->display['page_proposed']->display_options['menu']['type'] = 'default tab';
+    $view->display['page_proposed']->display_options['tab_options']['type'] = 'tab';
+    $view->display['page_proposed']->display_options['tab_options']['title'] = 'Sessions';
+    $view->display['page_proposed']->display_options['tab_options']['weight'] = '0';
+    $view->display['page_1']->display_options['menu']['type'] = 'tab';
+    $view->display['page_1']->display_options['menu']['weight'] = 1;
+  }
+}

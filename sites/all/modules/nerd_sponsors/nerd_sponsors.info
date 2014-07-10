@@ -1,0 +1,13 @@
+name = NERD Sponsors
+core = 7.x
+package = NERD
+dependencies[] = block
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = views
+features[context][] = nerd_sponsors_promo_row
+features[ctools][] = context:context:3
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = sponsors
+project path = sites/all/modules

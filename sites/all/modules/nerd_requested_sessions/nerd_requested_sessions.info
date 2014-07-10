@@ -1,0 +1,7 @@
+name = NERD Requested Sessions
+description = allows users to select a requested session and volunteer to give it.
+core = 7.x
+package = Features
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features_exclude[dependencies][ctools] = ctools

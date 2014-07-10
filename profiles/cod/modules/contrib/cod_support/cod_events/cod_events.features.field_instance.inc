@@ -22,7 +22,7 @@ function cod_events_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'listing' => array(
         'label' => 'above',
@@ -56,7 +56,7 @@ function cod_events_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -67,7 +67,7 @@ function cod_events_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'date',
         'settings' => array(
           'format_type' => 'long',
@@ -77,7 +77,7 @@ function cod_events_field_default_field_instances() {
           'multiple_to' => '',
         ),
         'type' => 'date_default',
-        'weight' => 1,
+        'weight' => 0,
       ),
       'listing' => array(
         'label' => 'above',
@@ -107,6 +107,7 @@ function cod_events_field_default_field_instances() {
       'active' => 1,
       'module' => 'date',
       'settings' => array(
+        'display_all_day' => 0,
         'increment' => 15,
         'input_format' => 'm/d/Y - g:i:sa',
         'input_format_custom' => '',
@@ -115,7 +116,7 @@ function cod_events_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -171,7 +172,54 @@ function cod_events_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 3,
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-event-field_event_program'
+  $field_instances['node-event-field_event_program'] = array(
+    'bundle' => 'event',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 11,
+      ),
+      'listing' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_event_program',
+    'label' => 'Program',
+    'required' => 0,
+    'settings' => array(
+      'display_summary' => 0,
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 10,
+        'summary_rows' => 5,
+      ),
+      'type' => 'text_textarea_with_summary',
+      'weight' => 5,
     ),
   );
 
@@ -203,7 +251,7 @@ function cod_events_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 3,
       ),
     ),
     'entity_type' => 'node',
@@ -253,13 +301,10 @@ function cod_events_field_default_field_instances() {
     'description' => 'Determine if this is an OG group.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'og_ui',
-        'settings' => array(
-          'field_name' => FALSE,
-        ),
-        'type' => 'og_group_subscribe',
-        'weight' => 7,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
       ),
       'listing' => array(
         'label' => 'above',
@@ -305,14 +350,64 @@ function cod_events_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-event-upload'
+  $field_instances['node-event-upload'] = array(
+    'bundle' => 'event',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 5,
+      ),
+      'listing' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'upload',
+    'label' => 'File attachments',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'txt pdf ppt jpg jpeg png zip',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 3,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
   t('Dates');
   t('Determine if this is an OG group.');
+  t('File attachments');
   t('Group');
   t('If this is a free event, then you can choose which registration type to use for this event.');
   t('Image');
+  t('Program');
   t('Registration');
 
   return $field_instances;

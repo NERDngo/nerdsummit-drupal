@@ -1,0 +1,334 @@
+/* line 12, ../scss/_mixins.scss */
+#social-media-links ul, #navigation ul {
+  list-style: none;
+}
+/* line 14, ../scss/_mixins.scss */
+#social-media-links ul li, #navigation ul li {
+  display: inline-block;
+}
+/* line 16, ../scss/_mixins.scss */
+#social-media-links ul li a, #navigation ul li a {
+  text-decoration: none;
+}
+
+/* line 8, ../scss/layout.wide.scss */
+.panel-pane.home-box {
+  z-index: 2;
+  position: relative;
+  width: 340px;
+  float: left;
+  min-height: 245px;
+  margin-top: -50px;
+}
+/* line 15, ../scss/layout.wide.scss */
+.panel-pane.home-box .button {
+  width: 70%;
+  position: absolute;
+  bottom: 25px;
+}
+/* line 20, ../scss/layout.wide.scss */
+.panel-pane.home-box.learn-box {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+/* line 24, ../scss/layout.wide.scss */
+.panel-pane.home-box.support-box {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+/* line 30, ../scss/layout.wide.scss */
+#page {
+  margin: 0 auto;
+  width: 1110px;
+}
+
+/* line 37, ../scss/layout.wide.scss */
+header.header {
+  padding: 25px 25px 5px 25px;
+  height: auto;
+  position: relative;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 46, ../scss/layout.wide.scss */
+#header-top, .header__name-and-slogan {
+  margin-left: 0;
+}
+
+/* line 49, ../scss/layout.wide.scss */
+.header__name-and-slogan {
+  display: block;
+}
+
+/* line 54, ../scss/layout.wide.scss */
+#header-top,
+#header-bottom {
+  display: block;
+  overflow: hidden;
+}
+
+/* line 59, ../scss/layout.wide.scss */
+#logo {
+  float: left;
+  position: static;
+}
+/* line 62, ../scss/layout.wide.scss */
+#logo img {
+  max-width: 210px;
+}
+
+/* line 67, ../scss/layout.wide.scss */
+#name-and-slogan {
+  float: left;
+}
+
+/* line 72, ../scss/layout.wide.scss */
+.front .panels-top {
+  display: inline-block;
+  margin-top: -35px;
+  width: 100%;
+  padding: 3%;
+  padding-bottom: 85px;
+}
+/* line 78, ../scss/layout.wide.scss */
+.front .panels-top h1, .front .panels-top p, .front .panels-top .view {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 83, ../scss/layout.wide.scss */
+.front .panels-top p .button {
+  display: inline-block;
+}
+/* line 86, ../scss/layout.wide.scss */
+.front .panels-top .panel-col {
+  float: left;
+  display: inline-block;
+}
+/* line 90, ../scss/layout.wide.scss */
+.front .panels-top .panel-col-left {
+  width: 72%;
+}
+/* line 93, ../scss/layout.wide.scss */
+.front .panels-top .panel-col-right {
+  width: 28%;
+}
+/* line 97, ../scss/layout.wide.scss */
+.front .panel-middle {
+  display: inline-block;
+  padding-bottom: 25px;
+}
+
+/* line 103, ../scss/layout.wide.scss */
+#social-media-links {
+  float: right;
+  display: block;
+}
+/* line 107, ../scss/layout.wide.scss */
+#social-media-links ul {
+  margin-top: 0;
+}
+/* line 110, ../scss/layout.wide.scss */
+#social-media-links a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding-top: 5px;
+  box-sizing: border-box;
+  margin-right: 8px;
+}
+
+/* line 121, ../scss/layout.wide.scss */
+.home-about {
+  width: 60%;
+  float: left;
+}
+/* line 124, ../scss/layout.wide.scss */
+.home-about h2, .home-about p {
+  padding-left: 25px;
+}
+
+/* line 128, ../scss/layout.wide.scss */
+.pane-nerd-attendees {
+  width: 40%;
+  float: right;
+}
+/* line 131, ../scss/layout.wide.scss */
+.pane-nerd-attendees .pane-title {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+/* line 135, ../scss/layout.wide.scss */
+.pane-nerd-attendees .view {
+  padding-right: 25px;
+  padding-left: 18px;
+}
+/* line 139, ../scss/layout.wide.scss */
+.pane-nerd-attendees .views-row {
+  float: left;
+  padding: 3px;
+}
+/* line 143, ../scss/layout.wide.scss */
+.pane-nerd-attendees img {
+  height: auto;
+  width: 65px;
+}
+
+/* line 149, ../scss/layout.wide.scss */
+#navigation {
+  float: right;
+  display: block !important;
+  padding-top: 0;
+}
+/* line 154, ../scss/layout.wide.scss */
+#navigation .region-navigation {
+  display: inline-block;
+  width: 100%;
+}
+/* line 158, ../scss/layout.wide.scss */
+#navigation #block-system-main-menu {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+/* line 163, ../scss/layout.wide.scss */
+#navigation ul.menu {
+  width: auto;
+}
+/* line 165, ../scss/layout.wide.scss */
+#navigation ul.menu li {
+  max-height: 100% !important;
+  width: auto;
+}
+/* line 171, ../scss/layout.wide.scss */
+#navigation #block-menu-block-top-level-nav ul.menu {
+  width: 100%;
+}
+/* line 173, ../scss/layout.wide.scss */
+#navigation #block-menu-block-top-level-nav ul.menu .active {
+  width: 46%;
+}
+/* line 177, ../scss/layout.wide.scss */
+#navigation #block-menu-block-top-level-nav ul.menu li {
+  margin: 0 5px;
+  width: 16%;
+}
+/* line 181, ../scss/layout.wide.scss */
+#navigation #block-menu-block-top-level-nav ul.menu li.first {
+  margin-left: 0;
+}
+/* line 190, ../scss/layout.wide.scss */
+#navigation #block-menu-block-top-level-nav ul.menu li.last {
+  margin-right: 0;
+}
+
+/* line 200, ../scss/layout.wide.scss */
+.pane-sponsors, .pane-nerd-sponsors {
+  overflow: hidden;
+  padding: 0 25px;
+}
+/* line 203, ../scss/layout.wide.scss */
+.pane-sponsors h2.pane-title, .pane-nerd-sponsors h2.pane-title {
+  position: absolute;
+}
+/* line 206, ../scss/layout.wide.scss */
+.pane-sponsors .view-content, .pane-nerd-sponsors .view-content {
+  max-width: 1004px;
+  margin: 0 auto;
+}
+
+/* line 212, ../scss/layout.wide.scss */
+.view-id-sponsors.view-sponsors, .view-id-nerd_sponsors.view-nerd-sponsors {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 216, ../scss/layout.wide.scss */
+.view-id-sponsors.view-sponsors .view-header, .view-id-nerd_sponsors.view-nerd-sponsors .view-header {
+  margin: 0;
+  padding: 25px 0 0 0;
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+/* line 222, ../scss/layout.wide.scss */
+.view-id-sponsors.view-sponsors .view-header .button, .view-id-nerd_sponsors.view-nerd-sponsors .view-header .button {
+  width: auto;
+  margin: 0 0 0 10px !important;
+}
+/* line 227, ../scss/layout.wide.scss */
+.view-id-sponsors.view-sponsors .view-content, .view-id-nerd_sponsors.view-nerd-sponsors .view-content {
+  margin: 20px 0;
+  text-align: center;
+}
+/* line 231, ../scss/layout.wide.scss */
+.view-id-sponsors.view-sponsors .views-row, .view-id-nerd_sponsors.view-nerd-sponsors .views-row {
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  width: auto;
+  max-width: 100px;
+}
+
+/* line 240, ../scss/layout.wide.scss */
+.hamburger-wrap {
+  display: none;
+}
+
+/* line 246, ../scss/layout.wide.scss */
+.front .panels-top .button {
+  display: inline-block;
+}
+
+/* line 252, ../scss/layout.wide.scss */
+#main {
+  position: relative;
+}
+
+/* line 256, ../scss/layout.wide.scss */
+.region-sidebar-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+/* line 265, ../scss/layout.wide.scss */
+.region-sidebar-second {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+/* line 276, ../scss/layout.wide.scss */
+.no-sidebars #content {
+  width: 100%;
+  margin: 0;
+}
+
+/* line 282, ../scss/layout.wide.scss */
+.one-sidebar.sidebar-second #content {
+  width: 720px;
+  margin-left: 45px;
+}
+
+/* line 288, ../scss/layout.wide.scss */
+#content {
+  width: 570px;
+  margin: 0 270px;
+}
+
+/* line 294, ../scss/layout.wide.scss */
+div#block-nerd-homepage-login-registration-block #edit-actions {
+  display: block;
+  margin: 0;
+  padding-bottom: 12px;
+}

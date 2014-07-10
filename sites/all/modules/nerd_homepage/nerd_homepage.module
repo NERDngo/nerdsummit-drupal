@@ -1,0 +1,98 @@
+<?php
+/**
+ * @file
+ * Code for the NERD Homepage feature.
+ */
+
+include_once 'nerd_homepage.features.inc';
+
+function nerd_homepage_menu_block_blocks() {
+  return array(
+    'top_level_nav' => array(
+      'admin_title' => 'Top Level Navigation',
+      'depth' => 1,
+      'expanded' => 0,
+      'follow' => 0,
+      'level' => 1,
+      'parent' => 0,
+      'menu_name' => 'menu-secondary-navigation',
+      'sort' => 0,
+      'title_link' => 0,
+      'ids' => array(),
+    ),
+    'lower_level_nav' => array(
+      'admin_title' => 'Second Level Navigation',
+      'depth' => 0,
+      'expanded' => 0,
+      'follow' => 0,
+      'level' => 2,
+      'parent' => 0,
+      'menu_name' => 'menu-secondary-navigation',
+      'sort' => 0,
+      'title_link' => 0,
+      'ids' => array(),
+    )
+  );
+}
+
+function nerd_homepage_block_info() {
+  $blocks = array();
+  $blocks['login-registration-block'] = array (
+    'info' => t('Login and Registration Form'),
+  );
+
+  return $blocks;
+
+}
+
+function nerd_homepage_block_view($delta='') {
+  $block = array();
+  switch($delta) {
+    case 'login-registration-block':
+      if (user_is_anonymous() == TRUE) {
+        $block['content'] = login_register_view();
+      }
+      break;
+  }
+
+  return $block;
+
+}
+
+function login_register_view() {
+    $block = array();
+    $toggle = array(
+        'toggle-button' => array(
+            '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
+            '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
+            '#suffix' => '</span></div>',
+            '#weight' => 100,
+        ),
+    );
+    $login_form = drupal_get_form('user_login');
+    $login_form['actions']['toggle'] = $toggle;
+    //dpm($login_form);
+    $login = drupal_render($login_form);
+    $register = drupal_render(drupal_get_form('user_register_form'));
+
+    $block = array(
+        'login-form' => array(
+            '#prefix' => '<div class="nerd-login">',
+            '#markup' => $login,
+            '#suffix' => '</div>',
+        ),
+//    'toggle-button' => array(
+//      '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
+//      '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
+//      '#suffix' => '</span></div>',
+//    ),
+        'register-form' => array(
+            '#prefix' => '<div class="nerd-register">',
+            '#markup' => $register,
+            '#suffix' => '</div>',
+        ),
+    );
+
+  return $block;
+
+}

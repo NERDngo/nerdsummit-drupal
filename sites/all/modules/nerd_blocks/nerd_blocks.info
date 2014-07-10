@@ -1,0 +1,9 @@
+name = NERD Blocks
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = nerd_homepage
+features[context][] = nerd_save_the_date
+features[ctools][] = context:context:3
+features[features_api][] = api:2

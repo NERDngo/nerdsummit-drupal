@@ -1,0 +1,247 @@
+@import "mixins";
+@import "variables";
+@import "compass/css3";
+
+body {
+  background: $siteBgColor;
+}
+
+#page {
+  background: #fff;
+  @include box-shadow();
+}
+
+.home-box {
+  border-top-right-radius: 50px;
+  h2.pane-title {
+    border-top-right-radius: 50px;
+  }
+}
+
+#navigation ul.menu {
+  background: transparent;
+  li {
+    a {
+      color: $darkPurple;
+    }
+  }
+}
+
+.pane-sponsors, .pane-nerd-sponsors {
+  border-bottom: 4px solid white;
+  text-align: center;
+}
+
+.view-sponsors, .view-nerd-sponsors {
+  .view-header {
+    a.button {
+      @extend %button;
+      color: $purpleText;
+    }
+  }
+}
+
+#navigation {
+  a{
+    color: #3a3a5c;
+  }
+  #block-menu-block-top-level-nav {
+    ul li {
+      &.first {
+        background: $blockBgLightOrange;
+        @include hoverBg($blockBgDarkOrange);
+      }
+
+      // todo: add classes to avoid using this selector.
+      &:nth-of-type(2) {
+        background: $blockBgLightGreen;
+        @include hoverBg($blockBgDarkGreen);
+      }
+
+      // todo: add classes to avoid using this selector.
+      &:nth-of-type(3) {
+        background: $blockBgLightPink;
+        @include hoverBg($blockBgDarkPink);
+        width: 185px;
+      }
+      &.last {
+        background: $blockBgLightPurple;
+        @include hoverBg($blockBgDarkPurple);
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.home-about {
+  border-top: none;
+}
+
+.panel-nerds-two-col {
+  .panels-top {
+    .panel-pane {
+      border-bottom: none;
+    }
+  }
+}
+
+#block-nerd-blocks-nerd-save-date {
+  margin-top: 25px;
+  border-bottom: 20px solid $purple;
+  border-radius: 15px;
+  box-shadow: 0 0 4px grey;
+  color: $defaultTextColor;
+  clear: both;
+  h4 {
+    text-align: center;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    color: $defaultTextColor;
+  }
+  .block-title {
+    background: $purple;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .nerd-sign-up-content {
+    background: $lightBgColor;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+}
+
+input, .form-item {
+  max-width: 90%;
+  //margin-left: 1em;
+}
+#banner_area {
+  width: 100%;
+  //min-height: 350px;
+  float: left;
+  position: relative;
+  div#block-block-6 {
+    width: 823px;
+    height: 239px;
+  }
+  h1 {
+    margin: 12px 0 4px 24px;
+    font-weight: lighter;
+    display: block;
+    padding-top: 24px;
+  }
+  p {
+    margin: 12px 6px 0 24px;
+    padding-bottom: 24px;
+    a{
+      width: 50%;
+      margin-left: 48px;
+      }
+    }
+  }
+  ul {
+    padding-left: 32px;
+    padding-bottom: 8px;
+    margin-top: 4px;
+    color: #fff;
+  ;
+  }
+div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+  max-width: 245px;
+  float: right;
+  background-color: $blockBgDarkOrange;
+  .form-text.required {
+    width: 234px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  div.description {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  label {
+    margin-left: 25px;
+  }
+  .form-submit {
+    //float: right;
+  }
+  .go-to-register {
+    margin-left: 25px;
+  }
+  .nerd-register {
+    display: none;
+  }
+  //OPEN REGISTRATION BLOCK
+  &.open-registration {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $blockBgDarkOrange;
+    z-index: 1;
+    padding-bottom: 125px;
+    .nerd-login {
+      border: 2px solid #ffffff;
+      border-top: none;
+      border-right: none;
+      float: right;
+      width: 30%;
+    }
+
+    fieldset#edit-mailchimp-lists {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .resizable.textarea-processed.resizable-textarea {
+      margin-left: 25px;
+      width: 50%;
+    }
+    .form-submit {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      margin-top: 36px;
+      float: none;
+    }
+  }
+}
+
+
+
+h1#page-title {
+  background-color: #ffffff;
+}
+.view-id-sponsors, .view-id-nerd-sponsors {
+  &.view-display-id-page {
+    //background-color: #ffffff;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+//find a better way to do this. repeats code for user menu from style.scss
+
+  #block-system-user-menu {
+    background-color: #ed7b32; // Old browsers
+    @include filter-gradient(#ed7b32, #e9682e, vertical); // IE6-9
+    @include background-image(linear-gradient(top,  #e88f36 0%,#e9682e 50%,#e9682e 60%,#e9682e 100%));
+    box-shadow: 0 0 4px grey;
+    font-weight: normal;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+
+#block-boxes-learn-cta-box,
+#boxes-box-support_cta,
+#boxes-box-teach_cta {
+  @include background-size(auto 590px);
+}

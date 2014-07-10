@@ -1,0 +1,41 @@
+@import "variables";
+@import "compass/css3/transition";
+
+@mixin hoverBg($color) {
+  @include transition(.3s);
+  &:hover {
+    background-color: $color;
+  }
+}
+
+%inline-list {
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+%button {
+  display: inline-block;
+  border-radius: 18px;
+  border: 2px solid $purple;
+  text-align: center;
+  padding: 5px 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: $bold;
+  @include hoverBg(rgba(255, 255, 255, 0.5));
+}
+
+%sponsorImg {
+  outline: 3px solid #fff;
+}
+
+%lightBg {
+  background: $lightBgColor;
+}

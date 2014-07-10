@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NERD Requested Sessions feature.
+ */
+
+include_once 'nerd_requested_sessions.features.inc';

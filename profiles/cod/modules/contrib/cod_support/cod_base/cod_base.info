@@ -17,16 +17,6 @@ dependencies[] = token
 dependencies[] = views
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
-features[field_base][] = field_profile_first
-features[field_base][] = field_profile_interests
-features[field_base][] = field_profile_job_title
-features[field_base][] = field_profile_last
-features[field_base][] = field_profile_org
-features[field_instance][] = user-user-field_profile_first
-features[field_instance][] = user-user-field_profile_interests
-features[field_instance][] = user-user-field_profile_job_title
-features[field_instance][] = user-user-field_profile_last
-features[field_instance][] = user-user-field_profile_org
 features[user_permission][] = access administration menu
 features[user_permission][] = access administration pages
 features[user_permission][] = access content
@@ -58,12 +48,12 @@ features[user_permission][] = view advanced help topic
 features[user_permission][] = view the administration theme
 features[user_role][] = content editor
 features[variable][] = admin_toolbar
-features[variable][] = date_format_date_no_time_
+features[variable][] = date_format_date_no_time
 files[] = cod_base.module
 
-; Information added by  packaging script on 2013-11-21
-version = "7.x-1.0-alpha4"
+; Information added by Drupal.org packaging script on 2014-06-05
+version = "7.x-1.0-beta1"
 core = "7.x"
 project = "cod_support"
-datestamp = "1385019088"
+datestamp = "1402004328"
 

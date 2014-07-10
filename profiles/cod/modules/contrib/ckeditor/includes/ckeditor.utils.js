@@ -2,9 +2,7 @@
 Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
-if (typeof window.CKEDITOR_BASEPATH === 'undefined') {
-  window.CKEDITOR_BASEPATH = Drupal.settings.ckeditor.editor_path;
-}
+window.CKEDITOR_BASEPATH = Drupal.settings.ckeditor.editor_path;
 (function ($) {
   Drupal.ckeditor = (typeof(CKEDITOR) != 'undefined');
   Drupal.ckeditor_ver = false;
@@ -17,11 +15,11 @@ if (typeof window.CKEDITOR_BASEPATH === 'undefined') {
     for (i=0; i<textarea_ids.length; i++){
       if (typeof(CKEDITOR.instances) != 'undefined' && typeof(CKEDITOR.instances[textarea_ids[i]]) != 'undefined'){
         Drupal.ckeditorOff(textarea_ids[i]);
-        $('#switch_' + textarea_ids[i]).text(TextRTE);
+        $('#switch_' + textarea_ids[0]).text(TextRTE);
       }
       else {
         Drupal.ckeditorOn(textarea_ids[i]);
-        $('#switch_' + textarea_ids[i]).text(TextTextarea);
+        $('#switch_' + textarea_ids[0]).text(TextTextarea);
       }
     }
   };

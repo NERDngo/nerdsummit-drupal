@@ -33,13 +33,93 @@ function cod_paid_events_field_default_field_bases() {
     'type' => 'commerce_price',
   );
 
-  // Exported field_base: 'field_event_product'
-  $field_bases['field_event_product'] = array(
+  // Exported field_base: 'field_complete_state'
+  $field_bases['field_complete_state'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_event_product',
+    'field_name' => 'field_complete_state',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
+    'foreign keys' => array(),
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'direction' => 'ASC',
+          'property' => 'weight',
+          'type' => 'property',
+        ),
+        'target_bundles' => array(),
+      ),
+      'target_type' => 'ticket_state',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_ticket_order'
+  $field_bases['field_ticket_order'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_ticket_order',
+    'field_permissions' => array(
+      'type' => 1,
+    ),
+    'foreign keys' => array(),
+    'indexes' => array(
+      'target_id' => array(
+        0 => 'target_id',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'entityreference',
+    'settings' => array(
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'direction' => 'ASC',
+          'property' => 'order_number',
+          'type' => 'property',
+        ),
+        'target_bundles' => array(
+          'commerce_order' => 'commerce_order',
+        ),
+      ),
+      'target_type' => 'commerce_order',
+    ),
+    'translatable' => 0,
+    'type' => 'entityreference',
+  );
+
+  // Exported field_base: 'field_ticket_related_product'
+  $field_bases['field_ticket_related_product'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_ticket_related_product',
     'field_permissions' => array(
       'type' => 0,
     ),
@@ -59,39 +139,10 @@ function cod_paid_events_field_default_field_bases() {
     'locked' => 0,
     'module' => 'commerce_product_reference',
     'settings' => array(
-      'options_list_limit' => NULL,
+      'options_list_limit' => '',
     ),
     'translatable' => 0,
     'type' => 'commerce_product_reference',
-  );
-
-  // Exported field_base: 'field_paid_event'
-  $field_bases['field_paid_event'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_paid_event',
-    'field_permissions' => array(
-      'type' => 0,
-    ),
-    'foreign keys' => array(),
-    'indexes' => array(
-      'value' => array(
-        0 => 'value',
-      ),
-    ),
-    'locked' => 0,
-    'module' => 'list',
-    'settings' => array(
-      'allowed_values' => array(
-        0 => '',
-        1 => 'This is a paid event',
-      ),
-      'allowed_values_function' => '',
-    ),
-    'translatable' => 0,
-    'type' => 'list_boolean',
   );
 
   return $field_bases;

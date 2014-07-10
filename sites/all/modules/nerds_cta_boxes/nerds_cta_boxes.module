@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the nerds_cta_boxes feature.
+ */
+
+include_once 'nerds_cta_boxes.features.inc';

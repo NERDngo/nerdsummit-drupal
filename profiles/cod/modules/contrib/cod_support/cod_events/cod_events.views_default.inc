@@ -22,7 +22,7 @@ function cod_events_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'cod_events_admin';
+  $handler->display->display_options['title'] = 'Manage Events';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['access']['perm'] = 'administer nodes';
@@ -37,7 +37,7 @@ function cod_events_views_default_views() {
   $handler->display->display_options['header']['area']['table'] = 'views';
   $handler->display->display_options['header']['area']['field'] = 'area';
   $handler->display->display_options['header']['area']['empty'] = TRUE;
-  $handler->display->display_options['header']['area']['content'] = 'All conferences should have at least one event. Many have more than one. You may administer your event(s) below, or create an event';
+  $handler->display->display_options['header']['area']['content'] = 'All conferences should have at least one event. Many have more than one. You may administer your event(s) below, or create an event.<ul class="action-links"><li><a href="/nerdsummit/node/add/event">Add Event</a></li></ul>';
   $handler->display->display_options['header']['area']['format'] = 'filtered_html';
   /* Relationship: Flags: default_event */
   $handler->display->display_options['relationships']['flag_content_rel']['id'] = 'flag_content_rel';
@@ -73,17 +73,17 @@ function cod_events_views_default_views() {
   $handler->display->display_options['fields']['nid']['exclude'] = TRUE;
   $handler->display->display_options['fields']['nid']['element_label_colon'] = FALSE;
   /* Field: Global: Custom text */
-  $handler->display->display_options['fields']['nothing_1']['id'] = 'nothing';
+  $handler->display->display_options['fields']['nothing_1']['id'] = 'nothing_1';
   $handler->display->display_options['fields']['nothing_1']['table'] = 'views';
   $handler->display->display_options['fields']['nothing_1']['field'] = 'nothing';
   $handler->display->display_options['fields']['nothing_1']['label'] = '';
-  $handler->display->display_options['fields']['nothing_1']['alter']['text'] = 'Dashboard';
+  $handler->display->display_options['fields']['nothing_1']['alter']['text'] = 'Manage Event';
   $handler->display->display_options['fields']['nothing_1']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['nothing_1']['alter']['path'] = 'node/[nid]/dashboard';
+  $handler->display->display_options['fields']['nothing_1']['alter']['path'] = 'node/[nid]/event';
   $handler->display->display_options['fields']['nothing_1']['element_label_colon'] = FALSE;
   /* Field: Flags: Flag link */
   $handler->display->display_options['fields']['ops']['id'] = 'ops';
-  $handler->display->display_options['fields']['ops']['table'] = 'flag_content';
+  $handler->display->display_options['fields']['ops']['table'] = 'flagging';
   $handler->display->display_options['fields']['ops']['field'] = 'ops';
   $handler->display->display_options['fields']['ops']['relationship'] = 'flag_content_rel';
   $handler->display->display_options['fields']['ops']['label'] = '';
