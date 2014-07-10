@@ -140,8 +140,15 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'About Box',
       'title' => 'About Us',
-      'body' => '<p>NERDs is a non-profit regional initiative to create positive and supportive learning opportunities for people who work, or want to work in web and related technology.  Too many smart, passionate people have been traditionally excluded from tech careers, and we\'re going to change that.</p>
-<p>In September, we will be putting on the first annual NERD Summit.  Building up to the summit we will be reaching out to the local community and creating a diverse curriculum for relevant skill building.</p>',
+      'body' => '<p>NERDs is a non-profit regional initiative to create positive and supportive learning opportunities for people who work, or want to work in web and related technology. Too many smart, passionate people have been traditionally excluded from tech careers, and we\'re going to change that.</p>
+
+<p>In September, we will be putting on the first annual NERD Summit. Building up to the summit we will be reaching out to the local community and creating a diverse curriculum for relevant skill building.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="/about/mission">Read more...</a></p>
+
+',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
@@ -269,7 +276,7 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Support Box',
       'title' => 'Support',
-      'body' => '<p>This Summit is only possible with help from contributors like you!</p>
+      'body' => '<p>The Summit and ongoing events are only possible with help from contributors like you!</p>
 <p><strong>What can you do to help?</strong></p>
 <p><a class="button" href="/support">Find out more +</a></p>',
       'format' => 'filtered_html',
@@ -324,7 +331,9 @@ function nerd_homepage_default_page_manager_pages() {
 
 <p class="highlight">September 12-14, UMASS, Amherst</p>
 
-<p class="cta"><a class="button" href="node/1">Register</a><b>Free, because this industry wants you!</b></p>
+<p><b>Free, because this industry wants you!</b></p>
+
+<p class="cta"><a class="button" href="user/register">Stay in the loop</a><a class="button" href="node/1">Register Now!</a></p>
 ',
       'format' => 'full_html',
       'substitute' => TRUE,

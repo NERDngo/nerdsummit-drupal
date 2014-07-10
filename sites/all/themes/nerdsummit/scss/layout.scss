@@ -304,3 +304,25 @@ body {
     margin-left: 0;
   }
 }
+
+.pane-nerd-attendees {
+  width: 100%;
+  float: left;
+  .pane-title {
+    padding-right: 25px;
+    //padding-left: 25px;
+  }
+  .view {
+    padding-right: 25px;
+    padding-left: 18px;
+  }
+  .views-row {
+    float: left;
+    padding: 3px;
+  }
+  img {
+    height: auto;
+    width: 100px;
+
+  }
+}
