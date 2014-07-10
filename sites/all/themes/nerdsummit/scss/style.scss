@@ -337,6 +337,9 @@ input, .form-item {
 }
 
 #block-system-user-menu {
+  .region-sidebar-second & {
+    margin-bottom: 20px;
+  }
   h2.block-title {
     margin: 12px 0 4px 24px;
     font-weight: lighter;
