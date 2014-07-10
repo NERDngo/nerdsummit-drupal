@@ -324,7 +324,9 @@ function nerd_homepage_default_page_manager_pages() {
 
 <p class="highlight">September 12-14, UMASS, Amherst</p>
 
-<p class="cta"><a class="button" href="node/1">Register</a><b>Free, because this industry wants you!</b></p>
+<p><b>Free, because this industry wants you!</b></p>
+
+<p class="cta"><a class="button" href="user/register">Stay in the loop</a><a class="button" href="node/1">Register Now!</a></p>
 ',
       'format' => 'full_html',
       'substitute' => TRUE,
