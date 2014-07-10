@@ -96,11 +96,11 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['picture']['field'] = 'picture';
   $handler->display->display_options['fields']['picture']['label'] = '';
   $handler->display->display_options['fields']['picture']['element_label_colon'] = FALSE;
-  /* Field: User: First name */
+  /* Field: Field: First name */
   $handler->display->display_options['fields']['field_profile_first']['id'] = 'field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['table'] = 'field_data_field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['field'] = 'field_profile_first';
-  /* Field: User: Last name */
+  /* Field: Field: Last name */
   $handler->display->display_options['fields']['field_profile_last']['id'] = 'field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['table'] = 'field_data_field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['field'] = 'field_profile_last';
@@ -108,11 +108,11 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['name']['id'] = 'name';
   $handler->display->display_options['fields']['name']['table'] = 'users';
   $handler->display->display_options['fields']['name']['field'] = 'name';
-  /* Field: User: Organization */
+  /* Field: Field: Organization */
   $handler->display->display_options['fields']['field_profile_org']['id'] = 'field_profile_org';
   $handler->display->display_options['fields']['field_profile_org']['table'] = 'field_data_field_profile_org';
   $handler->display->display_options['fields']['field_profile_org']['field'] = 'field_profile_org';
-  /* Filter criterion: User: First name (field_profile_first) */
+  /* Filter criterion: Field: First name (field_profile_first) */
   $handler->display->display_options['filters']['field_profile_first_value']['id'] = 'field_profile_first_value';
   $handler->display->display_options['filters']['field_profile_first_value']['table'] = 'field_data_field_profile_first';
   $handler->display->display_options['filters']['field_profile_first_value']['field'] = 'field_profile_first_value';
@@ -121,7 +121,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['label'] = 'First name';
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['operator'] = 'field_profile_first_value_op';
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['identifier'] = 'field_profile_first_value';
-  /* Filter criterion: User: Last name (field_profile_last) */
+  /* Filter criterion: Field: Last name (field_profile_last) */
   $handler->display->display_options['filters']['field_profile_last_value']['id'] = 'field_profile_last_value';
   $handler->display->display_options['filters']['field_profile_last_value']['table'] = 'field_data_field_profile_last';
   $handler->display->display_options['filters']['field_profile_last_value']['field'] = 'field_profile_last_value';
@@ -130,7 +130,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['label'] = 'Last name';
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['operator'] = 'field_profile_last_value_op';
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['identifier'] = 'field_profile_last_value';
-  /* Filter criterion: User: Organization (field_profile_org) */
+  /* Filter criterion: Field: Organization (field_profile_org) */
   $handler->display->display_options['filters']['field_profile_org_value']['id'] = 'field_profile_org_value';
   $handler->display->display_options['filters']['field_profile_org_value']['table'] = 'field_data_field_profile_org';
   $handler->display->display_options['filters']['field_profile_org_value']['field'] = 'field_profile_org_value';
@@ -235,7 +235,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['picture']['field'] = 'picture';
   $handler->display->display_options['fields']['picture']['label'] = '';
   $handler->display->display_options['fields']['picture']['element_label_colon'] = FALSE;
-  /* Field: User: First name */
+  /* Field: Field: First name */
   $handler->display->display_options['fields']['field_profile_first']['id'] = 'field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['table'] = 'field_data_field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['field'] = 'field_profile_first';
@@ -243,7 +243,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['field_profile_first']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_profile_first']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_first']['element_wrapper_type'] = 'span';
-  /* Field: User: Last name */
+  /* Field: Field: Last name */
   $handler->display->display_options['fields']['field_profile_last']['id'] = 'field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['table'] = 'field_data_field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['field'] = 'field_profile_last';
@@ -252,12 +252,12 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['field_profile_last']['alter']['text'] = '[field_profile_first] [field_profile_last]';
   $handler->display->display_options['fields']['field_profile_last']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_profile_last']['element_wrapper_type'] = 'span';
-  /* Field: User: Organization */
+  /* Field: Field: Organization */
   $handler->display->display_options['fields']['field_profile_org_1']['id'] = 'field_profile_org_1';
   $handler->display->display_options['fields']['field_profile_org_1']['table'] = 'field_data_field_profile_org';
   $handler->display->display_options['fields']['field_profile_org_1']['field'] = 'field_profile_org';
   $handler->display->display_options['fields']['field_profile_org_1']['element_label_colon'] = FALSE;
-  /* Field: User: Job title */
+  /* Field: Field: Job title */
   $handler->display->display_options['fields']['field_profile_job_title']['id'] = 'field_profile_job_title';
   $handler->display->display_options['fields']['field_profile_job_title']['table'] = 'field_data_field_profile_job_title';
   $handler->display->display_options['fields']['field_profile_job_title']['field'] = 'field_profile_job_title';
@@ -269,7 +269,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filter criterion: User: First name (field_profile_first) */
+  /* Filter criterion: Field: First name (field_profile_first) */
   $handler->display->display_options['filters']['field_profile_first_value']['id'] = 'field_profile_first_value';
   $handler->display->display_options['filters']['field_profile_first_value']['table'] = 'field_data_field_profile_first';
   $handler->display->display_options['filters']['field_profile_first_value']['field'] = 'field_profile_first_value';
@@ -279,7 +279,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['label'] = 'First name';
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['operator'] = 'field_profile_first_value_op';
   $handler->display->display_options['filters']['field_profile_first_value']['expose']['identifier'] = 'field_profile_first_value';
-  /* Filter criterion: User: Last name (field_profile_last) */
+  /* Filter criterion: Field: Last name (field_profile_last) */
   $handler->display->display_options['filters']['field_profile_last_value']['id'] = 'field_profile_last_value';
   $handler->display->display_options['filters']['field_profile_last_value']['table'] = 'field_data_field_profile_last';
   $handler->display->display_options['filters']['field_profile_last_value']['field'] = 'field_profile_last_value';
@@ -289,7 +289,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['label'] = 'Last name';
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['operator'] = 'field_profile_last_value_op';
   $handler->display->display_options['filters']['field_profile_last_value']['expose']['identifier'] = 'field_profile_last_value';
-  /* Filter criterion: User: Organization (field_profile_org) */
+  /* Filter criterion: Field: Organization (field_profile_org) */
   $handler->display->display_options['filters']['field_profile_org_value']['id'] = 'field_profile_org_value';
   $handler->display->display_options['filters']['field_profile_org_value']['table'] = 'field_data_field_profile_org';
   $handler->display->display_options['filters']['field_profile_org_value']['field'] = 'field_profile_org_value';
@@ -299,7 +299,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['filters']['field_profile_org_value']['expose']['label'] = 'Organization';
   $handler->display->display_options['filters']['field_profile_org_value']['expose']['operator'] = 'field_profile_org_value_op';
   $handler->display->display_options['filters']['field_profile_org_value']['expose']['identifier'] = 'field_profile_org_value';
-  /* Filter criterion: User: Job title (field_profile_job_title) */
+  /* Filter criterion: Field: Job title (field_profile_job_title) */
   $handler->display->display_options['filters']['field_profile_job_title_value']['id'] = 'field_profile_job_title_value';
   $handler->display->display_options['filters']['field_profile_job_title_value']['table'] = 'field_data_field_profile_job_title';
   $handler->display->display_options['filters']['field_profile_job_title_value']['field'] = 'field_profile_job_title_value';
@@ -400,13 +400,13 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['picture']['field'] = 'picture';
   $handler->display->display_options['fields']['picture']['label'] = '';
   $handler->display->display_options['fields']['picture']['element_label_colon'] = FALSE;
-  /* Field: User: First name */
+  /* Field: Field: First name */
   $handler->display->display_options['fields']['field_profile_first']['id'] = 'field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['table'] = 'field_data_field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['field'] = 'field_profile_first';
   $handler->display->display_options['fields']['field_profile_first']['label'] = '';
   $handler->display->display_options['fields']['field_profile_first']['element_label_colon'] = FALSE;
-  /* Field: User: Last name */
+  /* Field: Field: Last name */
   $handler->display->display_options['fields']['field_profile_last']['id'] = 'field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['table'] = 'field_data_field_profile_last';
   $handler->display->display_options['fields']['field_profile_last']['field'] = 'field_profile_last';
@@ -421,7 +421,7 @@ function nerd_homepage_views_default_views() {
   $handler->display->display_options['fields']['name']['alter']['text'] = '([name])';
   $handler->display->display_options['fields']['name']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['name']['link_to_user'] = FALSE;
-  /* Field: User: Organization */
+  /* Field: Field: Organization */
   $handler->display->display_options['fields']['field_profile_org']['id'] = 'field_profile_org';
   $handler->display->display_options['fields']['field_profile_org']['table'] = 'field_data_field_profile_org';
   $handler->display->display_options['fields']['field_profile_org']['field'] = 'field_profile_org';

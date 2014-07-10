@@ -269,7 +269,7 @@ function nerd_homepage_default_page_manager_pages() {
     $pane->configuration = array(
       'admin_title' => 'Support Box',
       'title' => 'Support',
-      'body' => '<p>This Summit is only possible with help from contributors like you!</p>
+      'body' => '<p>The Summit and ongoing events are only possible with help from contributors like you!</p>
 <p><strong>What can you do to help?</strong></p>
 <p><a class="button" href="/support">Find out more +</a></p>',
       'format' => 'filtered_html',
