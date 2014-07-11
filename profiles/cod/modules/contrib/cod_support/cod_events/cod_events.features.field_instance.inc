@@ -223,72 +223,6 @@ function cod_events_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-field_registration'
-  $field_instances['node-event-field_registration'] = array(
-    'bundle' => 'event',
-    'default_value' => array(
-      0 => array(
-        'registration_type' => 'free_event',
-      ),
-    ),
-    'deleted' => 0,
-    'description' => 'If this is a free event, then you can choose which registration type to use for this event.',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'registration',
-        'settings' => array(),
-        'type' => 'registration_form',
-        'weight' => 3,
-      ),
-      'listing' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 3,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_registration',
-    'label' => 'Registration',
-    'required' => 0,
-    'settings' => array(
-      'default_registration_settings' => array(
-        'capacity' => 0,
-        'reminder' => array(
-          'reminder_settings' => array(
-            'reminder_date' => '',
-            'reminder_template' => '',
-          ),
-          'send_reminder' => 0,
-        ),
-        'scheduling' => array(
-          'close' => '',
-          'open' => '',
-        ),
-        'settings' => array(
-          'from_address' => 'example@example.com',
-          'multiple_registrations' => 0,
-        ),
-        'status' => 1,
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'registration',
-      'settings' => array(),
-      'type' => 'registration_select',
-      'weight' => 6,
-    ),
-  );
-
   // Exported field_instance: 'node-event-group_group'
   $field_instances['node-event-group_group'] = array(
     'bundle' => 'event',
@@ -350,65 +284,14 @@ function cod_events_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-event-upload'
-  $field_instances['node-event-upload'] = array(
-    'bundle' => 'event',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_default',
-        'weight' => 5,
-      ),
-      'listing' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'upload',
-    'label' => 'File attachments',
-    'required' => 0,
-    'settings' => array(
-      'description_field' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'txt pdf ppt jpg jpeg png zip',
-      'max_filesize' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'file',
-      'settings' => array(
-        'progress_indicator' => 'throbber',
-      ),
-      'type' => 'file_generic',
-      'weight' => 3,
-    ),
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
   t('Dates');
   t('Determine if this is an OG group.');
-  t('File attachments');
   t('Group');
-  t('If this is a free event, then you can choose which registration type to use for this event.');
   t('Image');
   t('Program');
-  t('Registration');
 
   return $field_instances;
 }

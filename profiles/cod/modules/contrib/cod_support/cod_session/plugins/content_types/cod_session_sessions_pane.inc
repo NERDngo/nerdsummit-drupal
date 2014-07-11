@@ -34,15 +34,17 @@ function cod_session_sessions_pane_render($subtype, $conf, $context = NULL) {
 }
 
 function cod_session_sessions_quicktabs($event) {
-
-  $allowed_values = array('0' => 'Proposed', '1' => 'Accepted');
+  // Use '+' so that we can display Proposed/Declined and Accepted/Featured.
+  $allowed_values = array('unprocessed+declined+backup' => 'Proposed', 'accepted+featured' => 'Accepted', 'cancelled' => 'Cancelled');
   $content_tabs = array();
+  $weight = 0;
   foreach ($allowed_values AS $key => $status) {
     $content_tabs[] = array(
       'title' => $status,
       'contents' => views_embed_view('cod_session_sessions', 'block_sessions', $event->nid, $key),
-      'weight' => $key,
+      'weight' => $weight,
     );
+    $weight++;
   }
   $default_tab = 0;
   if (!empty($event->field_event_default_session_view)) {

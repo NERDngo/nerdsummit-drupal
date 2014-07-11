@@ -69,7 +69,7 @@ projects[ckeditor][patch][] = "https://drupal.org/files/issues/ckeditor-remove-e
 
 projects[cod_support][type] = "module"
 projects[cod_support][subdir] = "contrib"
-projects[cod_support][version] = "1.0-beta1"
+projects[cod_support][version] = "1.0-beta2"
 ;projects[cod_support][download][type] = "git"
 ;projects[cod_support][download][url] = "http://git.drupal.org/project/cod_support.git"
 ;projects[cod_support][download][branch] = "7.x-1.x"
@@ -106,7 +106,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][download][type] = "git"
 projects[ctools][download][url] = "http://git.drupal.org/project/ctools.git"
 projects[ctools][download][branch] = "7.x-1.x"
-projects[ctools][download][revision] = "c9cf1ef86c47468490ffcaf08e5d78ae190c863a"
+projects[ctools][download][revision] = "9097155fe25f460c3c98719567f2cf8305dcae14"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -155,9 +155,20 @@ projects[entityreference][type] = "module"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
+; Fix foreign keys feature revert issue
+; https://www.drupal.org/node/1969018
+projects[entityreference][patch][] = "https://drupal.org/files/issues/1969018-update-field-config-foreign-keys-15.patch"
+
 projects[entityreference_prepopulate][type] = "module"
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[entityreference_prepopulate][version] = "1.5"
+projects[entityreference_prepopulate][download][type] = "git"
+projects[entityreference_prepopulate][download][url] = "http://git.drupal.org/project/entityreference_prepopulate.git"
+projects[entityreference_prepopulate][download][branch] = "7.x-1.x"
+projects[entityreference_prepopulate][download][revision] = "9b40518a"
+
+; Allow entityreference prepopulate function when an ajax callback is performed.
+; https://www.drupal.org/node/1970320 and https://www.drupal.org/node/2295951
+projects[entityreference_prepopulate][patch][] = "https://drupal.org/files/issues/er_prepopulate_ajax_values-1.patch"
 
 projects[features][type] = "module"
 projects[features][subdir] = "contrib"
@@ -177,7 +188,10 @@ projects[field_select_ct][version] = "1.0-alpha1"
 
 projects[field_collection][type] = "module"
 projects[field_collection][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta7"
+projects[field_collection][download][type] = "git"
+projects[field_collection][download][url] = "http://git.drupal.org/project/field_collection.git"
+projects[field_collection][download][branch] = "7.x-1.x"
+projects[field_collection][download][revision] = "ae778f2"
 
 projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
@@ -255,7 +269,7 @@ projects[panels][subdir] = "contrib"
 projects[panels][download][type] = "git"
 projects[panels][download][url] = "http://git.drupal.org/project/panels.git"
 projects[panels][download][branch] = "7.x-3.x"
-projects[panels][download][revision] = "a267233f91e84db326a286ad91692d83c4d4a684"
+projects[panels][download][revision] = "ed5fd8c29f2f5c63ae78788e9aabbc3bd35e8dd7"
 
 projects[panels_tabs][type] = "module"
 projects[panels_tabs][subdir] = "contrib"
@@ -281,9 +295,13 @@ projects[rules][type] = "module"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.7"
 
-projects[smtp][version] = "1.0"
 projects[smtp][type] = "module"
 projects[smtp][subdir] = "contrib"
+projects[smtp][version] = "1.0"
+
+projects[subpathauto][type] = "module"
+projects[subpathauto][subdir] = "contrib"
+projects[subpathauto][version] = "1.3"
 
 projects[strongarm][type] = "module"
 projects[strongarm][subdir] = "contrib"
