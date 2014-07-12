@@ -51,9 +51,10 @@ function nerd_homepage_context_default_contexts() {
   $context->conditions = array(
     'path' => array(
       'values' => array(
-        '~<front>' => '~<front>',
-        '~user' => '~user',
-        '~user/*' => '~user/*',
+        'learn' => 'learn',
+        'teach' => 'teach',
+        'support' => 'support',
+        'nerdsummit-2014' => 'nerdsummit-2014',
       ),
     ),
     'user' => array(
