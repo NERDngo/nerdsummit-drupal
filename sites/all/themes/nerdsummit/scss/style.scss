@@ -392,7 +392,7 @@ input, .form-item {
   position: relative;
   clear: both;
   h1, h2 {
-    margin: 12px 0 4px 24px;
+    margin: 0px 0 4px 24px;
     font-weight: lighter;
     display: block;
     //padding: 12px;
@@ -417,6 +417,9 @@ input, .form-item {
     margin-right: 24px;
   }
   div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+    position: absolute;
+    right: 0px;
+    top: 0px;
     width: 100%;
     display: inline-block;
     //float: left;
