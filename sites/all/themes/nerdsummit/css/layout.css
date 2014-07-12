@@ -360,9 +360,10 @@ body {
 .pane-nerd-attendees .views-row {
   float: left;
   padding: 3px;
+  width: 30%;
 }
-/* line 323, ../scss/layout.scss */
+/* line 324, ../scss/layout.scss */
 .pane-nerd-attendees img {
   height: auto;
-  width: 100px;
+  width: 75px;
 }
