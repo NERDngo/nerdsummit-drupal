@@ -34,6 +34,12 @@ ul {
     li {
       background: #ddd;
     }
+    li.is-active {
+      background: #663399;
+    }
+    li.is-active a {
+      color: white;
+    }
   }
   &.tabs-secondary {
     padding-top: 3px;
