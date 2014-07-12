@@ -270,6 +270,30 @@ header.header , body {
   }
 }
 
+#block-views-featured-sessions-block .views-field-title a {
+  background: #000;
+  position: absolute;
+  top: 0;
+  width: 800px;
+  padding: 50px;
+  color: #fff;
+  opacity: 0.6;
+  font-size: 48px;
+}
+
+#block-views-featured-sessions-block .views-field-field-speakers {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #000;
+  opacity: 0.6;
+  font-size: 28px;
+}
+
 .view-nerd-events {
   .view-display-id-page {
     .view-content {
