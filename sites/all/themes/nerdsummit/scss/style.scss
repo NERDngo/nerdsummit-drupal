@@ -30,6 +30,7 @@ ul {
     color: $defaultHeadingColor;
   }
   &.tabs-primary {
+    overflow:hidden;
     li {
       background: #ddd;
     }
