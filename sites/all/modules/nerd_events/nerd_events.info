@@ -7,6 +7,7 @@ dependencies[] = context
 dependencies[] = image
 dependencies[] = views
 dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
 features[context][] = featured_sessions_banner
 features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1
