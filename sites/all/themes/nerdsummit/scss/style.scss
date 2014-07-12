@@ -422,7 +422,6 @@ input, .form-item {
     top: 0px;
     width: 100%;
     display: inline-block;
-    //float: left;
     clear: both;
     color: #ffffff;
     z-index: 50;
@@ -457,8 +456,7 @@ input, .form-item {
     }
 
     div.description {
-      margin-left: 25px;
-      margin-right: 25px;
+      display: none;
     }
     label {
       margin-left: 25px;
