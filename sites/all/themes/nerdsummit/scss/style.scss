@@ -35,7 +35,7 @@ ul {
       background: #ddd;
     }
     li.is-active {
-      background: #663399;
+      background: #4953a3;
     }
     li.is-active a {
       color: white;
@@ -43,8 +43,15 @@ ul {
   }
   &.tabs-secondary {
     padding-top: 3px;
+    overflow:hidden;
     li {
       background: #efefef;
+    }
+    li.is-active {
+      background: #4953a3;
+    }
+    li.is-active a {
+      color: white;
     }
   }
 }
