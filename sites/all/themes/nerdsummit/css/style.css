@@ -196,7 +196,7 @@ header.header, body {
 }
 /* line 128, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1405046170') fixed no-repeat center center;
+  background: url('../images/banner_home.jpg?1401306359') fixed no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -557,7 +557,6 @@ input, .form-item {
 }
 /* line 427, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
-  position: absolute;
   right: 0px;
   top: 0px;
   width: 100%;
