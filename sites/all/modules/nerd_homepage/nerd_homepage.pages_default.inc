@@ -334,7 +334,7 @@ function nerd_homepage_default_page_manager_pages() {
 <p><b>Free, because this industry wants you!</b></p>
 
 <p class="cta"><a class="button" href="user/register">Stay in the loop</a><a class="button" href="node/1">Register Now!</a></p>
-',
+<a href="/node/35">View Code of Conduct</a>',
       'format' => 'full_html',
       'substitute' => TRUE,
     );
