@@ -28,7 +28,7 @@ function nerds_cta_boxes_default_box() {
 <ul class="rteindent2">
 	<li class="rteindent3"><span>Content Managment Systems like Drupal and Wordpress!</span></li>
 	<li class="rteindent2"><span>Coding languages like HTML5, CSS3, Javascript, PHP&nbsp;and more!</span></li>
-	<li class="rteindent2"><span>Important&nbsp;concepts such as responsive design, ​<span>efficient workflow, SEO, and mobile-first development strategies!</span></span></li>
+	<li class="rteindent2"><span>Concepts such as responsive design, ​<span>efficient workflow, SEO, and mobile-first strategies!</span></span></li>
 </ul>
 
 <p class="rteindent2"><span><span><span><span>​If you don\'t see something of interest below, please make a request!</span></span></span></span></p>
