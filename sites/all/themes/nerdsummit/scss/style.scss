@@ -254,6 +254,9 @@ header.header , body {
   .block-title, h1 {
     color: $defaultLinkColor;
   }
+  li {
+    color: #000;
+  }
 }
 
 .node-event {
