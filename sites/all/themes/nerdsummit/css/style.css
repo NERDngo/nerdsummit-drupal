@@ -557,6 +557,7 @@ input, .form-item {
 }
 /* line 427, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
+  position: absolute;
   right: 0px;
   top: 0px;
   width: 100%;
