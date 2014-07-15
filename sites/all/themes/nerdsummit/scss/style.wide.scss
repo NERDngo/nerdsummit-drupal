@@ -151,13 +151,17 @@ input, .form-item {
     color: #fff;
   ;
   }
-div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+  #block-views-featured-sessions-block {
+    display: block !important;
+  }
+#banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   max-width: 245px;
   float: right;
+  position: absolute !important;
   background-color: $blockBgDarkOrange;
   .form-text.required {
     width: 234px;
-    margin-left: 25px;
+    margin-left: 5px;
     margin-right: 25px;
   }
 

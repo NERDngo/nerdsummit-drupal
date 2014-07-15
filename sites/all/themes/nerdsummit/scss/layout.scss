@@ -305,6 +305,10 @@ body {
   }
 }
 
+div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+  position: static;
+}
+
 .pane-nerd-attendees {
   width: 100%;
   float: left;

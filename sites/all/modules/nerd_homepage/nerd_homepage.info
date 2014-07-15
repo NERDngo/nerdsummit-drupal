@@ -25,4 +25,3 @@ features[page_manager_pages][] = homepage
 features[variable][] = site_frontpage
 features[views_view][] = nerd_attendees
 features[views_view][] = nerd_sponsors
-project path = sites/all/modules

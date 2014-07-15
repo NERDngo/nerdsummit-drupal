@@ -84,7 +84,8 @@ function nerds_cta_boxes_default_box() {
 
 <p>NERDs organizes learning events throughout the year leading up to an annual Summit. We invite you to join in as an educator.</p>
 
-<p>Propose a session for the upcoming NERDSummit; or apply to teach an entirely new or an existing learning event. New learning event proposals can be on a new topic or they may draw from the list of requested topics below.</p>
+<p>Propose a session for the upcoming NERDSummit; or apply to teach an entirely new or an existing learning event.<br />
+New learning event proposals can be on&nbsp;new topics or they may draw from the list of requested topics below.</p>
 
 <p><a class="button" href="/node/add/session">Propose a Session</a></p>
 

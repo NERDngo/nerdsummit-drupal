@@ -398,6 +398,10 @@ input, .form-item {
   }
 }
 
+#main #block-system-user-menu {
+  position: static;
+}
+
 #banner_area {
   width: 100%;
   float: none;
@@ -428,8 +432,11 @@ input, .form-item {
     margin-left: 24px;
     margin-right: 24px;
   }
+  #block-views-featured-sessions-block {
+    display: none;
+  }
   div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
-    //position: absolute;
+    position: static;
     right: 0px;
     top: 0px;
     width: 100%;
