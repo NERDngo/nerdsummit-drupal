@@ -334,3 +334,8 @@ div#block-nerd-homepage-login-registration-block #edit-actions {
   margin: 0;
   padding-bottom: 12px;
 }
+
+/* line 306, ../scss/layout.wide.scss */
+#footer {
+  padding: 0px 20px 5px 20px;
+}
