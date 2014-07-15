@@ -203,36 +203,42 @@ ul {
 }
 
 /* line 154, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+#block-views-featured-sessions-block {
+  display: block !important;
+}
+
+/* line 157, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
   max-width: 245px;
   float: right;
+  position: absolute;
   background-color: #e88f36;
 }
-/* line 158, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block .form-text.required, #block-system-user-menu .form-text.required {
+/* line 162, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #block-system-user-menu .form-text.required {
   width: 234px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-/* line 164, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block div.description, #block-system-user-menu div.description {
-  margin-left: 25px;
+  margin-left: 5px;
   margin-right: 25px;
 }
 /* line 168, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block label, #block-system-user-menu label {
+#banner_area div#block-nerd-homepage-login-registration-block div.description, #block-system-user-menu div.description {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* line 172, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block label, #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 174, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block .go-to-register, #block-system-user-menu .go-to-register {
+/* line 178, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #block-system-user-menu .go-to-register {
   margin-left: 25px;
-}
-/* line 177, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block .nerd-register, #block-system-user-menu .nerd-register {
-  display: none;
 }
 /* line 181, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block.open-registration, #block-system-user-menu.open-registration {
+#banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #block-system-user-menu .nerd-register {
+  display: none;
+}
+/* line 185, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration, #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
   left: 0;
@@ -241,26 +247,26 @@ div#block-nerd-homepage-login-registration-block.open-registration, #block-syste
   z-index: 1;
   padding-bottom: 125px;
 }
-/* line 189, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #block-system-user-menu.open-registration .nerd-login {
+/* line 193, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
   border-right: none;
   float: right;
   width: 30%;
 }
-/* line 197, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
+/* line 201, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
-/* line 201, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
+/* line 205, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 205, ../scss/style.wide.scss */
-div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #block-system-user-menu.open-registration .form-submit {
+/* line 209, ../scss/style.wide.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -268,17 +274,17 @@ div#block-nerd-homepage-login-registration-block.open-registration .form-submit,
   float: none;
 }
 
-/* line 217, ../scss/style.wide.scss */
+/* line 221, ../scss/style.wide.scss */
 h1#page-title {
   background-color: #ffffff;
 }
 
-/* line 224, ../scss/style.wide.scss */
+/* line 228, ../scss/style.wide.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   font-size: 1.5em;
 }
 
-/* line 231, ../scss/style.wide.scss */
+/* line 235, ../scss/style.wide.scss */
 #block-system-user-menu {
   background-color: #ed7b32;
   *zoom: 1;
@@ -292,12 +298,12 @@ h1#page-title {
   font-weight: normal;
   color: #fff;
 }
-/* line 238, ../scss/style.wide.scss */
+/* line 242, ../scss/style.wide.scss */
 #block-system-user-menu a {
   color: #fff;
 }
 
-/* line 245, ../scss/style.wide.scss */
+/* line 249, ../scss/style.wide.scss */
 #block-boxes-learn-cta-box,
 #boxes-box-support_cta,
 #boxes-box-teach_cta {
