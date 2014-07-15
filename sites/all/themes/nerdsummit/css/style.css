@@ -88,24 +88,24 @@ ul.tabs-secondary li.is-active a {
   color: white;
 }
 
-/* line 59, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 .home-box {
   color: #fff;
 }
-/* line 61, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .home-box p {
   font-size: 17px;
   color: #000;
 }
-/* line 66, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .home-box.learn-box {
   background-color: #f49c00;
 }
-/* line 68, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .home-box.learn-box .pane-title, .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
   background-color: #e88f36;
 }
-/* line 71, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -116,16 +116,16 @@ ul.tabs-secondary li.is-active a {
 .home-box.learn-box .button:hover, .home-box.learn-box .purple-button:hover, .home-box.learn-box input[type=submit]:hover {
   background-color: #e88222;
 }
-/* line 75, ../scss/style.scss */
+/* line 79, ../scss/style.scss */
 .home-box.teach-box {
   background-color: #68bd55;
 }
-/* line 77, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .home-box.teach-box .pane-title, .home-box.teach-box .button, .home-box.teach-box .purple-button, .home-box.teach-box input[type=submit] {
   background-color: #5bb048;
   color: #fff;
 }
-/* line 81, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .home-box.teach-box .button, .home-box.teach-box .purple-button, .home-box.teach-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -136,15 +136,15 @@ ul.tabs-secondary li.is-active a {
 .home-box.teach-box .button:hover, .home-box.teach-box .purple-button:hover, .home-box.teach-box input[type=submit]:hover {
   background-color: #2eb01f;
 }
-/* line 85, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .home-box.support-box {
   background-color: #df699a;
 }
-/* line 87, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .home-box.support-box .pane-title, .home-box.support-box .button, .home-box.support-box .purple-button, .home-box.support-box input[type=submit] {
   background-color: #dd5c91;
 }
-/* line 90, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .home-box.support-box .button, .home-box.support-box .purple-button, .home-box.support-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -155,24 +155,24 @@ ul.tabs-secondary li.is-active a {
 .home-box.support-box .button:hover, .home-box.support-box .purple-button:hover, .home-box.support-box input[type=submit]:hover {
   background-color: #da5186;
 }
-/* line 94, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .home-box .button, .home-box .purple-button, .home-box .front .panels-top .button, .front .panels-top .home-box .button, .home-box input[type=submit] {
   border-color: #ffffff;
 }
 
-/* line 99, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 header.header, body {
   background: #fff;
 }
 
-/* line 103, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 113, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button, .front .panels-top input[type=submit], input[type=submit] {
   display: block;
   box-sizing: border-box;
@@ -190,11 +190,11 @@ header.header, body {
   background-color: #394ba3;
 }
 
-/* line 125, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .front #content h1 {
   color: #fff;
 }
-/* line 128, ../scss/style.scss */
+/* line 132, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1401306359') fixed no-repeat center center;
   -webkit-background-size: cover;
@@ -204,36 +204,36 @@ header.header, body {
   background-color: #2a2c68;
   color: #fff;
 }
-/* line 134, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 .front .panels-top p {
   font-size: 21px;
 }
-/* line 137, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 140, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .front .panels-top li {
   list-style: circle;
 }
-/* line 142, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .front .panels-top li a {
   color: #fff;
 }
-/* line 146, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 153, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 .front .panel-bottom {
   background: #ebebf3;
 }
 
-/* line 159, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 #navigation ul.menu {
   background: #4953a3;
 }
-/* line 162, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 #navigation li {
   list-style: none;
   -webkit-transition: 0.3s;
@@ -242,23 +242,23 @@ header.header, body {
   transition: 0.3s;
   border-bottom: 1px solid #fff;
 }
-/* line 166, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 #navigation li a {
   color: #fff;
 }
 
-/* line 173, ../scss/style.scss */
+/* line 177, ../scss/style.scss */
 .menu-hidden + #navigation li {
   border-bottom: 0;
 }
 
-/* line 180, ../scss/style.scss */
+/* line 184, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   color: #3a3a5c;
 }
 
-/* line 187, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -266,7 +266,7 @@ header.header, body {
   font-size: 32px;
   text-align: center;
 }
-/* line 193, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
   -webkit-transition: 0.3s;
@@ -278,7 +278,7 @@ header.header, body {
 #social-media-links a.icon-twitter:hover {
   background-color: #8083ad;
 }
-/* line 197, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
   -webkit-transition: 0.3s;
@@ -290,7 +290,7 @@ header.header, body {
 #social-media-links a.icon-facebook:hover {
   background-color: #4a4c74;
 }
-/* line 201, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
   -webkit-transition: 0.3s;
@@ -303,13 +303,13 @@ header.header, body {
   background-color: #313358;
 }
 
-/* line 208, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 .hamburger-wrap {
   background: #4953a3;
   color: #fff;
   cursor: pointer;
 }
-/* line 212, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
   background: #fff;
   position: absolute;
@@ -318,32 +318,32 @@ header.header, body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 218, ../scss/style.scss */
+/* line 222, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 225, ../scss/style.scss */
+/* line 229, ../scss/style.scss */
 .view-sponsors a, .view-nerd-sponsors a {
   color: #3f4157;
   font-weight: normal;
 }
-/* line 228, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 .view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button, .view-nerd-sponsors a.button, .view-nerd-sponsors a.purple-button, .view-nerd-sponsors .front .panels-top a.button, .front .panels-top .view-nerd-sponsors a.button {
   border-color: #666785;
 }
 
-/* line 236, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   border-bottom: 1px dotted #4953a3;
 }
-/* line 238, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane.pane-nerd-events {
   border-bottom: none;
 }
 
-/* line 245, ../scss/style.scss */
+/* line 249, ../scss/style.scss */
 #banner_area .boxes-box {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -352,7 +352,7 @@ header.header, body {
   background-position: center center;
 }
 
-/* line 254, ../scss/style.scss */
+/* line 258, ../scss/style.scss */
 .region-sidebar-first .block-title, .region-sidebar-first h1,
 .region-sidebar-second .block-title,
 .region-sidebar-second h1,
@@ -360,30 +360,30 @@ header.header, body {
 #content h1 {
   color: #d94903;
 }
-/* line 257, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 .region-sidebar-first li,
 .region-sidebar-second li,
 #content li {
   color: #000;
 }
 
-/* line 264, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 .node-event.node-teaser header {
   margin: 0;
   padding: 0;
 }
-/* line 269, ../scss/style.scss */
+/* line 273, ../scss/style.scss */
 .node-event.node-teaser .node-title a {
   color: #242429;
 }
 
-/* line 276, ../scss/style.scss */
+/* line 280, ../scss/style.scss */
 #page .field-name-ticket-type-label {
   background-color: #4953a3;
   color: #fff;
 }
 
-/* line 281, ../scss/style.scss */
+/* line 285, ../scss/style.scss */
 #block-views-featured-sessions-block .views-field-title a {
   background: #000;
   position: absolute;
@@ -395,7 +395,7 @@ header.header, body {
   font-size: 48px;
 }
 
-/* line 292, ../scss/style.scss */
+/* line 296, ../scss/style.scss */
 #block-views-featured-sessions-block .views-field-field-speakers {
   background: #fff;
   position: absolute;
@@ -409,16 +409,16 @@ header.header, body {
   font-size: 28px;
 }
 
-/* line 307, ../scss/style.scss */
+/* line 311, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .view-content {
   border-top: 2px dotted #242429;
 }
-/* line 310, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .views-row {
   border-bottom: 2px dotted #242429;
 }
 
-/* line 316, ../scss/style.scss */
+/* line 320, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date {
   margin-top: 25px;
   border-bottom: 20px solid #4953a3;
@@ -426,7 +426,7 @@ header.header, body {
   box-shadow: 0 0 4px grey;
   color: #242429;
 }
-/* line 322, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date h4 {
   text-align: center;
   font-size: 20px;
@@ -434,17 +434,17 @@ header.header, body {
   color: #242429;
   margin: 0;
 }
-/* line 329, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 334, ../scss/style.scss */
+/* line 338, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date p {
   text-align: center;
 }
-/* line 337, ../scss/style.scss */
+/* line 341, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   background: #4953a3;
   color: #fff;
@@ -453,14 +453,14 @@ header.header, body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 345, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   background: #ebebf3;
   box-sizing: border-box;
   padding: 10px;
 }
 
-/* line 352, ../scss/style.scss */
+/* line 356, ../scss/style.scss */
 #block-boxes-learn-cta-box {
   background: url("../images/banner_learn-2.jpg") fixed no-repeat;
   min-height: 350px;
@@ -472,7 +472,7 @@ header.header, body {
   background-size: cover;
 }
 
-/* line 359, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 #boxes-box-support_cta {
   background: url("../images/banner_support-pink.jpg") fixed no-repeat;
   -webkit-background-size: cover;
@@ -484,7 +484,7 @@ header.header, body {
   clear: left;
 }
 
-/* line 366, ../scss/style.scss */
+/* line 370, ../scss/style.scss */
 #boxes-box-teach_cta {
   background: url("../images/banner_teach-green.jpg") fixed no-repeat;
   -webkit-background-size: cover;
@@ -496,22 +496,22 @@ header.header, body {
   clear: left;
 }
 
-/* line 374, ../scss/style.scss */
+/* line 378, ../scss/style.scss */
 input, .form-item {
   max-width: 95%;
   margin-left: 1em;
 }
 
-/* line 380, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .pane-nerd-attendees .more-link {
   display: none;
 }
 
-/* line 386, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .region-sidebar-second #block-system-user-menu {
   margin-bottom: 20px;
 }
-/* line 389, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 #block-system-user-menu h2.block-title {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
@@ -519,24 +519,24 @@ input, .form-item {
   color: #fff;
 }
 
-/* line 397, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 #banner_area {
   width: 100%;
   float: none;
   position: relative;
   clear: both;
 }
-/* line 402, ../scss/style.scss */
+/* line 406, ../scss/style.scss */
 #banner_area h1, #banner_area h2 {
   margin: 0px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 408, ../scss/style.scss */
+/* line 412, ../scss/style.scss */
 #banner_area p {
   margin: 24px 6px 0 24px;
 }
-/* line 410, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 #banner_area p a {
   box-sizing: border-box;
   background-color: #4953a3;
@@ -546,16 +546,16 @@ input, .form-item {
   padding: 4px;
   width: 95%;
 }
-/* line 418, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #394ba3;
 }
-/* line 423, ../scss/style.scss */
+/* line 427, ../scss/style.scss */
 #banner_area ul {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 427, ../scss/style.scss */
+/* line 431, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   right: 0px;
   top: 0px;
@@ -574,43 +574,43 @@ input, .form-item {
   background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
   background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
 }
-/* line 437, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block a, #banner_area #block-system-user-menu a {
   color: #ffffff;
 }
-/* line 444, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.form-item, #banner_area #block-system-user-menu div.form-item {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-/* line 449, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #toggle-login, #banner_area #block-system-user-menu #toggle-login {
   display: block;
 }
-/* line 452, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #edit-actions, #banner_area #block-system-user-menu #edit-actions {
   display: block;
   margin: 0 24px;
   padding-bottom: 12px;
 }
-/* line 457, ../scss/style.scss */
+/* line 461, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 6px;
 }
-/* line 462, ../scss/style.scss */
+/* line 466, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block span.form-required, #banner_area #block-system-user-menu span.form-required {
   color: #3f4157;
 }
-/* line 466, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   display: none;
 }
-/* line 469, ../scss/style.scss */
+/* line 473, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 473, ../scss/style.scss */
+/* line 477, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.purple-button, #banner_area div#block-nerd-homepage-login-registration-block .go-to-register .front .panels-top a.button, .front .panels-top #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.button, #banner_area #block-system-user-menu .go-to-register a.purple-button, #banner_area #block-system-user-menu .go-to-register .front .panels-top a.button, .front .panels-top #banner_area #block-system-user-menu .go-to-register a.button {
   font-size: 13px;
   font-weight: lighter;
@@ -619,11 +619,11 @@ input, .form-item {
   border: 2px solid #ffffff;
   margin-top: 5px;
 }
-/* line 482, ../scss/style.scss */
+/* line 486, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 487, ../scss/style.scss */
+/* line 491, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   left: 0;
@@ -633,37 +633,37 @@ input, .form-item {
   z-index: 1;
   padding-bottom: 24px;
 }
-/* line 495, ../scss/style.scss */
+/* line 499, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration #edit-actions--2, #banner_area #block-system-user-menu.open-registration #edit-actions--2 {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 500, ../scss/style.scss */
+/* line 504, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-register, #banner_area #block-system-user-menu.open-registration .nerd-register {
   display: block;
 }
-/* line 503, ../scss/style.scss */
+/* line 507, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   display: none;
 }
-/* line 506, ../scss/style.scss */
+/* line 510, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
   border: none;
 }
-/* line 511, ../scss/style.scss */
+/* line 515, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 515, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   display: block;
   width: 100%;
 }
 
-/* line 524, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -672,23 +672,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 532, ../scss/style.scss */
+/* line 536, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page, .view-id-nerd-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 538, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   color: #3f4157;
 }
-/* line 542, ../scss/style.scss */
+/* line 546, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a, .view-id-nerd-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 545, ../scss/style.scss */
+/* line 549, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img, .view-id-nerd-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }
