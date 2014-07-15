@@ -208,37 +208,37 @@ ul {
 }
 
 /* line 157, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block, #block-system-user-menu {
+#banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   max-width: 245px;
   float: right;
-  position: absolute;
+  position: absolute !important;
   background-color: #e88f36;
 }
 /* line 162, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #block-system-user-menu .form-text.required {
+#banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 5px;
   margin-right: 25px;
 }
 /* line 168, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block div.description, #block-system-user-menu div.description {
+#banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   margin-left: 25px;
   margin-right: 25px;
 }
 /* line 172, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block label, #block-system-user-menu label {
+#banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
 /* line 178, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #block-system-user-menu .go-to-register {
+#banner_area div#block-nerd-homepage-login-registration-block .go-to-register, #banner_area #block-system-user-menu .go-to-register {
   margin-left: 25px;
 }
 /* line 181, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #block-system-user-menu .nerd-register {
+#banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
 /* line 185, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration, #block-system-user-menu.open-registration {
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   position: absolute;
   left: 0;
@@ -248,7 +248,7 @@ ul {
   padding-bottom: 125px;
 }
 /* line 193, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #block-system-user-menu.open-registration .nerd-login {
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   border: 2px solid #ffffff;
   border-top: none;
   border-right: none;
@@ -256,17 +256,17 @@ ul {
   width: 30%;
 }
 /* line 201, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
 }
 /* line 205, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
 /* line 209, ../scss/style.wide.scss */
-#banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #block-system-user-menu.open-registration .form-submit {
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   margin-right: auto;
   margin-left: auto;
   display: block;
