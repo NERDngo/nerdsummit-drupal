@@ -69,7 +69,12 @@ function login_register_view() {
       '#weight' => 100,
     ),
   );
+  $forgot = array(
+    '#markup' => l('Forgot password?', 'user/password', array('attributes' => array('class' => 'forgot-pw'))),
+    '#weight' => 25,
+  );
   $login_form = drupal_get_form('user_login');
+  $login_form['forgot'] = $forgot;
   $login_form['actions']['toggle'] = $toggle;
   //dpm($login_form);
   $login = drupal_render($login_form);
@@ -83,7 +88,7 @@ function login_register_view() {
     ),
 //    'toggle-button' => array(
 //      '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
-//      '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
+//      '#markup' => l('Forgot password?', 'user/password', array('attributes' => array('class' => 'forgot-pw'))),
 //      '#suffix' => '</span></div>',
 //    ),
     'register-form' => array(
