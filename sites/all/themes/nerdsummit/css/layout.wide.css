@@ -325,9 +325,10 @@ header.header {
 #content {
   width: 570px;
   margin: 0 270px;
+  min-height: 570px;
 }
 
-/* line 295, ../scss/layout.wide.scss */
+/* line 296, ../scss/layout.wide.scss */
 div#block-nerd-homepage-login-registration-block #edit-actions {
   display: block;
   margin: 0;
