@@ -468,7 +468,10 @@ input, .form-item {
     }
 
     .forgot-pw {
-      margin-left: 6px;
+      margin: -15px 20px;
+      font-size: x-small;
+      font-style: italic;
+      float: right;
     }
     .form-text.required {
       width: 234px;
