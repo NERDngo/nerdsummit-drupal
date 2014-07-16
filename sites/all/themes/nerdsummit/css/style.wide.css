@@ -244,7 +244,7 @@ ul {
   left: 0;
   top: 0;
   background-color: #e88f36;
-  z-index: 1;
+  z-index: 5;
   padding-bottom: 125px;
 }
 /* line 193, ../scss/style.wide.scss */
