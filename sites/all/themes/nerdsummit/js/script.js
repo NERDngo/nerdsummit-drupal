@@ -25,10 +25,13 @@ Drupal.behaviors.mobile_menu = {
 
 Drupal.behaviors.toggleUserLogin = {
   attach: function(context, settings) {
-    $('#toggle-login').find('a').click(function(e) {
+    $('.toggle-login').find('a').click(function(e) {
       e.preventDefault();
-      $('#block-nerd-homepage-login-registration-block').toggleClass('open-registration');
-    });
+      $('#block-nerd-homepage-login-registration-block').addClass('open-registration');
+    }).parents().find('.register-collapse').click(function(e) {
+          e.preventDefault();
+          $(this).parents().find('#block-nerd-homepage-login-registration-block').removeClass('open-registration');
+      });
   }
 };
 

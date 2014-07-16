@@ -63,7 +63,7 @@ function login_register_view() {
   $block = array();
   $toggle = array(
     'toggle-button' => array(
-      '#prefix' => '<div id="toggle-login"><span class="go-to-register">',
+      '#prefix' => '<div class="toggle-login"><span class="go-to-register">',
       '#markup' => l('Create account', 'user/register', array('attributes' => array('class' => 'purple-button'))),
       '#suffix' => '</span></div>',
       '#weight' => 100,
@@ -92,7 +92,7 @@ function login_register_view() {
 //      '#suffix' => '</span></div>',
 //    ),
     'register-form' => array(
-      '#prefix' => '<div class="nerd-register">',
+      '#prefix' => '<div class="nerd-register"><div class="toggle-login register-collapse"></div>',
       '#markup' => $register,
       '#suffix' => '</div>',
     ),

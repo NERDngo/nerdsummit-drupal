@@ -532,6 +532,13 @@ input, .form-item {
         display: block;
         width: 100%;
       }
+      .register-collapse {
+        float: right;
+        padding: 16px;
+        background: url("../images/x.png") center no-repeat;
+        min-width: 25px;
+        min-height: 25px;
+      }
     }
   }
 }

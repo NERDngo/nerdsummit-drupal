@@ -196,7 +196,7 @@ header.header, body {
 }
 /* line 132, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1401306359') fixed no-repeat center center;
+  background: url('../images/banner_home.jpg?1405463038') fixed no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -677,8 +677,16 @@ input, .form-item {
   display: block;
   width: 100%;
 }
+/* line 535, ../scss/style.scss */
+#banner_area div#block-nerd-homepage-login-registration-block.open-registration .register-collapse, #banner_area #block-system-user-menu.open-registration .register-collapse {
+  float: right;
+  padding: 16px;
+  background: url("../images/x.png") center no-repeat;
+  min-width: 25px;
+  min-height: 25px;
+}
 
-/* line 540, ../scss/style.scss */
+/* line 547, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -687,23 +695,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 548, ../scss/style.scss */
+/* line 555, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page, .view-id-nerd-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 554, ../scss/style.scss */
+/* line 561, ../scss/style.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   color: #3f4157;
 }
-/* line 558, ../scss/style.scss */
+/* line 565, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a, .view-id-nerd-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 561, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img, .view-id-nerd-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }
