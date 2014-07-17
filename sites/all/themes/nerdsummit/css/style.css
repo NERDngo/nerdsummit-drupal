@@ -196,7 +196,7 @@ header.header, body {
 }
 /* line 132, ../scss/style.scss */
 .front .panels-top {
-  background: url('../images/banner_home.jpg?1405483958') fixed no-repeat center center;
+  background: url('../images/banner_home.jpg?1405463038') fixed no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -498,20 +498,25 @@ header.header, body {
 
 /* line 378, ../scss/style.scss */
 input, .form-item {
-  max-width: 95%;
-  margin-left: 1em;
+  max-width: 90%;
+  margin-left: 5px;
 }
 
-/* line 384, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
+input#edit-field-sponsor-related-attendees-und-0-target-id {
+  width: 100%;
+}
+
+/* line 388, ../scss/style.scss */
 .pane-nerd-attendees .more-link {
   display: none;
 }
 
-/* line 390, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .region-sidebar-second #block-system-user-menu {
   margin-bottom: 20px;
 }
-/* line 393, ../scss/style.scss */
+/* line 397, ../scss/style.scss */
 #block-system-user-menu h2.block-title {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
@@ -519,29 +524,29 @@ input, .form-item {
   color: #fff;
 }
 
-/* line 401, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 #main #block-system-user-menu {
   position: static;
 }
 
-/* line 405, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 #banner_area {
   width: 100%;
   float: none;
   position: relative;
   clear: both;
 }
-/* line 410, ../scss/style.scss */
+/* line 414, ../scss/style.scss */
 #banner_area h1, #banner_area h2 {
   margin: 0px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 416, ../scss/style.scss */
+/* line 420, ../scss/style.scss */
 #banner_area p {
   margin: 24px 6px 0 24px;
 }
-/* line 418, ../scss/style.scss */
+/* line 422, ../scss/style.scss */
 #banner_area p a {
   box-sizing: border-box;
   background-color: #4953a3;
@@ -551,20 +556,20 @@ input, .form-item {
   padding: 4px;
   width: 95%;
 }
-/* line 426, ../scss/style.scss */
+/* line 430, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #394ba3;
 }
-/* line 431, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 #banner_area ul {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 435, ../scss/style.scss */
+/* line 439, ../scss/style.scss */
 #banner_area #block-views-featured-sessions-block {
   display: none;
 }
-/* line 438, ../scss/style.scss */
+/* line 442, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   position: static;
   right: 0px;
@@ -584,51 +589,51 @@ input, .form-item {
   background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
   background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
 }
-/* line 448, ../scss/style.scss */
+/* line 452, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block a, #banner_area #block-system-user-menu a {
   color: #ffffff;
 }
-/* line 455, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.form-item, #banner_area #block-system-user-menu div.form-item {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-/* line 460, ../scss/style.scss */
+/* line 464, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #toggle-login, #banner_area #block-system-user-menu #toggle-login {
   display: block;
 }
-/* line 463, ../scss/style.scss */
+/* line 467, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #edit-actions, #banner_area #block-system-user-menu #edit-actions {
   display: block;
   margin: 0 24px;
   padding-bottom: 12px;
   padding-top: 6px;
 }
-/* line 470, ../scss/style.scss */
+/* line 474, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .forgot-pw, #banner_area #block-system-user-menu .forgot-pw {
   margin: -15px 20px;
   font-size: x-small;
   font-style: italic;
   float: right;
 }
-/* line 476, ../scss/style.scss */
+/* line 480, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 6px;
 }
-/* line 481, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block span.form-required, #banner_area #block-system-user-menu span.form-required {
   color: #3f4157;
 }
-/* line 485, ../scss/style.scss */
+/* line 489, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   display: none;
 }
-/* line 488, ../scss/style.scss */
+/* line 492, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 492, ../scss/style.scss */
+/* line 496, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.purple-button, #banner_area div#block-nerd-homepage-login-registration-block .go-to-register .front .panels-top a.button, .front .panels-top #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.button, #banner_area #block-system-user-menu .go-to-register a.purple-button, #banner_area #block-system-user-menu .go-to-register .front .panels-top a.button, .front .panels-top #banner_area #block-system-user-menu .go-to-register a.button {
   font-size: 13px;
   font-weight: lighter;
@@ -637,11 +642,11 @@ input, .form-item {
   border: 2px solid #ffffff;
   margin-top: 5px;
 }
-/* line 501, ../scss/style.scss */
+/* line 505, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 506, ../scss/style.scss */
+/* line 510, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   left: 0;
@@ -651,36 +656,36 @@ input, .form-item {
   z-index: 1;
   padding-bottom: 24px;
 }
-/* line 514, ../scss/style.scss */
+/* line 518, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration #edit-actions--2, #banner_area #block-system-user-menu.open-registration #edit-actions--2 {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 519, ../scss/style.scss */
+/* line 523, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-register, #banner_area #block-system-user-menu.open-registration .nerd-register {
   display: block;
 }
-/* line 522, ../scss/style.scss */
+/* line 526, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   display: none;
 }
-/* line 525, ../scss/style.scss */
+/* line 529, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
   border: none;
 }
-/* line 530, ../scss/style.scss */
+/* line 534, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 534, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   display: block;
   width: 100%;
 }
-/* line 538, ../scss/style.scss */
+/* line 542, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .register-collapse, #banner_area #block-system-user-menu.open-registration .register-collapse {
   float: right;
   padding: 16px;
@@ -689,7 +694,7 @@ input, .form-item {
   min-height: 25px;
 }
 
-/* line 550, ../scss/style.scss */
+/* line 554, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -698,23 +703,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 558, ../scss/style.scss */
+/* line 562, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page, .view-id-nerd-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 564, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   color: #3f4157;
 }
-/* line 568, ../scss/style.scss */
+/* line 572, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a, .view-id-nerd-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 571, ../scss/style.scss */
+/* line 575, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img, .view-id-nerd-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }

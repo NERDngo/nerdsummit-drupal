@@ -376,8 +376,12 @@ header.header , body {
 }
 
 input, .form-item {
-  max-width: 95%;
-  margin-left: 1em;
+  max-width: 90%;
+  margin-left: 5px;
+}
+
+input#edit-field-sponsor-related-attendees-und-0-target-id {
+  width: 100%;
 }
 
 .pane-nerd-attendees {
