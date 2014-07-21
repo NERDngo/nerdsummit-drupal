@@ -45,11 +45,6 @@ p {
   border-top: 1px dotted #4953a3;
 }
 
-/* line 24, ../scss/style.scss */
-.page-learn h1#page-title, .section-teach h1#page-title, .section-support h1#page-title, .section-nerdsummit-2014 h1#page-title {
-  display: none;
-}
-
 /* line 29, ../scss/style.scss */
 ul.pager {
   color: #d74c0d;
