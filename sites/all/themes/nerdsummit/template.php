@@ -136,3 +136,34 @@ function nerdsummit_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+
+function nerdsummit_preprocess_html(&$variables) {
+  /**
+   * Add default icon
+   */
+  $apple_icon =  array(
+
+    '#tag' => 'link',
+    '#attributes' => array(
+      'href' => url(drupal_get_path('theme', 'nerdsummit') . '/apple-touch-icon.png'),
+      'rel' => 'apple-touch-icon-precomposed',
+    ),
+  );
+
+  /**
+   * Loop through to add various sizes
+   */
+  $apple_icon_sizes = array(57,72,114,144);
+
+  foreach($apple_icon_sizes as $size){
+    $apple = array(
+      '#tag' => 'link',
+      '#attributes' => array(
+        'href' => url(drupal_get_path('theme', 'nerdsummit') . '/apple-touch-icon.png'),
+        'rel' => 'apple-touch-icon-precomposed',
+        'sizes' => $size . 'x' . $size,
+      ),
+    );
+    drupal_add_html_head($apple, 'apple-touch-icon-'.$size);
+  }
+}
