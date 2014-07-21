@@ -46,7 +46,7 @@ p {
 }
 
 /* line 24, ../scss/style.scss */
-.page-learn h1#page-title, .page-teach h1#page-title {
+.page-learn h1#page-title, .section-teach h1#page-title, .section-support h1#page-title, .section-nerdsummit-2014 h1#page-title {
   display: none;
 }
 
