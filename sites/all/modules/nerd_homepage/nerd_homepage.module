@@ -73,10 +73,12 @@ function login_register_view() {
     '#markup' => l('Forgot password?', 'user/password', array('attributes' => array('class' => 'forgot-pw'))),
     '#weight' => 25,
   );
+  $title = drupal_get_title();
   $login_form = drupal_get_form('user_login');
+  drupal_set_title($title, PASS_THROUGH);
   $login_form['forgot'] = $forgot;
   $login_form['actions']['toggle'] = $toggle;
-  //dpm($login_form);
+//  dpm($login_form);
   $login = drupal_render($login_form);
   $register = drupal_render(drupal_get_form('user_register_form'));
 
@@ -84,6 +86,7 @@ function login_register_view() {
     'login-form' => array(
       '#prefix' => '<div class="nerd-login">',
       '#markup' => $login,
+//      '#title' => t('happy thoughts'),
       '#suffix' => '</div>',
     ),
 //    'toggle-button' => array(
