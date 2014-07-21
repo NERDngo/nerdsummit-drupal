@@ -166,4 +166,12 @@ function nerdsummit_preprocess_html(&$variables) {
     );
     drupal_add_html_head($apple, 'apple-touch-icon-'.$size);
   }
+  // Add body class to page if we're not inside of an active trail.
+  $active_trail = menu_get_active_trail();
+  $current_path = current_path();
+  foreach ($active_trail as $active_item) {
+    if ($active_item['link_path'] == $current_path) {
+      $variables['classes_array']['in-active-class'] = 'in-active-trail';
+    }
+  }
 }
