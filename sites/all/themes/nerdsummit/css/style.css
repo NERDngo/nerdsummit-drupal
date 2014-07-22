@@ -45,62 +45,62 @@ p {
   border-top: 1px dotted #4953a3;
 }
 
-/* line 29, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 ul.pager {
   color: #d74c0d;
 }
-/* line 32, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 ul.tabs-primary {
   overflow: hidden;
 }
-/* line 34, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 ul.tabs-primary li {
   background: #ddd;
 }
-/* line 37, ../scss/style.scss */
+/* line 33, ../scss/style.scss */
 ul.tabs-primary li.is-active {
   background: #4953a3;
 }
-/* line 40, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 ul.tabs-primary li.is-active a {
   color: white;
 }
-/* line 44, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 ul.tabs-secondary {
   padding-top: 3px;
   overflow: hidden;
 }
-/* line 47, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 ul.tabs-secondary li {
   background: #efefef;
 }
-/* line 50, ../scss/style.scss */
+/* line 46, ../scss/style.scss */
 ul.tabs-secondary li.is-active {
   background: #4953a3;
 }
-/* line 53, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 ul.tabs-secondary li.is-active a {
   color: white;
 }
 
-/* line 63, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .home-box {
   color: #fff;
 }
-/* line 65, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 .home-box p {
   font-size: 17px;
   color: #000;
 }
-/* line 70, ../scss/style.scss */
+/* line 66, ../scss/style.scss */
 .home-box.learn-box {
   background-color: #f49c00;
 }
-/* line 72, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .home-box.learn-box .pane-title, .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
   background-color: #e88f36;
 }
-/* line 75, ../scss/style.scss */
+/* line 71, ../scss/style.scss */
 .home-box.learn-box .button, .home-box.learn-box .purple-button, .home-box.learn-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -111,16 +111,16 @@ ul.tabs-secondary li.is-active a {
 .home-box.learn-box .button:hover, .home-box.learn-box .purple-button:hover, .home-box.learn-box input[type=submit]:hover {
   background-color: #e88222;
 }
-/* line 79, ../scss/style.scss */
+/* line 75, ../scss/style.scss */
 .home-box.teach-box {
   background-color: #68bd55;
 }
-/* line 81, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 .home-box.teach-box .pane-title, .home-box.teach-box .button, .home-box.teach-box .purple-button, .home-box.teach-box input[type=submit] {
   background-color: #5bb048;
   color: #fff;
 }
-/* line 85, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 .home-box.teach-box .button, .home-box.teach-box .purple-button, .home-box.teach-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -131,15 +131,15 @@ ul.tabs-secondary li.is-active a {
 .home-box.teach-box .button:hover, .home-box.teach-box .purple-button:hover, .home-box.teach-box input[type=submit]:hover {
   background-color: #2eb01f;
 }
-/* line 89, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .home-box.support-box {
   background-color: #df699a;
 }
-/* line 91, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .home-box.support-box .pane-title, .home-box.support-box .button, .home-box.support-box .purple-button, .home-box.support-box input[type=submit] {
   background-color: #dd5c91;
 }
-/* line 94, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .home-box.support-box .button, .home-box.support-box .purple-button, .home-box.support-box input[type=submit] {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -150,24 +150,24 @@ ul.tabs-secondary li.is-active a {
 .home-box.support-box .button:hover, .home-box.support-box .purple-button:hover, .home-box.support-box input[type=submit]:hover {
   background-color: #da5186;
 }
-/* line 98, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .home-box .button, .home-box .purple-button, .home-box .front .panels-top .button, .front .panels-top .home-box .button, .home-box input[type=submit] {
   border-color: #ffffff;
 }
 
-/* line 103, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 header.header, body {
   background: #fff;
 }
 
-/* line 107, ../scss/style.scss */
+/* line 103, ../scss/style.scss */
 .highlight {
   font-size: 24px;
   color: #7cd4fd;
   font-weight: 700;
 }
 
-/* line 117, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .purple-button, .front .panels-top .button, .front .panels-top .purple-button, .front .panels-top input[type=submit], input[type=submit] {
   display: block;
   box-sizing: border-box;
@@ -185,11 +185,11 @@ header.header, body {
   background-color: #394ba3;
 }
 
-/* line 129, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .front #content h1 {
   color: #fff;
 }
-/* line 132, ../scss/style.scss */
+/* line 128, ../scss/style.scss */
 .front .panels-top {
   background: url('../images/banner_home.jpg?1405463038') fixed no-repeat center center;
   -webkit-background-size: cover;
@@ -199,36 +199,36 @@ header.header, body {
   background-color: #2a2c68;
   color: #fff;
 }
-/* line 138, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 .front .panels-top p {
   font-size: 21px;
 }
-/* line 141, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .front .panels-top a {
   color: #dd5c91;
 }
-/* line 144, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .front .panels-top li {
   list-style: circle;
 }
-/* line 146, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 .front .panels-top li a {
   color: #fff;
 }
-/* line 150, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 .front .panels-top h1 {
   text-transform: uppercase;
 }
-/* line 157, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 .front .panel-bottom {
   background: #ebebf3;
 }
 
-/* line 163, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 #navigation ul.menu {
   background: #4953a3;
 }
-/* line 166, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
 #navigation li {
   list-style: none;
   -webkit-transition: 0.3s;
@@ -237,23 +237,23 @@ header.header, body {
   transition: 0.3s;
   border-bottom: 1px solid #fff;
 }
-/* line 170, ../scss/style.scss */
+/* line 166, ../scss/style.scss */
 #navigation li a {
   color: #fff;
 }
 
-/* line 177, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 .menu-hidden + #navigation li {
   border-bottom: 0;
 }
 
-/* line 184, ../scss/style.scss */
+/* line 180, ../scss/style.scss */
 .header__name-and-slogan a {
   font-size: 24px;
   color: #3a3a5c;
 }
 
-/* line 191, ../scss/style.scss */
+/* line 187, ../scss/style.scss */
 #social-media-links a {
   color: #fff;
   border-radius: 50%;
@@ -261,7 +261,7 @@ header.header, body {
   font-size: 32px;
   text-align: center;
 }
-/* line 197, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 #social-media-links a.icon-twitter {
   background: #a9afe1;
   -webkit-transition: 0.3s;
@@ -273,7 +273,7 @@ header.header, body {
 #social-media-links a.icon-twitter:hover {
   background-color: #8083ad;
 }
-/* line 201, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 #social-media-links a.icon-facebook {
   background: #8083ad;
   -webkit-transition: 0.3s;
@@ -285,7 +285,7 @@ header.header, body {
 #social-media-links a.icon-facebook:hover {
   background-color: #4a4c74;
 }
-/* line 205, ../scss/style.scss */
+/* line 201, ../scss/style.scss */
 #social-media-links a.icon-gplus {
   background: #4a4c74;
   -webkit-transition: 0.3s;
@@ -298,13 +298,13 @@ header.header, body {
   background-color: #313358;
 }
 
-/* line 212, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 .hamburger-wrap {
   background: #4953a3;
   color: #fff;
   cursor: pointer;
 }
-/* line 216, ../scss/style.scss */
+/* line 212, ../scss/style.scss */
 .hamburger-wrap .hamburger-part {
   background: #fff;
   position: absolute;
@@ -313,32 +313,32 @@ header.header, body {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 222, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .hamburger-wrap .hamburger-text {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 229, ../scss/style.scss */
+/* line 225, ../scss/style.scss */
 .view-sponsors a, .view-nerd-sponsors a {
   color: #3f4157;
   font-weight: normal;
 }
-/* line 232, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .view-sponsors a.button, .view-sponsors a.purple-button, .view-sponsors .front .panels-top a.button, .front .panels-top .view-sponsors a.button, .view-nerd-sponsors a.button, .view-nerd-sponsors a.purple-button, .view-nerd-sponsors .front .panels-top a.button, .front .panels-top .view-nerd-sponsors a.button {
   border-color: #666785;
 }
 
-/* line 240, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane {
   border-bottom: 1px dotted #4953a3;
 }
-/* line 242, ../scss/style.scss */
+/* line 238, ../scss/style.scss */
 .panel-nerds-two-col .panels-top .panel-pane.pane-nerd-events {
   border-bottom: none;
 }
 
-/* line 249, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 #banner_area .boxes-box {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -347,7 +347,7 @@ header.header, body {
   background-position: center center;
 }
 
-/* line 258, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 .region-sidebar-first .block-title, .region-sidebar-first h1,
 .region-sidebar-second .block-title,
 .region-sidebar-second h1,
@@ -355,30 +355,30 @@ header.header, body {
 #content h1 {
   color: #d94903;
 }
-/* line 261, ../scss/style.scss */
+/* line 257, ../scss/style.scss */
 .region-sidebar-first li,
 .region-sidebar-second li,
 #content li {
   color: #000;
 }
 
-/* line 268, ../scss/style.scss */
+/* line 264, ../scss/style.scss */
 .node-event.node-teaser header {
   margin: 0;
   padding: 0;
 }
-/* line 273, ../scss/style.scss */
+/* line 269, ../scss/style.scss */
 .node-event.node-teaser .node-title a {
   color: #242429;
 }
 
-/* line 280, ../scss/style.scss */
+/* line 276, ../scss/style.scss */
 #page .field-name-ticket-type-label {
   background-color: #4953a3;
   color: #fff;
 }
 
-/* line 285, ../scss/style.scss */
+/* line 281, ../scss/style.scss */
 #block-views-featured-sessions-block .views-field-title a {
   background: #000;
   position: absolute;
@@ -390,7 +390,7 @@ header.header, body {
   font-size: 48px;
 }
 
-/* line 296, ../scss/style.scss */
+/* line 292, ../scss/style.scss */
 #block-views-featured-sessions-block .views-field-field-speakers {
   background: #fff;
   position: absolute;
@@ -404,16 +404,16 @@ header.header, body {
   font-size: 28px;
 }
 
-/* line 311, ../scss/style.scss */
+/* line 307, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .view-content {
   border-top: 2px dotted #242429;
 }
-/* line 314, ../scss/style.scss */
+/* line 310, ../scss/style.scss */
 .view-nerd-events .view-display-id-page .views-row {
   border-bottom: 2px dotted #242429;
 }
 
-/* line 320, ../scss/style.scss */
+/* line 316, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date {
   margin-top: 25px;
   border-bottom: 20px solid #4953a3;
@@ -421,7 +421,7 @@ header.header, body {
   box-shadow: 0 0 4px grey;
   color: #242429;
 }
-/* line 326, ../scss/style.scss */
+/* line 322, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date h4 {
   text-align: center;
   font-size: 20px;
@@ -429,17 +429,17 @@ header.header, body {
   color: #242429;
   margin: 0;
 }
-/* line 333, ../scss/style.scss */
+/* line 329, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 338, ../scss/style.scss */
+/* line 334, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date p {
   text-align: center;
 }
-/* line 341, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .block-title {
   background: #4953a3;
   color: #fff;
@@ -448,14 +448,14 @@ header.header, body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/* line 349, ../scss/style.scss */
+/* line 345, ../scss/style.scss */
 #block-nerd-blocks-nerd-save-date .nerd-sign-up-content {
   background: #ebebf3;
   box-sizing: border-box;
   padding: 10px;
 }
 
-/* line 356, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 #block-boxes-learn-cta-box {
   background: url("../images/banner_learn-2.jpg") fixed no-repeat;
   min-height: 350px;
@@ -467,7 +467,7 @@ header.header, body {
   background-size: cover;
 }
 
-/* line 363, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 #boxes-box-support_cta {
   background: url("../images/banner_support-pink.jpg") fixed no-repeat;
   -webkit-background-size: cover;
@@ -479,7 +479,7 @@ header.header, body {
   clear: left;
 }
 
-/* line 370, ../scss/style.scss */
+/* line 366, ../scss/style.scss */
 #boxes-box-teach_cta {
   background: url("../images/banner_teach-green.jpg") fixed no-repeat;
   -webkit-background-size: cover;
@@ -491,27 +491,27 @@ header.header, body {
   clear: left;
 }
 
-/* line 378, ../scss/style.scss */
+/* line 374, ../scss/style.scss */
 input, .form-item {
   max-width: 90%;
   margin-left: 5px;
 }
 
-/* line 383, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 input#edit-field-sponsor-related-attendees-und-0-target-id {
   width: 100%;
 }
 
-/* line 388, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .pane-nerd-attendees .more-link {
   display: none;
 }
 
-/* line 394, ../scss/style.scss */
+/* line 390, ../scss/style.scss */
 .region-sidebar-second #block-system-user-menu {
   margin-bottom: 20px;
 }
-/* line 397, ../scss/style.scss */
+/* line 393, ../scss/style.scss */
 #block-system-user-menu h2.block-title {
   margin: 12px 0 4px 24px;
   font-weight: lighter;
@@ -519,29 +519,29 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   color: #fff;
 }
 
-/* line 405, ../scss/style.scss */
+/* line 401, ../scss/style.scss */
 #main #block-system-user-menu {
   position: static;
 }
 
-/* line 409, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 #banner_area {
   width: 100%;
   float: none;
   position: relative;
   clear: both;
 }
-/* line 414, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 #banner_area h1, #banner_area h2 {
   margin: 0px 0 4px 24px;
   font-weight: lighter;
   display: block;
 }
-/* line 420, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 #banner_area p {
   margin: 24px 6px 0 24px;
 }
-/* line 422, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 #banner_area p a {
   box-sizing: border-box;
   background-color: #4953a3;
@@ -551,20 +551,20 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   padding: 4px;
   width: 95%;
 }
-/* line 430, ../scss/style.scss */
+/* line 426, ../scss/style.scss */
 #banner_area p a:hover {
   background-color: #394ba3;
 }
-/* line 435, ../scss/style.scss */
+/* line 431, ../scss/style.scss */
 #banner_area ul {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 439, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 #banner_area #block-views-featured-sessions-block {
   display: none;
 }
-/* line 442, ../scss/style.scss */
+/* line 438, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block, #banner_area #block-system-user-menu {
   position: static;
   right: 0px;
@@ -584,51 +584,51 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   background-image: -o-linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
   background-image: linear-gradient(top, #ed7b32 0%, #e9682e 50%, #e9682e 60%, #e9682e 100%);
 }
-/* line 452, ../scss/style.scss */
+/* line 448, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block a, #banner_area #block-system-user-menu a {
   color: #ffffff;
 }
-/* line 459, ../scss/style.scss */
+/* line 455, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.form-item, #banner_area #block-system-user-menu div.form-item {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-/* line 464, ../scss/style.scss */
+/* line 460, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #toggle-login, #banner_area #block-system-user-menu #toggle-login {
   display: block;
 }
-/* line 467, ../scss/style.scss */
+/* line 463, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block #edit-actions, #banner_area #block-system-user-menu #edit-actions {
   display: block;
   margin: 0 24px;
   padding-bottom: 12px;
   padding-top: 6px;
 }
-/* line 474, ../scss/style.scss */
+/* line 470, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .forgot-pw, #banner_area #block-system-user-menu .forgot-pw {
   margin: -15px 20px;
   font-size: x-small;
   font-style: italic;
   float: right;
 }
-/* line 480, ../scss/style.scss */
+/* line 476, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .form-text.required, #banner_area #block-system-user-menu .form-text.required {
   width: 234px;
   margin-left: 6px;
 }
-/* line 485, ../scss/style.scss */
+/* line 481, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block span.form-required, #banner_area #block-system-user-menu span.form-required {
   color: #3f4157;
 }
-/* line 489, ../scss/style.scss */
+/* line 485, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block div.description, #banner_area #block-system-user-menu div.description {
   display: none;
 }
-/* line 492, ../scss/style.scss */
+/* line 488, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block label, #banner_area #block-system-user-menu label {
   margin-left: 25px;
 }
-/* line 496, ../scss/style.scss */
+/* line 492, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.purple-button, #banner_area div#block-nerd-homepage-login-registration-block .go-to-register .front .panels-top a.button, .front .panels-top #banner_area div#block-nerd-homepage-login-registration-block .go-to-register a.button, #banner_area #block-system-user-menu .go-to-register a.purple-button, #banner_area #block-system-user-menu .go-to-register .front .panels-top a.button, .front .panels-top #banner_area #block-system-user-menu .go-to-register a.button {
   font-size: 13px;
   font-weight: lighter;
@@ -637,11 +637,11 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   border: 2px solid #ffffff;
   margin-top: 5px;
 }
-/* line 505, ../scss/style.scss */
+/* line 501, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block .nerd-register, #banner_area #block-system-user-menu .nerd-register {
   display: none;
 }
-/* line 510, ../scss/style.scss */
+/* line 506, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration, #banner_area #block-system-user-menu.open-registration {
   display: block;
   left: 0;
@@ -651,36 +651,36 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   z-index: 1;
   padding-bottom: 24px;
 }
-/* line 518, ../scss/style.scss */
+/* line 514, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration #edit-actions--2, #banner_area #block-system-user-menu.open-registration #edit-actions--2 {
   margin-left: 24px;
   margin-right: 24px;
 }
-/* line 523, ../scss/style.scss */
+/* line 519, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-register, #banner_area #block-system-user-menu.open-registration .nerd-register {
   display: block;
 }
-/* line 526, ../scss/style.scss */
+/* line 522, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .nerd-login, #banner_area #block-system-user-menu.open-registration .nerd-login {
   display: none;
 }
-/* line 529, ../scss/style.scss */
+/* line 525, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration fieldset#edit-mailchimp-lists, #banner_area #block-system-user-menu.open-registration fieldset#edit-mailchimp-lists {
   margin-left: 25px;
   margin-right: 25px;
   border: none;
 }
-/* line 534, ../scss/style.scss */
+/* line 530, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .resizable.textarea-processed.resizable-textarea, #banner_area #block-system-user-menu.open-registration .resizable.textarea-processed.resizable-textarea {
   margin-left: 25px;
   width: 50%;
 }
-/* line 538, ../scss/style.scss */
+/* line 534, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .form-submit, #banner_area #block-system-user-menu.open-registration .form-submit {
   display: block;
   width: 100%;
 }
-/* line 542, ../scss/style.scss */
+/* line 538, ../scss/style.scss */
 #banner_area div#block-nerd-homepage-login-registration-block.open-registration .register-collapse, #banner_area #block-system-user-menu.open-registration .register-collapse {
   float: right;
   padding: 16px;
@@ -689,7 +689,7 @@ input#edit-field-sponsor-related-attendees-und-0-target-id {
   min-height: 25px;
 }
 
-/* line 554, ../scss/style.scss */
+/* line 550, ../scss/style.scss */
 h1#page-title {
   color: #4953a3;
   background-color: #ebebf3;
@@ -698,23 +698,23 @@ h1#page-title {
   padding-left: 15px;
 }
 
-/* line 562, ../scss/style.scss */
+/* line 558, ../scss/style.scss */
 .view-id-sponsors.view-display-id-page, .view-id-nerd-sponsors.view-display-id-page {
   background-color: #ebebf3;
   color: #3f4157;
   display: inline-block;
   vertical-align: bottom;
 }
-/* line 568, ../scss/style.scss */
+/* line 564, ../scss/style.scss */
 .view-id-sponsors h3, .view-id-nerd-sponsors h3 {
   color: #3f4157;
 }
-/* line 572, ../scss/style.scss */
+/* line 568, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo a, .view-id-nerd-sponsors .views-field-field-sponsor-logo a {
   display: block;
   border: 3px solid #ffffff;
 }
-/* line 575, ../scss/style.scss */
+/* line 571, ../scss/style.scss */
 .view-id-sponsors .views-field-field-sponsor-logo img, .view-id-nerd-sponsors .views-field-field-sponsor-logo img {
   display: block;
 }

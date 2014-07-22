@@ -45,26 +45,22 @@ body {
   a{
     color: #3a3a5c;
   }
+  //secondary navigation menu a.k.a colored bars menu
   #block-menu-block-top-level-nav {
     ul li {
-      &.first {
+      &.learn {
         background: $blockBgLightOrange;
         @include hoverBg($blockBgDarkOrange);
       }
-
-      // todo: add classes to avoid using this selector.
-      &:nth-of-type(2) {
+      &.teach {
         background: $blockBgLightGreen;
         @include hoverBg($blockBgDarkGreen);
       }
-
-      // todo: add classes to avoid using this selector.
-      &:nth-of-type(3) {
+      &.support {
         background: $blockBgLightPink;
         @include hoverBg($blockBgDarkPink);
-        width: 185px;
       }
-      &.last {
+      &.summit {
         background: $blockBgLightPurple;
         @include hoverBg($blockBgDarkPurple);
       }

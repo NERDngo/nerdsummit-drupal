@@ -146,7 +146,31 @@ header.header {
     width: 65px;
   }
 }
+//active state secondary navigation menu a.k.a unevenly spaced colored menu bars when a landing page has an active link
+.in-active-trail {
+  #navigation{
+    #block-menu-block-top-level-nav {
+      ul.menu {
+        width: 100%;
+        .active {
+          width: 46%;
+        }
 
+        li {
+          margin: 0 7px;
+          width: 16%;
+
+          &.learn {
+            margin-left: 0;
+          }
+          &.summit {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
 #navigation {
   float: right;
   display: block !important; // todo.
@@ -168,32 +192,22 @@ header.header {
       width: auto;
     }
   }
+  //default secondary navigation menu a.k.a evenly spaced colored menu bars
   #block-menu-block-top-level-nav {
     ul.menu {
       width: 100%;
-      .active {
-        width: 46%;
-      }
 
       li {
-        margin: 0 5px;
-        width: 16%;
+        margin: 0 7px;
+        width: 24%;
 
-        &.first {
-          //width: 46%;
+        &.learn {
           margin-left: 0;
         }
-        // todo: add classes to avoid using this selector.
-        &:nth-of-type(2),
-        &:nth-of-type(3) {
-          //width: 18%;
-        }
-        &.last {
-          //width: 15%;
+        &.summit {
           margin-right: 0;
         }
       }
-
     }
   }
 }
