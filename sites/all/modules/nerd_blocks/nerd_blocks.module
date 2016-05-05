@@ -62,8 +62,8 @@ function nerd_blocks_preprocess_nerd_save_date(&$variables) {
   $variables['register_text'] = t('Join NERDs');
   $variables['find_out_more_text'] = t('Stay in the Loop!');
   $variables['register_path'] = url('user/register');
-  $variables['find_out_more_path'] = url('2015');
-  $variables['find_out_more'] = l('Stay in the Loop!', '2015', array('attributes' => array('class' => array('purple-button'))));
+  $variables['find_out_more_path'] = url('loop');
+  $variables['find_out_more'] = l('Stay in the Loop!', 'loop', array('attributes' => array('class' => array('purple-button'))));
   $variables['register']= l('Join NERDs', 'user/register',  array('attributes' => array('class' => array('purple-button'))));
 
 }
